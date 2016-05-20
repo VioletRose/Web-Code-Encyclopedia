@@ -1,0 +1,29 @@
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.pageHeadline {
+	font-size: 36pt;
+	text-align:center;
+}
+
+.navigationTopbar {
+	font-size: 14pt;
+	border-style: ridge;
+}
+
+.navigationTopbar a, .navigationSidebar a {
+	text-decoration: none;
+	color: black;
+}
+
+.topbarButton {
+	display:inline-block;
+	border-style: outset;
+	border-color: lightgrey darkgrey darkgrey lightgrey; /* Top Right Down Left - Clockwise */
+}
+
+.mainText {
+	display:inline-block;
+}
