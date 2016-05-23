@@ -21,7 +21,7 @@ body {
 .topbarButton {
 	display:inline-block;
 	border-style: outset;
-	border-color: lightgrey darkgrey darkgrey lightgrey; /* Top Right Down Left - Clockwise */
+	border-color: lightgrey darkgrey darkgrey lightgrey; /* Sides of the border, top right down left - clockwise */
 }
 
 .mainText {
