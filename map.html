@@ -2,20 +2,53 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Violet's Web Code Encyclopedia - &lt;map&gt;</title>
+<title>
+	Violet's Web Code Encyclopedia - &lt;map&gt;
+</title>
 <link rel="stylesheet" type="text/css" href="encyclopedia.css">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<p class="pageHeadline">&lt;map&gt;</p>
+<p class="pageHeadline">
+	&lt;map&gt;
+</p>
 <div class="navigationTopbar">
-	<a href="index.html"><p class="topbarButton">Home</p></a>
-	<a href="html.html"><p class="topbarButton">HTML</p></a>
-	<a href="css.html"><p class="topbarButton">CSS</p></a>
-	<a href="javascript.html"><p class="topbarButton">Javascript</p></a>
+	<a href="index.html">
+		<p class="topbarButton">
+			Home
+		</a></p>
+	<a href="html.html">
+		<p class="topbarButton">
+			HTML
+		</a></p>
+	<a href="css.html">
+		<p class="topbarButton">
+			CSS
+		</a></p>
+	<a href="javascript.html">
+		<p class="topbarButton">
+			Javascript
+		</a></p>
 </div>
 <div class="mainText">
-	<p>There is nothing here yet.</p>
+	<p>
+		As well as simply having an entire image be clickable as a hyperlink, it's also possible to create an image map, with defined areas inside that can be clicked separately, and this is what the &lt;map&gt; element is for. This is a rather complicated element with a number of things one can possible do with it. The example given is rather inadequate and will be replaced with a better one later.
+	</p>
+	<p>
+		Example:<br>
+		&lt;img src="mapbuttons.png" width="171" height="93" alt="areabuttons" usemap="#buttonmap"&gt;&lt;map name="buttonmap"&gt;&lt;area shape="rect" coords="0,0,58,30" href="index.html" alt="Home"&gt;&lt;area shape="rect" coords="158,0,170,29" href="html.html" alt="HTML"&gt;&lt;area shape="rect" coords="0,62,37,92" href="css.html" alt="CSS"&gt;&lt;area shape "rect" coords="81,62,170,92" href="javascript.html" alt="Javascript"&gt;&lt;/map&gt;
+	</p>
+	<p>
+		Will be rendered as:<br>
+		<img src="mapbuttons.png" width="171" height="93" alt="areabuttons" usemap="#buttonmap">
+			<map name="buttonmap">
+				<area shape="rect" coords="0,0,58,30" href="index.html" alt="Home">
+				<area shape="rect" coords="115,0,170,29" href="html.html" alt="HTML">
+				<area shape="rect" coords="0,62,37,92" href="css.html" alt="CSS">
+				<area shape "rect" coords="81,62,170,92" href="javascript.html" alt="Javascript">
+			</map>
+		</img>
+	</p>
 </div>	
 </body>
 </html>

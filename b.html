@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <title>
-	Violet's Web Code Encyclopedia - &lt;!DOCTYPE&gt;
+	Violet's Web Code Encyclopedia - &lt;b&gt;
 </title>
 <link rel="stylesheet" type="text/css" href="encyclopedia.css">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <p class="pageHeadline">
-	&lt;!DOCTYPE&gt;
+	&lt;b&gt;
 </p>
 <div class="navigationTopbar">
 	<a href="index.html">
@@ -32,12 +32,19 @@
 </div>
 <div class="mainText">
 	<p>
-		The &lt;!DOCTYPE&gt; element is used to clarify to the browser what type of HTML file it is opening. This used to be more important in previous versions of HTML, but currently it only exists to separate HTML from XHTML.
+		Despite seeming to be simply an innocuous formatting element, &lt;b&gt; is actually a point of contention due to the fact that there are numerous other ways to achieve the same visual effect that also inform site-scanning software of <em>why</em> that text is differentiated. As such, this element should only be used in situations where the text it modifies is not an article header, emphasized text, important text, or marked/highlighted text, i.e. purely for visual effect.
 	</p>
 	<p>
 		Example:
 		<br>
-		&lt;!DOCTYPE html&gt;
+		&lt;p&gt;&lt;b&gt;The boldest of text.&lt;/b&gt;&lt;/p&gt;
+	</p>
+	<p>
+		Will be rendered as:
+		<br>
+		<b>
+			The boldest of text.
+		</b>
 	</p>
 </div>	
 </body>
