@@ -82,6 +82,58 @@
 			&lt;body&gt;
 		</a>
 	</div>
+	<div>
+		<a href="br.php">
+			&lt;br&gt;
+		</a>
+	</div>
+	<div>
+		<a href="button.php">
+			&lt;button&gt;
+		</a>
+	</div>
+	<br>
+	<div>
+		<a href="canvas.php">
+			&lt;canvas&gt;
+		</a>
+	</div>
+	<div>
+		<a href="cite.php">
+			&lt;cite&gt;
+		</a>
+	</div>
+	<div>
+		<a href="code.php">
+			&lt;code&gt;
+		</a>
+	</div>
+	<br>
+	<div>
+		<a href="del.php">
+			&lt;del&gt;
+		</a>
+	</div>
+	<div>
+		<a href="details.php">
+			&lt;details&gt;
+		</a>
+	</div>
+	<div>
+		<a href="dfn.php">
+			&lt;dfn&gt;
+		</a>
+	</div>
+	<div>
+		<a href="dialog.php">
+			&lt;dialog&gt;
+		</a>
+	</div>
+	<div>
+		<a href="div.php">
+			&lt;div&gt;
+		</a>
+	</div>
 	<br>
 	<div>
 		!
