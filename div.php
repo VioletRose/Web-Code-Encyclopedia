@@ -11,17 +11,17 @@
 		<br>
 		&lt;div style="color:#7F00FF"&gt;
 		<br>
-		&lt;h2&gt;
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&gt;
 		<br>
-		Div!
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Div!
 		<br>
-		&lt;/h2&gt;
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/h2&gt;
 		<br>
-		&lt;p&gt;
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;
 		<br>
-		Huzzah for divs!
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Huzzah for divs!
 		<br>
-		&lt;/p&gt;
+		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;
 		<br>
 		&lt;/div&gt;
 	</p>
