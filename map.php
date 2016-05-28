@@ -26,7 +26,7 @@
 	</p>
 	<p>
 		Will be rendered as:<br>
-		<img src="mapbuttons.png" width="171" height="93" alt="areabuttons" usemap="#buttonmap">
+		<img src="images/mapbuttons.png" width="171" height="93" alt="areabuttons" usemap="#buttonmap">
 			<map name="buttonmap">
 				<area shape="rect" coords="0,0,58,30" href="index.php" alt="Home">
 				<area shape="rect" coords="115,0,170,29" href="html.php" alt="HTML">
