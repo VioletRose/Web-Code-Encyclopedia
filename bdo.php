@@ -1,6 +1,6 @@
 <?php
     $PAGE_NAME = '&lt;bdo&gt;';
-    require_once('head.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
 <div class="mainText">
 	<p>
@@ -38,5 +38,5 @@
 	</p>
 </div>	
 <?php
-    require_once('foot.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

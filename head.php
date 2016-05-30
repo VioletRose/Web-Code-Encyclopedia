@@ -1,37 +1,36 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>
-	Violet's Web Code Encyclopedia - <?php echo $PAGE_NAME; ?>
-</title>
-<link rel="stylesheet" type="text/css" href="css/encyclopedia.css">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans|Inconsolata' rel='stylesheet' type='text/css'>
-	<!--Both <meta charset="UTF-8"> and the use of open fonts are a personal quirk of mine, namely that I want all text on this website to appear as intended and not be thrown off by browsers that don't follow web standards, or fonts that haven't been updated.-->
-</head>
-<body>
-<h1 class="pageHeadline">
-	<?php echo $PAGE_NAME; ?>
-</h1>
-<div class="navigationTopbar">
-	<p class="topbarButton">
-		<a href="index.php">
-			Home
-		</a>
+<?php
+    $PAGE_NAME = '&lt;head&gt;';
+    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+?>
+<div class="mainText">
+	<p>
+		The second of the three simplest, most all-encompassing elements in HTML, &lt;head&gt; contains information the browser should have before it even begins loading the page, such as the page title that appears on top of the browser window, font information, and other things as needed.
 	</p>
-	<p class="topbarButton">
-		<a href="html.php">
-			HTML
-		</a>
+	<p>
+		Example:
+		<br>
+		&lt;html&gt;
+		<br>
+		&lt;head&gt;
+		<br>
+		&lt;/head&gt;
+		<br>
+		&lt;body&gt;
+		<br>
+		&lt;/body&gt;
+		<br>
+		&lt;/html&gt;
 	</p>
-	<p class="topbarButton">
-		<a href="css.php">
-			CSS
-		</a>
+	<p>
+		Will be rendered as:
+		<br>
+		Absolutely nothing, empty white space, and lacking many important things a well-made website has, but it
+		<em>
+			is
+		</em>
+		the smallest, simplest form of HTML code possible.
 	</p>
-	<p class="topbarButton">
-		<a href="javascript.php">
-			Javascript
-		</a>
-	</p>
-</div>
+</div>	
+<?php
+    require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
+?>

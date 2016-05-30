@@ -1,6 +1,6 @@
 <?php
     $PAGE_NAME = '&lt;base&gt;';
-    require_once('head.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
 <div class="mainText">
 	<p>
@@ -18,5 +18,5 @@
 	<!--I have a feeling there's more to this. Please inform me if that is the case.-->
 </div>	
 <?php
-    require_once('foot.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>
