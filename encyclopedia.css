@@ -10,10 +10,6 @@ code {
 	font-family: 'Inconsolata', monospace;
 }
 
-.mainText {
-	display:inline-block;
-}
-
 .navigationTopbar {
 	border-style: ridge;
 	font-size: 14pt;
