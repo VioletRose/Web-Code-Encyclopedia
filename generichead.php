@@ -14,26 +14,18 @@
 	<h1 class="pageHeadline">
 		<?php echo $PAGE_NAME; ?>
 	</h1>
-	<div class="navigationTopbar">
-		<p class="topbarButton">
-			<a href="/index.php">
-				Home
-			</a>
-		</p>
-		<p class="topbarButton">
-			<a href="/html.php">
-				HTML
-			</a>
-		</p>
-		<p class="topbarButton">
-			<a href="/css.php">
-				CSS
-			</a>
-		</p>
-		<p class="topbarButton">
-			<a href="/javascript.php">
-				Javascript
-			</a>
-		</p>
-	</div>
+	<nav class="navigationTopbar">
+		<a class="topbarButton" href="/index.php">
+			Home
+		</a>
+		<a class="topbarButton" href="/html.php">
+			HTML
+		</a>
+		<a class="topbarButton" href="/css.php">
+			CSS
+		</a>
+		<a class="topbarButton" href="/javascript.php">
+			Javascript
+		</a>
+	</nav>
 </header>
