@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;dl&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		One of several types of list in HTML, this one alternately lists terms and the descriptions of those terms.
 	</p>
@@ -73,7 +73,7 @@
 			</dd>
 		</dl>
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

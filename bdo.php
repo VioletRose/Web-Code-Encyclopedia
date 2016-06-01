@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;bdo&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		This tag is used to force the text within to be oriented left-to-right or right-to-left, regardless of the default for the characters used in it.
 	</p>
@@ -36,7 +36,7 @@
 			左から右へ
 		</bdo>
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

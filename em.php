@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;em&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		Part of the "Syntactic Web" philosophy, &lt;em&gt; has the visual effect of italics, but also indicates to software such as screen readers that the text it modifies is emphasized rather than simply stylized.
 	</p>
@@ -29,7 +29,7 @@
 			important!
 		</em>
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

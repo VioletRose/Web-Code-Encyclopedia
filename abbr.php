@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;abbr&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		This element theoretically defines a 'full form' of an abbreviated term that will be displayed if the user mouses over the abbreviation.
 	</p>
@@ -32,7 +32,7 @@
 		</abbr>
 		is the degree to which most of the actual work is done by the browser, not the website.
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

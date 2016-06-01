@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;header&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		Related to and usually containing the &lt;h#&gt; tag, &lt;header&gt; includes more verbose information at the head of an article or body of text, usually both the title and a logo or authorship information.
 	</p>
@@ -61,7 +61,7 @@
 			...Were you expecting more?
 		</p>
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

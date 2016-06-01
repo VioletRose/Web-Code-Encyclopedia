@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;dfn&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		This odd tag is intended to be used to denote the definition of a term or abbreviation in the first place it's seen within a larger document, allowing it to be used unexplained from that point onward.
 	</p>
@@ -41,7 +41,7 @@
 		</a>
 		means again!
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

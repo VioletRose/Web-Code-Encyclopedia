@@ -1,10 +1,10 @@
 <?php
-    $PAGE_NAME = '&lt;body&gt;';
+    $PAGE_NAME = '&lt;head&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
 <main>
 	<p>
-		The third of the three simplest, most all-encompassing elements in HTML, &lt;body&gt; defines the entire readable portion of the website, which all visible elements must be contained within.
+		The second of the three simplest, most all-encompassing elements in HTML, &lt;head&gt; contains information the browser should have before it even begins loading the page, such as the page title that appears on top of the browser window, font information, and other things as needed.
 	</p>
 	<p>
 		Example:

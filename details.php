@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;details&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		The &lt;details&gt; tag defines a section of text that will only be opened if the user clicks on it, otherwise remaining hidden within one line of summary.
 	</p>
@@ -37,7 +37,7 @@
 			</p>
 		</details>
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

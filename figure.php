@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;figure&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		A container intended for content that is related to the main text of the page, but intended to be neatly separated from it. Mostly used for photos, images, charts, and excerpts of code or text.
 		<br>
@@ -36,7 +36,7 @@
 		</figure>
 		As one can see, it was a very makeshift, unprofessional style, and fortunately was eventually overhauled completely.
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

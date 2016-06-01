@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;bdi&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		The &lt;bdi&gt; element is used to isolate embedded text from the normal page text, in cases where the embedded text might have a different direction than the rest of the page, such as usernames or writing in right-to-left languages.
 	</p>
@@ -82,7 +82,7 @@
 			</li>
 		</ul>
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

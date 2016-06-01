@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;del&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		Probably better thought of as strikethrough, this denotes text that has been retracted or corrected, but left in the document for the sake of history, context, or transparency.
 	</p>
@@ -28,11 +28,11 @@
 		<br>
 		Text that needs to be 
 		<del>
-			redected
+			redacted
 		</del>
-		redacted.
+		.
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

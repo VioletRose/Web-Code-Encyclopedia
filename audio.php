@@ -2,11 +2,11 @@
     $PAGE_NAME = '&lt;audio&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		This element is somewhat advanced and requires more work to give a proper example of, so I will do it sometime in the future.
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

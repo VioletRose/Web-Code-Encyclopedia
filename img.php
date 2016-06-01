@@ -1,20 +1,23 @@
 <?php
-    $PAGE_NAME = '&lt;hr&gt;';
+    $PAGE_NAME = '&lt;img&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
 <main>
 	<p>
-		A styling element that creates a divider, usually used to mark a change of topic or style within the page.
+		The simplest and most commonly used way to insert an image into a webpage.
 	</p>
 	<p>
 		Example:
 		<br>
-		&lt;hr&gt;
+		&lt;img src="/images/violetflower.png"&gt;
+		<br>
+		&lt;/img&gt;
 	</p>
 	<p>
 		Will be rendered as:
 		<br>
-		<hr>
+		<img src="/images/violetflower.png">
+		</img>
 	</p>
 </main>	
 <?php

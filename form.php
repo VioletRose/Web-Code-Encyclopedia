@@ -9,28 +9,28 @@ $formSubmitted = $_POST['submit'];
 if(isset($formSubmitted)) {
 ?>
 
-<div class="mainText">
+<main>
 	<p>
 		Your favorite color is 
-		<strong>
+		<kbd>
 			<?php echo htmlspecialchars($_POST['FavColor']); ?>
-		</strong>
+		</kbd>
 		!
 	</p>
 	<p>
 		Your favorite flower is 
-		<strong>
+		<kbd>
 			<?php echo htmlspecialchars($_POST['FavFlower']); ?>
-		</strong>
+		</kbd>
 		!
 	</p>
-</div>
+</main>
 
 <?php
 }else {
 ?>
 
-<div class="mainText">
+<main>
 	<p>
 		This element is the basis for creating forms for user input, ranging from simple to complex. I will provide a simple demonstration, however, the full scope of this element, its associated elements, and the attributes thereof is 
 		<em>
@@ -76,7 +76,7 @@ if(isset($formSubmitted)) {
 			<input type="submit" name="submit" value="Submit">
 		</form>
 	</p>
-</div>	
+</main>	
 
 <?php
     }

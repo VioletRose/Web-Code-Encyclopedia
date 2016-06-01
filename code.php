@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;code&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		Part of the "Syntactic Web" design philosophy, this auto-formatting element makes the text within display in a monospace font, as well as informing site-scanning software that said text is programming code.
 	</p>
@@ -34,7 +34,7 @@
 			}
 		</code>
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

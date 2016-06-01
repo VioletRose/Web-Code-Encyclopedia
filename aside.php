@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;aside&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		An element designed to support the "Syntactic Web" concept, to the human eye it is simply auto-formatting but provides important context to search engines, screen readers, and any other software attempting to read your page. In this case, it designates an aside from the main text of the page.
 	</p>
@@ -42,7 +42,7 @@
 			&lt;aside&gt; is an element in the HTML programming language.
 		</aside>
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

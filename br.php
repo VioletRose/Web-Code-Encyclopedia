@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;br&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		This tag creates a single line break, which is required because normally, all text entered in an HTML document will ignore line breaks and render sequentially.
 	</p>
@@ -28,7 +28,7 @@
 		<br>
 		to accomplish that.
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

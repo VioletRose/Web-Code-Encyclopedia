@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;a&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		An anchor, or hyperlink, is how a web browser can be instructed to navigate to another page when certain things are clicked. &lt;a&gt; is one of the HTML elements that modifies future elements until it is closed, rather than making anything appear on the page by itself. Anchors can be attached to many things, but most common are text and images.
 	</p>
@@ -32,7 +32,7 @@
 			</img>
 		</a>
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

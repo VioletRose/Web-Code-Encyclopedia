@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;canvas&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		This element defines a given space on the screen that Javascript can be used to modify on the fly. Without Javascript to define its contents, it will only render as a blank white space.
 	</p>
@@ -46,7 +46,7 @@
 			});
 		</script>
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

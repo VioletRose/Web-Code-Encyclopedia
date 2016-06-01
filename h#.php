@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;h#&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		Less of a tag and more a series of tags, h1 through h6 define a heading for a page or body of text, in descending order of importance.
 	</p>
@@ -67,7 +67,7 @@
 			Six!
 		</h6>
 	</p>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>
