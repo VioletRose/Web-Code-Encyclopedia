@@ -2,7 +2,7 @@
     $PAGE_NAME = 'Home';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		Welcome to Violet's Web Code Encyclopedia, a project I am working on to familiarize myself with coding in HTML, CSS, and Javascript, in terms of both study and practice.
 		<br>
@@ -12,7 +12,7 @@
 			<!--The <ERROR> is not actually an error, it's a joke on the fact that this project isn't completed yet, and I'm not allowed to access the future.-->
 	</p>
 
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

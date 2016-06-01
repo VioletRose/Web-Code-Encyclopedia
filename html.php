@@ -2,11 +2,10 @@
     $PAGE_NAME = 'HTML';
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
-<div class="mainText">
+<main>
 	<p>
 		I will make the list of elements prettier in the future, but for right now I just wanted to get started.
 	</p>
-</div>
 <div class="navPanel">
 	<div>
 		<a href="html/comment.php">
@@ -196,13 +195,45 @@
 	</div>
 	<br>
 	<div>
+		<a href="html/i.php">
+			&lt;i&gt;
+		</a>
+	</div>
+	<div>
+		<a href="html/iframe.php">
+			&lt;iframe&gt;
+		</a>
+	</div>
+	<div>
+		<a href="html/img.php">
+			&lt;img&gt;
+		</a>
+	</div>
+	<div>
+		<a href="html/ins.php">
+			&lt;ins&gt;
+		</a>
+	</div>
+	<div>
+		<a href="html/kbd.php">
+			&lt;kbd&gt;
+		</a>
+	</div>
+	<br>
+	<div>
+		<a href="html/link.php">
+			&lt;link&gt;
+		</a>
+	</div>
+	<br>
+	<div>
 		!
 		<a href="html/map.php">
 			&lt;map&gt;
 		</a>
 		!
 	</div>
-</div>	
+</main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>
