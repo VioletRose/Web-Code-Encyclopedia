@@ -20,10 +20,15 @@ code {
 	text-decoration: none;
 }
 
-.navPanel div {
+.navPanel a {
 	border-color: lightgrey darkgrey darkgrey lightgrey;
 	border-style: outset;
 	display:inline-block;
+}
+
+.navPanel a.needsAttn {
+	border-color: #e80000 #7e0000 #7e0000 #e80000;
+	border-style: solid;
 }
 
 .pageHeadline {
