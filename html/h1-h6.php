@@ -47,7 +47,7 @@
 			<br>
 			&lt;/h6&gt;
 		</code>
-	<figure>
+	</figure>
 	<h4>
 		Will be rendered as:
 	</h4>
