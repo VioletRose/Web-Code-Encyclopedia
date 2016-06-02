@@ -13,11 +13,11 @@
 	</h4>
 	<figure>
 		<code>
-			&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;
+			&lt;p&gt;
 			<br>
 			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is an example of how the navigation panel for the HTML section of my encyclopedia looked as of May 28th, 2016:
 			<br>
-			&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;
+			&lt;/p&gt;
 			<br>
 			&lt;figure&gt;
 			<br>

@@ -9,6 +9,7 @@
 	<h4>
 		Example:
 	</h4>
+	<figure>
 		<code>
 			&lt;footer&gt;
 			<br>

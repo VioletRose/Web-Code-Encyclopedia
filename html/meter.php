@@ -11,7 +11,6 @@
 	</h4>
 	<figure>
 		<code>
-			<br>
 			&lt;meter value="3" min="1" max="5"&gt;
 			<br>
 			&nbsp;&nbsp;&nbsp;&nbsp;Average.
@@ -31,7 +30,6 @@
 		Will be rendered as:
 	</h4>
 	<figure>
-		<br>
 		<meter value="3" min="1" max="5">
 			Average.
 		</meter>

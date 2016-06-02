@@ -11,7 +11,6 @@
 	</h4>
 	<figure>
 		<code>
-			<br>
 			&lt;meta charset="UTF-8"&gt;
 			<br>
 			&lt;meta name="description" content="Personal visual reference for web design"&gt;
