@@ -67,6 +67,14 @@
 		<a href="/html/meter.php">&lt;meter&gt;</a>
 		<br>
 		<a href="/html/nav.php">&lt;nav&gt;</a>
+		<a href="/html/noscript.php">&lt;noscript&gt;</a>
+		<br>
+		<a href="/html/object.php">&lt;object&gt;</a>
+		<a href="/html/ol.php">&lt;ol&gt;</a>
+		<br>
+		<a href="/html/p.php">&lt;p&gt;</a>
+		<a href="/html/pre.php">&lt;pre&gt;</a>
+		<a href="/html/progress.php">&lt;progress&gt;</a>
 	</nav>
 </main>	
 <?php
