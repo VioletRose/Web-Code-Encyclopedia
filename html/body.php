@@ -28,9 +28,8 @@
 		Will be rendered as:
 	</h4>
 	<figure>
-		<p>
-			Absolutely nothing, empty white space, and lacking many important things a well-made website has, but it <em>is</em> the smallest, simplest form of HTML code possible.
-		</p>
+		<iframe src="/html/minimal.html">
+		</iframe>
 	</figure>
 </main>	
 <?php
