@@ -11,7 +11,6 @@
 	</h4>
 	<figure>
 		<code>
-			<br>
 			&lt;p&gt;
 			<br>
 			&nbsp;&nbsp;&nbsp;&nbsp;There are many different ways to make a &lt;mark&gt;word&lt;/mark&gt; stand out.
