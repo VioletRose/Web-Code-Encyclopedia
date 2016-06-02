@@ -6,29 +6,24 @@
 	<p>
 		Part of the "Syntactic Web" philosophy, &lt;em&gt; has the visual effect of italics, but also indicates to software such as screen readers that the text it modifies is emphasized rather than simply stylized.
 	</p>
-	<p>
+	<h4>
 		Example:
-		<br>
-		&lt;p&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;This text is 
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;em&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;important!
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/em&gt;
-		<br>
-		&lt;/p&gt;
-	</p>
-	<p>
+	</h4>
+	<figure>
+		<code>
+			&lt;p&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;This text is &lt;em&gt;important!&lt;/em&gt;
+			<br>
+			&lt;/p&gt;
+		</code>
+	</figure>
+	<h4>
 		Will be rendered as:
-		<br>
-		This text is 
-		<em>
-			important!
-		</em>
-	</p>
+	</h4>
+	<figure>
+		This text is <em>important!</em>
+	</figure>
 </main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');

@@ -6,32 +6,38 @@
 	<p>
 		An anchor, or hyperlink, is how a web browser can be instructed to navigate to another page when certain things are clicked. &lt;a&gt; is one of the HTML elements that modifies future elements until it is closed, rather than making anything appear on the page by itself. Anchors can be attached to many things, but most common are text and images.
 	</p>
-	<p>
+	<h4>
 		Example:
-		<br>
-		&lt;a href="/html.php"&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click here to be directed back to the HTML element index! Or, click this image!
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="/images/html.png"&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/img&gt;
-		<br>
-		&lt;/a&gt;
-	</p>
-	<p>
+	</h4>
+	<figure>
+		<code>
+			&lt;a href="/html.php"&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click here to be directed back to the HTML element index! Or, click this image!
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="/images/html.png"&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;/img&gt;
+			<br>
+			&lt;/a&gt;
+		</code>
+	</figure>
+	<h4>
 		Will be rendered as:
-		<br>
+	</h4>
+	<figure>
 		<a href="/html.php">
-			Click here to be directed back to the HTML element index! Or, click this image! 
+			<p>
+				Click here to be directed back to the HTML element index! Or, click this image!
+			</p>
 			<img src="/images/html.png">
 			</img>
 		</a>
-	</p>
+	</figure>
 </main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');

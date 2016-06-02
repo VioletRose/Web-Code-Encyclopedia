@@ -6,16 +6,20 @@
 	<p>
 		A styling element that creates a divider, usually used to mark a change of topic or style within the page.
 	</p>
-	<p>
+	<h4>
 		Example:
-		<br>
-		&lt;hr&gt;
-	</p>
-	<p>
+	</h4>
+	<figure>
+		<code>
+			&lt;hr&gt;
+		</code>
+	</figure>
+	<h4>
 		Will be rendered as:
-		<br>
+	</h4>
+	<figure>
 		<hr>
-	</p>
+	</figure>
 </main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');

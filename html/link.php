@@ -6,13 +6,16 @@
 	<p>
 		Not to be confused with &lt;a&gt;, this tag is specifically for calling upon styling files external to the page, such as .css files and sometimes web fonts.
 	</p>
-	<p>
+	<h4>
 		Example:
-		<br>
-		&lt;link rel="stylesheet" type="text/css" href="/stylesheets/encyclopedia.css"&gt;
-		<br>
-		&lt;link href='https://fonts.googleapis.com/css?family=Open+Sans|Inconsolata' rel='stylesheet' type='text/css'&gt;
-	</p>
+	</h4>
+	<figure>
+		<code>
+			&lt;link rel="stylesheet" type="text/css" href="/stylesheets/encyclopedia.css"&gt;
+			<br>
+			&lt;link href='https://fonts.googleapis.com/css?family=Open+Sans|Inconsolata' rel='stylesheet' type='text/css'&gt;
+		</code>
+	</figure>
 </main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');

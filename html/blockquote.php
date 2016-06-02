@@ -6,26 +6,30 @@
 	<p>
 		Serving as part of the "syntactic web" specification, &lt;blockquote&gt; is an element that both automatically indents a section of text as well as informs software reading it that it is quoted from a source, often another website.
 	</p>
-	<p>
+	<h4>
 		Example:
-		<br>
-		&lt;p&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;blockquote cite="https://violetrose.prototeam.org/html.php"&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I will make the list of elements prettier in the future, but for right now I just wanted to get started.
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/blockquote&gt;
-		<br>
-		&lt;/p&gt;
-	</p>
-	<p>
+	</h4>
+	<figure>
+		<code>
+			&lt;p&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;blockquote cite="https://violetrose.prototeam.org/html.php"&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I will make the list of elements prettier in the future, but for right now I just wanted to get started.
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;/blockquote&gt;
+			<br>
+			&lt;/p&gt;
+		</code>
+	</figure>
+	<h4>
 		Will be rendered as:
-		<br>
+	</h4>
+	<figure>
 		<blockquote cite="https://violetrose.prototeam.org/html.php">
 			I will make the list of elements prettier in the future, but for right now I just wanted to get started.
 		</blockquote>
-	</p>
+	</figure>
 </main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');

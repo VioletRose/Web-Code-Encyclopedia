@@ -6,44 +6,48 @@
 	<p>
 		Related to and usually containing the &lt;h#&gt; tag, &lt;header&gt; includes more verbose information at the head of an article or body of text, usually both the title and a logo or authorship information.
 	</p>
-	<p>
+	<h4>
 		Example:
-		<br>
-		&lt;header&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On the Versatility of the Glorious Div
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/h1&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by Violet Rose
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/h3&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This text not reprinted with permission, because this is the original work and not a reprinting.
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;
-		<br>
-		&lt;/header&gt;
-		<br>
-		&lt;p&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;Divs are great! I love divs!
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;...Were you expecting more?
-		<br>
-		&lt;/p&gt;
-	</p>
-	<p>
+	</h4>
+	<figure>
+		<code>
+			&lt;header&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On the Versatility of the Glorious Div
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;/h1&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;by Violet Rose
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;/h3&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This text not reprinted with permission, because this is the original work and not a reprinting.
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;
+			<br>
+			&lt;/header&gt;
+			<br>
+			&lt;p&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;Divs are great! I love divs!
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;...Were you expecting more?
+			<br>
+			&lt;/p&gt;
+		</code>
+	</figure>
+	<h4>
 		Will be rendered as:
-		<br>
+	</h4>
+	<figure>
 		<header>
 			<h1>
 				On the Versatility of the Glorious Div
@@ -60,7 +64,7 @@
 			<br>
 			...Were you expecting more?
 		</p>
-	</p>
+	</figure>
 </main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');

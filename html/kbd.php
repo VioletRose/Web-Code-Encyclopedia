@@ -6,32 +6,26 @@
 	<p>
 		Part of the "Syntactic Web" design philosophy, this is a styling element specifically meant to represent keyboard input.
 	</p>
-	<p>
+	<h4>
 		Example:
-		<br>
-		&lt;p&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;This is 
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;kbd&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;keyboard input
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/kbd&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;!
-		<br>
-		&lt;/p&gt;
-	</p>
-	<p>
+	</h4>
+	<figure>
+		<code>
+			&lt;p&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;This is &lt;kbd&gt;keyboard input&lt;/kbd&gt;!
+			<br>
+			&lt;/p&gt;
+		</code>
+	</figure>
+	<h4>
 		Will be rendered as:
-		<br>
-		This is 
-		<kbd>
-			keyboard input
-		</kbd>
-		!
-	</p>
+	</h4>
+	<figure>
+		<p>
+			This is <kbd>keyboard input</kbd>!
+		</p>
+	</figure>
 </main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');

@@ -6,19 +6,23 @@
 	<p>
 		The simplest and most commonly used way to insert an image into a webpage.
 	</p>
-	<p>
+	<h4>
 		Example:
-		<br>
-		&lt;img src="/images/violetflower.png"&gt;
-		<br>
-		&lt;/img&gt;
-	</p>
-	<p>
+	</h4>
+	<figure>
+		<code>
+			&lt;img src="/images/violetflower.png"&gt;
+			<br>
+			&lt;/img&gt;
+		</code>
+	</figure>
+	<h4>
 		Will be rendered as:
-		<br>
+	</h4>
+	<figure>
 		<img src="/images/violetflower.png">
 		</img>
-	</p>
+	</figure>
 </main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');

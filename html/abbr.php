@@ -6,32 +6,26 @@
 	<p>
 		This element theoretically defines a 'full form' of an abbreviated term that will be displayed if the user mouses over the abbreviation.
 	</p>
-	<p>
+	<h4>
 		Example:
-		<br>
-		&lt;p&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;The real power of 
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;abbr title="Hypertext Markup Language"&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/abbr&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;is the degree to which most of the actual work is done by the browser, not the website.
-		<br>
-		&lt;/p&gt;
-	</p>
-	<p>
+	</h4>
+	<figure>
+		<code>
+			&lt;p&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;The real power of &lt;abbr title="Hypertext Markup Language"&gt;HTML&lt;/abbr&gt; is the degree to which most of the actual work is done by the browser, not the website.
+			<br>
+			&lt;/p&gt;
+		</code>
+	</figure>
+	<h4>
 		Will be rendered as:
-		<br>
-		The real power of 
-		<abbr title="Hypertext Markup Language">
-			HTML
-		</abbr>
-		is the degree to which most of the actual work is done by the browser, not the website.
-	</p>
+	</h4>
+	<figure>
+		<p>
+			The real power of <abbr title="Hypertext Markup Language">HTML</abbr> is the degree to which most of the actual work is done by the browser, not the website.
+		</p>
+	</figure>
 </main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');

@@ -15,17 +15,9 @@
 		<?php echo $PAGE_NAME; ?>
 	</h1>
 	<nav class="navigationTopbar">
-		<a class="topbarButton" href="/index.php">
-			Home
-		</a>
-		<a class="topbarButton" href="/html.php">
-			HTML
-		</a>
-		<a class="topbarButton" href="/css.php">
-			CSS
-		</a>
-		<a class="topbarButton" href="/javascript.php">
-			Javascript
-		</a>
+		<a class="topbarButton" href="/index.php">Home</a>
+		<a class="topbarButton" href="/html.php">HTML</a>
+		<a class="topbarButton" href="/css.php">CSS</a>
+		<a class="topbarButton" href="/javascript.php">Javascript</a>
 	</nav>
 </header>

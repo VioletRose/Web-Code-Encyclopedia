@@ -6,32 +6,27 @@
 	<p>
 		A Syntactic Web tag that designates text as marked, or highlighted.
 	</p>
-	<p>
+	<h4>
 		Example:
-		<br>
-		&lt;p&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;There are many different ways to make a 
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;mark&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;word
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;&lt;/mark&gt;
-		<br>
-		&nbsp;&nbsp;&nbsp;&nbsp;stand out.
-		<br>
-		&lt;/p&gt;
-	</p>
-	<p>
+	</h4>
+	<figure>
+		<code>
+			<br>
+			&lt;p&gt;
+			<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;There are many different ways to make a &lt;mark&gt;word&lt;/mark&gt; stand out.
+			<br>
+			&lt;/p&gt;
+		</code>
+	</figure>
+	<h4>
 		Will be rendered as:
-		<br>
-		There are many different ways to make a 
-		<mark>
-			word
-		</mark>
-		 stand out.
-	</p>
+	</h4>
+	<figure>
+		<p>
+			There are many different ways to make a <mark>word</mark> stand out.
+		</p>
+	</figure>
 </main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
