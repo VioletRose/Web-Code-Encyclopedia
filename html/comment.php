@@ -4,7 +4,7 @@
 ?>
 <main>
 	<p>
-		This is the HTML comment syntax. All text between the opening &lt; and the closing &gt; will be ignored by the browser completely.
+		This is the HTML comment syntax. All text between the opening &lt; and the closing &gt; will be ignored by the browser completely, <em>unless</em> it is placed within an element that expects CSS or Javascript formatting, in which case it can cause adverse effects.
 	</p>
 	<h4>
 		Example:

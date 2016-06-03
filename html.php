@@ -75,6 +75,14 @@
 		<a href="/html/p.php">&lt;p&gt;</a>
 		<a href="/html/pre.php">&lt;pre&gt;</a>
 		<a href="/html/progress.php">&lt;progress&gt;</a>
+		<br>
+		<a href="/html/q.php">&lt;q&gt;</a>
+		<br>
+		<a href="/html/ruby.php">&lt;ruby&gt;</a>
+		<br>
+		<a href="/html/s.php">&lt;s&gt;</a>
+		<a href="/html/samp.php">&lt;samp&gt;</a>
+		<a href="/html/script.php">&lt;script&gt;</a>
 	</nav>
 </main>	
 <?php
