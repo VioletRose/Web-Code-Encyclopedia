@@ -3,9 +3,7 @@
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
 <main>
-	<p>
-		I will make the list of elements prettier in the future, but for right now I just wanted to get started.
-	</p>
+	<p>I will make the list of elements prettier in the future, but for right now I just wanted to get started.</p>
 	<nav class="navPanel">
 		<a href="/html/comment.php">&lt;!--&gt;</a>
 		<a href="/html/doctype.php">&lt;!DOCTYPE&gt;</a>
@@ -83,6 +81,11 @@
 		<a href="/html/s.php">&lt;s&gt;</a>
 		<a href="/html/samp.php">&lt;samp&gt;</a>
 		<a href="/html/script.php">&lt;script&gt;</a>
+		<a href="/html/section.php">&lt;section&gt;</a>
+		<a href="/html/select.php">&lt;select&gt;</a>
+		<a href="/html/small.php">&lt;small&gt;</a>
+		<a href="/html/span.php">&lt;span&gt;</a>
+		<a href="/html/strong.php">&lt;strong&gt;</a>
 	</nav>
 </main>	
 <?php
