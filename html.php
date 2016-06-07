@@ -86,6 +86,22 @@
 		<a href="/html/small.php">&lt;small&gt;</a>
 		<a href="/html/span.php">&lt;span&gt;</a>
 		<a href="/html/strong.php">&lt;strong&gt;</a>
+		<a href="/html/style.php">&lt;style&gt;</a>
+		<a href="/html/sub.php">&lt;sub&gt;</a>
+		<a href="/html/sup.php">&lt;sup&gt;</a>
+		<br>
+		<a href="/html/table.php">&lt;table&gt;</a>
+		<a href="/html/textarea.php">&lt;textarea&gt;</a>
+		<a href="/html/time.php">&lt;time&gt;</a>
+		<a href="/html/title.php">&lt;title&gt;</a>
+		<br>
+		<a href="/html/u.php">&lt;u&gt;</a>
+		<a href="/html/ul.php">&lt;ul&gt;</a>
+		<br>
+		<a href="/html/var.php">&lt;var&gt;</a>
+		<a class="needsAttn" href="/html/video.php">&lt;video&gt;</a>
+		<br>
+		<a href="/html/wbr.php">&lt;wbr&gt;</a>
 	</nav>
 </main>	
 <?php
