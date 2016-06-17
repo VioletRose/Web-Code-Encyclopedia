@@ -1,8 +1,8 @@
 <?php
     $PAGE_NAME = '&lt;span&gt;';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="HTMLSection">
 	<p>The &lt;span&gt; tag is generally used for hooking inline elements to be modified by CSS or Javascript commands.</p>
 	<h4>Example:</h4>
 	<figure>

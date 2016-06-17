@@ -5,7 +5,7 @@
 <title>Violet's Web Code Encyclopedia - <?php echo $PAGE_NAME; ?></title>
 <link rel="stylesheet" type="text/css" href="/stylesheets/encyclopedia.css">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans|Inconsolata' rel='stylesheet' type='text/css'>
-	<!--Both <meta charset="UTF-8"> and the use of open fonts are a personal quirk of mine, namely that I want all text on this website to appear as intended and not be thrown off by browsers that don't follow web standards, or fonts that haven't been updated.-->
+	<!--The use of open fonts is a personal quirk of mine, namely that I want all text on this website to appear as intended and not be thrown off by browsers that don't follow web standards, or fonts that haven't been updated.-->
 </head>
 <body>
 <header>

@@ -1,14 +1,10 @@
 <?php
     $PAGE_NAME = '&lt;map&gt;';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
-	<p>
-		As well as simply having an entire image be clickable as a hyperlink, it's also possible to create an image map, with defined areas inside that can be clicked separately, and this is what the &lt;map&gt; element is for. This is a rather complicated element with a number of things one can possible do with it. The example given is rather inadequate and will be replaced with a better one later.
-	</p>
-	<h4>
-		Example:
-	</h4>
+<main class="HTMLSection">
+	<p>As well as simply having an entire image be clickable as a hyperlink, it's also possible to create an image map, with defined areas inside that can be clicked separately, and this is what the &lt;map&gt; element is for. This is a rather complicated element with a number of things one can possible do with it. The example given is rather inadequate and will be replaced with a better one later.</p>
+	<h4>Example:</h4>
 	<figure>
 		<code>
 			&lt;img src="/images/mapbuttons.png" width="171" height="93" alt="areabuttons" usemap="#buttonmap"&gt;
@@ -28,9 +24,7 @@
 			&lt;/img&gt;
 		</code>
 	</figure>
-	<h4>
-		Will be rendered as:
-	</h4>
+	<h4>Will be rendered as:</h4>
 	<figure>
 		<img src="/images/mapbuttons.png" width="171" height="93" alt="areabuttons" usemap="#buttonmap">
 			<map name="buttonmap">

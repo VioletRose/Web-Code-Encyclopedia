@@ -1,8 +1,8 @@
 <?php
     $PAGE_NAME = '&lt;small&gt;';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="HTMLSection">
 	<p>This tag will have a particular section of text be smaller than the page default.</p>
 	<h4>Example:</h4>
 	<figure>

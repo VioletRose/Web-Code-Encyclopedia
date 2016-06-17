@@ -1,8 +1,8 @@
 <?php
     $PAGE_NAME = '&lt;table&gt;';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="HTMLSection">
 	<p>This element contains the formatting for an HTML table, which is controlled by several other tags within the element.</p>
 	<h4>Example:</h4>
 	<figure>

@@ -1,8 +1,8 @@
 <?php
     $PAGE_NAME = '&lt;wbr&gt;';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="HTMLSection">
 	<p>A surprisingly useful tag, especially considering the variety of resolutions people browse the web at, &lt;wbr&gt; is used to inject word break opportunities into an element with wrapping text, to make sure certain things remain nicely readable. For example, you could put a &lt;wbr&gt; before someone's full name, so it doesn't get cut off midway through by automatic text wrapping. Hint: to see the use of this tag on a PC, you should try resizing the window you view it in, to see where the text wraps in response to the changes.</p>
 	<h4>Example:</h4>
 	<figure>

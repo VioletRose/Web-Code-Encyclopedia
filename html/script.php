@@ -1,14 +1,10 @@
 <?php
     $PAGE_NAME = '&lt;script&gt;';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
-	<p>
-		This tag is used to either begin and end Javascript code within the HTML page, or refer to an external .js file.
-	</p>
-	<h4>
-		Example:
-	</h4>
+<main class="HTMLSection">
+	<p>This tag is used to either begin and end Javascript code within the HTML page, or refer to an external .js file.</p>
+	<h4>Example:</h4>
 	<figure>
 		<code>
 			&lt;script&gt;
@@ -18,9 +14,7 @@
 			&lt;/script&gt;
 		</code>
 	</figure>
-	<h4>
-		Will be rendered as:
-	</h4>
+	<h4>Will be rendered as:</h4>
 	<figure>
 		<script>
 			document.write("Hello, and welcome to my HTML tag page!")

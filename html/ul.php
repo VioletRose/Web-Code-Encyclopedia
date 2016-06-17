@@ -1,8 +1,8 @@
 <?php
     $PAGE_NAME = '&lt;ul&gt;';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="HTMLSection">
 	<p>This tag creates an unordered list, which, without CSS styling, prefaces each list entry with a bullet.</p>
 	<h4>Example:</h4>
 	<figure>

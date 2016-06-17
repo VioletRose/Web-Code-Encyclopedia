@@ -1,6 +1,6 @@
 <?php
     $PAGE_NAME = '&lt;form&gt;';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
 <?php
 
@@ -9,25 +9,18 @@ $formSubmitted = $_POST['submit'];
 if(isset($formSubmitted)) {
 ?>
 
-<main>
-	<p>
-		Your favorite color is <kbd><?php echo htmlspecialchars($_POST['FavColor']); ?></kbd>!
-		<br>
-		Your favorite flower is <kbd><?php echo htmlspecialchars($_POST['FavFlower']); ?></kbd>!
-	</p>
+<main class="HTMLSection">
+	<p>Your favorite color is <kbd><?php echo htmlspecialchars($_POST['FavColor']); ?></kbd>!</p>
+	<p>Your favorite flower is <kbd><?php echo htmlspecialchars($_POST['FavFlower']); ?></kbd>!</p>
 </main>
 
 <?php
 }else {
 ?>
 
-<main>
-	<p>
-		This element is the basis for creating forms for user input, ranging from simple to complex. I will provide a simple demonstration, however, the full scope of this element, its associated elements, and the attributes thereof is <em>well</em> beyond this project. For further reference, please see the <a href="http://www.w3schools.com/tags/tag_form.asp">W3Schools</a> reference page for &lt;form&gt; and its related tags.
-	</p>
-	<h4>
-		Example:
-	</h4>
+<main class="HTMLSection">
+	<p>This element is the basis for creating forms for user input, ranging from simple to complex. I will provide a simple demonstration, however, the full scope of this element, its associated elements, and the attributes thereof is <em>well</em> beyond this project. For further reference, please see the <a href="http://www.w3schools.com/tags/tag_form.asp">W3Schools</a> reference page for &lt;form&gt; and its related tags.</p>
+	<h4>Example:</h4>
 	<figure>
 		<code>
 			&lt;form action="form.php" method="POST"&gt;
@@ -49,9 +42,7 @@ if(isset($formSubmitted)) {
 			&lt;/form&gt;
 		</code>
 	</figure>
-	<h4>
-		Will be rendered as:
-	</h4>
+	<h4>Will be rendered as:</h4>
 	<figure>
 		<form action="form.php" method="POST">
 			Favorite color:

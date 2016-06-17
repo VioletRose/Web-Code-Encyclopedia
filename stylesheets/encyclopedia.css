@@ -10,6 +10,10 @@ code {
 	font-family: 'Inconsolata', monospace;
 }
 
+.HTMLSection {
+	margin-left: 151px;
+}
+
 .navigationTopbar {
 	border-style: ridge;
 	font-size: 14pt;
@@ -20,15 +24,39 @@ code {
 	text-decoration: none;
 }
 
-.navPanel a {
+.navSidebar {
+	display:block;
+	height: 100vh;
+	overflow-y: scroll;
+    overflow-x: hidden;
+	position: fixed;
+	top: 0;
+	width: 143px;
+}
+
+.navSidebar a {
 	border-color: lightgrey darkgrey darkgrey lightgrey;
+	/* Sides of the border, top right down left - clockwise */
 	border-style: outset;
 	display:inline-block;
 }
 
-.navPanel a.needsAttn {
+.navSidebar a.needsAttn {
 	border-color: #e80000 #7e0000 #7e0000 #e80000;
 	border-style: solid;
+}
+
+.navSidebar dd {
+	margin-left: 0px;
+}
+
+.navSidebar dt {
+	font-size: smaller;
+}
+
+.navSidebar ul {
+	list-style-type: none;
+	padding-left: 0px;
 }
 
 .pageHeadline {
@@ -39,7 +67,6 @@ code {
 
 .topbarButton {
 	border-color: lightgrey darkgrey darkgrey lightgrey;
-		/* Sides of the border, top right down left - clockwise */
 	border-style: outset;
 	display:inline-block;
 }

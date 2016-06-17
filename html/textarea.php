@@ -1,8 +1,8 @@
 <?php
     $PAGE_NAME = '&lt;textarea&gt;';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="HTMLSection">
 	<p>This element defines an area for the contained text to appear in, with a fixed width and height. If the text inside doesn't fit within that size, it will automatically add scroll arrows to itself.</p>
 	<h4>Example:</h4>
 	<figure>

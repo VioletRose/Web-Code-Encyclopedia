@@ -1,14 +1,10 @@
 <?php
     $PAGE_NAME = '&lt;pre&gt;';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
-	<p>
-		This tag denotes text that should be displayed exactly as written in the HTML file, in a fixed-width font, fully preserving both spaces and line breaks.
-	</p>
-	<h4>
-		Example:
-	</h4>
+<main class="HTMLSection">
+	<p>This tag denotes text that should be displayed exactly as written in the HTML file, in a fixed-width font, fully preserving both spaces and line breaks.</p>
+	<h4>Example:</h4>
 	<figure>
 		<code>
 			&lt;pre&gt;
@@ -24,9 +20,7 @@
 			&lt;/pre&gt;
 		</code>
 	</figure>
-	<h4>
-		Will be rendered as:
-	</h4>
+	<h4>Will be rendered as:</h4>
 	<figure>
 		<pre>
 			This text  has

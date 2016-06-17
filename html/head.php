@@ -1,14 +1,10 @@
 <?php
     $PAGE_NAME = '&lt;head&gt;';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
-	<p>
-		The second of the three simplest, most all-encompassing elements in HTML, &lt;head&gt; contains information the browser should have before it even begins loading the page, such as the page title that appears on top of the browser window, font information, and other things as needed.
-	</p>
-	<h4>
-		Example:
-	</h4>
+<main class="HTMLSection">
+	<p>The second of the three simplest, most all-encompassing elements in HTML, &lt;head&gt; contains information the browser should have before it even begins loading the page, such as the page title that appears on top of the browser window, font information, and other things as needed.</p>
+	<h4>Example:</h4>
 	<figure>
 		<code>
 			&lt;html&gt;
@@ -24,12 +20,9 @@
 			&lt;/html&gt;
 		</code>
 	</figure>
-	<h4>
-		Will be rendered as:
-	</h4>
+	<h4>Will be rendered as:</h4>
 	<figure>
-		<iframe src="/html/minimal.html">
-		</iframe>
+		<iframe src="/html/minimal.html"></iframe>
 	</figure>
 </main>	
 <?php

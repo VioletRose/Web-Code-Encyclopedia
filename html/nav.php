@@ -1,14 +1,10 @@
 <?php
     $PAGE_NAME = '&lt;nav&gt;';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
-	<p>
-		A Syntactic Web container intended to contain a block of navigational links. Not all links should be put here, just many navigation links that will all be displayed together.
-	</p>
-	<h4>
-		Example:
-	</h4>
+<main class="HTMLSection">
+	<p>A Syntactic Web container intended to contain a block of navigational links. Not all links should be put here, just many navigation links that will all be displayed together.</p>
+	<h4>Example:</h4>
 	<figure>
 		<code>
 			&lt;nav&gt;
@@ -30,9 +26,7 @@
 			&lt;/nav&gt;
 		</code>
 	</figure>
-	<h4>
-		Will be rendered as:
-	</h4>
+	<h4>Will be rendered as:</h4>
 	<figure>
 		<nav>
 			<a href="/index.php">Home</a>

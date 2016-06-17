@@ -1,8 +1,8 @@
 <?php
     $PAGE_NAME = '&lt;u&gt;';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="HTMLSection">
 	<p>A basic tag that styles text inline, making it appear underlined. As with &lt;b&gt; and &lt;i&gt;, it should be noted that another tag is usually more appropriate, and in this case, care should also be taken to avoid the underlined text being mistaken for a hyperlink.</p>
 	<h4>Example:</h4>
 	<figure>

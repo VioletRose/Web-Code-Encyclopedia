@@ -1,14 +1,10 @@
 <?php
     $PAGE_NAME = '&lt;ol&gt;';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
-	<p>
-		This tag creates a preformatted ordered list, i.e. one where each item is preceded by a letter or number, in ascending or descending order. It also supports starting at a specific point, rather than from the beginning.
-	</p>
-	<h4>
-		Example:
-	</h4>
+<main class="HTMLSection">
+	<p>This tag creates a preformatted ordered list, i.e. one where each item is preceded by a letter or number, in ascending or descending order. It also supports starting at a specific point, rather than from the beginning.</p>
+	<h4>Example:</h4>
 	<figure>
 		<code>
 			&lt;ol&gt;
@@ -40,9 +36,7 @@
 			&lt;/ol&gt;
 		</code>
 	</figure>
-	<h4>
-		Will be rendered as:
-	</h4>
+	<h4>Will be rendered as:</h4>
 	<figure>
 		<ol>
 			<li>Ichi</li>
