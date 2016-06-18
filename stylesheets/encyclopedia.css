@@ -70,3 +70,8 @@ code {
 	border-style: outset;
 	display:inline-block;
 }
+
+#changelog {
+	height: calc(100vh - 179px);
+	width: calc(100vw - 16px);
+}

@@ -3,7 +3,7 @@
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
 <main class="HTMLSection">
-	<p>An element designed to support the "Syntactic Web" concept, to the human eye it is simply auto-formatting but provides important context to search engines, screen readers, and any other software attempting to read your page. In this case, it designates an aside from the main text of the page.</p>
+	<p>This Syntactic Web element is used to contain an aside from the main text of the page.</p>
 	<h4>Example:</h4>
 	<figure>
 		<code>

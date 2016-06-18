@@ -1,0 +1,15 @@
+Friday, June 17th, 2016
+Changelog begins.
+/changelog.php: Added.
+/changelog.txt: Added.
+/generichead.php: Updated the navigation topbar with a link to the changelog.
+/html.php: Updated with a new paragraph on browser compatibility.
+/html/comment.php: Updated with use of the <code> tag, and a comment on how I format my examples.
+/html/doctype.php: Updated with a new description of its use.
+/html/a.php: Updated with an extensive list of tag-specific attributes and their uses.
+/html/abbr.php: Updated the description to follow my current standards.
+/html/address.php: Updated the description to follow my current standards.
+/html/article.php: Updated the description to follow my current standards.
+/html/aside.php: Updated the description to follow my current standards.
+/html/htmlhead.php: Updated the navigation topbar with a link to the changelog.
+/stylesheets/encyclopedia.css: Updated with styling rules for #changelog.

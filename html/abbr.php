@@ -3,7 +3,7 @@
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
 <main class="HTMLSection">
-	<p>This element theoretically defines a 'full form' of an abbreviated term that will be displayed if the user mouses over the abbreviation.</p>
+	<p>This element defines a 'full form' of an abbreviated term that will be displayed if the user mouses over the abbreviation.</p>
 	<h4>Example:</h4>
 	<figure>
 		<code>

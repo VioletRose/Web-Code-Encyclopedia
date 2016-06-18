@@ -3,7 +3,7 @@
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
 <main class="HTMLSection">
-	<p>An element designed to support the "Syntactic Web" concept, to the human eye it is simply auto-formatting but provides important context to search engines, screen readers, and any other software attempting to read your page. In this case, used to designate a discrete article separate from the page as a whole.</p>
+	<p>This Syntactic Web element is used to contain a discrete article separate from the page as a whole.</p>
 	<h4>Example:</h4>
 	<figure>
 		<code>

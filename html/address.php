@@ -3,7 +3,7 @@
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
 <main class="HTMLSection">
-	<p>An element designed to support the "Syntactic Web" concept, to the human eye it is simply auto-formatting but provides important context to search engines, screen readers, and any other software attempting to read your page. In this case, it will inform the software that the text within it is meant to be an address.</p>
+	<p>This Syntactic Web element is used to contain contact information containing a mailing address.</p>
 	<h4>Example:</h4>
 	<figure>
 		<code>

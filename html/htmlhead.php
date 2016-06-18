@@ -15,6 +15,7 @@
 		<a class="topbarButton" href="/html.php">HTML</a>
 		<a class="topbarButton" href="/css.php">CSS</a>
 		<a class="topbarButton" href="/javascript.php">Javascript</a>
+		<a class="topbarButton" href="/changelog.php">Changelog</a>
 	</nav>
 </header>
 <nav class="navSidebar">
