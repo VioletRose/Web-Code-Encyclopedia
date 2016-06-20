@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>This element defines a given space on the screen that Javascript can be used to modify on the fly. Without Javascript to define its contents, it will only render as a blank white space.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;canvas id="demoCanvas"&gt;This text will only show if your browser doesn't support the &amp;lt;canvas&amp;gt;&lt;/canvas&gt;

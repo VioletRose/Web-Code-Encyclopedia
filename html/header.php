@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>Related to and usually containing the &lt;h#&gt; tag, &lt;header&gt; includes more verbose information at the head of an article or body of text, usually both the title and a logo or authorship information.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;header&gt;

@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>Part of the Syntactic Web design philosophy, this should not be used solely to render text as bold, it's intended for text that is meant to have full attention paid to it, conveying a sense of importance</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;In general, whenever you are writing any body of text, there will be certain parts you consider highly important to the user. This is when the &amp;lt;strong&amp;gt; tag should be used, &lt;strong&gt;not&lt;/strong&gt; &amp;lt;b&amp;gt;.&lt;/p&gt;

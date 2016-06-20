@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>This tag denotes text that should be displayed exactly as written in the HTML file, in a fixed-width font, fully preserving both spaces and line breaks.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;pre&gt;

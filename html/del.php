@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>Probably better thought of as strikethrough, this denotes text that has been retracted or corrected, but left in the document for the sake of history, context, or transparency.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;Text that needs to be &lt;del&gt;redacted&lt;/del&gt;.&lt;/p&gt;

@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>Part of the "Syntactic Web" design philosophy, this tag denotes sample output from a computer program, such as the result of a complex calculation or logical process.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;samp&gt;Error: file not found.&lt;/samp&gt;

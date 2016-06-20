@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>The simplest and most commonly used way to insert an image into a webpage.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;img src="/images/violetflower.png"&gt;&lt;/img&gt;

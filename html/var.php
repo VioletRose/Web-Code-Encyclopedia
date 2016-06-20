@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>Part of the Syntactic Web design philosophy, this tag doesn't merely italicize text but also designates it as a variable to search engines and similar site-scanning algorithms.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;A variable, known as "boolean", is the basis of all modern computing. Commonly known as 0s and 1s, boolean variables have only two possible values:&lt;/p&gt;

@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>One of several types of list in HTML, this one alternately lists terms and the descriptions of those terms.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;dl&gt;

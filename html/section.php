@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>A more generic form of more specific tags such as header and footer, &lt;section&gt; should be used in cases where a more proper tag can't be determined.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;section&gt;

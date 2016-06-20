@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>Not to be confused with &lt;a&gt;, this tag is specifically for calling upon styling files external to the page, such as .css files and sometimes web fonts.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;link rel="stylesheet" type="text/css" href="/stylesheets/encyclopedia.css"&gt;

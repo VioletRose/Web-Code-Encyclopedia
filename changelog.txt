@@ -1,3 +1,13 @@
+Sunday, June 19th, 2016
+/index.php: Updated to remove the "humorous" <ERROR> message.
+/html.php: Updated the Syntactic Web paragraph to more thoroughly address the use of text formatting tags, and added a new section on absolute vs. relative URLs.
+/html/*.php: Bulk replaced the heading "Example" with "Example of use".
+/html/audio.php: Updated to remove an invalid attribute from the example, added the child tag <source>, and added a list of attributes for <audio> and <source>.
+/html/b.php: Updated the description to give a more concise and helpful explanation of its use case.
+/html/base.php: Updated the description to be more concise, and added a list of attributes.
+/html/bdo.php: Updated to add a section on the use of its attribute.
+/html/embed.php: Updated to add the necessary class to the footer, giving it a correct margin.
+
 Friday, June 17th, 2016
 Changelog begins.
 /changelog.php: Added.

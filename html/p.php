@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>One of the simplest, most commonly used tags in HTML, &lt;p&gt; defines a paragraph of text. That's it.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;This is a paragraph! Or, at least that's what we're telling the web browser.&lt;/p&gt;

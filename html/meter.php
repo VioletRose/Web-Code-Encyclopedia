@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>This element displays a small meter, with attributes governing its minimum, maximum, and current fullness.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;meter value="3" min="1" max="5"&gt;Average.&lt;/meter&gt;

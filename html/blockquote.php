@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>Serving as part of the "syntactic web" specification, &lt;blockquote&gt; is an element that both automatically indents a section of text as well as informs software reading it that it is quoted from a source, often another website.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&nbsp;&nbsp;&nbsp;&nbsp;&lt;blockquote cite="https://violetrose.prototeam.org/html.php"&gt;

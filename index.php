@@ -5,8 +5,7 @@
 <main>
 	<p>Welcome to Violet's Web Code Encyclopedia, a project I am working on to familiarize myself with coding in HTML, CSS, and Javascript, in terms of both study and practice.</p>
 	<p>Within this site, you will find visual examples and explanations of the various elements, declarations, and statements that are possible in each language.</p>
-	<p>I started this project on Thursday, May 19th 2016, at 23:46 UTC and finished it &lt;ERROR&gt;.</p>
-	<!--The <ERROR> is not actually an error, it's a joke on the fact that this project isn't completed yet, and I'm not allowed to access the future.-->	
+	<p>I started this project on Thursday, May 19th 2016, at 23:46 UTC and continue to work on it almost daily!</p>
 </main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');

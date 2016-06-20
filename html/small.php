@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>This tag will have a particular section of text be smaller than the page default.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;This website continues to progress apace, and by the time it's done, I'll be a genius at web development!&lt;/p&gt;

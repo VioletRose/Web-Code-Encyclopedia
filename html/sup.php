@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>Instead of subscript, this tag styles inline text as a superscript. This is the most common appearance for citation markers.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;The world wide web is full of content of every type, from the most everyday to the most bizarre&lt;sup&gt;[1]&lt;/sup&gt;.&lt;/p&gt;

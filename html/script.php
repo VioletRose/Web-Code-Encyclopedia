@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>This tag is used to either begin and end Javascript code within the HTML page, or refer to an external .js file.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;script&gt;

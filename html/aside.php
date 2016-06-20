@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>This Syntactic Web element is used to contain an aside from the main text of the page.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;Today I learned about the &lt;aside&gt; element.&lt;/p&gt;

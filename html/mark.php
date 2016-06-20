@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>A Syntactic Web tag that designates text as marked, or highlighted.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;There are many different ways to make a &lt;mark&gt;word&lt;/mark&gt; stand out.&lt;/p&gt;

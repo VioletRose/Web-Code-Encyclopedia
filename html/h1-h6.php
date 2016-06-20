@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>Less of a tag and more a series of tags, h1 through h6 define a heading for a page or body of text, in descending order of importance.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;h1&gt;One!&lt;/h1&gt;

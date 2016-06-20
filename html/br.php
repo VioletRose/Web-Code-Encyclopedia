@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>This tag creates a single line break, which is required because normally, all text entered in an HTML document will ignore line breaks and render sequentially.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			This is not

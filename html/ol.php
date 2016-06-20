@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>This tag creates a preformatted ordered list, i.e. one where each item is preceded by a letter or number, in ascending or descending order. It also supports starting at a specific point, rather than from the beginning.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;ol&gt;

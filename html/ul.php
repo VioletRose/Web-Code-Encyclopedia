@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>This tag creates an unordered list, which, without CSS styling, prefaces each list entry with a bullet.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;ul&gt;

@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>Much like &lt;b&gt;, this styling element simply makes text italic, but it is advised to use any of the more contextual methods of styling <em>unless</em> you only want that text italicized for stylistic reasons, and there's no other context to it. But for most purposes, you should use &lt;em&gt; instead.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;The eighth word in this sentence is &lt;i&gt;italicized&lt;/i&gt; for no reason!&lt;/p&gt;

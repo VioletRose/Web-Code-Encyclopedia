@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>A styling element that creates a divider, usually used to mark a change of topic or style within the page.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;hr&gt;

@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>Part of the "Syntactic Web" design philosophy, this is a styling element specifically meant to represent keyboard input.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;This is &lt;kbd&gt;keyboard input&lt;/kbd&gt;!&lt;/p&gt;

@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>This tag styles inline text as a subscript, which is half a character below the rest of the line and sometimes in a smaller font, depending on the browser and the default page style rules.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;The chemical formula for water is H&lt;sub&gt;2&lt;/sub&gt;O.&lt;/p&gt;

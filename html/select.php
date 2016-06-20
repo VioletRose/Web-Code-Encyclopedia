@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>This element creates a drop-down list with multiple options a user can select. It is usually used for forms, in cases where freeform user input is undesirable and a fixed range of answers needs to be provided.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;select&gt;

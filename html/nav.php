@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>A Syntactic Web container intended to contain a block of navigational links. Not all links should be put here, just many navigation links that will all be displayed together.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;nav&gt;

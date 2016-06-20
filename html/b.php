@@ -3,8 +3,8 @@
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
 <main class="HTMLSection">
-	<p>Despite seeming to be simply an innocuous formatting element, &lt;b&gt; is actually a point of contention due to the fact that there are numerous other ways to achieve the same visual effect that also inform site-scanning software of <em>why</em> that text is differentiated. As such, this element should only be used in situations where the text it modifies is not an article header, emphasized text, important text, or marked/highlighted text, i.e. purely for visual effect.</p>
-	<h4>Example:</h4>
+	<p>This tag styles text inline to be bolded. Note, however, that due to the Syntactic Web design philosophy, this tag should usually be avoided in favor of other tags depending on the actual reason for the difference. Usually, bold text is used to indicate a strong tone of information that absolutely should not be ignored, and for that purpose, the &lt;strong&gt; tag is better suited. Generally speaking, a tag like this should only be used in cases where none of the normal contexts apply, such as if the text is meant to look different for a purely aesthetic reason.</p>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;&lt;b&gt;The boldest of text.&lt;/b&gt;&lt;/p&gt;

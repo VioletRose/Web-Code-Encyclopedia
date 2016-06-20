@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>The first of the three simplest, most all-encompassing elements in HTML, &lt;html&gt; begins and ends the entire webpage.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;html&gt;

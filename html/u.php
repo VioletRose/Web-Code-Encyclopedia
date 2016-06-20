@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>A basic tag that styles text inline, making it appear underlined. As with &lt;b&gt; and &lt;i&gt;, it should be noted that another tag is usually more appropriate, and in this case, care should also be taken to avoid the underlined text being mistaken for a hyperlink.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;Sometimes, on special occasions, you just want a &lt;u&gt;line under it&lt;/u&gt;, and nothing else will do.&lt;/p&gt;

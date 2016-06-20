@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>This Syntactic Web element is used to contain a discrete article separate from the page as a whole.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;article&gt;

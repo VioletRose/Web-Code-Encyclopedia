@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>This tag creates a dialog "window" of sorts, usually one that will be modified by CSS and Javascript to open on demand and stay in the same place regardless of the user's scrolling. However, by default it's just a text box that will remain hidden completely unless the open attribute is set on it by default.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;dialog&gt;This text won't even be rendered, because this window is closed.&lt;/dialog&gt;

@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>Part of the "Syntactic Web" philosophy, &lt;em&gt; has the visual effect of italics, but also indicates to software such as screen readers that the text it modifies is emphasized rather than simply stylized.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;This text is &lt;em&gt;important!&lt;/em&gt;&lt;/p&gt;

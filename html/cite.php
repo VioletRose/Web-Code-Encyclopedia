@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>Part of the "Syntactic Web" concept, on top of auto-formatting the included text, this element also informs site-reading software that said text is the title of a creative work such as a book, TV show, game, painting etc.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;p&gt;&lt;cite&gt;Rocket Leaguelt;/cite&gt; is developed by Psyonix, and was first released on July 7, 2015.&lt;/p&gt;

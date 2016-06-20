@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>The &lt;details&gt; tag defines a section of text that will only be opened if the user clicks on it, otherwise remaining hidden within one line of summary.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;details&gt;

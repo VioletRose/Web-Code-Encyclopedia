@@ -4,7 +4,7 @@
 ?>
 <main class="HTMLSection">
 	<p>This element contains the formatting for an HTML table, which is controlled by several other tags within the element.</p>
-	<h4>Example:</h4>
+	<h4>Example of use:</h4>
 	<figure>
 		<code>
 			&lt;table border="1"&gt;
