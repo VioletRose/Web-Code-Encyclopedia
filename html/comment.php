@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;comment&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This is the HTML comment syntax. All text between the opening <code>&lt;</code> and the closing <code>&gt;</code> will be ignored by the browser completely, <em>unless</em> it is placed within an element that expects CSS or Javascript formatting, in which case it can cause adverse effects.</p>
 	<h4>Example of use:</h4>
 	<figure>

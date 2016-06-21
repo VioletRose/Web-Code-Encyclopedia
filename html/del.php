@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;del&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Probably better thought of as strikethrough, this denotes text that has been retracted or corrected, but left in the document for the sake of history, context, or transparency.</p>
 	<h4>Example of use:</h4>
 	<figure>

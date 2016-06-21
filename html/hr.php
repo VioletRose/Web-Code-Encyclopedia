@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;hr&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>A styling element that creates a divider, usually used to mark a change of topic or style within the page.</p>
 	<h4>Example of use:</h4>
 	<figure>

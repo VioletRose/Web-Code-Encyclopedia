@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;img&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>The simplest and most commonly used way to insert an image into a webpage.</p>
 	<h4>Example of use:</h4>
 	<figure>

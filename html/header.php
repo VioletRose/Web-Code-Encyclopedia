@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;header&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Related to and usually containing the &lt;h#&gt; tag, &lt;header&gt; includes more verbose information at the head of an article or body of text, usually both the title and a logo or authorship information.</p>
 	<h4>Example of use:</h4>
 	<figure>

@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;time&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Unusual even for a Syntactic Web tag, &lt;time&gt; doesn't display any kind of formatting at all by default, and as such is only really useful to search engines and similar algorithms aiming to scrape time or date information from a page.</p>
 	<h4>Example of use:</h4>
 	<figure>

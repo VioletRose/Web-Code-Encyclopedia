@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;noscript&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>The &lt;noscript&gt; tag allows a website to display certain things in response to the user having scripting disabled, or using a browser that doesn't support it, often in the same place scripted content would normally appear, but sometimes as a generic warning at the beginning of the page that things won't work properly.</p>
 	<h4>Example of use:</h4>
 	<figure>

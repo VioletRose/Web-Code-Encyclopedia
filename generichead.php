@@ -10,7 +10,7 @@
 <body>
 <header>
 	<h1 class="pageHeadline"><?php echo $PAGE_NAME; ?></h1>
-	<nav class="navigationTopbar">
+	<nav class="navTopbar">
 		<a class="topbarButton" href="/index.php">Home</a>
 		<a class="topbarButton" href="/html.php">HTML</a>
 		<a class="topbarButton" href="/css.php">CSS</a>

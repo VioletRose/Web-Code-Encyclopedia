@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;s&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Part of the "Syntactic Web" philosophy, this tag is for the highly specific purpose of denoting text that is no longer correct or relevant.</p>
 	<h4>Example of use:</h4>
 	<figure>

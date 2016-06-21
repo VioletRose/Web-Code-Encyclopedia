@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;blockquote&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Serving as part of the "syntactic web" specification, &lt;blockquote&gt; is an element that both automatically indents a section of text as well as informs software reading it that it is quoted from a source, often another website.</p>
 	<h4>Example of use:</h4>
 	<figure>

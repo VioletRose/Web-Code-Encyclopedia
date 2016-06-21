@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;abbr&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This element defines a 'full form' of an abbreviated term that will be displayed if the user mouses over the abbreviation.</p>
 	<h4>Example of use:</h4>
 	<figure>

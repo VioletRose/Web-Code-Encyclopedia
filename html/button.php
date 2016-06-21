@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;button&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>As one might imagine, this tag creates a clickable button. However, since the default style of this button is rather behind modern standards of web design, its use is more or less relegated specifically to buttons that control forms, such as resetting a form or submitting it. As such, it has a number of specialized attributes for that purpose which are outside of the scope of this website to demonstrate. Please see <a href="http://www.w3schools.com/tags/tag_button.asp">W3Schools</a> for further reference on those advanced attributes.</p>
 	<h4>Example of use:</h4>
 	<figure>

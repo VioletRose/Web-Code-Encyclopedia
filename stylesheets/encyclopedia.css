@@ -3,42 +3,87 @@
 }
 
 body {
+	background-color: #ead8ff;
 	font-family: 'Open Sans', sans-serif;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	width: 60vw;
 }
 
 code {
 	font-family: 'Inconsolata', monospace;
 }
 
-.HTMLSection {
-	margin-left: 151px;
+dd {
+	margin-left: 0;
 }
 
-.navigationTopbar {
-	border-style: ridge;
-	font-size: 14pt;
+footer {
+	background-color: white;
+	border-color: #7F00FF;
+	border-style: solid;
+	margin-bottom: 8px;
+	margin-top: 8px;
 }
 
-.navigationTopbar a {
+header {
+	background-color: white;
+	border-color: #7F00FF;
+	border-style: solid;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+section {
+	background-color: white;
+	border-color: #7F00FF;
+	border-style: solid;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+section > * {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.HTMLBody {
+	margin-left: calc(20vw + 75px);
+	margin-right: calc(20vw + 75px);
+}
+
+.navTopbar {
+	text-align: center;
+}
+
+.navTopbar a {
 	color: black;
+	font-size: 15pt;
+	margin-bottom: 4px;
+	padding-left: 2px;
+	padding-right: 2px;
 	text-decoration: none;
 }
 
 .navSidebar {
-	display:block;
+	background-color: white;
+	border-style: none;
+	display: block;
 	height: 100vh;
+	left: 0;
+	margin: 0;
 	overflow-y: scroll;
     overflow-x: hidden;
 	position: fixed;
 	top: 0;
-	width: 143px;
+	width: 150px;
 }
 
 .navSidebar a {
 	border-color: lightgrey darkgrey darkgrey lightgrey;
 	/* Sides of the border, top right down left - clockwise */
 	border-style: outset;
-	display:inline-block;
+	display: inline-block;
 }
 
 .navSidebar a.needsAttn {
@@ -68,10 +113,27 @@ code {
 .topbarButton {
 	border-color: lightgrey darkgrey darkgrey lightgrey;
 	border-style: outset;
-	display:inline-block;
+	display: inline-block;
+}
+
+.unsectionedmain {
+	background-color: white;
+	border-color: #7F00FF;
+	border-style: solid;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+.unsectionedmain > * {
+	margin-left: 8px;
+	margin-right: 8px;
 }
 
 #changelog {
-	height: calc(100vh - 179px);
-	width: calc(100vw - 16px);
+	height: calc(100vh - 207px);
+	width: 60vw;
+}
+
+#exampledl dd {
+	margin-left: 40px;
 }

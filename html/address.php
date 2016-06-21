@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;address&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This Syntactic Web element is used to contain contact information containing a mailing address.</p>
 	<h4>Example of use:</h4>
 	<figure>

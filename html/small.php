@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;small&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This tag will have a particular section of text be smaller than the page default.</p>
 	<h4>Example of use:</h4>
 	<figure>

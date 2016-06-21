@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;bdi&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>The &lt;bdi&gt; element is used to isolate embedded text from the normal page text, in cases where the embedded text might have a different direction than the rest of the page, such as usernames or writing in right-to-left languages.</p>
 	<h4>Example of use:</h4>
 	<figure>

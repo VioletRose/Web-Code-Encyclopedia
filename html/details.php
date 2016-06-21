@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;details&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>The &lt;details&gt; tag defines a section of text that will only be opened if the user clicks on it, otherwise remaining hidden within one line of summary.</p>
 	<h4>Example of use:</h4>
 	<figure>

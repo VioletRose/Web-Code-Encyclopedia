@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;h1-h6&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Less of a tag and more a series of tags, h1 through h6 define a heading for a page or body of text, in descending order of importance.</p>
 	<h4>Example of use:</h4>
 	<figure>

@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;style&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Mostly used only within the head section of the page, to achieve the same effects as CSS, but this tag should generally be avoided in favor of actual stylesheets unless there is a genuine need for it. The &lt;style&gt; tag is also similar to &lt;script&gt;, in that the code inside needs to be formatted differently from normal HTML. In this element, use CSS syntax for everything, even comments, or things may fail unexpectedly.</p>
 	<h4>Example of use:</h4>
 	<figure>

@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;meter&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This element displays a small meter, with attributes governing its minimum, maximum, and current fullness.</p>
 	<h4>Example of use:</h4>
 	<figure>

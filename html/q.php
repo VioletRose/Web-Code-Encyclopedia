@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;q&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This tag is used to denote a small quotation, without attribution.</p>
 	<h4>Example of use:</h4>
 	<figure>

@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;code&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Part of the "Syntactic Web" design philosophy, this auto-formatting element makes the text within display in a monospace font, as well as informing site-scanning software that said text is programming code.</p>
 	<h4>Example of use:</h4>
 	<figure>

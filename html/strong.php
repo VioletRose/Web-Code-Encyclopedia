@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;strong&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Part of the Syntactic Web design philosophy, this should not be used solely to render text as bold, it's intended for text that is meant to have full attention paid to it, conveying a sense of importance</p>
 	<h4>Example of use:</h4>
 	<figure>

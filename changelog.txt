@@ -1,25 +1,43 @@
+Monday, June 20th, 2016
+changelog.php: Updated to add sectioning.
+css.php: Updated to add sectioning.
+generichead.php: Updated to change .navigationTopbar to .navTopbar.
+html.php: Updated to remove an unnecessary class and add sectioning.
+index.php: Updated to add sectioning.
+javascript.php: Updated to add sectioning.
+html/*.php: Updated to bulk replace .HTMLSection with .unsectionedmain.
+html/a.php: Updated to add sectioning, and add an arrow to each definition entry.
+html/attributes.php: Updated to remove an unnecessary class, add sectioning, and add an arrow to each definition entry.
+html/audio.php: Updated to add sectioning, add an arrow to each definition entry, and remove an unnecessary class.
+html/base.php: Updated to add sectioning, and an arrow to each definition's entry.
+html/bdo.php: Updated to add sectioning, and add an arrow to the definition entry.
+html/dl.php: Updated to remove an unnecessary class, add #exampledl to the definition list, and add sectioning.
+html/embed.php: Updated to add sectioning, and remove an unnecessary class.
+html/htmlhead.php: Updated to add .HTMLBody to the body, remove .HTMLSection from the header, and change .navigationTopbar to .navTopbar.
+stylesheets/encyclopedia.css: Updated to add and remove several styling rules, completely changing the look of the website.
+
 Sunday, June 19th, 2016
-/index.php: Updated to remove the "humorous" <ERROR> message.
-/html.php: Updated the Syntactic Web paragraph to more thoroughly address the use of text formatting tags, and added a new section on absolute vs. relative URLs.
-/html/*.php: Bulk replaced the heading "Example" with "Example of use".
-/html/audio.php: Updated to remove an invalid attribute from the example, added the child tag <source>, and added a list of attributes for <audio> and <source>.
-/html/b.php: Updated the description to give a more concise and helpful explanation of its use case.
-/html/base.php: Updated the description to be more concise, and added a list of attributes.
-/html/bdo.php: Updated to add a section on the use of its attribute.
-/html/embed.php: Updated to add the necessary class to the footer, giving it a correct margin.
+index.php: Updated to remove the "humorous" <ERROR> message.
+html.php: Updated the Syntactic Web paragraph to more thoroughly address the use of text formatting tags, and added a new section on absolute vs. relative URLs.
+html/*.php: Bulk replaced the heading "Example" with "Example of use".
+html/audio.php: Updated to remove an invalid attribute from the example, added the child tag <source>, and added a list of attributes for <audio> and <source>.
+html/b.php: Updated the description to give a more concise and helpful explanation of its use case.
+html/base.php: Updated the description to be more concise, and added a list of attributes.
+html/bdo.php: Updated to add a section on the use of its attribute.
+html/embed.php: Updated to add the necessary class to the footer, giving it a correct margin.
 
 Friday, June 17th, 2016
 Changelog begins.
-/changelog.php: Added.
-/changelog.txt: Added.
-/generichead.php: Updated the navigation topbar with a link to the changelog.
-/html.php: Updated with a new paragraph on browser compatibility.
-/html/comment.php: Updated with use of the <code> tag, and a comment on how I format my examples.
-/html/doctype.php: Updated with a new description of its use.
-/html/a.php: Updated with an extensive list of tag-specific attributes and their uses.
-/html/abbr.php: Updated the description to follow my current standards.
-/html/address.php: Updated the description to follow my current standards.
-/html/article.php: Updated the description to follow my current standards.
-/html/aside.php: Updated the description to follow my current standards.
-/html/htmlhead.php: Updated the navigation topbar with a link to the changelog.
-/stylesheets/encyclopedia.css: Updated with styling rules for #changelog.
+changelog.php: Added.
+changelog.txt: Added.
+generichead.php: Updated the navigation topbar with a link to the changelog.
+html.php: Updated with a new paragraph on browser compatibility.
+html/comment.php: Updated with use of the <code> tag, and a comment on how I format my examples.
+html/doctype.php: Updated with a new description of its use.
+html/a.php: Updated with an extensive list of tag-specific attributes and their uses.
+html/abbr.php: Updated the description to follow my current standards.
+html/address.php: Updated the description to follow my current standards.
+html/article.php: Updated the description to follow my current standards.
+html/aside.php: Updated the description to follow my current standards.
+html/htmlhead.php: Updated the navigation topbar with a link to the changelog.
+stylesheets/encyclopedia.css: Updated with styling rules for #changelog.

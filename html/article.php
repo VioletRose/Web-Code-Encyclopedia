@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;article&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This Syntactic Web element is used to contain a discrete article separate from the page as a whole.</p>
 	<h4>Example of use:</h4>
 	<figure>

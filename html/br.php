@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;br&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This tag creates a single line break, which is required because normally, all text entered in an HTML document will ignore line breaks and render sequentially.</p>
 	<h4>Example of use:</h4>
 	<figure>

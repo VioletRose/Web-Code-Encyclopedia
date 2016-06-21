@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;cite&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Part of the "Syntactic Web" concept, on top of auto-formatting the included text, this element also informs site-reading software that said text is the title of a creative work such as a book, TV show, game, painting etc.</p>
 	<h4>Example of use:</h4>
 	<figure>

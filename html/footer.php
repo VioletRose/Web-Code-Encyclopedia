@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;footer&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Part of the "Syntactic Web" design philosophy, the footer tag has no visible effect, but is intended to contain 'concluding' sorts of information for a document such as authorship, copyright status, contact details, or other pages that might be of interest.</p>
 	<h4>Example of use:</h4>
 	<figure>

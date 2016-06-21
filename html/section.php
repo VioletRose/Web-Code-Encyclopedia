@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;section&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>A more generic form of more specific tags such as header and footer, &lt;section&gt; should be used in cases where a more proper tag can't be determined.</p>
 	<h4>Example of use:</h4>
 	<figure>

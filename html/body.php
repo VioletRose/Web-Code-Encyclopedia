@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;body&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>The third of the three simplest, most all-encompassing elements in HTML, &lt;body&gt; defines the entire readable portion of the website, which all visible elements must be contained within.</p>
 	<h4>Example of use:</h4>
 	<figure>

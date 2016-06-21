@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;p&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>One of the simplest, most commonly used tags in HTML, &lt;p&gt; defines a paragraph of text. That's it.</p>
 	<h4>Example of use:</h4>
 	<figure>

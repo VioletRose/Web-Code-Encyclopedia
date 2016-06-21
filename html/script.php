@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;script&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This tag is used to either begin and end Javascript code within the HTML page, or refer to an external .js file.</p>
 	<h4>Example of use:</h4>
 	<figure>

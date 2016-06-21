@@ -3,7 +3,9 @@
     require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
 ?>
 <main>
-	<p>There is nothing here yet.</p>
+	<section>
+		<p>There is nothing here yet.</p>
+	</section>
 </main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');

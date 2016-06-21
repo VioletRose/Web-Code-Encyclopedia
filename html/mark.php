@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;mark&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>A Syntactic Web tag that designates text as marked, or highlighted.</p>
 	<h4>Example of use:</h4>
 	<figure>

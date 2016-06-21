@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;sub&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This tag styles inline text as a subscript, which is half a character below the rest of the line and sometimes in a smaller font, depending on the browser and the default page style rules.</p>
 	<h4>Example of use:</h4>
 	<figure>

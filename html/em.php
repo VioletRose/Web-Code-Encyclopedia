@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;em&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Part of the "Syntactic Web" philosophy, &lt;em&gt; has the visual effect of italics, but also indicates to software such as screen readers that the text it modifies is emphasized rather than simply stylized.</p>
 	<h4>Example of use:</h4>
 	<figure>

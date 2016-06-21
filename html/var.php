@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;var&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Part of the Syntactic Web design philosophy, this tag doesn't merely italicize text but also designates it as a variable to search engines and similar site-scanning algorithms.</p>
 	<h4>Example of use:</h4>
 	<figure>

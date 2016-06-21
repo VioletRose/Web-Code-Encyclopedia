@@ -2,7 +2,7 @@
     $PAGE_NAME = 'Template';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This tag displays a visible progress meter in the website, representing something's amount of completion. The example I give here is static, but these are most often used alongside scripting to show progress dynamically.</p>
 	<h4>Example of use:</h4>
 	<figure>

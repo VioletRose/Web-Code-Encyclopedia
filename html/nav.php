@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;nav&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>A Syntactic Web container intended to contain a block of navigational links. Not all links should be put here, just many navigation links that will all be displayed together.</p>
 	<h4>Example of use:</h4>
 	<figure>

@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;table&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This element contains the formatting for an HTML table, which is controlled by several other tags within the element.</p>
 	<h4>Example of use:</h4>
 	<figure>

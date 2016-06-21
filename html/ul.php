@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;ul&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This tag creates an unordered list, which, without CSS styling, prefaces each list entry with a bullet.</p>
 	<h4>Example of use:</h4>
 	<figure>

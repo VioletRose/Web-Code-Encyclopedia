@@ -9,7 +9,7 @@ $formSubmitted = $_POST['submit'];
 if(isset($formSubmitted)) {
 ?>
 
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Your favorite color is <kbd><?php echo htmlspecialchars($_POST['FavColor']); ?></kbd>!</p>
 	<p>Your favorite flower is <kbd><?php echo htmlspecialchars($_POST['FavFlower']); ?></kbd>!</p>
 </main>
@@ -18,7 +18,7 @@ if(isset($formSubmitted)) {
 }else {
 ?>
 
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This element is the basis for creating forms for user input, ranging from simple to complex. I will provide a simple demonstration, however, the full scope of this element, its associated elements, and the attributes thereof is <em>well</em> beyond this project. For further reference, please see the <a href="http://www.w3schools.com/tags/tag_form.asp">W3Schools</a> reference page for &lt;form&gt; and its related tags.</p>
 	<h4>Example of use:</h4>
 	<figure>

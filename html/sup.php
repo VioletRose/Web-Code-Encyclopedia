@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;sup&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Instead of subscript, this tag styles inline text as a superscript. This is the most common appearance for citation markers.</p>
 	<h4>Example of use:</h4>
 	<figure>

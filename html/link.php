@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;link&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Not to be confused with &lt;a&gt;, this tag is specifically for calling upon styling files external to the page, such as .css files and sometimes web fonts.</p>
 	<h4>Example of use:</h4>
 	<figure>

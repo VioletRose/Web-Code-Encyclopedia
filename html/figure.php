@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;figure&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>
 		A container intended for content that is related to the main text of the page, but intended to be neatly separated from it. Mostly used for photos, images, charts, and excerpts of code or text.
 		<br>

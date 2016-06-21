@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;dfn&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>This odd tag is intended to be used to denote the definition of a term or abbreviation in the first place it's seen within a larger document, allowing it to be used unexplained from that point onward.</p>
 	<h4>Example of use:</h4>
 	<figure>

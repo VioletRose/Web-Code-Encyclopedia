@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;main&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main class="HTMLSection">
+<main class="unsectionedmain">
 	<p>Another of the many Syntactic Web containers, and a compliment to &lt;body&gt;, &lt;main&gt; is meant to hold the bulk of the individual page's content, distinct from things like navigation bars and copyright footers.</p>
 	<h4>Example of use:</h4>
 	<figure>
