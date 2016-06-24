@@ -19,11 +19,19 @@
 		</figure>
 	</section>
 	<section id="rendereddialog">
+		<!--<dialog> is not counted as a child element, so this section was rendering too small. I am currently using CSS as a workaround until I can script it properly.-->
 		<h4>Will be rendered as:</h4>
 		<figure>
 			<dialog>This text won't even be rendered, because this window is closed.</dialog>
 			<dialog open>This text will be rendered! Although if it doesn't look right, you may need to switch to a better web browser.</dialog>
 		</figure>
+	</section>
+	<section>
+		<h4>Attributes</h4>
+		<dl>
+			<dt><code>open</code></dt>
+			<dd>&#10551; If present, the element will be open by default rather than closed.</dd>
+		</dl>
 	</section>
 </main>	
 <?php

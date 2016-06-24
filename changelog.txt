@@ -1,3 +1,17 @@
+Friday, June 23rd, 2016
+html/audio.php: Updated; clarified the definition of src.
+html/comment.php: Updated; added sectioning, and removed a comment on the use of <code>.
+html/del.php: Updated; added sectioning, edited the description to match current standards, and added a brief list of the tag's attributes and their uses.
+html/details.php: Updated; added sectioning, slightly edited the description, and added a brief 'list' explaining the element's attribute and its use.
+html/dfn.php: Updated; added sectioning, and slightly edited the description.
+html/dialog.php: Updated; added a comment about the presence of #rendereddialog, and added a brief 'list' explaining the element's attribute and its use.
+html/div.php: Updated; added sectioning, and edited the description.
+html/dl.php: Updated; added a brief list of child tags and their descriptions.
+html/doctype.php: Updated; added sectioning, and edited the description to clarify its intended use.
+html/em.php: Updated; added sectioning, and edited the description to match current standards.
+html/embed.php: Updated; added sectioning, and added a brief list explaining the element's attributes and their uses.
+stylesheets/encyclopedia.css: Updated; added a comment about the presence of #rendereddialog.
+
 Thursday, June 23rd, 2016
 changelog.php: Updated; made the <object> into a <pre> with associated scripting to autofill from changelog.txt.
 html/address.php: Updated; edited the description to match current standards.
@@ -9,7 +23,7 @@ html/br.php: Updated; added sectioning.
 html/button.php: Updated; added sectioning, and added an extensive list of the element's attributes and their uses.
 html/canvas.php: Updated; added sectioning, and added a brief list of the element's attributes and their uses.
 html/cite.php: Updated; added sectioning, and edited the description to match current standards.
-html/code.php: Updated; added sectiniong, and edited the description to match current standards.
+html/code.php: Updated; added sectioning, and edited the description to match current standards.
 html/dialog.php: Updated; added sectioning, and added #rendereddialog to the third section as a workaround to <dialog> being inherently not inline.
 html/head.php: Updated; added sectioning, and changed the example to match the code of minimal.html.
 html/html.php: Updated; added sectioning, and changed the example to match the code of minimal.html.

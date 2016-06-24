@@ -124,4 +124,5 @@ section > * {
 
 #rendereddialog {
 	height: 165px;
+	/*<dialog> is not counted as a child element, so the containing section was rendering too small. I am currently using this as a workaround until I can script it properly.-->*/
 }

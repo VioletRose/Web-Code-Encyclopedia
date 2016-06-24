@@ -41,6 +41,15 @@
 			</dl>
 		</figure>
 	</section>
+	<section>
+		<h4>Child Tags</h4>
+		<dl>
+			<dt><code>&lt;dd&gt;</code></dt>
+			<dd>&#10551; Contains the definition of the preceding term.</dd>
+			<dt><code>dt</code></dt>
+			<dd>&#10551; Contains the term to be defined.</dd>
+		</dl>
+	</section>
 </main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');

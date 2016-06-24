@@ -54,7 +54,7 @@
 				</details>
 			</dd>
 			<dt><code>src</code></dt>
-			<dd>&#10551; Specifies the location of the audio file to be played.</dd>
+			<dd>&#10551; Specifies the URL of the audio file to be played.</dd>
 		</dl>
 	</section>
 	<section>
