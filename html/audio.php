@@ -29,7 +29,7 @@
 	</section>
 	<section>
 		<h4>Attributes</h4>
-		<dl>
+		<dl class="attributeList">
 			<dt><code>autoplay</code></dt>
 			<dd>&#10551; If present, instructs the browser to begin playing the audio immediately upon the page being loaded. <strong>This attribute is to be used only with care - it is not recommended for use in virtually any situation.</strong></dd>
 			<dt><code>controls</code></dt>

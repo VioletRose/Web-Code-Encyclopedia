@@ -11,11 +11,11 @@
 <header>
 	<h1 class="pageHeadline"><?php echo $PAGE_NAME; ?></h1>
 	<nav class="navTopbar">
-		<a class="topbarButton" href="/index.php">Home</a>
-		<a class="topbarButton" href="/html.php">HTML</a>
-		<a class="topbarButton" href="/css.php">CSS</a>
-		<a class="topbarButton" href="/javascript.php">Javascript</a>
-		<a class="topbarButton" href="/changelog.php">Changelog</a>
+		<a href="/index.php">Home</a>
+		<a href="/html.php">HTML</a>
+		<a href="/css.php">CSS</a>
+		<a href="/javascript.php">Javascript</a>
+		<a href="/changelog.php">Changelog</a>
 	</nav>
 </header>
 <nav class="navSidebar">
@@ -110,66 +110,69 @@
 	</ul>
 	<h4>Child Elements</h4>
 	<dl>
-		<dt><code>&lt;area&gt;</code></dt>
-		<dd>&#10551; <a class="needsAttn" href="/html/map.php"><code>&lt;map&gt;</code></a></dd>
-		<dt><code>&lt;caption&gt;</code></dt>
-		<dd>&#10551; <a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
-		<dt><code>&lt;col&gt;</code></dt>
-		<dd>&#10551; <a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
-		<dt><code>&lt;colgroup&gt;</code></dt>
-		<dd>&#10551; <a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
-		<dt><code>&lt;datalist&gt;</code></dt>
-		<dd>&#10551; <a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
-		<dt><code>&lt;dd&gt;</code></dt>
-		<dd>&#10551; <a href="/html/dl.php"><code>&lt;dl&gt;</code></a></dd>
-		<dt><code>&lt;dt&gt;</code></dt>
-		<dd>&#10551; <a href="/html/dl.php"><code>&lt;dl&gt;</code></a></dd>
-		<dt><code>&lt;fieldset&gt;</code></dt>
-		<dd>&#10551; <a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
-		<dt><code>&lt;figcaption&gt;</code></dt>
-		<dd>&#10551; <a href="/html/figure.php"><code>&lt;figure&gt;</code></a></dd>
-		<dt><code>&lt;input&gt;</code></dt>
-		<dd>&#10551; <a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
-		<dt><code>&lt;keygen&gt;</code></dt>
-		<dd>&#10551; <a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
-		<dt><code>&lt;label&gt;</code></dt>
-		<dd>&#10551; <a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
-		<dt><code>&lt;legend&gt;</code></dt>
-		<dd>&#10551; <a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
-		<dt><code>&lt;li&gt;</code></dt>
-		<dd>&#10551; <a href="/html/ol.php"><code>&lt;ol&gt;</code></a>,<a href="/html/ul.php"><code>&lt;ul&gt;</code></a></dd>
-		<dt><code>&lt;menuitem&gt;</code></dt>
-		<dd>&#10551; <a class="needsAttn" href="/html/menu.php"><code>&lt;menu&gt;</code></a></dd>
-		<dt><code>&lt;optgroup&gt;</code></dt>
-		<dd>&#10551; <a href="/html/select.php"><code>&lt;select&gt;</code></a></dd>
-		<dt><code>&lt;option&gt;</code></dt>
-		<dd>&#10551; <a href="/html/select.php"><code>&lt;select&gt;</code></a></dd>
-		<dt><code>&lt;output&gt;</code></dt>
-		<dd>&#10551; <a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
-		<dt><code>&lt;param&gt;</code></dt>
-		<dd>&#10551; <a href="/html/object.php"><code>&lt;object&gt;</code></a></dd>
-		<dt><code>&lt;rp&gt;</code></dt>
-		<dd>&#10551; <a href="/html/ruby.php"><code>&lt;ruby&gt;</code></a></dd>
-		<dt><code>&lt;rt&gt;</code></dt>
-		<dd>&#10551; <a href="/html/ruby.php"><code>&lt;ruby&gt;</code></a></dd>
-		<dt><code>&lt;source&gt;</code></dt>
-		<dd>&#10551; <a href="/html/audio.php"><code>&lt;audio&gt;</code></a></dd>
-		<dt><code>&lt;summary&gt;</code></dt>
-		<dd>&#10551; <a href="/html/details.php"><code>&lt;details&gt;</code></a></dd>
-		<dt><code>&lt;tbody&gt;</code></dt>
-		<dd>&#10551; <a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
-		<dt><code>&lt;td&gt;</code></dt>
-		<dd>&#10551; <a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
-		<dt><code>&lt;tfoot&gt;</code></dt>
-		<dd>&#10551; <a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
-		<dt><code>&lt;th&gt;</code></dt>
-		<dd>&#10551; <a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
-		<dt><code>&lt;thead&gt;</code></dt>
-		<dd>&#10551; <a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
-		<dt><code>&lt;tr&gt;</code></dt>
-		<dd>&#10551; <a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
-		<dt><code>&lt;track&gt;</code></dt>
-		<dd>&#10551; <a class="needsAttn" href="/html/video.php"><code>&lt;video&gt;</code></a></dd>
+			<dt><code>&lt;area&gt;</code> &#10549;</dt>
+			<dd><a class="needsAttn" href="/html/map.php"><code>&lt;map&gt;</code></a></dd>
+			<dt><code>&lt;caption&gt;</code> &#10549;</dt>
+			<dd><a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
+			<dt><code>&lt;col&gt;</code> &#10549;</dt>
+			<dd><a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
+			<dt><code>&lt;colgroup&gt;</code> &#10549;</dt>
+			<dd><a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
+			<dt><code>&lt;datalist&gt;</code> &#10549;</dt>
+			<dd><a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
+			<dt><code>&lt;dd&gt;</code> &#10549;</dt>
+			<dd><a href="/html/dl.php"><code>&lt;dl&gt;</code></a></dd>
+			<dt><code>&lt;dt&gt;</code> &#10549;</dt>
+			<dd><a href="/html/dl.php"><code>&lt;dl&gt;</code></a></dd>
+			<dt><code>&lt;fieldset&gt;</code> &#10549;</dt>
+			<dd><a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
+			<dt><code>&lt;figcaption&gt;</code> &#10549;</dt>
+			<dd><a href="/html/figure.php"><code>&lt;figure&gt;</code></a></dd>
+			<dt><code>&lt;input&gt;</code> &#10549;</dt>
+			<dd><a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
+			<dt><code>&lt;keygen&gt;</code> &#10549;</dt>
+			<dd><a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
+			<dt><code>&lt;label&gt;</code> &#10549;</dt>
+			<dd><a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
+			<dt><code>&lt;legend&gt;</code> &#10549;</dt>
+			<dd><a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
+			<dt><code>&lt;li&gt;</code> &#10549;</dt>
+			<dd>
+				<a href="/html/ol.php"><code>&lt;ol&gt;</code></a>
+				<a href="/html/ul.php"><code>&lt;ul&gt;</code></a>
+			</dd>
+			<dt><code>&lt;menuitem&gt;</code> &#10549;</dt>
+			<dd><a class="needsAttn" href="/html/menu.php"><code>&lt;menu&gt;</code></a></dd>
+			<dt><code>&lt;optgroup&gt;</code> &#10549;</dt>
+			<dd><a href="/html/select.php"><code>&lt;select&gt;</code></a></dd>
+			<dt><code>&lt;option&gt;</code> &#10549;</dt>
+			<dd><a href="/html/select.php"><code>&lt;select&gt;</code></a></dd>
+			<dt><code>&lt;output&gt;</code> &#10549;</dt>
+			<dd><a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
+			<dt><code>&lt;param&gt;</code> &#10549;</dt>
+			<dd><a href="/html/object.php"><code>&lt;object&gt;</code></a></dd>
+			<dt><code>&lt;rp&gt;</code> &#10549;</dt>
+			<dd><a href="/html/ruby.php"><code>&lt;ruby&gt;</code></a></dd>
+			<dt><code>&lt;rt&gt;</code> &#10549;</dt>
+			<dd><a href="/html/ruby.php"><code>&lt;ruby&gt;</code></a></dd>
+			<dt><code>&lt;source&gt;</code> &#10549;</dt>
+			<dd><a href="/html/audio.php"><code>&lt;audio&gt;</code></a></dd>
+			<dt><code>&lt;summary&gt;</code> &#10549;</dt>
+			<dd><a href="/html/details.php"><code>&lt;details&gt;</code></a></dd>
+			<dt><code>&lt;tbody&gt;</code> &#10549;</dt>
+			<dd><a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
+			<dt><code>&lt;td&gt;</code> &#10549;</dt>
+			<dd><a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
+			<dt><code>&lt;tfoot&gt;</code> &#10549;</dt>
+			<dd><a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
+			<dt><code>&lt;th&gt;</code> &#10549;</dt>
+			<dd><a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
+			<dt><code>&lt;thead&gt;</code> &#10549;</dt>
+			<dd><a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
+			<dt><code>&lt;tr&gt;</code> &#10549;</dt>
+			<dd><a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
+			<dt><code>&lt;track&gt;</code> &#10549;</dt>
+			<dd><a class="needsAttn" href="/html/video.php"><code>&lt;video&gt;</code></a></dd>
 	</dl>
 	<h4>Deprecated Tags</h4>
 	<h5>(no examples given)</h5>

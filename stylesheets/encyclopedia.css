@@ -10,36 +10,22 @@ body {
 	width: 60vw;
 }
 
-code {
+code, kbd, pre, samp {
 	font-family: 'Inconsolata', monospace;
+	/*Why isn't this working on <pre>?*/
 }
 
 dd {
+	margin-bottom: 20px;
 	margin-left: 0;
 }
 
-footer {
+footer, header, section {
 	background-color: white;
 	border-color: #7F00FF;
 	border-style: solid;
 	margin-bottom: 8px;
 	margin-top: 8px;
-}
-
-header {
-	background-color: white;
-	border-color: #7F00FF;
-	border-style: solid;
-	margin-top: 8px;
-	margin-bottom: 8px;
-}
-
-section {
-	background-color: white;
-	border-color: #7F00FF;
-	border-style: solid;
-	margin-top: 8px;
-	margin-bottom: 8px;
 }
 
 section > * {
@@ -50,30 +36,19 @@ section > * {
 .HTMLBody {
 	margin-left: calc(20vw + 75px);
 	margin-right: calc(20vw + 75px);
+	/* The sidebar is 150px wide, so for the content to remain centered, each margin must be adjusted by half of that amount.*/
 }
 
-.navTopbar {
+.navSidebar, .navTopbar {
 	text-align: center;
-}
-
-.navTopbar a {
-	color: black;
-	font-size: 15pt;
-	margin-bottom: 4px;
-	padding-left: 2px;
-	padding-right: 2px;
-	text-decoration: none;
 }
 
 .navSidebar {
 	background-color: white;
-	border-style: none;
-	display: block;
 	height: 100vh;
 	left: 0;
 	margin: 0;
 	overflow-y: scroll;
-    overflow-x: hidden;
 	position: fixed;
 	top: 0;
 	width: 150px;
@@ -81,27 +56,41 @@ section > * {
 
 .navSidebar a {
 	border-color: lightgrey darkgrey darkgrey lightgrey;
-	/* Sides of the border, top right down left - clockwise */
 	border-style: outset;
-	display: inline-block;
+	color: black;
+	display: block;
+	margin-bottom: 2px;
+	text-decoration: none;
 }
 
 .navSidebar a.needsAttn {
 	border-color: #e80000 #7e0000 #7e0000 #e80000;
-	border-style: solid;
+	color: red;
+}
+
+.navSidebar a:hover, .navTopbar a:hover {
+	border-style: inset;
 }
 
 .navSidebar dd {
-	margin-left: 0px;
-}
-
-.navSidebar dt {
-	font-size: smaller;
+	margin-bottom: 0px;
 }
 
 .navSidebar ul {
 	list-style-type: none;
-	padding-left: 0px;
+	padding-left: 0;
+}
+
+.navTopbar a {
+	border-color: lightgrey darkgrey darkgrey lightgrey;
+	border-style: outset;
+	color: black;
+	display: inline-block;
+	font-size: 15pt;
+	margin-bottom: 4px;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-decoration: none;
 }
 
 .pageHeadline {
@@ -110,13 +99,8 @@ section > * {
 	text-align: center;
 }
 
-.topbarButton {
-	border-color: lightgrey darkgrey darkgrey lightgrey;
-	border-style: outset;
-	display: inline-block;
-}
-
 .unsectionedmain {
+	/*This class exists so pages I haven't added sectioning to yet won't be broken by prior style changes; it will be removed once everything is updated.*/
 	background-color: white;
 	border-color: #7F00FF;
 	border-style: solid;
@@ -130,10 +114,14 @@ section > * {
 }
 
 #changelog {
-	height: calc(100vh - 207px);
-	width: 60vw;
+	white-space: pre-wrap;
 }
 
 #exampledl dd {
+	margin-bottom: 0;
 	margin-left: 40px;
+}
+
+#rendereddialog {
+	height: 165px;
 }

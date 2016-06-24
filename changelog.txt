@@ -1,3 +1,35 @@
+Thursday, June 23rd, 2016
+changelog.php: Updated; made the <object> into a <pre> with associated scripting to autofill from changelog.txt.
+html/address.php: Updated; edited the description to match current standards.
+html/article.php: Updated; edited the description to match current standards.
+html/aside.php: Updated; edited the description to match current standards.
+html/blockquote.php: Updated; edited the description to match current standards, added sectioning, and added a description of its attribute.
+html/body.php: Updated; added sectioning, and changed the example to match the code of minimal.html.
+html/br.php: Updated; added sectioning.
+html/button.php: Updated; added sectioning, and added an extensive list of the element's attributes and their uses.
+html/canvas.php: Updated; added sectioning, and added a brief list of the element's attributes and their uses.
+html/cite.php: Updated; added sectioning, and edited the description to match current standards.
+html/code.php: Updated; added sectiniong, and edited the description to match current standards.
+html/dialog.php: Updated; added sectioning, and added #rendereddialog to the third section as a workaround to <dialog> being inherently not inline.
+html/head.php: Updated; added sectioning, and changed the example to match the code of minimal.html.
+html/html.php: Updated; added sectioning, and changed the example to match the code of minimal.html.
+html/minimal.html: Updated; added <!DOCTYPE>, <title>, <main>, and <p> elements to make it a proper webpage.
+scripts/changelog.js: Added.
+stylesheets/encyclopedia.css:Updated; changed style rules for #changelog, and added style rules for #rendereddialog.
+
+Wednesday, June 22nd, 2016
+generichead.php: Updated; removed the unnecessary class .topbarButton.
+html/htmlhead.php: Updated; removed the unnecessary class .topbarButton.
+stylesheets/encyclopedia.css: Updated; added and changed style rules for the top and side navbars, did other minor cleanup.
+
+Tuesday, June 21st, 2016
+html/abbr.php: Updated to add sectioning.
+html/address.php: Updated to add sectioning.
+html/article.php: Updated to add sectioning.
+html/aside.php: Updated to add sectioning.
+html/b.php: Updated to add sectioning.
+html/bdi.php: Updated to add sectioning.
+
 Monday, June 20th, 2016
 changelog.php: Updated to add sectioning.
 css.php: Updated to add sectioning.

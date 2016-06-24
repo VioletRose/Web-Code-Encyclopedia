@@ -11,10 +11,10 @@
 <header>
 	<h1 class="pageHeadline"><?php echo $PAGE_NAME; ?></h1>
 	<nav class="navTopbar">
-		<a class="topbarButton" href="/index.php">Home</a>
-		<a class="topbarButton" href="/html.php">HTML</a>
-		<a class="topbarButton" href="/css.php">CSS</a>
-		<a class="topbarButton" href="/javascript.php">Javascript</a>
-		<a class="topbarButton" href="/changelog.php">Changelog</a>
+		<a href="/index.php">Home</a>
+		<a href="/html.php">HTML</a>
+		<a href="/css.php">CSS</a>
+		<a href="/javascript.php">Javascript</a>
+		<a href="/changelog.php">Changelog</a>
 	</nav>
 </header>

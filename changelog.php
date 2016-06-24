@@ -4,9 +4,10 @@
 ?>
 <main>
 	<section>
-		<object data="/changelog.txt" id ="changelog"></object>
+		<pre id="changelog"></pre>
 	</section>
-</main>	
+</main>
+<script src="/scripts/changelog.js"></script>
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>
