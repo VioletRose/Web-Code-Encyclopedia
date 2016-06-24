@@ -1,4 +1,4 @@
-Friday, June 23rd, 2016
+Friday, June 24th, 2016
 html/audio.php: Updated; clarified the definition of src.
 html/comment.php: Updated; added sectioning, and removed a comment on the use of <code>.
 html/del.php: Updated; added sectioning, edited the description to match current standards, and added a brief list of the tag's attributes and their uses.
