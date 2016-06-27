@@ -18,7 +18,7 @@
 			</code>
 		</figure>
 	</section>
-	<section id="rendereddialog">
+	<section id="exampledialog">
 		<!--<dialog> is not counted as a child element, so this section was rendering too small. I am currently using CSS as a workaround until I can script it properly.-->
 		<h4>Will be rendered as:</h4>
 		<figure>

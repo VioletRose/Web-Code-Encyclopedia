@@ -1,4 +1,14 @@
-Friday, June 23rd, 2016
+Sunday, June 26th, 2016
+html/audio.php: Updated; changed the heading of the first attribute list, and removed an unnecessary class.
+html/dialog.php: Updated; replaced #rendereddialog with #exampledialog.
+html/figure.php: Updated; added sectioning.
+html/footer.php: Updated; added sectioning, edited the description to match current standards, and added #examplefooter to the demonstration footer.
+html/form.php: Updated; added sectioning, revised the description, added a list of direct and indirect child tags, and added a list of attributes for this element and its children; the list has not yet been populated with all the needed descriptions, however.
+html/htmlhead.php: Updated; added <form> as a parent (though indirectly through <datalist>) of <option>.
+stylesheets/encyclopedia.css: Updated; added style rules for #examplefooter, and renamed #rendereddialog to #exampledialog.
+
+
+Friday, June 24th, 2016
 html/audio.php: Updated; clarified the definition of src.
 html/comment.php: Updated; added sectioning, and removed a comment on the use of <code>.
 html/del.php: Updated; added sectioning, edited the description to match current standards, and added a brief list of the tag's attributes and their uses.

@@ -117,12 +117,19 @@ section > * {
 	white-space: pre-wrap;
 }
 
+#exampledialog {
+	height: 165px;
+	/*<dialog> is not counted as a child element, so the containing section was rendering too small. I am currently using this as a workaround until I can script it properly.-->*/
+}
+
 #exampledl dd {
 	margin-bottom: 0;
 	margin-left: 40px;
 }
 
-#rendereddialog {
-	height: 165px;
-	/*<dialog> is not counted as a child element, so the containing section was rendering too small. I am currently using this as a workaround until I can script it properly.-->*/
+#examplefooter {
+	border-style: none;
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
+

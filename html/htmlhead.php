@@ -146,7 +146,10 @@
 			<dt><code>&lt;optgroup&gt;</code> &#10549;</dt>
 			<dd><a href="/html/select.php"><code>&lt;select&gt;</code></a></dd>
 			<dt><code>&lt;option&gt;</code> &#10549;</dt>
-			<dd><a href="/html/select.php"><code>&lt;select&gt;</code></a></dd>
+			<dd>
+				<a href="/html/form.php"><code>&lt;form&gt;</code></a>
+				<a href="/html/select.php"><code>&lt;select&gt;</code></a>
+			</dd>
 			<dt><code>&lt;output&gt;</code> &#10549;</dt>
 			<dd><a href="/html/form.php"><code>&lt;form&gt;</code></a></dd>
 			<dt><code>&lt;param&gt;</code> &#10549;</dt>
