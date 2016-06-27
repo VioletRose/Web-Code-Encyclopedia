@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Sunday, June 26th, 2016
 html/audio.php: Updated; changed the heading of the first attribute list, and removed an unnecessary class.
 html/dialog.php: Updated; replaced #rendereddialog with #exampledialog.
@@ -8,6 +9,8 @@ html/htmlhead.php: Updated; added <form> as a parent (though indirectly through 
 stylesheets/encyclopedia.css: Updated; added style rules for #examplefooter, and renamed #rendereddialog to #exampledialog.
 
 
+=======
+>>>>>>> origin/gh-pages
 Friday, June 24th, 2016
 html/audio.php: Updated; clarified the definition of src.
 html/comment.php: Updated; added sectioning, and removed a comment on the use of <code>.
