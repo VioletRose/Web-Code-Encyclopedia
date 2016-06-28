@@ -20,6 +20,10 @@ dd {
 	margin-left: 0;
 }
 
+details dl {
+	margin-left: 40px;
+}
+
 footer, header, section {
 	background-color: white;
 	border-color: #7F00FF;
