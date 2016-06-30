@@ -1,3 +1,18 @@
+Wednesday, June 29th, 2016
+html/iframe.php: Updated; added sectioning, slightly revised the description, defined a height and width for the <iframe>, and added a list of the element's attributes and their uses.
+html/img.php: Updated; added sectioning, and added a list of the element's attributes and their uses.
+html/ins.php: Updated; added sectioning, revised the description to match current standards, and added a brief list of the element's attributes and their uses.
+html/kbd.php: Updated; added sectioning, and revised the description to match current standards.
+
+Tuesday, June 28th, 2016
+html/footer.php: Updated; changed the footer's id to the .exampleFHS class.
+html/h1-h6.php: Updated; added sectioning, revised the description to match current standards, and revised the examples to be more verbose.
+html/header.php: Updated; added sectioning, revised the description to match current standards, and added .exampleFHS to the demonstration header.
+html/hr.php: Updated; added sectioning.
+html/htmlhead.php: Updated; added .needsAttn to the <form> button.
+html/i.php: Updated; added sectioning, and revised the description to match current standards.
+stylesheets/encyclopedia.css: Updated; changed #examplefooter to .exampleFHS, and added a comment explaining its use.
+
 Monday, June 27th, 2016
 html/form.php: Updated; removed <keygen> from the child tag and attribute lists, and populated the attribute lists with descriptions of their function.
 stylesheets/encyclopedia.css: Updated; added a 40px left margin to <dl> elements within <details> elements.

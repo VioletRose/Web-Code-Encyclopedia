@@ -23,7 +23,7 @@
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure>
-			<footer id="examplefooter">
+			<footer class="exampleFHS">
 				<p>Created by Violet Rose</p>
 				<p>Contact me at: <a href="mailto:actuallya@fakeemailaddress.com">actuallya@fakeemailaddress.com</a></p>
 			</footer>

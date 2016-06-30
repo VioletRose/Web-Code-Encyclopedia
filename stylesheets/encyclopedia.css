@@ -37,6 +37,13 @@ section > * {
 	margin-right: 8px;
 }
 
+.exampleFHS {
+	/*Footer/Header/Section, which are given default styling rules above, but I want the examples to be displayed in their unmodified forms.*/
+	border-style: none;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
 .HTMLBody {
 	margin-left: calc(20vw + 75px);
 	margin-right: calc(20vw + 75px);
@@ -130,10 +137,3 @@ section > * {
 	margin-bottom: 0;
 	margin-left: 40px;
 }
-
-#examplefooter {
-	border-style: none;
-	margin-bottom: 0px;
-	margin-top: 0px;
-}
-
