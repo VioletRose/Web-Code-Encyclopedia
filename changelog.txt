@@ -1,3 +1,11 @@
+Thursday, June 30th, 2016
+html/a.php: Updated; revised the descriptions of next and prev.
+html/iframe.php: Updated; added the arrow character to each definition entry.
+html/img.php: Updated; added the arrow character to each definition entry.
+html/link.php: Updated; added sectioning, revised the description, and added a list of the element's attributes and their uses.
+html/main.php: Updated; added sectioning, and revised the description to match current standards.
+html/mark.php: Updtaed; added sectioning, and revised the description to match current standards.
+
 Wednesday, June 29th, 2016
 html/iframe.php: Updated; added sectioning, slightly revised the description, defined a height and width for the <iframe>, and added a list of the element's attributes and their uses.
 html/img.php: Updated; added sectioning, and added a list of the element's attributes and their uses.

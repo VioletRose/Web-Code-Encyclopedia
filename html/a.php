@@ -57,7 +57,7 @@
 						<dt><code>license</code><dt>
 						<dd>&#10551; Copyright information for the content.</dd>
 						<dt><code>next</code><dt>
-						<dd>&#10551; The next page in a selection.</dd>
+						<dd>&#10551; The next page in a series this page belongs to.</dd>
 						<dt><code>nofollow</code><dt>
 						<dd>&#10551; An unendorsed page, such as a paid link or user submitted content. This is heavily used by Google's search engine to indicate the link should not be indexed, generally because it is not directly related to or part of the parent site.</dd>
 						<dt><code>noreferrer</code><dt>
@@ -65,7 +65,7 @@
 						<dt><code>prefetch</code><dt>
 						<dd>&#10551; Indicates that the target content should be cached by the browser.</dd>
 						<dt><code>prev</code><dt>
-						<dd>&#10551; The previous page in a selection.</dd>
+						<dd>&#10551; The previous page in a series this page belongs to.</dd>
 						<dt><code>search</code><dt>
 						<dd>&#10551; A search tool for the page.</dd>
 						<dt><code>tag</code><dt>
