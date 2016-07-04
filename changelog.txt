@@ -1,3 +1,9 @@
+Monday, July 4th, 2016
+meta.php: Updated; added sectioning, revised the description, and added a list of the element's attributes and their uses.
+meter.php: Udated; added sectioning, revised the description, revamped the example, and added a list of the element's attributes and their uses.
+nav.php: Updated; added sectioning, and revised the description to match current standards.
+noscript.php: Updated; added sectioning.
+
 Thursday, June 30th, 2016
 html/a.php: Updated; revised the descriptions of next and prev.
 html/iframe.php: Updated; added the arrow character to each definition entry.
