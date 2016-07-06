@@ -1,8 +1,23 @@
+Tuesday, July 5th, 2016
+Changed comment formatting sitewide - comments now occupy the same line that they refer to.
+Added the Javascript library JQuery to the site.
+javascript.php: Updated; now uses javascript/javascripthead.php instead of generichead.php.
+html/details.php: Updated; added the omitted list of child tags, and updated the heading of the attributes section for greater specificity.
+html/dl.php: Updated; updated the heading of the attributes section for greater specificity, and added a missing pair of <>s.
+html/meter.php: Updated; updated the attribute list for greater specificity.
+html/object.php: Updated; added sectioning, slightly revised the example, and added lists and explanations of use for child elements, attributes, and attributes of child elements.
+html/ol.php: Updated; added sectioning, and added lists and explanations of use for child elements, attributes, and attributes of child elements.
+html/noscript.php: Updated; changed the script to a JQuery script.
+html/p.php: Updated; added sectioning, revised the description, and revamped the example to be more demonstrative.
+html/pre.php: Updated; added sectioning.
+html/progress.php: Updated; corrected the page name, added sectioning, revamped the example, and added a list of the element's attributes and their uses.
+javascript/javascripthead.php: Added; laying groundwork for future additions.
+
 Monday, July 4th, 2016
-meta.php: Updated; added sectioning, revised the description, and added a list of the element's attributes and their uses.
-meter.php: Udated; added sectioning, revised the description, revamped the example, and added a list of the element's attributes and their uses.
-nav.php: Updated; added sectioning, and revised the description to match current standards.
-noscript.php: Updated; added sectioning.
+html/meta.php: Updated; added sectioning, revised the description, and added a list of the element's attributes and their uses.
+html/meter.php: Udated; added sectioning, revised the description, revamped the example, and added a list of the element's attributes and their uses.
+html/nav.php: Updated; added sectioning, and revised the description to match current standards.
+html/noscript.php: Updated; added sectioning.
 
 Thursday, June 30th, 2016
 html/a.php: Updated; revised the descriptions of next and prev.

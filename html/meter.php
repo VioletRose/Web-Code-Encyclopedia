@@ -50,17 +50,17 @@
 			<dt><code>form</code></dt>
 			<dd>Specifies the id of an associated <code>&lt;form&gt;</code> element.</dd>
 			<dt><code>high</code></dt>
-			<dd>Defines the value above which the meter will be considered high. Above this value, the meter will show as yellow.</dd>
+			<dd>Defines the numeric value above which the meter will be considered high. Above this value, the meter will show as yellow.</dd>
 			<dt><code>low</code></dt>
-			<dd>Defines the value below which the meter will be considered low. Below this value, the meter will show as yellow.</dd>
+			<dd>Defines the numeric value below which the meter will be considered low. Below this value, the meter will show as yellow.</dd>
 			<dt><code>max</code></dt>
-			<dd>Defines the maximum value of the meter. If this attribute is not set, it will default to 1.</dd>
+			<dd>Defines the maximum numeric value of the meter. If this attribute is not set, it will default to 1.</dd>
 			<dt><code>min</code></dt>
-			<dd>Defines the minimum value of the meter. If this attribute is not set, it will default to 0.</dd>
+			<dd>Defines the minimum numeric value of the meter. If this attribute is not set, it will default to 0.</dd>
 			<dt><code>optimum</code></dt>
-			<dd>Defines the optimum value of the meter.</dd>
+			<dd>Defines the optimum numeric value of the meter.</dd>
 			<dt><code>value</code></dt>
-			<dd>Defines the current value of the meter. This attribute should always be set on any <code>&lt;meter&gt;</code> element.</dd>
+			<dd>Defines the current numeric value of the meter. This attribute should always be set on any <code>&lt;meter&gt;</code> element.</dd>
 		</dl>
 	</section>
 </main>	

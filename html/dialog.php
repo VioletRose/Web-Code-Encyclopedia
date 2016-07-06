@@ -18,8 +18,7 @@
 			</code>
 		</figure>
 	</section>
-	<section id="exampledialog">
-		<!--<dialog> is not counted as a child element, so this section was rendering too small. I am currently using CSS as a workaround until I can script it properly.-->
+	<section id="exampledialog"><!--<dialog> is not counted as a child element, so this section was rendering too small. I am currently using CSS as a workaround until I can script it properly.-->
 		<h4>Will be rendered as:</h4>
 		<figure>
 			<dialog>This text won't even be rendered, because this window is closed.</dialog>

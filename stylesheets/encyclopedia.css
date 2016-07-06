@@ -12,7 +12,6 @@ body {
 
 code, kbd, pre, samp {
 	font-family: 'Inconsolata', monospace;
-	/*Why isn't this working on <pre>?*/
 }
 
 dd {
@@ -37,8 +36,7 @@ section > * {
 	margin-right: 8px;
 }
 
-.exampleFHS {
-	/*Footer/Header/Section, which are given default styling rules above, but I want the examples to be displayed in their unmodified forms.*/
+.exampleFHS /*Footer/Header/Section, which are given default styling rules above, but I want the examples to be displayed in their unmodified forms.*/{
 	border-style: none;
 	margin-bottom: 0px;
 	margin-top: 0px;
@@ -46,8 +44,7 @@ section > * {
 
 .HTMLBody {
 	margin-left: calc(20vw + 75px);
-	margin-right: calc(20vw + 75px);
-	/* The sidebar is 150px wide, so for the content to remain centered, each margin must be adjusted by half of that amount.*/
+	margin-right: calc(20vw + 75px);/* The sidebar is 150px wide, so for the content to remain centered, each margin must be adjusted by half of that amount.*/
 }
 
 .navSidebar, .navTopbar {
@@ -110,8 +107,7 @@ section > * {
 	text-align: center;
 }
 
-.unsectionedmain {
-	/*This class exists so pages I haven't added sectioning to yet won't be broken by prior style changes; it will be removed once everything is updated.*/
+.unsectionedmain /*This class exists so pages I haven't added sectioning to yet won't be broken by prior style changes; it will be removed once everything is updated.*/{
 	background-color: white;
 	border-color: #7F00FF;
 	border-style: solid;
@@ -124,13 +120,20 @@ section > * {
 	margin-right: 8px;
 }
 
+.verticalCentering {
+    position: absolute;/*The parent of this attribute must have position set to relative in order for the absolute position to have the proper position content.*/
+	top: 50%;
+	-ms-transform: translateY(-50%);/*Internet Explorer/Edge browser prefix, invoking a beta, non-finalized version of the transform property*/
+	-webkit-transform: translateY(-50%);/*Safari/early Chrome*/
+	transform: translateY(-50%);
+}
+
 #changelog {
 	white-space: pre-wrap;
 }
 
 #exampledialog {
-	height: 165px;
-	/*<dialog> is not counted as a child element, so the containing section was rendering too small. I am currently using this as a workaround until I can script it properly.-->*/
+	height: 165px;/*<dialog> is not counted as a child element, so the containing section was rendering too small. I am currently using this as a workaround until I can script it properly.-->*/
 }
 
 #exampledl dd {

@@ -73,7 +73,6 @@
 					</dl>
 				</details>
 			</dd>
-			<!--Although <dd>&#10551;  is technically an inline tag, in this case I have written it as if it were a container because I am using it as one.-->
 			<dt><code>target</code></dt>
 			<dd>&#10551; 
 				Specifies where the linked content should be opened. 

@@ -1,6 +1,6 @@
 <?php
     $PAGE_NAME = 'Javascript';
-    require_once($_SERVER["DOCUMENT_ROOT"].'/generichead.php');
+    require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
 <main>
 	<section>

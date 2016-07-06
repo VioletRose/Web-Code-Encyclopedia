@@ -25,7 +25,7 @@
 			<dt><code>dropzone</code></dt>
 			<dd>&#10551; When applied to a draggable element, this attribute specifies copy, move, or link, depending on what should happen as a result of the user's click and drag. However, this attribute is not yet supported in any web browser.</dd>
 			<dt><code>hidden</code></dt>
-			<dd>&#10551; If this attribute is present, the element will not display on the website, while remaining loaded in case it is reactivated by scripting.</dd>
+			<dd>&#10551; If this attribute is present, the element will not display on the website, while remaining loaded in case it is reactivated by scripting. Note that despite not being displayed, it still occupies the normal amount of space in the document.</dd>
 			<dt><code>id</code></dt>
 			<dd>&#10551; Defines a unique ID for this specific element, which enables it to be targeted by CSS and Javascript with greater specificity than a class.</dd>
 			<dt><code>lang</code></dt>

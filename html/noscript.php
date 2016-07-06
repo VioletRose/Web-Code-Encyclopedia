@@ -12,9 +12,17 @@
 			<code>
 				&lt;script&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;document.write("If you are reading this, your browser supports scripting!"
+				&lt;!--This is calling the JQuery library, and is not normal Javascript.--&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;$(document).ready(function() {
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$('.yesScript').html('If you are reading this, your browser supports scripting!').show();
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;});
 				<br>
 				&lt;/script&gt;
+				<br>
+				&lt;p class="yesScript" style="display: none"&gt;&lt;/p&gt;
 				<br>
 				&lt;noscript&gt;
 				<br>
@@ -27,9 +35,13 @@
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure>
-			<script>
-				document.write("If you are reading this, your browser supports scripting!")
+		    <script>
+				<!--This is calling the JQuery library, and is not normal Javascript.-->
+				$(document).ready(function() {
+				   $('.yesScript').html('If you are reading this, your browser supports scripting!').show();
+				});
 			</script>
+			<p class="yesScript" style="display: none"></p>
 			<noscript>
 				If you are reading this, your browser does not support scripting, or you have it disabled.
 			</noscript>

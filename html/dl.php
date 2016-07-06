@@ -42,11 +42,11 @@
 		</figure>
 	</section>
 	<section>
-		<h4>Child Tags</h4>
+		<h4>Child tags of <code>&lt;dl&gt;</code></h4>
 		<dl>
 			<dt><code>&lt;dd&gt;</code></dt>
 			<dd>&#10551; Contains the definition of the preceding term.</dd>
-			<dt><code>dt</code></dt>
+			<dt><code>&lt;dt&gt;</code></dt>
 			<dd>&#10551; Contains the term to be defined.</dd>
 		</dl>
 	</section>
