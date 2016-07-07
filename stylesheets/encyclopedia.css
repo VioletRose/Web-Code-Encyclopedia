@@ -10,7 +10,7 @@ body {
 	width: 60vw;
 }
 
-code, kbd, pre, samp {
+code, kbd, pre, samp, textarea {
 	font-family: 'Inconsolata', monospace;
 }
 

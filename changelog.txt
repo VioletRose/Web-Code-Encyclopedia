@@ -1,3 +1,15 @@
+Thursday, July 7th, 2016
+html.php: Updated; added multiple new sections about other web languages and proper HTML syntax.
+html/table.php: Updated; added sectioning, revamped the example, and added sections detailing child tags, attributes, and attributes of child tags.
+html/textarea.php: Updated; added sectioning, revised the description, revamped the example, and added a section detailing attributes.
+html/time.php: Updated; added sectioning, revised the description, and added a section detailing the element's attribute.
+html/title.php: Updated; added sectioning.
+html/u.php: Updated; added sectioning, and revised the description.
+html/ul.php: Updated; added sectioning, and added a section detailing the element's child tag.
+html/var.php: Updated; added sectioning, revised the description to match current standards, and revised the example.
+html/wbr.php: Updated; added sectioning, and revised the description.
+stylesheets/encyclopedia.css: Added <textarea> to the list of monospace elements to use Inconsolata.
+
 Wednesday, July 6th, 2016
 html/main.php: Updated; corrected the example code.
 html/noscript.php: Updated; the script now has proper comment syntax.
