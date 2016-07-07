@@ -12,29 +12,41 @@
 			<code>
 				&lt;main&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Another of the many Syntactic Web containers, and a compliment to &amp;lt;body&amp;gt;, &amp;lt;main&amp;gt; is meant to hold the bulk of the individual page's content, distinct from things like navigation bars and copyright footers.&lt;/p&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;section&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;h4&gt;Example:&lt;/h4&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;This Syntactic Web element designates any contained elements or text as the main content of the webpage, separate from things like navigation bars and copyright footers.&lt;/p&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;figure&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;/section&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;code&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;section&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--Sorry, only one recursion deep.--&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h4&gt;Example of use:&lt;/h4&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/code&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figure&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figure&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;code&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;h4&gt;Will be rendered as:&lt;/h4&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--Sorry, only one recursion deep.--&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;figure&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/code&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;iframe height="959" src="/html/main.php" width="539"&gt;&lt;/iframe&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figure&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figure&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;/section&gt;
 				<br>
-				&lt;/main&gt;	
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;section&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h4&gt;Will be rendered as:&lt;/h4&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figure&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;iframe height="959" src="/html/main.php" width="539"&gt;&lt;/iframe&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figure&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;/section&gt;
+				<br>
+				&lt;/main&gt;
 			</code>
 		</figure>
 	</section>

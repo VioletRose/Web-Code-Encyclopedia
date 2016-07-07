@@ -14,16 +14,16 @@ code, kbd, pre, samp {
 	font-family: 'Inconsolata', monospace;
 }
 
-dd {
-	margin-bottom: 20px;
-	margin-left: 0;
-}
-
 details dl {
 	margin-left: 40px;
 }
 
-footer, header, section {
+dl:not(#exampledl) dd {
+	margin-bottom: 20px;
+	margin-left: 0;
+}
+
+footer, header, section:not(.exampleFHS) {
 	background-color: white;
 	border-color: #7F00FF;
 	border-style: solid;
@@ -31,15 +31,9 @@ footer, header, section {
 	margin-top: 8px;
 }
 
-section > * {
+section:not(.exampleFHS) > * {
 	margin-left: 8px;
 	margin-right: 8px;
-}
-
-.exampleFHS /*Footer/Header/Section, which are given default styling rules above, but I want the examples to be displayed in their unmodified forms.*/{
-	border-style: none;
-	margin-bottom: 0px;
-	margin-top: 0px;
 }
 
 .HTMLBody {
@@ -134,9 +128,4 @@ section > * {
 
 #exampledialog {
 	height: 165px;/*<dialog> is not counted as a child element, so the containing section was rendering too small. I am currently using this as a workaround until I can script it properly.-->*/
-}
-
-#exampledl dd {
-	margin-bottom: 0;
-	margin-left: 40px;
 }

@@ -1,3 +1,21 @@
+Wednesday, July 6th, 2016
+html/main.php: Updated; corrected the example code.
+html/noscript.php: Updated; the script now has proper comment syntax.
+html/q.php: Updated; added sectioning, and added a section detailing the element's attribute.
+html/ruby.php: Updated; added sectioning, revised the example, and added a section detailing child tags.
+html/s.php: Updated; added sectioning, revised the description to match current standards, and revised the example to correctly show its use.
+html/samp.php: Updated; added sectioning, and revised the description to match current standards.
+html/script.php: Updated; added sectioning, changed the script to a JQuery script.
+html/section.php: Updated; added sectioning, and revised the description to match current standards.
+html/select.php: Updated; added sectioning, revamped the example, and added sections detailing child tags, attributes, and attributes of child tags.
+html/small.php: Updated; added sectioning, and revised the example.
+html/span.php: Updated; added sectioning, and revised the description.
+html/strong.php: Updated; added sectioning, revised the description to match current standards, and revised the example.
+html/style.php: Updated; added sectioning, revised the description, revamped the example, and added a section detailing the tag's attributes.
+html/sub.php: Updated; added sectioning, and revised the description.
+html/sup.php: Updated; added sectioning, revised the description, and revised the example.
+stylesheets/encyclopedia.css: Updated; removed counteraction rules for multiple classes and ids and added those classes/ids as exceptions to the relevant rules instead.
+
 Tuesday, July 5th, 2016
 Changed comment formatting sitewide - comments now occupy the same line that they refer to.
 Added the Javascript library JQuery to the site.

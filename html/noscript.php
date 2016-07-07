@@ -12,7 +12,7 @@
 			<code>
 				&lt;script&gt;
 				<br>
-				&lt;!--This is calling the JQuery library, and is not normal Javascript.--&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;/*This is calling the JQuery library, and is not normal Javascript.*/
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;$(document).ready(function() {
 				<br>
@@ -24,11 +24,7 @@
 				<br>
 				&lt;p class="yesScript" style="display: none"&gt;&lt;/p&gt;
 				<br>
-				&lt;noscript&gt;
-				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;If you are reading this, your browser does not support scripting, or you have it disabled.
-				<br>
-				&lt;/noscript&gt;
+				&lt;noscript&gt;If you are reading this, your browser does not support scripting, or you have it disabled.&lt;/noscript&gt;
 			</code>
 		</figure>
 	</section>
@@ -36,15 +32,13 @@
 		<h4>Will be rendered as:</h4>
 		<figure>
 		    <script>
-				<!--This is calling the JQuery library, and is not normal Javascript.-->
+				/*This is calling the JQuery library, and is not normal Javascript.*/
 				$(document).ready(function() {
-				   $('.yesScript').html('If you are reading this, your browser supports scripting!').show();
+					$('.yesScript').html('If you are reading this, your browser supports scripting!').show();
 				});
 			</script>
 			<p class="yesScript" style="display: none"></p>
-			<noscript>
-				If you are reading this, your browser does not support scripting, or you have it disabled.
-			</noscript>
+			<noscript>If you are reading this, your browser does not support scripting, or you have it disabled.</noscript>
 		</figure>
 	</section>
 </main>	
