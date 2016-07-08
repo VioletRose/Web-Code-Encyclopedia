@@ -22,6 +22,7 @@ if(isset($formSubmitted)) {
 
 <main>
 	<section>
+		<p><strong>This page is currently incomplete!</strong></p>
 		<p>This element is the basis for creating forms for user input, ranging from simple to complex. I will provide a simple demonstration, however, the full scope of this element, its associated elements, and the attributes thereof is <em>well</em> beyond this project, and as such, most of them will be explained rather than demonstrated.</p>
 	</section>
 	<section>

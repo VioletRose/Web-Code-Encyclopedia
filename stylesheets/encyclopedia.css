@@ -101,14 +101,6 @@ section:not(.exampleFHS) > * {
 	text-align: center;
 }
 
-.unsectionedmain /*This class exists so pages I haven't added sectioning to yet won't be broken by prior style changes; it will be removed once everything is updated.*/{
-	background-color: white;
-	border-color: #7F00FF;
-	border-style: solid;
-	margin-bottom: 8px;
-	margin-top: 8px;
-}
-
 .unsectionedmain > * {
 	margin-left: 8px;
 	margin-right: 8px;
