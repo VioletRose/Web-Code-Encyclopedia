@@ -42,7 +42,7 @@
 		<li><a href="/html/main.php"><code>&lt;main&gt;</code></a></li>
 		<li><a href="/html/meter.php"><code>&lt;meter&gt;</code></a></li>
 		<li><a class="needsAttn" href="/html/map.php"><code>&lt;map&gt;</code></a></li>
-		<li><a class="needsAttn" href="/html/menu.php"><code>&lt;menu&gt;</code></a></li>
+		<li><a href="/html/menu.php"><code>&lt;menu&gt;</code></a></li>
 		<li><a href="/html/nav.php"><code>&lt;nav&gt;</code></a></li>
 		<li><a href="/html/object.php"><code>&lt;object&gt;</code></a></li>
 		<li><a href="/html/ol.php"><code>&lt;ol&gt;</code></a></li>
@@ -52,7 +52,7 @@
 		<li><a href="/html/section.php"><code>&lt;section&gt;</code></a></li>
 		<li><a href="/html/table.php"><code>&lt;table&gt;</code></a></li>
 		<li><a href="/html/ul.php"><code>&lt;ul&gt;</code></a></li>
-		<li><a class="needsAttn" href="/html/video.php"><code>&lt;video&gt;</code></a></li>
+		<li><a href="/html/video.php"><code>&lt;video&gt;</code></a></li>
 	</ul>
 	<h4>Inline Blocks</h4>
 	<ul>
@@ -142,7 +142,7 @@
 				<a href="/html/ul.php"><code>&lt;ul&gt;</code></a>
 			</dd>
 			<dt><code>&lt;menuitem&gt;</code> &#10549;</dt>
-			<dd><a class="needsAttn" href="/html/menu.php"><code>&lt;menu&gt;</code></a></dd>
+			<dd><a href="/html/menu.php"><code>&lt;menu&gt;</code></a></dd>
 			<dt><code>&lt;optgroup&gt;</code> &#10549;</dt>
 			<dd><a href="/html/select.php"><code>&lt;select&gt;</code></a></dd>
 			<dt><code>&lt;option&gt;</code> &#10549;</dt>
@@ -175,7 +175,7 @@
 			<dt><code>&lt;tr&gt;</code> &#10549;</dt>
 			<dd><a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
 			<dt><code>&lt;track&gt;</code> &#10549;</dt>
-			<dd><a class="needsAttn" href="/html/video.php"><code>&lt;video&gt;</code></a></dd>
+			<dd><a href="/html/video.php"><code>&lt;video&gt;</code></a></dd>
 	</dl>
 	<h4>Deprecated Tags</h4>
 	<h5>(no examples given)</h5>

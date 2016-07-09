@@ -4,28 +4,27 @@
 ?>
 <main>
 	<section>
-		<p><strong>This page is currently incomplete!</strong></p>
 		<p>This element is a player for video content, specifically MP4, WebM, and Ogg files, though not every format currently works in every browser.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>
 		<figure>
 			<code>
-				&lt;video controls preload="none"&gt;&lt;/video&gt;
+				&lt;video controls height="539" poster="/images/bloomingrose.png" preload="none" src="/video/bloomingrose.mp4 width="959"&gt;&lt;/video&gt;
 			</code>
 		</figure>
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure>
-			<video controls preload="none"></video>
+			<video controls height="539" poster="/images/bloomingrose.png" preload="none" src="/video/bloomingrose.mp4" width="959"></video>
 		</figure>
 	</section>
 	<section>
 		<h4>Child tags of <code>&lt;video&gt;</code></h4>
 		<dl>
 			<dt><code>&lt;track&gt;</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; This tag indicates that a text track should be used along with the video content.</dd>
 		</dl>
 	</section>
 	<section>
@@ -96,6 +95,9 @@
 			<dd>&#10551; Specifies the language of the text track being linked to, using standard <a href="http://www.w3schools.com/tags/ref_language_codes.asp">ISO language codes</a>.</dd>
 		</dl>
 	</section>
+	<footer>
+		<h5>Sample video obtained from <a href="https://pixabay.com/videos/">Pixabay</a> under the CC0 Public Domain license.</h5>
+	</footer>
 </main>	
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');

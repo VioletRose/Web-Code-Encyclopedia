@@ -4,21 +4,39 @@
 ?>
 <main>
 	<section>
-		<p><strong>This page is currently incomplete!</strong></p>
-		<p>This tag creates a menu of items the user can click on to activate scripted effects. However, it is not widely implemented yet. The only browser that currently supports this tag is Mozilla Firefox, which only uses the context menu form.</p>
+		<p>This tag creates a menu of items the user can click on to activate scripted effects. However, it is not widely implemented yet. The only browser that currently supports this tag is Mozilla Firefox, which only uses the context menu form. As such, the example below will <em>only</em> display in Mozilla Firefox, and makes use of Mozilla's web API for its commands.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>
 		<figure>
 			<code>
-				
+				&lt;menu id="examplemenu" type="context"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;menuitem icon="/images/violetflower.png" label="Home" onclick="window.open('https://violetrose.prototeam.org/index.php');"&gt;&lt;/menuitem&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;menuitem icon="/images/violetflower.png" label="HTML" onclick="window.open('https://violetrose.prototeam.org/html.php');"&gt;&lt;/menuitem&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;menuitem icon="/images/violetflower.png" label="CSS" onclick="window.open('https://violetrose.prototeam.org/css.php');"&gt;&lt;/menuitem&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;menuitem icon="/images/violetflower.png" label="Javascript" onclick="window.open('https://violetrose.prototeam.org/javascript.php');"&gt;&lt;/menuitem&gt;
+				<br>
+				&lt;/menu&gt;
+				<br>
+				&lt;span contextmenu="examplemenu"&gt;Click this text to see the example menu!&lt;/span&gt;
 			</code>
 		</figure>
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure>
-			
+			<menu id="examplemenu" type="context">
+				<menuitem icon="/images/violetflower.png" label="Home" onclick="window.open('https://violetrose.prototeam.org/index.php');"></menuitem>
+				<menuitem icon="/images/violetflower.png" label="HTML" onclick="window.open('https://violetrose.prototeam.org/html.php');"></menuitem>
+				<menuitem icon="/images/violetflower.png" label="CSS" onclick="window.open('https://violetrose.prototeam.org/css.php');"></menuitem>
+				<menuitem icon="/images/violetflower.png" label="Javascript" onclick="window.open('https://violetrose.prototeam.org/javascript.php');"></menuitem>
+				<menuitem icon="/images/blocks.png" label="Clicky Clicky Blocks" onclick="window.open('https://violetrose.prototeam.org/other/blocks.html');"></menuitem><!--This is a secret-ish easter egg that leads to a silly little JQuery test I was working on =3-->
+			</menu>
+			<span contextmenu="examplemenu">Click this text to see the example menu!</span>
 		</figure>
 	</section>
 	<section>

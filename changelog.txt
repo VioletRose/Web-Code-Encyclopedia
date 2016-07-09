@@ -1,3 +1,9 @@
+Friday, July 8th, 2016
+html/htmlhead.php: Updated; removed .needsAttn from the <menu> and <video> links.
+html/menu.php: Updated; added example.
+html/video.php: Updated; added example.
+video/bloomingrose.mp4: Added.
+
 Thursday, July 7th, 2016
 html.php: Updated; added multiple new sections about other web languages and proper HTML syntax.
 html/form.php: Updated; added a disclaimer to the descriptive section.
