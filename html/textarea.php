@@ -24,7 +24,7 @@
 		<h4>Attributes</h4>
 		<dl>
 			<dt><code>autofocus</code></dt>
-			<dd>&#10551; If present, specifies that the element should be focused (selected) when the page loads.</dd>
+			<dd>&#10551; If present, specifies that the element should be focused (selected) when the page loads, scrolling down the page to its location if necessary.</dd>
 			<dt><code>cols</code></dt>
 			<dd>&#10551; Defines the width of the element, in characters.</dd>
 			<dt><code>dirname</code></dt>
@@ -32,7 +32,7 @@
 			<dt><code>disabled</code></dt>
 			<dd>&#10551; If present, the text field will be grayed out and unselectable.</dd>
 			<dt><code>form</code></dt>
-			<dd>&#10551; Specifies the id of an associated <code>&lt;form&gt;</code> element.</dd>
+			<dd>&#10551; Specifies the id of an associated <code>&lt;form&gt;</code> element. Not necessary if the element is a child of the <code>&lt;form&gt;</code> element./dd>
 			<dt><code>maxlength</code></dt>
 			<dd>&#10551; Defines the maximum number of characters allowed within the field.</dd>
 			<dt><code>name</code></dt>

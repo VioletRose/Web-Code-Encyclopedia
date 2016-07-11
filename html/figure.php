@@ -30,7 +30,7 @@
 		<figure>
 			<p>This is an example of how the navigation panel for the HTML section of my encyclopedia looked as of May 28th, 2016:</p>
 			<figure>
-				<img src="/images/navpanel.png" alt="Old HTML navigation panel" width="509" height="168"></img>
+				<img src="/images/navpanel.png" alt="Old HTML navigation panel" width="509" height="168">
 			</figure>
 			<p>As one can see, it was a very makeshift, unprofessional style, and fortunately was eventually overhauled completely.</p>
 		</figure>

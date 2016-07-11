@@ -51,11 +51,11 @@
 		<h4>Attributes of <code>&lt;select&gt;</code></h4>
 		<dl>
 			<dt><code>autofocus</code></dt>
-			<dd>&#10551; If present, specifies that the element should be focused (selected) when the page loads.</dd>
+			<dd>&#10551; If present, specifies that the element should be focused (selected) when the page loads, scrolling down the page to its location if necessary.</dd>
 			<dt><code>disabled</code></dt>
 			<dd>&#10551; If present, the element will not open its option list when clicked, and will be locked to its current value.</dd>
 			<dt><code>form</code></dt>
-			<dd>&#10551; Specifies the id of a <code>&lt;form&gt;</code> element the element is associated with.</dd>
+			<dd>&#10551; Specifies the id of an associated <code>&lt;form&gt;</code> element. Not necessary if the element is a child of the <code>&lt;form&gt;</code> element.</dd>
 			<dt><code>multiple</code></dt>
 			<dd>&#10551; If present, the option list will remain open, and multiple options from it can be selected with Shift-click, CTRL-click, or click-and-drag selection.</dd>
 			<dt><code>name</code></dt>

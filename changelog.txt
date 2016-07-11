@@ -1,3 +1,14 @@
+Sunday, July 10th, 2016
+Removed unnecessary closing tags for <img> sitewide.
+html/button.php: Updated; revised the attribute listings for autofocus and form.
+html/meter.php: Updated; revised the attribute listing for form.
+html/form.php: Updated; revamped the example, and corrected several errors in the attribute sections.
+html/formsubmission.php: Added.
+html/htmlhead.php: Updated; removed .needsAttn from the <form> links.
+html/object.php: Updated; revised the attribute listing for form.
+html/select.php: Updated; revised the attribute listings for autofocus and form.
+html/textarea.php: Updated; revised the attribute listings for autofocus and form.
+
 Friday, July 8th, 2016
 html/htmlhead.php: Updated; removed .needsAttn from the <menu> and <video> links.
 html/menu.php: Updated; added example.

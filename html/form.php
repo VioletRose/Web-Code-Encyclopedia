@@ -2,27 +2,8 @@
     $PAGE_NAME = '&lt;form&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<?php
-
-$formSubmitted = $_POST['submit'];
-
-if(isset($formSubmitted)) {
-?>
-
 <main>
 	<section>
-		<p>Your favorite color is <kbd><?php echo htmlspecialchars($_POST['FavColor']); ?></kbd>!</p>
-		<p>Your favorite flower is <kbd><?php echo htmlspecialchars($_POST['FavFlower']); ?></kbd>!</p>
-	</section>
-</main>
-
-<?php
-}else {
-?>
-
-<main>
-	<section>
-		<p><strong>This page is currently incomplete!</strong></p>
 		<p>This element is the basis for creating forms for user input, ranging from simple to complex. I will provide a simple demonstration, however, the full scope of this element, its associated elements, and the attributes thereof is <em>well</em> beyond this project, and as such, most of them will be explained rather than demonstrated.</p>
 	</section>
 	<section>
@@ -52,14 +33,52 @@ if(isset($formSubmitted)) {
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure>
-			<form action="form.php" method="POST">
-				Favorite color:
-				<input type="text" name="FavColor" value="Violet">
+			<form action="formsubmission.php" autocomplete="on" id="exampleform" method="POST" name="exampleform" target="_blank">
+				How did you find out about this website?
 				<br>
-				Favorite flower:
-				<input type="text" name="FavFlower" value="Rose">
+				<input dirname="referred.dir" list="referrals" name="referred">
+				<datalist id="referrals">
+					<option label="Link on Discord" selected value="Link on Discord">Link on Discord</option>
+					<option disabled label="Link on Skype" value="Link on Skype"></option>
+					<option label="Web search" value="Web search">Web search</option>
+					<option label="Checking random domains" value="Checking random domains">Checking random domains</option>
+					<option label="A psychic vision" value="A psychic vision">A psychic vision</option>
+					<option label="I like flowers!" value="I like flowers!">I like flowers!</option>
+				</datalist>
 				<br>
-				<input type="submit" name="submit" value="Submit">
+				<fieldset name="datestimes">
+					<legend>Dates and Times</legend>
+					What is the most historic date? <input form="exampleform" name="historicdate" type="date">
+					<br>
+					Pick a date and time, any will do! <input form="exampleform" name="anydatetime" type="datetime-local">
+					<br>
+					What month is your favorite? <input form="exampleform" name="favoritemonth" type="month">
+					<br>
+					What time is it? <input form="exampleform" name="whattime" type="time">
+					<br>
+					Select one week. Just one. <input form="exampleform" name="oneweek" type="week">
+				</fieldset>
+				Do you like flowers? <input checked name="likeflowers" readonly type="checkbox" value="like flowers">
+				<br>
+				Pick a color, any color! <input name="anycolor" type="color" value="#ead8ff">
+				<br>
+				What is your lucky number? <input name="luckynumber" type="number">
+				<br>
+				Try to find your lucky number! <input max="999" min="1" name="luckyfind" type="range">
+				<br>
+				If you had an account on this site, what would you make your password? <input name="vrwepassword" type="password">
+				<br>
+				Would you smooch a ghost? Yes: <input name="smooch" required type="radio" value="yes"> Maybe: <input disabled name="smooch" type="radio" value="maybe">
+				<br>
+				What code information would you search for online? <input name="codesearch" type="search">
+				<br>
+				Try to guess my phone number! <input name="guessnumber" pattern="\(?\d{3}\)?[\s-]\d{3}[\s-]\d{4}" placeholder="(???) ???-????" type="tel">
+				<br>
+				What's your favorite website? <input name="favwebsite" type="url">
+				<br>
+				<input dirname="feedback.dir" name="feedback" placeholder="Closing thoughts?" type="text">
+				<br>
+				<input name="submit" type="submit" value="Submit"><input type="reset" value="Reset">
 			</form>
 		</figure>
 	</section>
@@ -100,13 +119,13 @@ if(isset($formSubmitted)) {
 	<section>
 		<h4>Attributes of <code>&lt;form&gt;</code></h4>
 		<dl>
-			<dt><code>&lt;accept-charset&gt;</code></dt>
+			<dt><code>accept-charset</code></dt>
 			<dd>&#10551; Defines the character encoding the form data will be submitted with. If not defined, this will be the same as the page containing the <code>&lt;form&gt;</code> element. In theory, this attribute accepts any character set as a value, but in practice most will not function except for <code>UTF-8</code> and <code>ISO-8859-1</code>. Under almost any circumstance, <code>UTF-8</code> is preferable.</dd>
-			<dt><code>&lt;action&gt;</code></dt>
+			<dt><code>action</code></dt>
 			<dd>&#10551; Defines the target URL where the form data will be submitted to on completion.</dd>
-			<dt><code>&lt;autocomplete&gt;</code></dt>
+			<dt><code>autocomplete</code></dt>
 			<dd>&#10551; Defines whether the form should have autocomplete functionality <code>on</code> or <code>off</code>.</dd>
-			<dt><code>&lt;enctype&gt;</code></dt>
+			<dt><code>enctype</code></dt>
 			<dd>
 				&#10551; Defines how the form's data should be encoded before submission to the server. This is a different sort of encoding from the choice of character set.
 				<details>
@@ -121,7 +140,7 @@ if(isset($formSubmitted)) {
 					</dl>
 				</details>
 			</dd>
-			<dt><code>&lt;method&gt;</code></dt>
+			<dt><code>method</code></dt>
 			<dd>
 				&#10551; Defines which HTTP method will be used to submit the form data.
 				<details>
@@ -134,11 +153,11 @@ if(isset($formSubmitted)) {
 					</dl>
 				</summary>
 			</dd>
-			<dt><code>&lt;name&gt;</code></dt>
+			<dt><code>name</code></dt>
 			<dd>&#10551; Defines the name of the form, which can be used to target it with Javascript.</dd>
-			<dt><code>&lt;novalidate&gt;</code></dt>
+			<dt><code>novalidate</code></dt>
 			<dd>&#10551; If present, the form data will not be validated on submission.</dd>
-			<dt><code>&lt;target&gt;</code></dt>
+			<dt><code>target</code></dt>
 			<dd>
 				&#10551; Defines where the response will be displayed after submitting the form.
 				<details>
@@ -162,18 +181,18 @@ if(isset($formSubmitted)) {
 	<section>
 		<h4>Attributes of <code>&lt;fieldset&gt;</code></h4>
 		<dl>
-			<dt><code>&lt;disabled&gt;</code></dt>
+			<dt><code>disabled</code></dt>
 			<dd>&#10551; If present, input elements within the container will be grayed out and unusable.</dd>
-			<dt><code>&lt;form&gt;</code></dt>
-			<dd>&#10551; Specifies the id of the <code>&lt;form&gt;</code> element(s) the container is associated with.</dd>
-			<dt><code>&lt;name&gt;</code></dt>
+			<dt><code>form</code></dt>
+			<dd>&#10551; Specifies the id of the <code>&lt;form&gt;</code> element the container is associated with. Not necessary if the container is a child of the <code>&lt;form&gt;</code> element.</dd>
+			<dt><code>name</code></dt>
 			<dd>&#10551; Defines the name of the container. This can be used to target it with Javascript, and will appear in the submitted form data as well.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;input&gt;</code></h4>
 		<dl>
-			<dt><code>&lt;accept&gt;</code></dt>
+			<dt><code>accept</code></dt>
 			<dd>
 				&#10551; If <code>type</code> is set to <code>file</code>, defines which file types will be accepted.
 				<details>
@@ -192,23 +211,23 @@ if(isset($formSubmitted)) {
 					</dl>
 				</details>
 			</dd>
-			<dt><code>&lt;alt&gt;</code></dt>
+			<dt><code>alt</code></dt>
 			<dd>&#10551; If <code>type</code> is set to <code>image</code>, specifies alternate text for the image, to be displayed if for some reason the image fails to load.</dd>
-			<dt><code>&lt;autocomplete&gt;</code></dt>
+			<dt><code>autocomplete</code></dt>
 			<dd>&#10551; If <code>type</code> is set to a value that allows text input, defines whether the element should have autocomplete functionality <code>on</code> or <code>off</code>.</dd>
-			<dt><code>&lt;autofocus&gt;</code></dt>
-			<dd>&#10551; If present, specifies that the element should be focused (selected) when the page loads.</dd>
-			<dt><code>&lt;checked&gt;</code></dt>
+			<dt><code>autofocus</code></dt>
+			<dd>&#10551; If present, specifies that the element should be focused (selected) when the page loads, scrolling down the page to its location if necessary.</dd>
+			<dt><code>checked</code></dt>
 			<dd>&#10551; If <code>type</code> is set to <code>checkbox</code> or <code>radio</code>, specifies that the element should be checked by default when the user loads the page.</dd>
-			<dt><code>&lt;dirname&gt;</code></dt>
+			<dt><code>dirname</code></dt>
 			<dd>&#10551; If <code>type</code> is set to a value that allows text input, specifies that the text direction of the user's text input should be submitted along with the form data. Must be set to <code><i>name</i>.dir</code>, where <i>name</i> is the same as the element's <code>name</code> attribute.</dd>
-			<dt><code>&lt;disabled&gt;</code></dt>
+			<dt><code>disabled</code></dt>
 			<dd>&#10551; If present, the element will be grayed out and unusable.</dd>
-			<dt><code>&lt;form&gt;</code></dt>
-			<dd>&#10551; Specifies the id of <code>&lt;form&gt;</code> element(s) the element belongs to.</dd>
-			<dt><code>&lt;formaction&gt;</code></dt>
+			<dt><code>form</code></dt>
+			<dd>&#10551; Specifies the id of <code>&lt;form&gt;</code> element the element belongs to. Not necessary if the element is a child of the <code>&lt;form&gt;</code> element.</dd>
+			<dt><code>formaction</code></dt>
 			<dd>&#10551; Defines the target URL where the form data will be submitted to on completion.</dd>
-			<dt><code>&lt;formenctype&gt;</code></dt>
+			<dt><code>formenctype</code></dt>
 			<dd>
 				&#10551; Defines how the form's data should be encoded before submission to the server.
 				<details>
@@ -223,7 +242,7 @@ if(isset($formSubmitted)) {
 					</dl>
 				</details>
 			</dd>
-			<dt><code>&lt;formmethod&gt;</code></dt>
+			<dt><code>formmethod</code></dt>
 			<dd>
 				&#10551; Defines which HTTP method will be used to submit the form data.
 				<details>
@@ -236,9 +255,9 @@ if(isset($formSubmitted)) {
 					</dl>
 				</summary>
 			</dd>
-			<dt><code>&lt;formnovalidate&gt;</code></dt>
+			<dt><code>formnovalidate</code></dt>
 			<dd>&#10551; If present, the form data will not be validated on submission.</dd>
-			<dt><code>&lt;formtarget&gt;</code></dt>
+			<dt><code>formtarget</code></dt>
 			<dd>
 				&#10551; Defines where the response will be displayed after submitting the form.
 				<details>
@@ -257,35 +276,35 @@ if(isset($formSubmitted)) {
 					</dl>
 				</details>
 			</dd>
-			<dt><code>&lt;height&gt;</code></dt>
-			<dd>&#10551; Defines the height of the element, in pixels.</dd>
-			<dt><code>&lt;list&gt;</code></dt>
+			<dt><code>height</code></dt>
+			<dd>&#10551; If <code>type</code> is set to <code>image</code>, defines the height of the element, in pixels.</dd>
+			<dt><code>list</code></dt>
 			<dd>&#10551; Specifies the id of a <code>&lt;datalist&gt;</code> element that should be associated with this <code>&lt;input&gt;</code> element.</dd>
-			<dt><code>&lt;max&gt;</code></dt>
+			<dt><code>max</code></dt>
 			<dd>&#10551; If <code>type</code> is set to a value that allows numeric input, specifies a maximum allowed integer.</dd>
-			<dt><code>&lt;maxlength&gt;</code></dt>
+			<dt><code>maxlength</code></dt>
 			<dd>&#10551; If <code>type</code> is set to a value that allows text input, specifies a maximum character length.</dd>
-			<dt><code>&lt;min&gt;</code></dt>
+			<dt><code>min</code></dt>
 			<dd>&#10551; If <code>type</code> is set to a value that allows numeric input, specifies a minimum allowed integer.</dd>
-			<dt><code>&lt;multiple&gt;</code></dt>
+			<dt><code>multiple</code></dt>
 			<dd>&#10551; If <code>type</code> is set to <code>email</code> or <code>file</code>, specifies that the user may submit multiple entries at once.</dd>
-			<dt><code>&lt;name&gt;</code></dt>
+			<dt><code>name</code></dt>
 			<dd>&#10551; Defines the name of the element, which can be used to target it with Javascript.</dd>
-			<dt><code>&lt;pattern&gt;</code></dt>
-			<dd>&#10551; If <code>type</code> is set to a value that allows text input, specifies a regular expression to define what inputs will be allowed. If the user's input doesn't match the regular expression, the form cannot be submitted and the user will be asked to correct their input. For information on how a regular expression is formatted, see <a href="http://www.w3schools.com/js/js_regexp.asp">here</a></dd>
-			<dt><code>&lt;placeholder&gt;</code></dt>
+			<dt><code>pattern</code></dt>
+			<dd>&#10551; If <code>type</code> is set to a value that allows text input, specifies a regular expression (without beginning or ending flags) to define what inputs will be allowed. If the user's input doesn't match the regular expression, the form cannot be submitted and the user will be asked to correct their input. For information on how a regular expression is formatted, see <a href="http://www.w3schools.com/js/js_regexp.asp">here</a>.</dd>
+			<dt><code>placeholder</code></dt>
 			<dd>&#10551; If <code>type</code> is set to a value that allows text input, defines placeholder text that will appear in the field until the user begins typing, as a hint about the type of data required.</dd>
-			<dt><code>&lt;readonly&gt;</code></dt>
+			<dt><code>readonly</code></dt>
 			<dd>&#10551; If present, specifies that the value of the element cannot be changed by the user.</dd>
-			<dt><code>&lt;required&gt;</code></dt>
+			<dt><code>required</code></dt>
 			<dd>&#10551; If present, completing this entry is required for the form to be submitted.</dd>
-			<dt><code>&lt;size&gt;</code></dt>
+			<dt><code>size</code></dt>
 			<dd>&#10551; Defines the width, in characters, of the element.</dd>
-			<dt><code>&lt;src&gt;</code></dt>
+			<dt><code>src</code></dt>
 			<dd>&#10551; If <code>type</code> is set to <code>image</code>, specifies the URL of the image to be displayed.</dd>
-			<dt><code>&lt;step&gt;</code></dt>
+			<dt><code>step</code></dt>
 			<dd>&#10551; If <code>type</code> is set to a value that allows numeric input, specifies how many steps at a time the integer will be increased/decreased by the up/down buttons.</dd>
-			<dt><code>&lt;type&gt;</code></dt>
+			<dt><code>type</code></dt>
 			<dd>
 				&#10551; Defines the type of the <code>&lt;input&gt;</code> element, which determines what kinds of input it will accept. Numeric selectors come with integrated up/down arrows to adjust their value.
 				<details>
@@ -308,7 +327,7 @@ if(isset($formSubmitted)) {
 						<dt><code>hidden</code></dt>
 						<dd>&#10551; An input field that is not displayed to the user.</dd>
 						<dt><code>image</code></dt>
-						<dd>&#10551; A clickable image.</dd>
+						<dd>&#10551; A clickable image, which both acts as a submit button and registers the user's input in the format <samp>x=<i>coordinate</i>&y=<i>coordinate</i></samp>, with each coordinate being the specific horizontal and vertical pixels of the image that the user clicked.</dd>
 						<dt><code>month</code></dt>
 						<dd>&#10551; A preformatted numeric selector for month and year, in <i>month_name</i>, yyyy format.</dd>
 						<dt><code>number</code></dt>
@@ -338,51 +357,46 @@ if(isset($formSubmitted)) {
 					</dl>
 				</details>
 			</dd>
-			<dt><code>&lt;value&gt;</code></dt>
+			<dt><code>value</code></dt>
 			<dd>&#10551; Specifies the default value of the element. If <code>type</code> is set to a value that allows text input, the user's input will override this in the submitted form data.</dd>
-			<dt><code>&lt;width&gt;</code></dt>
+			<dt><code>width</code></dt>
 			<dd>&#10551; Defines the width of the element, in pixels.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;label&gt;</code></h4>
 		<dl>
-			<dt><code>&lt;for&gt;</code></dt>
+			<dt><code>for</code></dt>
 			<dd>&#10551; Specifies the id of the <code>&lt;input&gt;</code> element the label is associated with.</dd>
-			<dt><code>&lt;form&gt;</code></dt>
-			<dd>&#10551; Specifies the id of <code>&lt;form&gt;</code> element(s) the label belongs to.</dd>
+			<dt><code>form</code></dt>
+			<dd>&#10551; Specifies the id of <code>&lt;form&gt;</code> element(s) the label belongs to. Not necessary if the label is a child of the <code>&lt;form&gt;</code> element.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;output&gt;</code></h4>
 		<dl>
-			<dt><code>&lt;for&gt;</code></dt>
+			<dt><code>for</code></dt>
 			<dd>&#10551; Specifies the id of the <code>&lt;input&gt;</code> element the label is associated with.</dd>
-			<dt><code>&lt;form&gt;</code></dt>
-			<dd>&#10551; Specifies the id of <code>&lt;form&gt;</code> element(s) the label belongs to.</dd>
-			<dt><code>&lt;name&gt;</code></dt>
+			<dt><code>form</code></dt>
+			<dd>&#10551; Specifies the id of the <code>&lt;form&gt;</code> element the label belongs to. Not necessary if the label is a child of the <code>&lt;form&gt;</code> element.</dd>
+			<dt><code>name</code></dt>
 			<dd>&#10551; Defines a name for the element. This can be used to target it with Javascript.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;option&gt;</code></h4>
 		<dl>
-			<dt><code>&lt;disabled&gt;</code></dt>
+			<dt><code>disabled</code></dt>
 			<dd>&#10551; If present, this option will be displayed, but cannot be selected.</dd>
-			<dt><code>&lt;label&gt;</code></dt>
+			<dt><code>label</code></dt>
 			<dd>&#10551; Defines a label for the option, which will be displayed <em>instead</em> of the included text.</dd>
-			<dt><code>&lt;selected&gt;</code></dt>
-			<dd>&#10551; Specifies that the option should be pre-selected when the page loads. By default, the first option defined will be pre-selected.</dd>
-			<dt><code>&lt;value&gt;</code></dt>
+			<dt><code>selected</code></dt>
+			<dd>&#10551; Specifies that the option should be pre-selected when the page loads. Note: this does nothing in an <code>&lt;input&gt;</code> element.</dd>
+			<dt><code>value</code></dt>
 			<dd>&#10551; Defines a text string associated with the option, which is what actually gets submitted with the form data.</dd>
 		</dl>
 	</section>
 </main>
-
-<?php
-    }
-?>
-
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

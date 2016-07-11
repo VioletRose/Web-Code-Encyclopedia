@@ -36,7 +36,7 @@
 			<dt><code>data</code></dt>
 			<dd>&#10551; Specifies the URL of the content to be embedded.</dd>
 			<dt><code>form</code></dt>
-			<dd>&#10551; Specifies the id of an associated <code>&lt;form&gt;</code> element.</dd>
+			<dd>&#10551; Specifies the id of an associated <code>&lt;form&gt;</code> element. Not necessary if the element is a child of the <code>&lt;form&gt;</code> element.</dd>
 			<dt><code>height</code></dt>
 			<dd>&#10551; Defines the height of the element, in pixels.</dd>
 			<dt><code>name</code></dt>

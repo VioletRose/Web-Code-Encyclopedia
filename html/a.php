@@ -25,7 +25,7 @@
 		<figure>
 			<a href="/html.php">
 				<p>Click here to be directed back to the main page about HTML! Or, click this image!</p>
-				<img src="/images/html.png"></img>
+				<img src="/images/html.png">
 			</a>
 		</figure>
 	</section>

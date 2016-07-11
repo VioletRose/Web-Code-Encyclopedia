@@ -48,7 +48,7 @@
 		<h4>Attributes</h4>
 		<dl>
 			<dt><code>form</code></dt>
-			<dd>Specifies the id of an associated <code>&lt;form&gt;</code> element.</dd>
+			<dd>Specifies the id of an associated <code>&lt;form&gt;</code> element. Not necessary if the element is a child of the <code>&lt;form&gt;</code> element.</dd>
 			<dt><code>high</code></dt>
 			<dd>Defines the numeric value above which the meter will be considered high. Above this value, the meter will show as yellow.</dd>
 			<dt><code>low</code></dt>

@@ -13,19 +13,17 @@
 			<code>
 				&lt;img src="/images/mapbuttons.png" width="171" height="93" alt="areabuttons" usemap="#buttonmap"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;map name="buttonmap"&gt;
+				&lt;map name="buttonmap"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;area shape="rect" coords="0,0,58,30" href="/index.php" alt="Home"&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;area shape="rect" coords="0,0,58,30" href="/index.php" alt="Home"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;area shape="rect" coords="158,0,170,29" href="/html.php" alt="HTML"&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;area shape="rect" coords="158,0,170,29" href="/html.php" alt="HTML"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;area shape="rect" coords="0,62,37,92" href="/css.php" alt="CSS"&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;area shape="rect" coords="0,62,37,92" href="/css.php" alt="CSS"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;area shape "rect" coords="81,62,170,92" href="/javascript.php" alt="Javascript"&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;area shape "rect" coords="81,62,170,92" href="/javascript.php" alt="Javascript"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;/map&gt;
-				<br>
-				&lt;/img&gt;
+				&lt;/map&gt;
 			</code>
 		</figure>
 	</section>
@@ -33,13 +31,12 @@
 		<h4>Will be rendered as:</h4>
 		<figure>
 			<img src="/images/mapbuttons.png" width="171" height="93" alt="areabuttons" usemap="#buttonmap">
-				<map name="buttonmap">
-					<area shape="rect" coords="0,0,58,30" href="/index.php" alt="Home">
-					<area shape="rect" coords="115,0,170,29" href="/html.php" alt="HTML">
-					<area shape="rect" coords="0,62,37,92" href="/css.php" alt="CSS">
-					<area shape "rect" coords="81,62,170,92" href="/javascript.php" alt="Javascript">
-				</map>
-			</img>
+			<map name="buttonmap">
+				<area shape="rect" coords="0,0,58,30" href="/index.php" alt="Home">
+				<area shape="rect" coords="115,0,170,29" href="/html.php" alt="HTML">
+				<area shape="rect" coords="0,62,37,92" href="/css.php" alt="CSS">
+				<area shape "rect" coords="81,62,170,92" href="/javascript.php" alt="Javascript">
+			</map>
 		</figure>
 	</section>
 	<section>

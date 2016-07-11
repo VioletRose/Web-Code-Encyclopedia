@@ -34,7 +34,7 @@
 		<li><a href="/html/embed.php"><code>&lt;embed&gt;</code></a></li>
 		<li><a href="/html/figure.php"><code>&lt;figure&gt;</code></a></li>
 		<li><a href="/html/footer.php"><code>&lt;footer&gt;</code></a></li>
-		<li><a class="needsAttn" href="/html/form.php"><code>&lt;form&gt;</code></a></li>
+		<li><a href="/html/form.php"><code>&lt;form&gt;</code></a></li>
 		<li><a href="/html/h1-h6.php"><code>&lt;h1-h6&gt;</code></a></li>
 		<li><a href="/html/header.php"><code>&lt;header&gt;</code></a></li>
 		<li><a href="/html/hr.php"><code>&lt;hr&gt;</code></a></li>

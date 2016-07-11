@@ -17,7 +17,7 @@
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure>
-			<img src="/images/violetflower.png"></img>
+			<img src="/images/violetflower.png">
 		</figure>
 	</section>
 	<section>

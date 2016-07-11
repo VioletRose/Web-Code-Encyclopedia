@@ -30,11 +30,11 @@
 		<h4>Attributes</h4>
 		<dl>
 			<dt><code>autofocus</code></dt>
-			<dd>&#10551; If present, informs the web browser that this button should be autofocused when the page loads, selecting it for keyboard control in the same manner as the user pressing Tab.</dd>
+			<dd>&#10551; If present, specifies that the element should be focused (selected) when the page loads, scrolling down the page to its location if necessary.</dd>
 			<dt><code>disabled</code></dt>
 			<dd>&#10551; If present, the button will render, but be grayed out and unusable.</dd>
 			<dt><code>form</code></dt>
-			<dd>&#10551; If given a valid form id or multiple ids on the page as a value, the button's functionality will be bound to that form or forms.</dd>
+			<dd>&#10551; Specifies the id of an associated <code>&lt;form&gt;</code> element. Not necessary if the element is a child of the <code>&lt;form&gt;</code> element.</dd>
 			<dt><code>formaction</code></dt>
 			<dd>&#10551; Only works if <code>type</code> is <code>submit</code>. Defines an absolute or relative URL where the form's output will be sent.</dd>
 			<dt><code>formenctype</code></dt>
