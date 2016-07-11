@@ -10,21 +10,97 @@
 		<h4>Example of use:</h4>
 		<figure>
 			<code>
-				&lt;form action="form.php" method="POST"&gt;
+				&lt;form action="formsubmission.php" autocomplete="on" id="exampleform" method="POST" name="exampleform" target="_blank"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;Favorite color:
-				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" name="FavColor" value="Violet"&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;How did you find out about this website?
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;Favorite flower:
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;input dirname="referred.dir" list="referrals" name="referred"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text" name="FavFlower" value="Rose"&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;datalist id="referrals"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option label="Link on Discord" selected value="Link on Discord"&gt;Link on Discord&lt;/option&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option disabled label="Link on Skype" value="Link on Skype"&gt;&lt;/option&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option label="Web search" value="Web search"&gt;Web search&lt;/option&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option label="Checking random domains" value="Checking random domains"&gt;Checking random domains&lt;/option&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option label="A psychic vision" value="A psychic vision"&gt;A psychic vision&lt;/option&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;option label="I like flowers!" value="I like flowers!"&gt;I like flowers!&lt;/option&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;/datalist&gt;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="submit" name="submit" value="Submit"&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;fieldset name="datestimes"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;legend&gt;Dates and Times&lt;/legend&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What is the most historic date? &lt;input form="exampleform" name="historicdate" type="date"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pick a date and time, any will do! &lt;input form="exampleform" name="anydatetime" type="datetime-local"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What month is your favorite? &lt;input form="exampleform" name="favoritemonth" type="month"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What time is it? &lt;input form="exampleform" name="whattime" type="time"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select one week. Just one. &lt;input form="exampleform" name="oneweek" type="week"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;/fieldset&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;Do you like flowers? &lt;input checked name="likeflowers" readonly type="checkbox" value="like flowers"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;Pick a color, any color! &lt;input name="anycolor" type="color" value="#ead8ff"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;What is your lucky number? &lt;input name="luckynumber" type="number"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;Try to find your lucky number! &lt;input max="999" min="1" name="luckyfind" type="range"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;If you had an account on this site, what would you make your password? &lt;input name="vrwepassword" type="password"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;Would you smooch a ghost? Yes: &lt;input name="smooch" required type="radio" value="yes"&gt; Maybe: &lt;input disabled name="smooch" type="radio" value="maybe"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;What code information would you search for online? &lt;input name="codesearch" type="search"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;Try to guess my phone number! &lt;input name="guessnumber" pattern="\(?\d{3}\)?[\s-]\d{3}[\s-]\d{4}" placeholder="(???) ???-????" type="tel"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;What's your favorite website? &lt;input name="favwebsite" type="url"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;input dirname="feedback.dir" name="feedback" placeholder="Closing thoughts?" type="text"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;input name="submit" type="submit" value="Submit"&gt;&lt;input type="reset" value="Reset"&gt;
 				<br>
 				&lt;/form&gt;
 			</code>
