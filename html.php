@@ -4,7 +4,7 @@
 ?>
 <main>
 	<section>
-		<p>On every page in this section, on the left side of the screen you will find links to pages for each of the elements and tags used in HTML, sorted categorically and alphabetically. Each page will have a brief description of the element or tag, an example of its use, and a list of attributes applicable to it. Some tags only appear inside of other elements, which will not have dedicated pages; additionally, a list of deprecated tags is provided, but as these tags are not supported by modern web browsers, no examples will be given. On this page, you will also find explanations of the more basic concepts in HTML.</p>
+		<p>On every page in this section, on the left side of the screen you will find links to pages for each of the elements and tags used in HTML, sorted categorically and alphabetically, as well as a list of global attributes (which may be applied to nearly any logical element). Each page will have a brief description of the element or tag, an example of its use, and a list of attributes applicable to it. Some tags only appear inside of other elements, which will not have dedicated pages; additionally, a list of deprecated tags is provided, but as these tags are not supported by modern web browsers, no examples will be given. On this page, you will also find explanations of the more basic concepts in HTML.</p>
 	</section>
 	<section>
 		<h4>What is HTML?</h4>	

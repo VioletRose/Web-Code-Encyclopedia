@@ -4,7 +4,7 @@
 ?>
 <main>
 	<section>
-		<p>There is nothing here yet.</p>
+		<p><strong>This page is not complete yet!</strong></p>
 	</section>
 </main>	
 <?php

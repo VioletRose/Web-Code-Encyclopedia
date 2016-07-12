@@ -4,24 +4,23 @@
 ?>
 <main>
 	<section>
-		<p><strong>This page is currently incomplete!</strong></p>
 		<p>This tag creates an image map, which defines clickable areas inside of a single displayed image, each area having a different effect when clicked, either different link URLs or Javascript commands.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>
 		<figure>
 			<code>
-				&lt;img src="/images/mapbuttons.png" width="171" height="93" alt="areabuttons" usemap="#buttonmap"&gt;
+				&lt;img src="/images/examplemap.png" width="602" height="200" alt="Example Map" usemap="#examplemap"&gt;
 				<br>
-				&lt;map name="buttonmap"&gt;
+				&lt;map name="examplemap"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;area shape="rect" coords="0,0,58,30" href="/index.php" alt="Home"&gt;
+				&lt;area alt="Default" href="javascript:alert('You clicked the default region!')" shape="default"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;area shape="rect" coords="158,0,170,29" href="/html.php" alt="HTML"&gt;
+				&lt;area alt="Rectangle" coords="50,50,150,150" href="javascript:alert('You clicked the rectangle!')" shape="rect"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;area shape="rect" coords="0,62,37,92" href="/css.php" alt="CSS"&gt;
+				&lt;area alt="Circle" coords="301,100,51" href="javascript:alert('You clicked the circle!')" shape="circle"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;area shape "rect" coords="81,62,170,92" href="/javascript.php" alt="Javascript"&gt;
+				&lt;area alt="Polygon" coords="480,54,507,59,530,72,543,112,541,140,511,142,477,126,457,106,460,71," href="javascript:alert('You clicked the polygon!')" shape="poly"&gt;
 				<br>
 				&lt;/map&gt;
 			</code>
@@ -30,12 +29,12 @@
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure>
-			<img src="/images/mapbuttons.png" width="171" height="93" alt="areabuttons" usemap="#buttonmap">
-			<map name="buttonmap">
-				<area shape="rect" coords="0,0,58,30" href="/index.php" alt="Home">
-				<area shape="rect" coords="115,0,170,29" href="/html.php" alt="HTML">
-				<area shape="rect" coords="0,62,37,92" href="/css.php" alt="CSS">
-				<area shape "rect" coords="81,62,170,92" href="/javascript.php" alt="Javascript">
+			<img src="/images/examplemap.png" width="602" height="200" alt="Example Map" usemap="#examplemap">
+			<map name="examplemap">
+				<area alt="Default" href="javascript:alert('You clicked the default region!')" shape="default">
+				<area alt="Rectangle" coords="50,50,150,150" href="javascript:alert('You clicked the rectangle!')" shape="rect">
+				<area alt="Circle" coords="301,100,51" href="javascript:alert('You clicked the circle!')" shape="circle">
+				<area alt="Polygon" coords="480,54,507,59,530,72,543,112,541,140,511,142,477,126,457,106,460,71," href="javascript:alert('You clicked the polygon!')" shape="poly">
 			</map>
 		</figure>
 	</section>
@@ -59,7 +58,7 @@
 			<dt><code>alt</code></dt>
 			<dd>&#10551; Defines alternative text for the area, to be displayed if the image is incapable of loading for some reason.</dd>
 			<dt><code>coords</code></dt>
-			<dd>&#10551; Coordinates for the corners or points of the area, separated by a comma. How many are needed depends on <code>shape</code>: <code>default</code> does not need coordinates, <code>rect</code> requires a top left corner and bottom right corner, <code>circle</code> requires a center point and a radius, and <code>poly</code> may have as many points as desired to form its shape. All coordinates are measured in pixels, counting up from 0,0 at the top left, and each point requires both an x (horizontal) and y (vertical) coordinate.</dd>
+			<dd>&#10551; Coordinates for the corners or points of the area, separated by a comma. How many are needed depends on <code>shape</code>: <code>default</code> does not need coordinates, <code>rect</code> requires a top left corner and bottom right corner, <code>circle</code> requires a center point and a radius (half the size of the full circle), and <code>poly</code> may have as many points as desired to form its shape. All coordinates are measured in pixels, counting up from 0,0 at the top left, and each point requires both an x (horizontal) and y (vertical) coordinate.</dd>
 			<dt><code>download</code></dt>
 			<dd>&#10551; If present, specifies that the target of a hyperlink will be downloaded when the user clicks it.</dd>
 			<dt><code>href</code></dt>

@@ -41,7 +41,7 @@
 		<li><a href="/html/iframe.php"><code>&lt;iframe&gt;</code></a></li>
 		<li><a href="/html/main.php"><code>&lt;main&gt;</code></a></li>
 		<li><a href="/html/meter.php"><code>&lt;meter&gt;</code></a></li>
-		<li><a class="needsAttn" href="/html/map.php"><code>&lt;map&gt;</code></a></li>
+		<li><a href="/html/map.php"><code>&lt;map&gt;</code></a></li>
 		<li><a href="/html/menu.php"><code>&lt;menu&gt;</code></a></li>
 		<li><a href="/html/nav.php"><code>&lt;nav&gt;</code></a></li>
 		<li><a href="/html/object.php"><code>&lt;object&gt;</code></a></li>
@@ -111,7 +111,7 @@
 	<h4>Child Elements</h4>
 	<dl>
 			<dt><code>&lt;area&gt;</code> &#10549;</dt>
-			<dd><a class="needsAttn" href="/html/map.php"><code>&lt;map&gt;</code></a></dd>
+			<dd><a href="/html/map.php"><code>&lt;map&gt;</code></a></dd>
 			<dt><code>&lt;caption&gt;</code> &#10549;</dt>
 			<dd><a href="/html/table.php"><code>&lt;table&gt;</code></a></dd>
 			<dt><code>&lt;col&gt;</code> &#10549;</dt>

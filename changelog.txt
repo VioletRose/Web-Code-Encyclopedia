@@ -1,3 +1,16 @@
+Monday, July 11th, 2016
+css.php: Updated; now uses css/csshead.php instead of generichead.php, and began writing a description of contents.
+html.php: Updated; slight addition to the first paragraph about the list of global attributes.
+javascript.php: Updated; revised the description to be a more strongly worded disclaimer.
+css/csshead.php: Added.
+html/htmlhead.php: Updated; removed .needsAttn from the <map> links.
+html/map.php: Updated; revamped the example, and added additional explanation about the radius.
+images/blocks.png: Updated; reduced file size by converting to indexed colors.
+images/examplemap.png: Added.
+images/mapbuttons.png: Removed.
+images/violetflower.png: Updated; replaced white space with transparency, and reduced file size by converting to indexed colors.
+stylesheets/encyclopedia.css: Updated; removed an unnecessary space.
+
 Sunday, July 10th, 2016
 Removed unnecessary closing tags for <img> sitewide.
 html/button.php: Updated; revised the attribute listings for autofocus and form.

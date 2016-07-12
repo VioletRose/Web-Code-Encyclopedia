@@ -38,7 +38,7 @@ section:not(.exampleFHS) > * {
 
 .HTMLBody {
 	margin-left: calc(20vw + 75px);
-	margin-right: calc(20vw + 75px);/* The sidebar is 150px wide, so for the content to remain centered, each margin must be adjusted by half of that amount.*/
+	margin-right: calc(20vw + 75px);/*The sidebar is 150px wide, so for the content to remain centered, each margin must be adjusted by half of that amount.*/
 }
 
 .navSidebar, .navTopbar {
