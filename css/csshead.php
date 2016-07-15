@@ -19,7 +19,23 @@
 	</nav>
 </header>
 <nav class="navSidebar">
+	<h4><a href="/css/colors.php">Web Colors</a></h4>
+	<h4>Properties</h4>
 	<ul>
-		<li><code>&lt;page&gt;</code></li>
+		<!--For copy/paste purposes: <li><a href=""><code></code></a></li>-->
+		<li><a class="needsAttn" href=""><code>align-content<code></code></a></li>
+		<li><a class="needsAttn" href=""><code>align-items</code></a></li>
+		<li><a class="needsAttn" href=""><code>align-self</code></a></li>
+		<li><a href="/css/all.php"><code>all</code></a></li>
+		<li><a class="needsAttn" href=""><code>animation</code></a></li>
+		<li><a class="needsAttn" href=""><code>animation-delay</code></a></li>
+		<li><a class="needsAttn" href=""><code>animation-direction</code></a></li>
+		<li><a class="needsAttn" href=""><code>animation-duration</code></a></li>
+		<li><a class="needsAttn" href=""><code>animation-fill-mode</code></a></li>
+		<li><a class="needsAttn" href=""><code>animation-iteration-count</code></a></li>
+		<li><a class="needsAttn" href=""><code>animation-name</code></a></li>
+		<li><a class="needsAttn" href=""><code>animation-play-state</code></a></li>
+		<li><a class="needsAttn" href=""><code>animation-timing-function</code></a></li>
+		<li><a href="/css/backface-visibility.php"><code>backface-visibility</code></a></li>
 	</ul>
 </nav>

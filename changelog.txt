@@ -1,3 +1,15 @@
+Thursday, July 14th, 2016
+css.php: Updated; added multiple sections on the subject of basic CSS concepts.
+css/all.php: Added.
+css/backface-visibility.php: Added.
+css/csshead.php: Updated; added a Properties list.
+
+Wednesday, July 13th, 2016
+css/colors.php: Added.
+css/csshead.php: Updated; added Web Colors link.
+html/style.php: Updated; added a disclaimer to the scoped attribute.
+stylesheets/encyclopedia.css: Updated; added rules for styling the Web Colors page.
+
 Monday, July 11th, 2016
 css.php: Updated; now uses css/csshead.php instead of generichead.php, and began writing a description of contents.
 html.php: Updated; slight addition to the first paragraph about the list of global attributes.

@@ -47,7 +47,7 @@
 			<dt><code>media</code></dt>
 			<dd>&#10551; Specifies which media and/or device the linked content is optimized for; see <a href="http://www.w3schools.com/tags/att_a_media.asp">here</a> for accepted values.</dd>
 			<dt><code>scoped</code></dt>
-			<dd>&#10551; If present, the CSS rules within the tag will only apply to the containing element and any child elements.</dd>
+			<dd>&#10551; If present, the CSS rules within the tag will only apply to the containing element and any child elements. Note that this attribute is currently quite new and almost completely unsupported by web browsers.</dd>
 			<dt><code>type</code></dt>
 			<dd>&#10551; Specifies the media type of the tag, i.e. what type of code it should be expecting. This attribute is defunct, as its only accepted value, <code>text/css</code>, is now the default.</dd>
 		</dl>

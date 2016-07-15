@@ -101,11 +101,6 @@ section:not(.exampleFHS) > * {
 	text-align: center;
 }
 
-.unsectionedmain > * {
-	margin-left: 8px;
-	margin-right: 8px;
-}
-
 .verticalCentering {
     position: absolute;/*The parent of this attribute must have position set to relative in order for the absolute position to have the proper position content.*/
 	top: 50%;
@@ -116,6 +111,38 @@ section:not(.exampleFHS) > * {
 
 #changelog {
 	white-space: pre-wrap;
+}
+
+#colorGroup {
+	width: 96px;
+}
+
+#colorHex {
+	width: 101px;
+}
+
+#colorName {
+	width: 227px;
+}
+
+#colorRGB {
+	width: 103px;
+}
+
+#colorTableSection {
+	height: 99vh;
+	overflow-y: scroll;
+	text-align: center;
+}
+
+#colorTableSection caption {
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+
+#colorTableSection table {
+	margin: 8px auto;
+	width: 98%;
 }
 
 #exampledialog {

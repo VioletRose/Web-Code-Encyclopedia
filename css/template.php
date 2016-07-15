@@ -29,6 +29,10 @@
 		<dl>
 			<dt><code><!--A value goes here.--></code></dt>
 			<dd>&#10551; <!--A description of the above value goes here.--></dd>
+			<dt><code>initial</code></dt>
+			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dt><code>inherit</code></dt>
+			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>
