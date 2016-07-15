@@ -1,3 +1,7 @@
+Friday, July 15th, 2016
+css.php: Updated; finished populating the sections on basic CSS concepts.
+css/csshead.php: Updated; removed redundant links and fixed an unclosed <code> tag.
+
 Thursday, July 14th, 2016
 css.php: Updated; added multiple sections on the subject of basic CSS concepts.
 css/all.php: Added.
