@@ -1,0 +1,237 @@
+Monday, July 18th, 2016
+css/animation: Updated; completed the page.
+css/csshead.php: Updated; removed .needsAttn from the animation link.
+
+Sunday, July 17th, 2016
+css.php: Updated; added new sections on measurement units and responsive design, and minor tweaks.
+css/animation.php: Added; the example and the section on animation-timing-function are currently incomplete.
+css/backface-visibility.php: Updated; added an anchor to the required property, and clarified one value listing.
+css/keyframes.php: Added; currently a placeholder.
+css/transform.php: Added; currently a placeholder.
+
+Friday, July 15th, 2016
+css.php: Updated; finished populating the sections on basic CSS concepts.
+css/csshead.php: Updated; removed redundant links and fixed an unclosed <code> tag.
+
+Thursday, July 14th, 2016
+css.php: Updated; added multiple sections on the subject of basic CSS concepts.
+css/all.php: Added.
+css/backface-visibility.php: Added.
+css/csshead.php: Updated; added a Properties list.
+
+Wednesday, July 13th, 2016
+css/colors.php: Added.
+css/csshead.php: Updated; added Web Colors link.
+html/style.php: Updated; added a disclaimer to the scoped attribute.
+stylesheets/encyclopedia.css: Updated; added rules for styling the Web Colors page.
+
+Monday, July 11th, 2016
+css.php: Updated; now uses css/csshead.php instead of generichead.php, and began writing a description of contents.
+html.php: Updated; slight addition to the first paragraph about the list of global attributes.
+javascript.php: Updated; revised the description to be a more strongly worded disclaimer.
+css/csshead.php: Added.
+html/htmlhead.php: Updated; removed .needsAttn from the <map> links.
+html/map.php: Updated; revamped the example, and added additional explanation about the radius.
+images/blocks.png: Updated; reduced file size by converting to indexed colors.
+images/examplemap.png: Added.
+images/mapbuttons.png: Removed.
+images/violetflower.png: Updated; replaced white space with transparency, and reduced file size by converting to indexed colors.
+stylesheets/encyclopedia.css: Updated; removed an unnecessary space.
+
+Sunday, July 10th, 2016
+Removed unnecessary closing tags for <img> sitewide.
+html/button.php: Updated; revised the attribute listings for autofocus and form.
+html/meter.php: Updated; revised the attribute listing for form.
+html/form.php: Updated; revamped the example, and corrected several errors in the attribute sections.
+html/formsubmission.php: Added.
+html/htmlhead.php: Updated; removed .needsAttn from the <form> links.
+html/object.php: Updated; revised the attribute listing for form.
+html/select.php: Updated; revised the attribute listings for autofocus and form.
+html/textarea.php: Updated; revised the attribute listings for autofocus and form.
+
+Friday, July 8th, 2016
+html/htmlhead.php: Updated; removed .needsAttn from the <menu> and <video> links.
+html/menu.php: Updated; added example.
+html/video.php: Updated; added example.
+video/bloomingrose.mp4: Added.
+
+Thursday, July 7th, 2016
+html.php: Updated; added multiple new sections about other web languages and proper HTML syntax.
+html/form.php: Updated; added a disclaimer to the descriptive section.
+html/map.php: Updated; added sectioning, revised the description, and added sections detailing child tags, attributes, and attributes of child tags.
+html/menu.php: Updated; added sectioning, revised the description, and added sections detailing child tags, attributes, and attributes of child tags.
+html/table.php: Updated; added sectioning, revamped the example, and added sections detailing child tags, attributes, and attributes of child tags.
+html/textarea.php: Updated; added sectioning, revised the description, revamped the example, and added a section detailing attributes.
+html/time.php: Updated; added sectioning, revised the description, and added a section detailing the element's attribute.
+html/title.php: Updated; added sectioning.
+html/u.php: Updated; added sectioning, and revised the description.
+html/ul.php: Updated; added sectioning, and added a section detailing the element's child tag.
+html/var.php: Updated; added sectioning, revised the description to match current standards, and revised the example.
+html/video.php: Updated; added sectioning, revised the description, added an INCOMPLETE use example, and added sections detailing child tags, attributes, and attributes of child tags.
+html/wbr.php: Updated; added sectioning, and revised the description.
+stylesheets/encyclopedia.css: Updated; added <textarea> to the list of monospace elements to use Inconsolata, and removed the now-unnecessary .unsectionedmain.
+
+Wednesday, July 6th, 2016
+html/main.php: Updated; corrected the example code.
+html/noscript.php: Updated; the script now has proper comment syntax.
+html/q.php: Updated; added sectioning, and added a section detailing the element's attribute.
+html/ruby.php: Updated; added sectioning, revised the example, and added a section detailing child tags.
+html/s.php: Updated; added sectioning, revised the description to match current standards, and revised the example to correctly show its use.
+html/samp.php: Updated; added sectioning, and revised the description to match current standards.
+html/script.php: Updated; added sectioning, changed the script to a JQuery script.
+html/section.php: Updated; added sectioning, and revised the description to match current standards.
+html/select.php: Updated; added sectioning, revamped the example, and added sections detailing child tags, attributes, and attributes of child tags.
+html/small.php: Updated; added sectioning, and revised the example.
+html/span.php: Updated; added sectioning, and revised the description.
+html/strong.php: Updated; added sectioning, revised the description to match current standards, and revised the example.
+html/style.php: Updated; added sectioning, revised the description, revamped the example, and added a section detailing the tag's attributes.
+html/sub.php: Updated; added sectioning, and revised the description.
+html/sup.php: Updated; added sectioning, revised the description, and revised the example.
+stylesheets/encyclopedia.css: Updated; removed counteraction rules for multiple classes and ids and added those classes/ids as exceptions to the relevant rules instead.
+
+Tuesday, July 5th, 2016
+Changed comment formatting sitewide - comments now occupy the same line that they refer to.
+Added the Javascript library JQuery to the site.
+javascript.php: Updated; now uses javascript/javascripthead.php instead of generichead.php.
+html/details.php: Updated; added the omitted list of child tags, and updated the heading of the attributes section for greater specificity.
+html/dl.php: Updated; updated the heading of the attributes section for greater specificity, and added a missing pair of <>s.
+html/meter.php: Updated; updated the attribute list for greater specificity.
+html/object.php: Updated; added sectioning, slightly revised the example, and added lists and explanations of use for child elements, attributes, and attributes of child elements.
+html/ol.php: Updated; added sectioning, and added lists and explanations of use for child elements, attributes, and attributes of child elements.
+html/noscript.php: Updated; changed the script to a JQuery script.
+html/p.php: Updated; added sectioning, revised the description, and revamped the example to be more demonstrative.
+html/pre.php: Updated; added sectioning.
+html/progress.php: Updated; corrected the page name, added sectioning, revamped the example, and added a list of the element's attributes and their uses.
+javascript/javascripthead.php: Added; laying groundwork for future additions.
+
+Monday, July 4th, 2016
+html/meta.php: Updated; added sectioning, revised the description, and added a list of the element's attributes and their uses.
+html/meter.php: Udated; added sectioning, revised the description, revamped the example, and added a list of the element's attributes and their uses.
+html/nav.php: Updated; added sectioning, and revised the description to match current standards.
+html/noscript.php: Updated; added sectioning.
+
+Thursday, June 30th, 2016
+html/a.php: Updated; revised the descriptions of next and prev.
+html/iframe.php: Updated; added the arrow character to each definition entry.
+html/img.php: Updated; added the arrow character to each definition entry.
+html/link.php: Updated; added sectioning, revised the description, and added a list of the element's attributes and their uses.
+html/main.php: Updated; added sectioning, and revised the description to match current standards.
+html/mark.php: Updtaed; added sectioning, and revised the description to match current standards.
+
+Wednesday, June 29th, 2016
+html/iframe.php: Updated; added sectioning, slightly revised the description, defined a height and width for the <iframe>, and added a list of the element's attributes and their uses.
+html/img.php: Updated; added sectioning, and added a list of the element's attributes and their uses.
+html/ins.php: Updated; added sectioning, revised the description to match current standards, and added a brief list of the element's attributes and their uses.
+html/kbd.php: Updated; added sectioning, and revised the description to match current standards.
+
+Tuesday, June 28th, 2016
+html/footer.php: Updated; changed the footer's id to the .exampleFHS class.
+html/h1-h6.php: Updated; added sectioning, revised the description to match current standards, and revised the examples to be more verbose.
+html/header.php: Updated; added sectioning, revised the description to match current standards, and added .exampleFHS to the demonstration header.
+html/hr.php: Updated; added sectioning.
+html/htmlhead.php: Updated; added .needsAttn to the <form> button.
+html/i.php: Updated; added sectioning, and revised the description to match current standards.
+stylesheets/encyclopedia.css: Updated; changed #examplefooter to .exampleFHS, and added a comment explaining its use.
+
+Monday, June 27th, 2016
+html/form.php: Updated; removed <keygen> from the child tag and attribute lists, and populated the attribute lists with descriptions of their function.
+stylesheets/encyclopedia.css: Updated; added a 40px left margin to <dl> elements within <details> elements.
+
+Sunday, June 26th, 2016
+html/audio.php: Updated; changed the heading of the first attribute list, and removed an unnecessary class.
+html/dialog.php: Updated; replaced #rendereddialog with #exampledialog.
+html/figure.php: Updated; added sectioning.
+html/footer.php: Updated; added sectioning, edited the description to match current standards, and added #examplefooter to the demonstration footer.
+html/form.php: Updated; added sectioning, revised the description, added a list of direct and indirect child tags, and added a list of attributes for this element and its children; the list has not yet been populated with all the needed descriptions, however.
+html/htmlhead.php: Updated; added <form> as a parent (though indirectly through <datalist>) of <option>.
+stylesheets/encyclopedia.css: Updated; added style rules for #examplefooter, and renamed #rendereddialog to #exampledialog.
+
+Friday, June 24th, 2016
+html/audio.php: Updated; clarified the definition of src.
+html/comment.php: Updated; added sectioning, and removed a comment on the use of <code>.
+html/del.php: Updated; added sectioning, edited the description to match current standards, and added a brief list of the tag's attributes and their uses.
+html/details.php: Updated; added sectioning, slightly edited the description, and added a brief 'list' explaining the element's attribute and its use.
+html/dfn.php: Updated; added sectioning, and slightly edited the description.
+html/dialog.php: Updated; added a comment about the presence of #rendereddialog, and added a brief 'list' explaining the element's attribute and its use.
+html/div.php: Updated; added sectioning, and edited the description.
+html/dl.php: Updated; added a brief list of child tags and their descriptions.
+html/doctype.php: Updated; added sectioning, and edited the description to clarify its intended use.
+html/em.php: Updated; added sectioning, and edited the description to match current standards.
+html/embed.php: Updated; added sectioning, and added a brief list explaining the element's attributes and their uses.
+stylesheets/encyclopedia.css: Updated; added a comment about the presence of #rendereddialog.
+
+Thursday, June 23rd, 2016
+changelog.php: Updated; made the <object> into a <pre> with associated scripting to autofill from changelog.txt.
+html/address.php: Updated; edited the description to match current standards.
+html/article.php: Updated; edited the description to match current standards.
+html/aside.php: Updated; edited the description to match current standards.
+html/blockquote.php: Updated; edited the description to match current standards, added sectioning, and added a description of its attribute.
+html/body.php: Updated; added sectioning, and changed the example to match the code of minimal.html.
+html/br.php: Updated; added sectioning.
+html/button.php: Updated; added sectioning, and added an extensive list of the element's attributes and their uses.
+html/canvas.php: Updated; added sectioning, and added a brief list of the element's attributes and their uses.
+html/cite.php: Updated; added sectioning, and edited the description to match current standards.
+html/code.php: Updated; added sectioning, and edited the description to match current standards.
+html/dialog.php: Updated; added sectioning, and added #rendereddialog to the third section as a workaround to <dialog> being inherently not inline.
+html/head.php: Updated; added sectioning, and changed the example to match the code of minimal.html.
+html/html.php: Updated; added sectioning, and changed the example to match the code of minimal.html.
+html/minimal.html: Updated; added <!DOCTYPE>, <title>, <main>, and <p> elements to make it a proper webpage.
+scripts/changelog.js: Added.
+stylesheets/encyclopedia.css:Updated; changed style rules for #changelog, and added style rules for #rendereddialog.
+
+Wednesday, June 22nd, 2016
+generichead.php: Updated; removed the unnecessary class .topbarButton.
+html/htmlhead.php: Updated; removed the unnecessary class .topbarButton.
+stylesheets/encyclopedia.css: Updated; added and changed style rules for the top and side navbars, did other minor cleanup.
+
+Tuesday, June 21st, 2016
+html/abbr.php: Updated to add sectioning.
+html/address.php: Updated to add sectioning.
+html/article.php: Updated to add sectioning.
+html/aside.php: Updated to add sectioning.
+html/b.php: Updated to add sectioning.
+html/bdi.php: Updated to add sectioning.
+
+Monday, June 20th, 2016
+changelog.php: Updated to add sectioning.
+css.php: Updated to add sectioning.
+generichead.php: Updated to change .navigationTopbar to .navTopbar.
+html.php: Updated to remove an unnecessary class and add sectioning.
+index.php: Updated to add sectioning.
+javascript.php: Updated to add sectioning.
+html/*.php: Updated to bulk replace .HTMLSection with .unsectionedmain.
+html/a.php: Updated to add sectioning, and add an arrow to each definition entry.
+html/attributes.php: Updated to remove an unnecessary class, add sectioning, and add an arrow to each definition entry.
+html/audio.php: Updated to add sectioning, add an arrow to each definition entry, and remove an unnecessary class.
+html/base.php: Updated to add sectioning, and an arrow to each definition's entry.
+html/bdo.php: Updated to add sectioning, and add an arrow to the definition entry.
+html/dl.php: Updated to remove an unnecessary class, add #exampledl to the definition list, and add sectioning.
+html/embed.php: Updated to add sectioning, and remove an unnecessary class.
+html/htmlhead.php: Updated to add .HTMLBody to the body, remove .HTMLSection from the header, and change .navigationTopbar to .navTopbar.
+stylesheets/encyclopedia.css: Updated to add and remove several styling rules, completely changing the look of the website.
+
+Sunday, June 19th, 2016
+index.php: Updated to remove the "humorous" <ERROR> message.
+html.php: Updated the Syntactic Web paragraph to more thoroughly address the use of text formatting tags, and added a new section on absolute vs. relative URLs.
+html/*.php: Bulk replaced the heading "Example" with "Example of use".
+html/audio.php: Updated to remove an invalid attribute from the example, added the child tag <source>, and added a list of attributes for <audio> and <source>.
+html/b.php: Updated the description to give a more concise and helpful explanation of its use case.
+html/base.php: Updated the description to be more concise, and added a list of attributes.
+html/bdo.php: Updated to add a section on the use of its attribute.
+html/embed.php: Updated to add the necessary class to the footer, giving it a correct margin.
+
+Friday, June 17th, 2016
+Changelog begins.
+changelog.php: Added.
+changelog.txt: Added.
+generichead.php: Updated the navigation topbar with a link to the changelog.
+html.php: Updated with a new paragraph on browser compatibility.
+html/comment.php: Updated with use of the <code> tag, and a comment on how I format my examples.
+html/doctype.php: Updated with a new description of its use.
+html/a.php: Updated with an extensive list of tag-specific attributes and their uses.
+html/abbr.php: Updated the description to follow my current standards.
+html/address.php: Updated the description to follow my current standards.
+html/article.php: Updated the description to follow my current standards.
+html/aside.php: Updated the description to follow my current standards.
+html/htmlhead.php: Updated the navigation topbar with a link to the changelog.
+stylesheets/encyclopedia.css: Updated with styling rules for #changelog.

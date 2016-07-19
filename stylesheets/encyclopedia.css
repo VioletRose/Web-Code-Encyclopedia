@@ -1,0 +1,150 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ead8ff;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	width: 60vw;
+}
+
+code, kbd, pre, samp, textarea {
+	font-family: 'Inconsolata', monospace;
+}
+
+details dl {
+	margin-left: 40px;
+}
+
+dl:not(#exampledl) dd {
+	margin-bottom: 20px;
+	margin-left: 0;
+}
+
+footer, header, section:not(.exampleFHS) {
+	background-color: white;
+	border-color: #7F00FF;
+	border-style: solid;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+section:not(.exampleFHS) > * {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.HTMLBody {
+	margin-left: calc(20vw + 75px);
+	margin-right: calc(20vw + 75px);/*The sidebar is 150px wide, so for the content to remain centered, each margin must be adjusted by half of that amount.*/
+}
+
+.navSidebar, .navTopbar {
+	text-align: center;
+}
+
+.navSidebar {
+	background-color: white;
+	height: 100vh;
+	left: 0;
+	margin: 0;
+	overflow-y: scroll;
+	position: fixed;
+	top: 0;
+	width: 150px;
+}
+
+.navSidebar a {
+	border-color: lightgrey darkgrey darkgrey lightgrey;
+	border-style: outset;
+	color: black;
+	display: block;
+	margin-bottom: 2px;
+	text-decoration: none;
+}
+
+.navSidebar a.needsAttn {
+	border-color: #e80000 #7e0000 #7e0000 #e80000;
+	color: red;
+}
+
+.navSidebar a:hover, .navTopbar a:hover {
+	border-style: inset;
+}
+
+.navSidebar dd {
+	margin-bottom: 0px;
+}
+
+.navSidebar ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.navTopbar a {
+	border-color: lightgrey darkgrey darkgrey lightgrey;
+	border-style: outset;
+	color: black;
+	display: inline-block;
+	font-size: 15pt;
+	margin-bottom: 4px;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-decoration: none;
+}
+
+.pageHeadline {
+	font-size: 36pt;
+	font-weight: normal;
+	text-align: center;
+}
+
+.verticalCentering {
+    position: absolute;/*The parent of this attribute must have position set to relative in order for the absolute position to have the proper position content.*/
+	top: 50%;
+	-ms-transform: translateY(-50%);/*Internet Explorer/Edge browser prefix, invoking a beta, non-finalized version of the transform property*/
+	-webkit-transform: translateY(-50%);/*Safari/early Chrome*/
+	transform: translateY(-50%);
+}
+
+#changelog {
+	white-space: pre-wrap;
+}
+
+#colorGroup {
+	width: 96px;
+}
+
+#colorHex {
+	width: 101px;
+}
+
+#colorName {
+	width: 227px;
+}
+
+#colorRGB {
+	width: 103px;
+}
+
+#colorTableSection {
+	height: 99vh;
+	overflow-y: scroll;
+	text-align: center;
+}
+
+#colorTableSection caption {
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+
+#colorTableSection table {
+	margin: 8px auto;
+	width: 98%;
+}
+
+#exampledialog {
+	height: 165px;/*<dialog> is not counted as a child element, so the containing section was rendering too small. I am currently using this as a workaround until I can script it properly.-->*/
+}
