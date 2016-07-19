@@ -23,11 +23,11 @@
 	<h4>Properties</h4>
 	<ul>
 		<!--For copy/paste purposes: <li><a href=""><code></code></a></li>-->
-		<li><a class="needsAttn" href=""><code>align-content</code></code></a></li>
-		<li><a class="needsAttn" href=""><code>align-items</code></a></li>
-		<li><a class="needsAttn" href=""><code>align-self</code></a></li>
+		<li><a class="needsAttn"><code>align-content</code></code></a></li>
+		<li><a class="needsAttn"><code>align-items</code></a></li>
+		<li><a class="needsAttn"><code>align-self</code></a></li>
 		<li><a href="/css/all.php"><code>all</code></a></li>
-		<li><a class="needsAttn" href=""><code>animation</code></a></li>
+		<li><a href="/css/animation.php"><code>animation</code></a></li>
 		<li><a href="/css/backface-visibility.php"><code>backface-visibility</code></a></li>
 	</ul>
 </nav>

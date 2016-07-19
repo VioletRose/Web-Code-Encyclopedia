@@ -1,3 +1,14 @@
+Monday, July 18th, 2016
+css/animation: Updated; completed the page.
+css/csshead.php: Updated; removed .needsAttn from the animation link.
+
+Sunday, July 17th, 2016
+css.php: Updated; added new sections on measurement units and responsive design, and minor tweaks.
+css/animation.php: Added; the example and the section on animation-timing-function are currently incomplete.
+css/backface-visibility.php: Updated; added an anchor to the required property, and clarified one value listing.
+css/keyframes.php: Added; currently a placeholder.
+css/transform.php: Added; currently a placeholder.
+
 Friday, July 15th, 2016
 css.php: Updated; finished populating the sections on basic CSS concepts.
 css/csshead.php: Updated; removed redundant links and fixed an unclosed <code> tag.

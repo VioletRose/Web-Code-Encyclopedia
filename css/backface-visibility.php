@@ -4,7 +4,7 @@
 ?>
 <main>
 	<section>
-		<p>Required property: transform</p>
+		<p>Required property: <a href="/css/transform.php"><code>transform</code></a></p>
 		<p>This property allows an element that has been rotated to face away from the user to be hidden, instead of displaying in reverse as it normally does.</p>
 	</section>
 	<section>
@@ -52,7 +52,7 @@
 		<h4>Accepted values:</h4>
 		<dl>
 			<dt><code>visible</code></dt>
-			<dd>&#10551; The element will be visible from behind while rotated. This is the default behavior.</dd>
+			<dd>&#10551; The default value. The element will be visible from behind while rotated.</dd>
 			<dt><code>hidden</code></dt>
 			<dd>&#10551; The element will be invisible from behind while rotated.</dd>
 			<dt><code>initial</code></dt>

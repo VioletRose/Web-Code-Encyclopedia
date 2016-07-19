@@ -4,7 +4,7 @@
 ?>
 <main>
 	<section>
-		<p><strong>This page is not complete yet!</strong></p>
+		<p><strong>This section is not complete yet!</strong></p>
 		<p>On every page in this section, on the left side of the screen you will find links to pages for each of the properties used in CSS, sorted categorically and alphabetically, as well as indexes of CSS selectors and standard web colors. Each page will have a brief description of the property, an example of its use, and a list of accepted values. On this page, you will also find explanations of the more basic concepts in CSS.</p>
 		<p>In HTML, some elements can't be used unless they are contained inside of other ones. But CSS code doesn't, internally, have parent/child roles, it only uses them when referring to other types of code. As such, where a property can only be used alongside of another property, I've noted this in the description. <strong>Additionally, to condense the otherwise huge amount of redundancy, shorthand properties and their related properties will all be described on the same page.</strong></p>
 	</section>
@@ -15,7 +15,7 @@
 	<section>
 		<h4>Syntax - How to Write a CSS Stylesheet</h4>
 		<figure>
-			<p>Stylesheet files do not have any of the overhead an HTML document does. They simply consist of a list of entries in this format:</p>
+			<p>Stylesheet files do not have any of the overhead an HTML document does. They simply consist of a list of entries, called <strong>rules</strong>, separated by line breaks and in this format:</p>
 			<code>
 				<i>selector</i> {
 				<br>
@@ -37,6 +37,55 @@
 	<section>
 		<h4>Inherited Properties</h4>
 		<p>Some CSS properties, once applied to an element, will automatically pass down to any elements or tags it contains, <code>background-color</code> being one example. This can be very important, especially when debugging or trying to figure out why something in particular isn't working as you intended. Try to build up an understanding of which properties auto-inherit, and remember that if they don't do this by default, and you want them to, a very large number of properties also accept <code>inherit</code> as a value.</p>
+	</section>
+	<section>
+		<h4>Height, Width, and Dimensions</h4>
+		<p>In CSS, nearly every way in which the size of something can be set works multiple ways, depending on how the size is being measured. There are two basic kinds of measurement, absolute and relative. Absolute dimensions are more useful for things where the size has to be precisely controlled, while relative measurements are especially useful when a page is meant to be able to scale down to fit a smaller browser window, which is critical for responsive design. Additionally, 0 uses no measurements as it is the same regardless of what scale is used.</p>
+		<br>
+		<details>
+			<summary>Absolute measurements:</summary>
+			<dl>
+				<dt><code>cm</code></dt>
+				<dd>&#10551; Each unit is one centimeter.</dd>
+				<dt><code>mm</code></dt>
+				<dd>&#10551; Each unit is one millimeter (1/10th of a centimeter).</dd>
+				<dt><code>in</code></dt>
+				<dd>&#10551; Each unit is one inch (2.54 centimeters).</dd>
+				<dt><code>px</code></dt>
+				<dd>&#10551; Each unit is one pixel (1/96th of an inch).</dd>
+				<dt><code>pt</code></dt>
+				<dd>&#10551; Each unit is one point (1/72th of an inch). The most common measurement of font size.</dd>
+				<dt><code>pc</code></dt>
+				<dd>&#10551; Each unit is one pica (12 points).</dd>
+			</dl>
+		</details>
+		<details>
+			<summary>Relative measurements:</summary>
+			<dl>
+				<dt><code>em</code></dt>
+				<dd>&#10551; Each unit is 100% of the size of the element's current font.</dd>
+				<dt><code>ex</code></dt>
+				<dd>&#10551; Each unit is approximately 2% of the current font's x-height.</dd> <!--This needs verification and may be incorrect.-->
+				<dt><code>ch</code></dt>
+				<dd>&#10551; Each unit is approximately 1% of the width of the current font's 0 character.</dd> <!--This needs verification and may be incorrect.-->
+				<dt><code>rem</code></dt>
+				<dd>&#10551; Each unit is 100% of the size of the <code>&lt;body&gt;</code> element's current font.</dd>
+				<dt><code>vw</code></dt>
+				<dd>&#10551; Each unit is 1% of the width of the viewport, which is the browser window.</dd>
+				<dt><code>vh</code></dt>
+				<dd>&#10551; Each unit is 1% of the height of the viewport, which is the browser window.</dd>
+				<dt><code>vmin</code></dt>
+				<dd>&#10551; Each unit is 1% of the height or width of the viewport, whichever is smaller.</dd>
+				<dt><code>vmax</code></dt>
+				<dd>&#10551; Each unit is 1% of the height or width of the viewport, whichever is larger.</dd>
+				<dt><code>%</code></dt>
+				<dd>&#10551; A percentage of the parent element's size, from 0 to 100. Note that <code>&lt;body&gt;</code> is always the parent element if nothing else is.</dd>
+			</dl>
+		</details>
+	</section>
+	<section>
+		<h4>Responsive Design</h4>
+		<p>Responsive design is the term used for designing sites in such a way that they retain full function and as much aesthetics as possible regardless of what device is being used to view them. This mostly takes the form of choosing relative measurements so the page will gracefully scale down to fit a phone's screen without requiring the user to scroll horizontally and vertically all over to find what they're looking for. Though, depending on the design, sometimes CSS alone will not be enough and other types of code must be employed to do the rest of the work; the navigation sidebar in this section is a good example of something that can't really be reduced in size without loss of functionality. In general, responsive design is an advanced topic but very important for developers hoping to work professionally or for a broad audience, due to the fact that mobile phones and tablets have become an inextricable part of modern web browsing.
 	</section>
 	<section>
 		<h4>Useful Shortcuts and Shorthand Properties</h4>
