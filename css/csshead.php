@@ -29,5 +29,6 @@
 		<li><a href="/css/all.php"><code>all</code></a></li>
 		<li><a href="/css/animation.php"><code>animation</code></a></li>
 		<li><a href="/css/backface-visibility.php"><code>backface-visibility</code></a></li>
+		<li><a href="/css/background.php"><code>background</code></a></li>
 	</ul>
 </nav>

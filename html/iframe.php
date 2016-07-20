@@ -10,14 +10,14 @@
 		<h4>Example of use:</h4>
 		<figure>
 			<code>
-				&lt;iframe height="959" src="iframe.php" width="539" &gt;&lt;/iframe&gt;
+				&lt;iframe height="960" src="iframe.php" width="540" &gt;&lt;/iframe&gt;
 			</code>
 		</figure>
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure>
-			<iframe height="959" src="iframe.php" width="539"></iframe>
+			<iframe height="960" src="iframe.php" width="540"></iframe>
 		</figure>
 	</section>
 	<section>

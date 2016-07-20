@@ -40,7 +40,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figure&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;iframe height="959" src="/html/main.php" width="539"&gt;&lt;/iframe&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;iframe height="960" src="/html/main.php" width="540"&gt;&lt;/iframe&gt;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figure&gt;
 				<br>
@@ -53,7 +53,7 @@
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure>
-			<iframe height="959" src="/html/main.php" width="539"></iframe>
+			<iframe height="960" src="/html/main.php" width="540"></iframe>
 		</figure>
 	</section>
 </main>	
