@@ -1,3 +1,11 @@
+Tuesday, July 19th, 2016
+css.php: Updated; added an additional note to the description of shorthand properties.
+css/background.php: Added.
+css/csshead.php: Updated; added background link.
+html/iframe.php: Updated; corrected the size of the iframe.
+html/main.php: Updated; corrected the size of the iframe.
+html/object.php: Updated; corrected the size of the object.
+
 Monday, July 18th, 2016
 css/animation: Updated; completed the page.
 css/csshead.php: Updated; removed .needsAttn from the animation link.

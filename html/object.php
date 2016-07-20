@@ -10,7 +10,7 @@
 		<h4>Example of use:</h4>
 		<figure>
 			<code>
-				&lt;object data="/html/iframe.php" height="959" width="539"&gt;
+				&lt;object data="/html/iframe.php" height="960" width="540"&gt;
 				<br>
 				&lt;/object&gt;
 			</code>
@@ -19,7 +19,7 @@
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure>
-			<object data="/html/iframe.php" height="959" width="539">
+			<object data="/html/iframe.php" height="960" width="540">
 			</object>
 		</figure>
 	</section>
