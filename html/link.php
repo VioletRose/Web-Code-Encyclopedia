@@ -79,7 +79,7 @@
 				</details>
 			</dd>
 			<dt><code>sizes</code></dt>
-			<dd>&#10551; If <code>rel</code> is set to <code>icon</code>, defines the size of the image being linked to. Setting the value to <code><i>Height</i>x<i>Width</i></code>, with <i>Height</i> and <i>Width</i> replaced with the desired height and width of the image in pixels, will define its size. Multiple values are allowed on the same attribute. Also, <code>any</code> may be used for scalable images such as .svg files.</dd>
+			<dd>&#10551; If <code>rel</code> is set to <code>icon</code>, defines the size of the image being linked to. Setting the value to <code><var>Height</var>x<var>Width</var></code>, with <var>Height</var> and <var>Width</var> replaced with the desired height and width of the image in pixels, will define its size. Multiple values are allowed on the same attribute. Also, <code>any</code> may be used for scalable images such as .svg files.</dd>
 			<dt><code>type</code></dt>
 			<dd>&#10551; Specifies the media type of the linked content. See <a href="http://www.iana.org/assignments/media-types/">here</a> for accepted values.</dd>
 		</dl>

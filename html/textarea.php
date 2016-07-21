@@ -28,7 +28,7 @@
 			<dt><code>cols</code></dt>
 			<dd>&#10551; Defines the width of the element, in characters.</dd>
 			<dt><code>dirname</code></dt>
-			<dd>&#10551; Specifies that the text direction of the user's text input should be submitted along with any form data. Must be set to <code><i>name</i>.dir</code>, where <i>name</i> is the same as the element's <code>name</code> attribute.</dd>
+			<dd>&#10551; Specifies that the text direction of the user's text input should be submitted along with any form data. Must be set to <code><var>name</var>.dir</code>, where <var>name</var> is the same as the element's <code>name</code> attribute.</dd>
 			<dt><code>disabled</code></dt>
 			<dd>&#10551; If present, the text field will be grayed out and unselectable.</dd>
 			<dt><code>form</code></dt>

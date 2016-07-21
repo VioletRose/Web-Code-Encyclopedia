@@ -247,8 +247,8 @@
 						<dd>&#10551; Opens the response page in the parent frame of the child frame where the form appears, if applicable.</dd>
 						<dt><code>_top</code></dt>
 						<dd>&#10551; Opens the response page in the full body of the window, overriding all frames.</dd>
-						<dt><code><i>framename</i></code></dt>
-						<dd>&#10551; When <code><i>framename</i></code> is replaced with the name of a valid frame, will open the response page in that frame.</dd>
+						<dt><code><var>framename</var></code></dt>
+						<dd>&#10551; When <code><var>framename</var></code> is replaced with the name of a valid frame, will open the response page in that frame.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -274,16 +274,16 @@
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
-						<dt><code>.<i>file_extension</i></code></dt>
-						<dd>&#10551; When <code>.<i>file_extension</i></code> is replaced with a valid file extension, files with the specified file extension will be accepted.</dd>
+						<dt><code>.<var>file_extension</var></code></dt>
+						<dd>&#10551; When <code>.<var>file_extension</var></code> is replaced with a valid file extension, files with the specified file extension will be accepted.</dd>
 						<dt><code>audio/*</code></dt>
 						<dd>&#10551; All audio file types will be accepted.</dd>
 						<dt><code>video/*</code></dt>
 						<dd>&#10551; All video file types will be accepted.</dd>
 						<dt><code>image/*</code></dt>
 						<dd>&#10551; All image file types will be accepted.</dd>
-						<dt><code><i>media_type</i></code></dt>
-						<dd>&#10551; When <code><i>media_type</i></code> is replaced with a valid media type, files of the specified media type will be accepted. See <a href="https://www.iana.org/assignments/media-types/media-types.xhtml">here</a> for a full list of possible values.</dd>
+						<dt><code><var>media_type</var></code></dt>
+						<dd>&#10551; When <code><var>media_type</var></code> is replaced with a valid media type, files of the specified media type will be accepted. See <a href="https://www.iana.org/assignments/media-types/media-types.xhtml">here</a> for a full list of possible values.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -296,7 +296,7 @@
 			<dt><code>checked</code></dt>
 			<dd>&#10551; If <code>type</code> is set to <code>checkbox</code> or <code>radio</code>, specifies that the element should be checked by default when the user loads the page.</dd>
 			<dt><code>dirname</code></dt>
-			<dd>&#10551; If <code>type</code> is set to a value that allows text input, specifies that the text direction of the user's text input should be submitted along with the form data. Must be set to <code><i>name</i>.dir</code>, where <i>name</i> is the same as the element's <code>name</code> attribute.</dd>
+			<dd>&#10551; If <code>type</code> is set to a value that allows text input, specifies that the text direction of the user's text input should be submitted along with the form data. Must be set to <code><var>name</var>.dir</code>, where <var>name</var> is the same as the element's <code>name</code> attribute.</dd>
 			<dt><code>disabled</code></dt>
 			<dd>&#10551; If present, the element will be grayed out and unusable.</dd>
 			<dt><code>form</code></dt>
@@ -347,8 +347,8 @@
 						<dd>&#10551; Opens the response page in the parent frame of the child frame where the form appears, if applicable.</dd>
 						<dt><code>_top</code></dt>
 						<dd>&#10551; Opens the response page in the full body of the window, overriding all frames.</dd>
-						<dt><code><i>framename</i></code></dt>
-						<dd>&#10551; When <code><i>framename</i></code> is replaced with the name of a valid frame, will open the response page in that frame.</dd>
+						<dt><code><var>framename</var></code></dt>
+						<dd>&#10551; When <code><var>framename</var></code> is replaced with the name of a valid frame, will open the response page in that frame.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -403,9 +403,9 @@
 						<dt><code>hidden</code></dt>
 						<dd>&#10551; An input field that is not displayed to the user.</dd>
 						<dt><code>image</code></dt>
-						<dd>&#10551; A clickable image, which both acts as a submit button and registers the user's input in the format <samp>x=<i>coordinate</i>&y=<i>coordinate</i></samp>, with each coordinate being the specific horizontal and vertical pixels of the image that the user clicked.</dd>
+						<dd>&#10551; A clickable image, which both acts as a submit button and registers the user's input in the format <samp>x=<var>coordinate</var>&y=<var>coordinate</var></samp>, with each coordinate being the specific horizontal and vertical pixels of the image that the user clicked.</dd>
 						<dt><code>month</code></dt>
-						<dd>&#10551; A preformatted numeric selector for month and year, in <i>month_name</i>, yyyy format.</dd>
+						<dd>&#10551; A preformatted numeric selector for month and year, in <var>month_name</var>, yyyy format.</dd>
 						<dt><code>number</code></dt>
 						<dd>&#10551; A basic numeric selector.</dd>
 						<dt><code>password</code></dt>

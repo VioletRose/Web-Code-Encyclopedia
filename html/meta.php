@@ -26,7 +26,7 @@
 			<dt><code>charset</code></dt>
 			<dd>&#10551; Defines the text encoding for the page.</dd>
 			<dt><code>content</code></dt>
-			<dd>&#10551; When placed in the same <code>&lt;meta&gt;</code> element as <code>content</code> or <code>http-equiv</code>, the text string entered as its value will be associated with them. Note: if this is a list of keywords, each one should be separated by a single comma and no spaces, such as <code>"<i>word one</i>,<i>word two</i>"</code>.</dd>
+			<dd>&#10551; When placed in the same <code>&lt;meta&gt;</code> element as <code>content</code> or <code>http-equiv</code>, the text string entered as its value will be associated with them. Note: if this is a list of keywords, each one should be separated by a single comma and no spaces, such as <code>"<var>word one</var>,<var>word two</var>"</code>.</dd>
 			<dt><code>http-equiv</code></dt>
 			<dd>
 				&#10551; This attribute interacts with <code>content</code> by defining its purpose.

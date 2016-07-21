@@ -5,9 +5,7 @@
 body {
 	background-color: #ead8ff;
 	font-family: 'Open Sans', sans-serif;
-	margin-left: 20vw;
-	margin-right: 20vw;
-	width: 60vw;
+	margin: 0;
 }
 
 code, kbd, pre, samp, textarea {
@@ -23,26 +21,25 @@ dl:not(#exampledl) dd {
 	margin-left: 0;
 }
 
-footer, header, section:not(.exampleFHS) {
+footer:not(.exampleFHS), header:not(.exampleFHS), section:not(.exampleFHS) {
 	background-color: white;
 	border-color: #7F00FF;
 	border-style: solid;
-	margin-bottom: 8px;
-	margin-top: 8px;
+	margin: 8px auto;
+	max-width: 1080px;
+}
+
+header:not(.exampleFHS) {
+	text-align: center;
 }
 
 section:not(.exampleFHS) > * {
-	margin-left: 8px;
-	margin-right: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
-.HTMLBody {
-	margin-left: calc(20vw + 75px);
-	margin-right: calc(20vw + 75px);/*The sidebar is 150px wide, so for the content to remain centered, each margin must be adjusted by half of that amount.*/
-}
-
-.navSidebar, .navTopbar {
-	text-align: center;
+.languageSection {
+	padding-left: 150px;
 }
 
 .navSidebar {
@@ -52,17 +49,27 @@ section:not(.exampleFHS) > * {
 	margin: 0;
 	overflow-y: scroll;
 	position: fixed;
+	text-align: center;
 	top: 0;
 	width: 150px;
 }
 
-.navSidebar a {
+@media screen and (max-width: 435px) {
+	.navSidebar {
+		/*I don't know what I'm going to do with this yet, but it will be amazing.*/
+	}
+}
+
+.navSidebar a, .navTopbar a {
 	border-color: lightgrey darkgrey darkgrey lightgrey;
 	border-style: outset;
 	color: black;
+	text-decoration: none;
+}
+
+.navSidebar a {
 	display: block;
 	margin-bottom: 2px;
-	text-decoration: none;
 }
 
 .navSidebar a.needsAttn {
@@ -84,21 +91,16 @@ section:not(.exampleFHS) > * {
 }
 
 .navTopbar a {
-	border-color: lightgrey darkgrey darkgrey lightgrey;
-	border-style: outset;
-	color: black;
 	display: inline-block;
 	font-size: 15pt;
 	margin-bottom: 4px;
 	padding-left: 2px;
 	padding-right: 2px;
-	text-decoration: none;
 }
 
 .pageHeadline {
 	font-size: 36pt;
 	font-weight: normal;
-	text-align: center;
 }
 
 .verticalCentering {

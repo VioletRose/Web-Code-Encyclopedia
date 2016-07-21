@@ -81,13 +81,13 @@
 						<dd>&#10551; &#10551; Opens the content in the parent frame of the child frame where the link appears, if applicable.</dd>
 						<dt><code>_top</code></dt>
 						<dd>&#10551; &#10551; Opens the content in the full body of the window.</dd>
-						<dt><code><i>framename</i></code></dt>
-						<dd>&#10551; &#10551; When <code><i>framename</i></code> is replaced with the name of a valid frame, will open the content in that frame.</dd>
+						<dt><code><var>framename</var></code></dt>
+						<dd>&#10551; &#10551; When <code><var>framename</var></code> is replaced with the name of a valid frame, will open the content in that frame.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>name</code></dt>
-			<dd>&#10551; Defines a name for the button. This is not the text that appears on it, but an internal designator that can be linked to by appending <code>#<i>name</i></code> to the page's URL.</dd>
+			<dd>&#10551; Defines a name for the button. This is not the text that appears on it, but an internal designator that can be linked to by appending <code>#<var>name</var></code> to the page's URL.</dd>
 			<dt><code>type</code></dt>
 			<dd>&#10551; 
 				Defines the type of button the element is.

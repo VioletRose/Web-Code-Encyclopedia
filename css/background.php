@@ -66,7 +66,7 @@
 	<section>
 		<h4>Accepted values of <code>background</code>:</h4>
 		<dl>
-			<dt><code><i> color image position/size repeat origin clip attachment</i></code></dt>
+			<dt><code><var> color image position/size repeat origin clip attachment</var></code></dt>
 			<dd>&#10551; The values that would normally be set through the associated, non-shorthand background properties, in this order. If both position and size are being defined, due to them both accepting numeric values they must be separated by a / character. Additionally, it is possible to set multiple background images, but if this is done, color must be placed last rather than first. Most sub-values may be omitted.</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
@@ -77,7 +77,7 @@
 	<section>
 		<h4>Accepted values of <code>background-color</code>:</h4>
 		<dl>
-			<dt><code><i>color</i></code></dt>
+			<dt><code><var>color</var></code></dt>
 			<dd>&#10551; The color of the background.</dd>
 			<dt><code>transparent</code></dt>
 			<dd>&#10551; The default value. A transparent background.</dd>
@@ -90,8 +90,16 @@
 	<section>
 		<h4>Accepted values of <code>background-image</code>:</h4>
 		<dl>
-			<dt><code>url(<i>URL</i>)</code></dt>
-			<dd>&#10551; The inner <i>URL</i> as the URL of the image to be used as the background. Multiple images may be set, separated by a comma and a space.</dd>
+			<dt><code>url(<var>URL</var>)</code></dt>
+			<dd>&#10551; The inner <var>URL</var> as the URL of the image to be used as the background. Multiple images may be set, separated by a comma and a space.</dd>
+			<dt><code>linear-gradient(<var>direction</var>, <var>color %</var>, <var>color %</var>)</code></dt>
+			<dd>&#10551; A linear gradient, colors beginning at one edge and fading from one to another until reaching the other edge, instead of an image. <code><var>direction</var></code> may be a specific angle of rotation (with 0 equivalent to <code>to top</code>), formatted as <code><var>number</var>deg</code>, or <code>to</code> and a space followed by any combination of <code>bottom</var>, <code>left</code>, <code>right</code>, or <code>top</code>. It defaults to <code><var>to bottom</var></code>. The <code><var>%</var></code> defines where that color begins within the span of the gradient, in the form of a percentage, except in the case of the gradient's final color, for which it determines the point at which the gradient ends and that color continues to the edge of the element. By default, colors without a defined <code><var>%</var></code> will attempt to take up equal amounts of the remaining space within the gradient and the gradient will end at <code>100%</code>. Any number of additional colors may be defined. <code><var>direction</var></code> and <code><var>%</var></code> may be omitted.</dd>
+			<dt><code>repeating-linear-gradient(<var>direction</var>, <var>color %</var>, <var>color %</var>)</code></dt>
+			<dd>&#10551; Almost identical to <code>linear-gradient</code>, the difference being that if the final color is ended before <code><var>100%</var></code>, instead of it continuing to fill all remaining space, the gradient will repeat itself equally as many times as it has space to.</dd>
+			<dt><code>radial-gradient(<var>shape</var>, <var>size</var>, at <var>x-coord</var> <var>y-coord</var>, <var>color %</var>, <var>color %</var>)</code></dt>
+			<dd>&#10551; A radial gradient, colors beginning at the center and fading from one to another until reaching the edges, instead of an image. <code><var>shape</var></code> may be <code>ellipse</code> (the default) or <code>circle</code>, the difference being that <code>ellipse</code> will retain the aspect ratio of the containing element, while <code>circle</code> will always be circular. <code><var>size</var></code> defines how large the gradient is, via which edge of the containing element it will reach from its starting point before ceasing to expand, the <code>closest-side</code>, <code>farthest-side</code>, <code>closest-corner</code>, or <code>farthest-corner</code> (the default). <code><var>x-coord</var></code> and <code><var>y-coord</var></code> determine the center of the gradient, and default to <code>50%</code>. <code><var>shape</var></code>, <code><var>size</var></code>, <code>at <var>x-coord</var> <var>y-coord</var></code>, and <code><var>%</var></code> may be omitted.</dd>
+			<dt><code>repeating-radial-gradient(<var>shape</var>, <var>size</var>, at <var>x-coord</var> <var>y-coord</var>, <var>color %</var>, <var>color %</var>)</code></dt>
+			<dd>&#10551; Almost identical to <code>radial-gradient</code>, the difference being that if the final color is ended before <code><var>100%</var></code>, instead of it continuing to fill all remaining space, the gradient will repeat itself equally as many times as it has space to.</dd>
 			<dt><code>none</code></dt>
 			<dd>&#10551; The default value. No background image.</dd>
 			<dt><code>initial</code></dt>
@@ -103,7 +111,7 @@
 	<section>
 		<h4>Accepted values of <code>background-position</code>:</h4>
 		<dl>
-			<dt><code><i>x-coordinate y-coordinate</i></code></dt>
+			<dt><code><var>x-coordinate y-coordinate</var></code></dt>
 			<dd>&#10551; The default value is 0% 0%. Defines the placement of the top left corner of the image. Accepts values in the form of <code>left top</code>, <code>bottom right</code>, <code>center center</code> (and combinations thereof), percentages of the element's size (with 0% 0% being the top left), and specific coordinates in any CSS unit. If only the first coordinate is defined, the second will be <code>center</code>.</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
@@ -116,8 +124,8 @@
 		<dl>
 			<dt><code>auto</code></dt>
 			<dd>&#10551; The default value. The image's size will be unchanged from the source file.</dd>
-			<dt><code><i>width</i> <i>height</i></code></dt>
-			<dd>&#10551; Defines the width and height of the image, in any CSS unit. If only the <i>width</i> is defined, the <i>height</i> will be <code>auto</code></dd>
+			<dt><code><var>width</var> <var>height</var></code></dt>
+			<dd>&#10551; Defines the width and height of the image, in any CSS unit. If only the <var>width</var> is defined, the <var>height</var> will be <code>auto</code></dd>
 			<dt><code>cover</code></dt>
 			<dd>&#10551; The background image will be scaled to cover the entire area. This may result in some of the image being cut off by the edges of the element.</dd>
 			<dt><code>contain</code></dt>

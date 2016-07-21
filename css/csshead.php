@@ -7,7 +7,7 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans|Inconsolata' rel='stylesheet' type='text/css'><!--The use of open fonts is a personal quirk of mine, namely that I want all text on this website to appear as intended and not be thrown off by browsers that don't follow web standards, or fonts that haven't been updated.-->
 <script src="/scripts/jquery-3.0.0.min.js"></script>
 </head>
-<body class="HTMLBody"><!--This is a placeholder until this section is more fully fleshed out and a fixed width for the sidebar can be set.-->
+<body class="languageSection">
 <header>
 	<h1 class="pageHeadline"><?php echo $PAGE_NAME; ?></h1>
 	<nav class="navTopbar">
@@ -30,5 +30,6 @@
 		<li><a href="/css/animation.php"><code>animation</code></a></li>
 		<li><a href="/css/backface-visibility.php"><code>backface-visibility</code></a></li>
 		<li><a href="/css/background.php"><code>background</code></a></li>
+		<li><a href="/css/background-blend-mode.php"><code>background-blend-mode</code></a></li>
 	</ul>
 </nav>

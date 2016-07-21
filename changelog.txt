@@ -1,3 +1,22 @@
+Wednesday, July 20th, 2016
+css.php: Updated; replaced incorrect use of <i> with <var>, and added an additional note on defining transparency.
+html.php: Updated; replaced incorrect use of <i> with <var>.
+css/animation.php: Updated; replaced incorrect use of <i> with <var>.
+css/background.php: Updated; replaced incorrect use of <i> with <var>, and updated the section on background-image with information on gradients.
+css/background-blend-mode.php: Added.
+css/csshead.php: Updated; changed .HTMLBody to .languageSection, and added background-blend-mode link.
+html/a.php: Updated; replaced incorrect use of <i> with <var>.
+html/base.php: Updated; replaced incorrect use of <i> with <var>.
+html/button.php: Updated; replaced incorrect use of <i> with <var>.
+html/form.php: Updated; replaced incorrect use of <i> with <var>.
+html/htmlhead.php: Updated; replaced .HTMLBody with .languageSection.
+html/link.php: Updated; replaced incorrect use of <i> with <var>.
+html/map.php: Updated; replaced incorrect use of <i> with <var>.
+html/meta.php: Updated; replaced incorrect use of <i> with <var>.
+html/textarea.php: Updated; replaced incorrect use of <i> with <var>.
+javascript/javascripthead.php: Updated; changed .HTMLBody to .languageSection.
+stylesheets/encyclopedia.css: Updated; cleaned up style rules significantly.
+
 Tuesday, July 19th, 2016
 css.php: Updated; added an additional note to the description of shorthand properties.
 css/background.php: Added.
