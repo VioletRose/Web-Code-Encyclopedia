@@ -66,8 +66,8 @@
 	<section>
 		<h4>Accepted values of <code>background</code>:</h4>
 		<dl>
-			<dt><code><var> color image position/size repeat origin clip attachment</var></code></dt>
-			<dd>&#10551; The values that would normally be set through the associated, non-shorthand background properties, in this order. If both position and size are being defined, due to them both accepting numeric values they must be separated by a / character. Additionally, it is possible to set multiple background images, but if this is done, color must be placed last rather than first. Most sub-values may be omitted.</dd>
+			<dt><code><var>color image position/size repeat origin clip attachment</var></code></dt>
+			<dd>&#10551; The values that would normally be set through the associated, non-shorthand background properties, in this order. If both position and size are being defined, due to them both accepting numeric values they must be separated by a / character. Most sub-values may be omitted.</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>

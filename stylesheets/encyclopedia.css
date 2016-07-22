@@ -13,7 +13,7 @@ code, kbd, pre, samp, textarea {
 }
 
 details dl {
-	margin-left: 40px;
+	margin-left: initial;
 }
 
 dl:not(#exampledl) dd {
@@ -33,9 +33,8 @@ header:not(.exampleFHS) {
 	text-align: center;
 }
 
-section:not(.exampleFHS) > * {
-	padding-left: 8px;
-	padding-right: 8px;
+section:not(.exampleFHS) {
+	padding: 8px;
 }
 
 .languageSection {
@@ -82,7 +81,7 @@ section:not(.exampleFHS) > * {
 }
 
 .navSidebar dd {
-	margin-bottom: 0px;
+	margin-bottom: initial;
 }
 
 .navSidebar ul {
@@ -92,14 +91,14 @@ section:not(.exampleFHS) > * {
 
 .navTopbar a {
 	display: inline-block;
-	font-size: 15pt;
+	font-size: 1.2em;
 	margin-bottom: 4px;
 	padding-left: 2px;
 	padding-right: 2px;
 }
 
 .pageHeadline {
-	font-size: 36pt;
+	font-size: 3em;
 	font-weight: normal;
 }
 

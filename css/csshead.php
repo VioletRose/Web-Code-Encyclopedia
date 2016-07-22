@@ -31,5 +31,7 @@
 		<li><a href="/css/backface-visibility.php"><code>backface-visibility</code></a></li>
 		<li><a href="/css/background.php"><code>background</code></a></li>
 		<li><a href="/css/background-blend-mode.php"><code>background-blend-mode</code></a></li>
+		<li><a href="/css/border.php"><code>border</code></a></li>
+		<li><a href="/css/border-collapse.php"><code>border-collapse</code></a></li>
 	</ul>
 </nav>
