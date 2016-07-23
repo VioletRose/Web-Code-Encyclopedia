@@ -4,7 +4,7 @@
 ?>
 <main>
 	<section>
-		<p>Required property: <a href="@keyframes"><code>@keyframes</code></a></p>
+		<p>Required property: <a href="/css/keyframes.php"><code>@keyframes</code></a></p>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
 		<p>This property and its sub-properties allow you to activate and control animations in CSS, by taking the rules set with <a href="/css/keyframes.php"><code>@keyframes</code></a> and applying them to objects on the page. The standard selectors apply, allowing you to create animations under specific circumstances, such as when the user mouses over the element. Also note that while <code>position</code> is not required for <code>animation</code> to function, many elements default to <code>position: static;</code>, which limits how they can be moved via <code>animation</code>.
 	</section>

@@ -34,7 +34,7 @@ header:not(.exampleFHS) {
 }
 
 section:not(.exampleFHS) {
-	padding: 8px;
+	padding: 0 8px;
 }
 
 .languageSection {

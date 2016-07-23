@@ -33,5 +33,6 @@
 		<li><a href="/css/background-blend-mode.php"><code>background-blend-mode</code></a></li>
 		<li><a href="/css/border.php"><code>border</code></a></li>
 		<li><a href="/css/border-collapse.php"><code>border-collapse</code></a></li>
+		<li><a href="css/border-image.php"><code>border-image</code></a></li>
 	</ul>
 </nav>

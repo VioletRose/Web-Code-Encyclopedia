@@ -1,11 +1,19 @@
+Friday, July 22nd, 2016
+Additions:
+css/border-image.php
+css/csshead.php: Added link for border-image.
+Fixes:
+css/animation.php: Fixed invalid href.
+stylesheets/encyclopedia.css: Fixed an error related to section padding.
+
 Thursday, July 21st, 2016
 Additions:
-	css/border.php
-	css/border-collapse.php
-	css/csshead.php: Added links for border and border-collapse.
+css/border.php
+css/border-collapse.php
+css/csshead.php: Added links for border and border-collapse.
 Fixes:
-	css/background.php: Updated; corrected one typo and one mistake.
-	stylesheets/encyclopedia.css: Updated; moved padding from child elements of <section> to <section> itself, switched from pt to em for font measurements.
+css/background.php: Updated; corrected one typo and one mistake.
+stylesheets/encyclopedia.css: Updated; moved padding from child elements of <section> to <section> itself, switched from pt to em for font measurements.
 
 Wednesday, July 20th, 2016
 css.php: Updated; replaced incorrect use of <i> with <var>, and added an additional note on defining transparency.
