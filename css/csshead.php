@@ -22,7 +22,7 @@
 	<h4><a href="/css/colors.php">Web Colors</a></h4>
 	<h4>Properties</h4>
 	<ul>
-		<!--For copy/paste purposes: <li><a href=""><code></code></a></li>-->
+		<!--For copy/paste purposes: <li><a href="/css/.php"><code></code></a></li>-->
 		<li><a class="needsAttn"><code>align-content</code></code></a></li>
 		<li><a class="needsAttn"><code>align-items</code></a></li>
 		<li><a class="needsAttn"><code>align-self</code></a></li>
@@ -33,6 +33,12 @@
 		<li><a href="/css/background-blend-mode.php"><code>background-blend-mode</code></a></li>
 		<li><a href="/css/border.php"><code>border</code></a></li>
 		<li><a href="/css/border-collapse.php"><code>border-collapse</code></a></li>
-		<li><a href="css/border-image.php"><code>border-image</code></a></li>
+		<li><a href="/css/border-image.php"><code>border-image</code></a></li>
+		<li><a href="/css/border-radius.php"><code>border-radius</code></a></li>
+		<li><a href="/css/border-spacing.php"><code>border-spacing</code></a></li>
+		<li><a href="/css/bottom.php"><code>bottom</code></a></li>
+		<li><a href="/css/box-shadow.php"><code>box-shadow</code></a></li>
+		<li><a href="/css/box-sizing.php"><code>box-sizing</code></a></li>
+		<li><a class="needsAttn" href="/css/position.php"><code>position</code></a></li>
 	</ul>
 </nav>

@@ -1,6 +1,19 @@
+Sunday, July 24th, 2016
+Additions:
+css/border-radius.php
+css/border-spacing.php
+css/bottom.php
+css/box-shadow.php
+css/box-sizing.php
+css/position.php: Currently a placeholder.
+Changes:
+css/csshead.php: Added links for border-radius, border-spacing, bottom, box-shadow, box-sizing, and position.
+
 Friday, July 22nd, 2016
 Additions:
 css/border-image.php
+images/border.png
+Changes:
 css/csshead.php: Added link for border-image.
 Fixes:
 css/animation.php: Fixed invalid href.
@@ -10,6 +23,7 @@ Thursday, July 21st, 2016
 Additions:
 css/border.php
 css/border-collapse.php
+Changes:
 css/csshead.php: Added links for border and border-collapse.
 Fixes:
 css/background.php: Updated; corrected one typo and one mistake.
