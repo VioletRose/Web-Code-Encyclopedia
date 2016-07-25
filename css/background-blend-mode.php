@@ -87,7 +87,7 @@
 		</figure>
 	</section>
 	<section>
-		<h4>Accepted values:</h4>
+		<h4>Accepted values of <code>background-blend-mode</code>:</h4>
 		<dl>
 			<dt><code>normal</code></dt>
 			<dd>&#10551; The default value. No blending will be applied.</dd>

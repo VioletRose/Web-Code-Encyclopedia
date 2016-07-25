@@ -57,12 +57,31 @@
 		</figure>
 	</section>
 	<section>
-		<h4>Accepted values:</h4>
+		<h4>Accepted values of <code>box-shadow</code>:</h4>
 		<dl>
 			<dt><code>none</code></dt>
 			<dd>&#10551; The default value. No shadow will be displayed.</dd>
 			<dt><code><var>x-offset</var> <var>y-offset</var> <var>blur</var> <var>spread</var> <var>color</var> inset</code></dt>
-			<dd>&#10551; The horizontal and vertical offset of the shadow, the additional distance the shadow should be blurred across, how much larger the shadow is than the size of the element, and the specification that the shadow should be inset, overshadowing the element from the top left rather than extending from underneath the bottom right. <code><var>blur</var></code>, <code><var>spread</var></code>, <code><var>color</var></code>, and <code>inset</code> may be omitted.</dd>
+			<dd>
+				&#10551; The horizontal and vertical offset of the shadow, the additional distance the shadow should be blurred across, how much larger the shadow is than the size of the element, and the specification that the shadow should be inset, overshadowing the element from the top left rather than extending from underneath the bottom right. <code><var>blur</var></code>, <code><var>spread</var></code>, <code><var>color</var></code>, and <code>inset</code> may be omitted.
+				<details>
+					<summary>Variables:</summary>
+					<dl>
+						<dt><code><var>x-offset</var></code></dt>
+						<dd>&#10551; Required, numeric variable, in measurements. The horizontal distance the shadow should be offset from the element.</dd>
+						<dt><code><var>y-offset</var></code></dt>
+						<dd>&#10551; Required, numeric variable, in measurements. The vertical distance the shadow should be offset from the element.</dd>
+						<dt><code><var>blur</var></code></dt>
+						<dd>&#10551; Optional, numeric variable, in measurements, defaults to 0. The additional distance across which the shadow should be blurred.</dd>
+						<dt><code><var>spread</var></code></dt>
+						<dd>&#10551; Optional, numeric variable, in measurements, defaults to 0. The additional size of the shadow beyond the size of the element.</dd>
+						<dt><code><var>color</var></code></dt>
+						<dd>&#10551; Optional, color variable, defaults to #000000. The color of the shadow.</dd>
+						<dt><code>inset</code></dt>
+						<dd>&#10551; Optional. The shadow will overshadow the element from the top left, rather than extending from underneath the bottom right.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>

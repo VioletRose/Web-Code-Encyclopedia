@@ -5,7 +5,7 @@
 <main>
 	<section>
 		<p><strong>This section is not complete yet!</strong></p>
-		<p>On every page in this section, on the left side of the screen you will find links to pages for each of the properties used in CSS, sorted categorically and alphabetically, as well as indexes of CSS selectors and standard web colors. Each page will have a brief description of the property, an example of its use, and a list of accepted values. On this page, you will also find explanations of the more basic concepts in CSS.</p>
+		<p>On every page in this section, on the left side of the screen you will find links to pages for each of the properties used in CSS, sorted categorically and alphabetically, as well as indexes of CSS selectors and standard web colors. Each page will have a brief description of the property, an example of its use, and a section on how to set its value(s). On this page, you will also find explanations of the more basic concepts in CSS.</p>
 		<p>In HTML, some elements can't be used unless they are contained inside of other ones. But CSS code doesn't, internally, have parent/child roles, it only uses them when referring to other types of code. As such, where a property can only be used alongside of another property, I've noted this in the description. <strong>Additionally, to condense the otherwise huge amount of redundancy, shorthand properties and their related properties will all be described on the same page.</strong></p>
 	</section>
 	<section>
@@ -79,7 +79,7 @@
 				<dt><code>vmax</code></dt>
 				<dd>&#10551; Each unit is 1% of the height or width of the viewport, whichever is larger.</dd>
 				<dt><code>%</code></dt>
-				<dd>&#10551; A percentage of the parent element's size, from 0 to 100. Note that <code>&lt;body&gt;</code> is always the parent element if nothing else is.</dd>
+				<dd>&#10551; A percentage of the parent element's size, from 0% to 100%. Under most circumstances, if this is being used as a measurement of distance, distance is from the top left corner of the element. Note that <code>&lt;body&gt;</code> is always the parent element if nothing else is.</dd>
 			</dl>
 		</details>
 	</section>

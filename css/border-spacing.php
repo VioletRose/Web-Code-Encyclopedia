@@ -84,10 +84,21 @@
 		</figure>
 	</section>
 	<section>
-		<h4>Accepted values:</h4>
+		<h4>Accepted values of <code>border-spacing</code>:</h4>
 		<dl>
-			<dt><code><var>horizontal</var> <var>vertical</var></code></dt>
-			<dd>&#10551; The spacing between borders, in standard CSS units. If the second value is omitted, the first defines both horizontal and vertical spacing.</dd>
+			<dt><code><var>x-spacing</var> <var>y-spacing</var></code></dt>
+			<dd>
+				&#10551; The spacing between borders.
+				<details>
+					<summary>Variables:</summary>
+					<dl>
+						<dt><code><var>x-spacing</var></code></dt>
+						<dd>&#10551; Required, numeric variable, in measurements, defaults to 2px. The horizontal spacing between borders.</dd>
+						<dt><code><var>y-spacing</var></code></dt>
+						<dd>&#10551; Required, numeric variable, in measurements, defaults to the value of <code>x-spacing</code>. The vertical spacing between borders.</dd>
+					</dl>
+				</details>
+				</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>

@@ -66,10 +66,25 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Accepted values:</h4>
+		<h4>Accepted values of <code>border-radius</code>:</h4>
 		<dl>
 			<dt><code><var>top-left-radius</var> <var>top-right-radius</var> <var>bottom-right-radius</var> <var>bottom-left-radius</var></code></dt>
-			<dd>&#10551; Defines how rounded the border's corners will be, in standard CSS units or in percentages ranging from <code>0%</code> (fully square) to <code>50%</code> (maximally rounded). There is no upper numeric limit to the possible values, but the corners will not become more rounded than <code>50%</code> or the equivalent in other units. All but one of these values may be omitted, resulting in normal CSS logic regarding equal side measurements.</dd>
+			<dd>
+				&#10551; Defines how rounded the border's corners will be.
+				<details>
+					<summary>Variables:</summary>
+					<dl>
+						<dt><code><var>top-left-radius</var></code></dt>
+						<dd>&#10551; Required, numeric variable, in measurements or percentages (cannot exceed 50%), defaults to 0. The rounding of the border's top left corner.</dd>
+						<dt><code><var>top-right-radius</var></code></dt>
+						<dd>&#10551; Optional, numeric variable, in measurements or percentages (cannot exceed 50%), defaults to the value of <code>top-left-radius</code>. The rounding of the border's top right corner.</dd>
+						<dt><code><var>bottom-right-radius</var></code></dt>
+						<dd>&#10551; Optional, numeric variable, in measurements or percentages (cannot exceed 50%), defaults to the value of <code>top-left-radius</code>. The rounding of the border's bottom right corner.</dd>
+						<dt><code><var>bottom-left-radious</var></code></dt>
+						<dd>&#10551; Optional, numeric variable, in measurements or percentages (cannot exceed 50%), defaults to the value of <code>top-right-radius</code>. The rounding of the border's bottom left corner.</dd>					
+					</dl>
+				</details>
+			</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>

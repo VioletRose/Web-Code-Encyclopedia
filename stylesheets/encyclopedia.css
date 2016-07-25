@@ -13,7 +13,7 @@ code, kbd, pre, samp, textarea {
 }
 
 details dl {
-	margin-left: initial;
+	margin-left: 40px;
 }
 
 dl:not(#exampledl) dd {
@@ -25,6 +25,7 @@ footer:not(.exampleFHS), header:not(.exampleFHS), section:not(.exampleFHS) {
 	background-color: white;
 	border-color: #7F00FF;
 	border-style: solid;
+	box-shadow: 3px 3px 5px gray;
 	margin: 8px auto;
 	max-width: 1080px;
 }
@@ -60,8 +61,9 @@ section:not(.exampleFHS) {
 }
 
 .navSidebar a, .navTopbar a {
-	border-color: lightgrey darkgrey darkgrey lightgrey;
+	border-color: lightgray darkgray darkgray lightgray;
 	border-style: outset;
+	box-shadow: 1px 1px 5px gray;
 	color: black;
 	text-decoration: none;
 }
@@ -78,6 +80,7 @@ section:not(.exampleFHS) {
 
 .navSidebar a:hover, .navTopbar a:hover {
 	border-style: inset;
+	box-shadow: 1px 1px 5px gray inset;
 }
 
 .navSidebar dd {

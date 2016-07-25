@@ -57,7 +57,7 @@
 		</figure>
 	</section>
 	<section>
-		<h4>Accepted values:</h4>
+		<h4>Accepted values of <code>box-sizing</code>:</h4>
 		<dl>
 			<dt><code>content-box</code></dt>
 			<dd>&#10551; The default value. Only the element's content is considered in width and height.</dd>

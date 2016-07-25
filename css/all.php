@@ -51,7 +51,7 @@
 		</figure>
 	</section>
 	<section>
-		<h4>Accepted values:</h4>
+		<h4>Accepted values of <code>all</code>:</h4>
 		<dl>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets all properties assigned to the element to their initial, unmodified values.</dd>

@@ -83,7 +83,24 @@
 		<h4>Accepted values of <code>border-image</code>:</h4>
 		<dl>
 			<dt><code><var>source</var> <var>slice</var> <var>width</var> <var>outset</var> <var>repeat</var></code></dt>
-			<dd>&#10551; The values that would normally be set through the associated, non-shorthand background properties, in this order. <var>width</var>, <var>outset</var>, and <var>repeat</var> may be omitted. <strong>At this time, this property is bugged</strong> - due to the fact that <code><var>slice</var></code>, <code><var>width</var></code>, and <code><var>outset</var></code> all accept multiple measurements and use the same types of measurement, it is impossible to define <code><var>width</var></code> or <code><var>outset</var></code> with this property.</dd>
+			<dd>
+				&#10551; The values that would normally be set through the associated, non-shorthand background properties, in this order. <strong>At this time, this property is bugged</strong> - due to the fact that <code><var>slice</var></code>, <code><var>width</var></code>, and <code><var>outset</var></code> all accept multiple measurements and use the same types of measurement, it is impossible to define <code><var>width</var></code> or <code><var>outset</var></code> with this property.
+				<details>
+					<summary>Variables:</summary>
+					<dl>
+						<dt><code><var>source</var></code></dt>
+						<dd>&#10551; Required. The value of <code>background-image-source</code>.</dd>
+						<dt><code><var>slice</var></code></dt>
+						<dd>&#10551; Required. The value of <code>background-image-slice</code>.</dd>
+						<dt><code><var>width</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>background-image-width</code>.</dd>
+						<dt><code><var>outset</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>background-image-outset</code>.</dd>
+						<dt><code><var>repeat</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>background-image-repeat</code>.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
@@ -96,7 +113,7 @@
 			<dt><code>none</code></dt>
 			<dd>&#10551; The default value. No image border will be used.</dd>
 			<dt><code>url(<var>URL</var>)</code></dt>
-			<dd>&#10551; The URL of the image to be used as a border.</dd>
+			<dd>&#10551; The source image will be used as a border. <code><var>URL</var></code> is a text variable, URLs only.</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
@@ -107,7 +124,24 @@
 		<h4>Accepted values of <code>border-image-slice</code>:</h4>
 		<dl>
 			<dt><code><var>top-x-coord</var> <var>right-y-coord</var> <var>bottom-x-coord</var> <var>left-y-coord</var> fill</code></dt>
-			<dd>&#10551; The coordinates at which the image will be sliced. Slice coordinates only have two allowed measurements, <code>%</code> or none (which will cause numbers be measured in pixels). If present, <code>fill</code> allows the border to extend into the element's interior. Any of these values may be omitted, with successive slice values following normal CSS repeating-sides logic, but at least one slice coordinate is highly recommended; the default value is 100%, which simply causes the entire image to be scaled down and placed in the four corners of the element.</dd>
+			<dd>
+				&#10551; The coordinates at which the image will be sliced. Despite being optional, at least one slice coordinate is highly recommended; the default value, 100%, simply causes the entire image to be scaled down and placed in the four corners of the element.
+				<details>
+					<summary>Variables:</summary>
+					<dl>
+						<dt><code><var>top-x-coord</var></code></dt>
+						<dd>&#10551; Optional, numeric variable, in <code>%</code> or numbers (which will be interpreted as px measurements), defaults to 100%. The horizontal coordinate of the top image slice.</dd>
+						<dt><code><var>right-y-coord</var></code></dt>
+						<dd>&#10551; Optional, numeric variable, in <code>%</code> or numbers (which will be interpreted as px measurements), defaults to the value of <code>top-x-coord</code>. The vertical coordinate of the right image slice.</dd>
+						<dt><code><var>bottom-x-coord</var></code></dt>
+						<dd>&#10551; Optional, numeric variable, in <code>%</code> or numbers (which will be interpreted as px measurements), defaults to the value of <code>top-x-coord</code>. The horizontal coordinate of the bottom image slice.</dd>
+						<dt><code><var>left-y-coord</var></code></dt>
+						<dd>&#10551; Optional, numeric variable, in <code>%</code> or numbers (which will be interpreted as px measurements), defaults to the value of <code>right-y-coord</code>. The vertical coordinate of the left image slice.</dd>
+						<dt><code>fill</code></dt>
+						<dd>&#10551; Optional. Allows the border to extent into the element's interior.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
@@ -118,11 +152,7 @@
 		<h4>Accepted values of <code>border-image-width</code>:</h4>
 		<dl>
 			<dt><code><var>width</var></code></dt>
-			<dd>&#10551; The width of the border, in standard CSS units.</dd>
-			<dt><code><var>number</var></code></dt>
-			<dd>&#10551; The default value, specifically 1. A number without a specified measurement, which will be interpreted as multiples of <code>border-width</code>.</dd>
-			<dt><code><var>%</var></code></dt>
-			<dd>&#10551; A percentage of the size of the source image.</dd>
+			<dd>&#10551; Numeric variable, in measurements, percentages of the size of the source image, or numbers (which will be interpreted as multiples of <code>border-width</code>), defaults to 1. The width of the image border.</dd>
 			<dt><code>auto</code></dt>
 			<dd>&#10551; Equivalent to 100%; the source image will not be scaled.</dd>
 			<dt><code>initial</code></dt>
@@ -135,9 +165,7 @@
 		<h4>Accepted values of <code>border-image-outset</code>:</h4>
 		<dl>
 			<dt><code><var>outset</var></code></dt>
-			<dd>&#10551; The default value, specifically 0. The amount of space by which the border image will be outset from the actual border, in standard CSS units.</dd>
-			<dt><code><var>number</var></code></dt>
-			<dd>&#10551; A number without a specified measurement, which will be interpreted as multiples of <code>border-width</code></dd>
+			<dd>&#10551; Numeric variable, in measurements or numbers (which will be interpreted as multiples of <code>border-width</code>), defaults to 0. The amount of space by which the border image will be outset from the actual border, in standard CSS units.</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>

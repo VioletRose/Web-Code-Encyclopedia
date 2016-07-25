@@ -49,7 +49,7 @@
 		</figure>
 	</section>
 	<section>
-		<h4>Accepted values:</h4>
+		<h4>Accepted values of <code>backface-visibility</code>:</h4>
 		<dl>
 			<dt><code>visible</code></dt>
 			<dd>&#10551; The default value. The element will be visible from behind while rotated.</dd>

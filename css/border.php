@@ -63,18 +63,18 @@
 		<details>
 			<summary>Sub-properties of sub-properties:</summary>
 			<ul>
-				<li>border-top-width</li>
-				<li>border-top-style</li>
-				<li>border-top-color</li>
-				<li>border-right-width</li>
-				<li>border-right-style</li>
-				<li>border-right-color</li>
-				<li>border-bottom-width</li>
-				<li>border-bottom-style</li>
-				<li>border-bottom-color</li>
-				<li>border-left-width</li>
-				<li>border-left-style</li>
-				<li>border-left-color</li>
+				<li><code>border-top-width</code></li>
+				<li><code>border-top-style</code></li>
+				<li><code>border-top-color</code></li>
+				<li><code>border-right-width</code></li>
+				<li><code>border-right-style</code></li>
+				<li><code>border-right-color</code></li>
+				<li><code>border-bottom-width</code></li>
+				<li><code>border-bottom-style</code></li>
+				<li><code>border-bottom-color</code></li>
+				<li><code>border-left-width</code></li>
+				<li><code>border-left-style</code></li>
+				<li><code>border-left-color</code></li>
 			</ul>
 		</details>
 	</section>
@@ -82,7 +82,20 @@
 		<h4>Accepted values of <code>border</code>:</h4>
 		<dl>
 			<dt><code><var>width</var> <var>style</var> <var>color</var></code></dt>
-			<dd>&#10551; The values that would normally be set through the associated, non-shorthand background properties, in this order. Any of these values may be omitted.</dd>
+			<dd>
+				&#10551; The values that would normally be set through the associated, non-shorthand background properties, in this order.
+				<details>
+					<summary>Variables:</summary>
+					<dl>
+						<dt><code><var>width</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>border-width</code>.</dd>
+						<dt><code><var>style</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>border-style</code>. Note that while this is not required in the declaration, the border will not display if this is not set here or elsewhere.</dd>
+						<dt><code><var>color</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>border-color</code>.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
@@ -90,7 +103,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Accepted values of <code>border-width</code>:</dt>
+		<h4>Accepted values of <code>border-width</code>:</h4>
 		<dl>
 			<dt><code>medium</code></dt>
 			<dd>&#10551; The default value. A border 3px thick.</dd>
@@ -99,7 +112,7 @@
 			<dt><code>thick</code></dt>
 			<dd>&#10551; A border 5px thick.</dd>
 			<dt><code><var>width</var></code></dt>
-			<dd>&#10551; A custom border width using any CSS measurement.</dd>
+			<dd>&#10551; Numeric variable, in measurements. The width of the border.</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
@@ -107,7 +120,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Accepted values of <code>border-style</code>:</dt>
+		<h4>Accepted values of <code>border-style</code>:</h4>
 		<dl>
 			<dt><code>none</code></dt>
 			<dd>&#10551; The default value. No border.</dd>
@@ -136,10 +149,10 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Accepted values of <code>border-color</code>:</dt>
+		<h4>Accepted values of <code>border-color</code>:</h4>
 		<dl>
 			<dt><code><var>color</var></code></dt>
-			<dd>&#10551; The border's color.</dd>
+			<dd>&#10551; The default value. Color variable, defaults to #000000. The border's color.</dd>
 			<dt><code>transparent</code></dt>
 			<dd>&#10551; A transparent border.</dd>
 			<dt><code>initial</code></dt>

@@ -1,3 +1,24 @@
+Monday, July 25th, 2016
+Changes:
+css.php: Added an additional sentence to the description of the % measurement.
+css/all.php: Switched to the new way of showing values.
+css/animation.php: Switched to the new way of showing values.
+css/backface-visibility: Switched to the new style of showing values.
+css/background: Switched to the new style of showing values.
+css/background-blend-mode: Switched to the new style of showing values.
+css/border.php: Switched to the new style of showing values.
+css/border-collapse.php: Switched to the new style of showing values.
+css/border-image.php: Switched to the new style of showing values.
+css/border-radius.php: Switched to the new style of showing values.
+css/border-spacing.php: Switched to the new style of showing values.
+css/bottom.php: Switched to the new style of showing values.
+css/box-shadow.php: Switched to the new style of showing values.
+css/box-sizing.php: Switched to the new style of showing values.
+stylesheets/encyclopedia.css: Added box shadows to footers, headers, sections, and outset-bordered buttons.
+Fixes:
+css/border.php: Fixed an unclosed <h4> tag.
+stylesheets/encyclopedia.css: Fixed the margin of <dl> elements within <details> elements.
+
 Sunday, July 24th, 2016
 Additions:
 css/border-radius.php

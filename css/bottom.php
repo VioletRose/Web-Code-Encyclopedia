@@ -54,7 +54,7 @@
 			<dt><code>auto</code></dt>
 			<dd>&#10551; The default value. The browser automatically calculates the bottom position.</dd>
 			<dt><code><var>adjustment</var></code></dt>
-			<dd>&#10551; The amount of distance the bottom position is adjusted by, in standard CSS units or a % of the containing element.</dd>
+			<dd>&#10551; Numeric variable, in measurements. The amount of distance the bottom position is adjusted upwards by.</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>

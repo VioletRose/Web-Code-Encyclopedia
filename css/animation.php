@@ -219,11 +219,35 @@
 			<dt><code>animation-play-state</code></dt>
 			<dd>&#10551; Defines whether the animation is playing or not.</dd>
 		</dl>
+	</section>
 	<section>
 		<h4>Accepted values of <code>animation</code>:</h4>
 		<dl>
 			<dt><code><var>name</var> <var>duration</var> <var>timing-function</var> <var>delay</var> <var>iteration-count</var> <var>direction</var> <var>fill-mode</var> <var>play-state</var></code></dt>
-			<dd>&#10551; The values that would normally be set through the associated, non-shorthand animation properties, in this order. Most sub-values may be omitted, but <code>name</code> and <code>duration</code> are required for the animation to function.</dd>
+			<dd>
+				&#10551; The values that would normally be set through the associated, non-shorthand animation properties, in this order.
+				<details>
+					<summary>Variables:</summary>
+					<dl>
+						<dt><code><var>name</var></code></dt>
+						<dd>&#10551; Required. The value of <code>animation-name</code>.</dd>
+						<dt><code><var>duration</var></code></dt>
+						<dd>&#10551; Required. The value of <code>animation-duration</code>.</dd>
+						<dt><code><var>timing-function</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>animation-timing-function</code>.</dd>
+						<dt><code><var>delay</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>animation-delay</code>.</dd>
+						<dt><code><var>iteration-count</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>animation-iteration-count</code>.</dd>
+						<dt><code><var>direction</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>animation-direction</code>.</dd>
+						<dt><code><var>fill-mode</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>animation-fill-mode</code>.</dd>
+						<dt><code><var>play-state</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>animation-play-state</code>.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
@@ -231,10 +255,10 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Accepted values of <code>animation-name</code></h4>
+		<h4>Accepted values of <code>animation-name</code>:</h4>
 		<dl>
-			<dt><code><var>keyframename</var></code></dt>
-			<dd>&#10551; The name of a <code>@keyframes</code> rule.</dd>
+			<dt><code><var>keyframe-name</var></code></dt>
+			<dd>&#10551; Text variable. The name of a <code>@keyframes</code> rule.</dd>
 			<dt><code>none</code></dt>
 			<dd>&#10551; The default value. The animation is undefined and will not play.</dd>
 			<dt><code>initial</code></dt>
@@ -244,10 +268,10 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Accepted values of <code>animation-duration</code></h4>
+		<h4>Accepted values of <code>animation-duration</code>:</h4>
 		<dl>
-			<dt><code><var>time</var></code></dt>
-			<dd>&#10551; The animation takes this long to complete, in seconds.</dd>
+			<dt><code><var>duration</var></code></dt>
+			<dd>&#10551; Numeric variable, in whole seconds. The animation takes this long to complete.</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
@@ -255,7 +279,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Accepted values of <code>animation-timing-function</code></h4>
+		<h4>Accepted values of <code>animation-timing-function</code>:</h4>
 		<dl>
 			<dt><code>linear</code></dt>
 			<dd>&#10551; Equivalent to 0,0,1,1. The animation has the same speed throughout its duration.</dd>
@@ -267,14 +291,28 @@
 			<dd>&#10551; Equivalent to 0,0,0.58,1. The animation starts off accelerating, then gradually slows until the end.</dd>
 			<dt><code>ease-in-out</code></dt>
 			<dd>&#10551; Equivalent to 0.42,0,0.58,1. The animation slows equally at the beginning and end, and accelerates in the middle.</dd>
-			<dt><code>steps(<var>int</var>,<var>start</var>/<var>end</var>)</code></dt>
-			<dd>&#10551; The animation will play as a series of still frames rather than smoothly transitioning between them. <var>int</var> is a number defining how many intermediate points (intervals) will be displayed between each defined frame of the animation, and it may be followed with either <var>start</var> to make the object's appearance at the beginning of each interval, or <var>end</var> to make it change at the end of each interval.</dd>
+			<dt><code>steps(<var>intervals</var>,start/end)</code></dt>
+			<dd>
+				&#10551; The animation will play as a series of still frames rather than smoothly transitioning between them.
+				<details>
+					<summary>Variables:</summary>
+					<dl>
+						<dt><code><var>intervals</var></code></dt>
+						<dd>&#10551; Numeric variable, in whole numbers. Defines how many intermediate points will be displayed between each defined frame of the animation.</dd>
+						<dt><code><var>start/end</var></code></dt>
+						<dd>&#10551; <code>start</code> or <code>end</code>. Determines whether the object's appearance changes at the beginning of each interval, or at the end of each interval.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>step-start</code></dt>
 			<dd>&#10551; Equivalent to <code>steps(1,start)</code>.</dd>
 			<dt><code>step-end</code></dt>
 			<dd>&#10551; Equivalent to <code>steps(1,end)</code>.</dd>
-			<dt><code>cubic-bezier(<var>#</var>,<var>#</var>,<var>#</var>,<var>#</var>)</code></dt>
-			<dd>&#10551; Defines the coordinate values for the defined points in the cubic bezier function, horizontal and vertical for both points. Coordinates must be between 0 and 1.</dd>
+			<dt><code>cubic-bezier(<var>x-coord-1</var>,<var>y-coord-1</var>,<var>x-coord-2</var>,<var>y-coord-2</var>)</code></dt>
+			<dd>
+				&#10551; Defines the coordinate values for the defined points in the cubic bezier function. horizontal and vertical for both points. Coordinates must be between 0 and 1.
+				
+			</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
@@ -282,10 +320,10 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Accepted values of <code>animation-delay</code></h4>
+		<h4>Accepted values of <code>animation-delay</code>:</h4>
 		<dl>
 			<dt><code><var>time</var></code></dt>
-			<dd>&#10551; The delay before the animation's start, in seconds.</dd>
+			<dd>&#10551; Numeric variable, in whole seconds. The delay before the animation's start.</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
@@ -293,10 +331,10 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Accepted values of <code>animation-iteration-count</code></h4>
+		<h4>Accepted values of <code>animation-iteration-count</code>:</h4>
 		<dl>
-			<dt><code><var>number</var></code></dt>
-			<dd>&#10551; The number of times the animation repeats.</dd>
+			<dt><code><var>repeat-count</var></code></dt>
+			<dd>&#10551; Numeric variable, in whole numbers. The number of times the animation repeats.</dd>
 			<dt><code>infinite</code></dt>
 			<dd>&#10551; The animation repeats an infinite number of times.</dd>
 			<dt><code>initial</code></dt>
@@ -306,7 +344,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Accepted values of <code>animation-direction</code></h4>
+		<h4>Accepted values of <code>animation-direction</code>:</h4>
 		<dl>
 			<dt><code>normal</code></dt>
 			<dd>&#10551; The default value. The animation plays from start to end.</dd>
@@ -323,7 +361,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Accepted values of <code>animation-fill-mode</code></h4>
+		<h4>Accepted values of <code>animation-fill-mode</code>:</h4>
 		<dl>
 			<dt><code>none</code></dt>
 			<dd>&#10551; The default value. The animation will not apply any styles to the element while it is not playing.</dd>
@@ -340,7 +378,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Accepted values of <code>animation-play-state</code></h4>
+		<h4>Accepted values of <code>animation-play-state</code>:</h4>
 		<dl>
 			<dt><code>paused</code></dt>
 			<dd>&#10551; The animation is currently not playing.</dd>

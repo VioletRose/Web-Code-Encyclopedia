@@ -108,7 +108,7 @@
 		</figure>
 	</section>
 	<section>
-		<h4>Accepted values:</h4>
+		<h4>Accepted values of <code>border-collapse</code>:</h4>
 		<dl>
 			<dt><code>separate</code></dt>
 			<dd>&#10551; The default. Each border is separated.</dd>

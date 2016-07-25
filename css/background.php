@@ -66,8 +66,31 @@
 	<section>
 		<h4>Accepted values of <code>background</code>:</h4>
 		<dl>
-			<dt><code><var>color image position/size repeat origin clip attachment</var></code></dt>
-			<dd>&#10551; The values that would normally be set through the associated, non-shorthand background properties, in this order. If both position and size are being defined, due to them both accepting numeric values they must be separated by a / character. Most sub-values may be omitted.</dd>
+			<dt><code><var>color</var> <var>image</var> <var>position</var>/<var>size</var> <var>repeat</var> <var>origin<var> <var>clip</var> <var>attachment</var></code></dt>
+			<dd>
+				&#10551; The values that would normally be set through the associated, non-shorthand background properties, in this order. If both position and size are being defined, due to them both using numeric variables they must be separated by a / character.
+				<details>
+					<summary>Variables:</summary>
+					<dl>
+						<dt><code><var>color</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>background-color</code>.</dd>
+						<dt><code><var>image</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>background-image</code>.</dd>
+						<dt><code><var>position</var></code></dt>
+						<dd>&#10551; Optional/required if <code><var>size</var></code> is defined. The value of <code>background-position</code>.</dd>
+						<dt><code><var>size</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>background-size</code>. If used alongside <code><var>position</var></code>, the two must be separated with a /.</dd>
+						<dt><code><var>repeat</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>background-repeat</code>.</dd>
+						<dt><code><var>origin</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>background-origin</code>.</dd>
+						<dt><code><var>clip</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>background-clip</code>.</dd>
+						<dt><code><var>attachment</var></code></dt>
+						<dd>&#10551; Optional. The value of <code>background-attachment</code>.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
@@ -78,7 +101,7 @@
 		<h4>Accepted values of <code>background-color</code>:</h4>
 		<dl>
 			<dt><code><var>color</var></code></dt>
-			<dd>&#10551; The color of the background.</dd>
+			<dd>&#10551; Color variable. The color of the background.</dd>
 			<dt><code>transparent</code></dt>
 			<dd>&#10551; The default value. A transparent background.</dd>
 			<dt><code>initial</code></dt>
@@ -91,15 +114,47 @@
 		<h4>Accepted values of <code>background-image</code>:</h4>
 		<dl>
 			<dt><code>url(<var>URL</var>)</code></dt>
-			<dd>&#10551; The inner <var>URL</var> as the URL of the image to be used as the background. Multiple images may be set, separated by a comma and a space.</dd>
-			<dt><code>linear-gradient(<var>direction</var>, <var>color %</var>, <var>color %</var>)</code></dt>
-			<dd>&#10551; A linear gradient, colors beginning at one edge and fading from one to another until reaching the other edge, instead of an image. <code><var>direction</var></code> may be a specific angle of rotation (with 0 equivalent to <code>to top</code>), formatted as <code><var>number</var>deg</code>, or <code>to</code> and a space followed by any combination of <code>bottom</var>, <code>left</code>, <code>right</code>, or <code>top</code>. It defaults to <code><var>to bottom</var></code>. The <code><var>%</var></code> defines where that color begins within the span of the gradient, in the form of a percentage, except in the case of the gradient's final color, for which it determines the point at which the gradient ends and that color continues to the edge of the element. By default, colors without a defined <code><var>%</var></code> will attempt to take up equal amounts of the remaining space within the gradient and the gradient will end at <code>100%</code>. Any number of additional colors may be defined. <code><var>direction</var></code> and <code><var>%</var></code> may be omitted.</dd>
-			<dt><code>repeating-linear-gradient(<var>direction</var>, <var>color %</var>, <var>color %</var>)</code></dt>
-			<dd>&#10551; Almost identical to <code>linear-gradient</code>, the difference being that if the final color is ended before <code><var>100%</var></code>, instead of it continuing to fill all remaining space, the gradient will repeat itself equally as many times as it has space to.</dd>
-			<dt><code>radial-gradient(<var>shape</var>, <var>size</var>, at <var>x-coord</var> <var>y-coord</var>, <var>color %</var>, <var>color %</var>)</code></dt>
-			<dd>&#10551; A radial gradient, colors beginning at the center and fading from one to another until reaching the edges, instead of an image. <code><var>shape</var></code> may be <code>ellipse</code> (the default) or <code>circle</code>, the difference being that <code>ellipse</code> will retain the aspect ratio of the containing element, while <code>circle</code> will always be circular. <code><var>size</var></code> defines how large the gradient is, via which edge of the containing element it will reach from its starting point before ceasing to expand, the <code>closest-side</code>, <code>farthest-side</code>, <code>closest-corner</code>, or <code>farthest-corner</code> (the default). <code><var>x-coord</var></code> and <code><var>y-coord</var></code> determine the center of the gradient, and default to <code>50%</code>. <code><var>shape</var></code>, <code><var>size</var></code>, <code>at <var>x-coord</var> <var>y-coord</var></code>, and <code><var>%</var></code> may be omitted.</dd>
-			<dt><code>repeating-radial-gradient(<var>shape</var>, <var>size</var>, at <var>x-coord</var> <var>y-coord</var>, <var>color %</var>, <var>color %</var>)</code></dt>
-			<dd>&#10551; Almost identical to <code>radial-gradient</code>, the difference being that if the final color is ended before <code><var>100%</var></code>, instead of it continuing to fill all remaining space, the gradient will repeat itself equally as many times as it has space to.</dd>
+			<dd>&#10551; An image will be used as the background. <code><var>URL</var></code> is a text variable, URLs only. Multiple images may be set, separated by a comma and a space.</dd>
+			<dt><code>linear-gradient(<var>direction</var>, <var>color</var> <var>range</var>, <var>color</var> <var>range</var>)</code></dt>
+			<dd>
+				&#10551; A linear gradient, colors beginning at one edge and fading from one to another until reaching the other edge, instead of an image. At least two colors are required for a gradient, but there is no hard limit to the number of additional colors that can be defined.
+				<details>
+					<summary>Variables:</summary>
+					<dl>
+						<dt><code><var>direction</var></code></dt>
+						<dd>&#10551; Optional, numeric/text variable, defaults to <code>to bottom</code>. A specific angle of rotation (with 0 equivalent to <code>to top</code>), formatted as <code><var>number</var>deg</code>, or <code>to</code> and a space followed by any combination of <code>bottom</code>, <code>left</code>, <code>right</code>, or <code>top</code>.
+						<dt><code><var>color</var></code></dt>
+						<dd>&#10551; Required, color variable.</dd>
+						<dt><code><var>range</var></code></dt>
+						<dd>&#10551; Optional, numeric variable, in measurements. Defines where the preceding color begins within the gradient, except for the last color in the gradient where it defines the gradient's end point, past which the last color will continue, flat, to the edge of the background. Colors without a set <code><var>range</var></code> will attempt to occupy equal amounts of the remaining space.</dd>
+					</dl>
+				</details>
+			</dd>
+			<dt><code>repeating-linear-gradient(<var>direction</var>, <var>color</var> <var>range</var>, <var>color</var> <var>range</var>)</code></dt>
+			<dd>&#10551; Almost identical to <code>linear-gradient</code>, using the same variables, the only difference being that if the final color is ended before <code><var>100%</var></code>, instead of it continuing to fill all remaining space, the gradient will repeat itself equally as many times as it has space to.</dd>
+			<dt><code>radial-gradient(<var>shape</var>, <var>size</var>, at <var>x-coord</var> <var>y-coord</var>, <var>color</var> <var>range</var>, <var>color</var> <var>range</var>)</code></dt>
+			<dd>
+				&#10551; A radial gradient, colors beginning at the center and fading from one to another until reaching the edges, instead of an image. At least two colors are required for a gradient, but there is no hard limit to the number of additional colors that can be defined.
+				<details>
+					<summary>Variables:</summary>
+					<dl>
+						<dt><code><var>shape</var></code></dt>
+						<dd>&#10551; Optional, text variable, defaults to <code>ellipse</code>. May be <code>ellipse</code> or <code>circle</code>, the difference being that <code>ellipse</code> will retain the aspect ratio of the containing element, while <code>circle</code> will always be circular.</dd>
+						<dt><code><var>size</var></code></dt>
+						<dd>&#10551; Optional, text variable, defaults to <code>farthest-corner</code>. Defines how large the gradient is, via which edge of the containing element it will reach from its starting point before ceasing to expand, the <code>closest-side</code>, <code>farthest-side</code>, <code>closest-corner</code>, or <code>farthest-corner</code>.</dd>
+						<dt><code>at <var>x-coord</var></code></dt>
+						<dd>&#10551; Optional/required if <code><var>y-coord</var></code> is defined, numeric variable, in measurements, defaults to 50%. The horizontal coordinate of the gradient's center.</dd>
+						<dt><code><var>y-coord</var></code></dt>
+						<dd>&#10551; Optional, numeric variable, in measurements, defaults to 50%. The vertical coordinate of the gradient's center.</dd>
+						<dt><code><var>color</var></code></dt>
+						<dd>&#10551; Required, color variable.</dd>
+						<dt><code><var>range</var></code></dt>
+						<dd>&#10551; Optional, numeric variable, in measurements or percentage of space between the gradient's center and its edge. Defines where the preceding color begins within the gradient, except for the last color in the gradient where it defines the gradient's end point, past which the last color will continue, flat, to the edge of the background. Colors without a set <code><var>range</var></code> will attempt to occupy equal amounts of the remaining space.</dd>
+					</dl>
+				</details>
+			</dd>
+			<dt><code>repeating-radial-gradient(<var>shape</var>, <var>size</var>, at <var>x-coord</var> <var>y-coord</var>, <var>color</var> <var>range</var>, <var>color</var> <var>range</var>)</code></dt>
+			<dd>&#10551; Almost identical to <code>radial-gradient</code>, using the same variables, the only difference being that if the final color is ended before <code>100%</code>, instead of it continuing to fill all remaining space, the gradient will repeat itself equally as many times as it has space to.</dd>
 			<dt><code>none</code></dt>
 			<dd>&#10551; The default value. No background image.</dd>
 			<dt><code>initial</code></dt>
@@ -112,7 +167,18 @@
 		<h4>Accepted values of <code>background-position</code>:</h4>
 		<dl>
 			<dt><code><var>x-coordinate y-coordinate</var></code></dt>
-			<dd>&#10551; The default value is 0% 0%. Defines the placement of the top left corner of the image. Accepts values in the form of <code>left top</code>, <code>bottom right</code>, <code>center center</code> (and combinations thereof), percentages of the element's size (with 0% 0% being the top left), and specific coordinates in any CSS unit. If only the first coordinate is defined, the second will be <code>center</code>.</dd>
+			<dd>
+				&#10551; Defines the placement of the top left corner of the background image.
+				<details>
+					<summary>Variables:</summary>
+					<dl>
+						<dt><code><var>x-coord</var></code></dt>
+						<dd>&#10551; Required, numeric/text variable, in measurements or <code>bottom</code>, <code>left</code>, <code>right</code>, or <code>top</code>, defaults to 0%. The horizontal coordinate of the image's top left corner.</dd>
+						<dt><code><var>y-coord</var></code></dt>
+						<dd>&#10551; Optional, numeric/text variable, in measurements or <code>bottom</code>, <code>left</code>, <code>right</code>, or <code>top</code>, defaults to 0%. The vertical coordinate of the image's top left corner.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
@@ -125,7 +191,18 @@
 			<dt><code>auto</code></dt>
 			<dd>&#10551; The default value. The image's size will be unchanged from the source file.</dd>
 			<dt><code><var>width</var> <var>height</var></code></dt>
-			<dd>&#10551; Defines the width and height of the image, in any CSS unit. If only the <var>width</var> is defined, the <var>height</var> will be <code>auto</code></dd>
+			<dd>
+				&#10551; Defines the width and height of the image.
+				<details>
+					<summary>Variables:</summary>
+					<dl>
+						<dt><code><var>width</var></code></dt>
+						<dd>&#10551; Required, numeric variable, in measurements or percentages of the source file's width. The background image's width.</dd>
+						<dt><code><var>height</var></code></dt>
+						<dd>&#10551; Optional, numeric/text variable, in measurements or percentages of the source file's height. The background image's height.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>cover</code></dt>
 			<dd>&#10551; The background image will be scaled to cover the entire area. This may result in some of the image being cut off by the edges of the element.</dd>
 			<dt><code>contain</code></dt>
