@@ -4,7 +4,7 @@
 ?>
 <main>
 	<section>
-		<p>Required property: <a href="<!--A link to the required property's page goes here.-->"<code><!--The name of the required property goes here.--></code></p>
+		<p>Required property: <a href="<!--A link to the required property's page goes here.-->"><code><!--The name of the required property goes here.--></code></a></p>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
 		<p><!--A description of the property's function and use goes here--></p>
 	</section>

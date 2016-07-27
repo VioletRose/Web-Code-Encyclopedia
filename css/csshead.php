@@ -39,6 +39,12 @@
 		<li><a href="/css/bottom.php"><code>bottom</code></a></li>
 		<li><a href="/css/box-shadow.php"><code>box-shadow</code></a></li>
 		<li><a href="/css/box-sizing.php"><code>box-sizing</code></a></li>
+		<li><a href="/css/caption-side.php"><code>caption-side</code></a></li>
+		<li><a href="/css/clear.php"><code>clear</code></a></li>
+		<li><a class="needsAttn" href="/css/float.php"><code>float</code></a></li>
+		<li><a href="/css/font.php"><code>font</code></a></li>
+		<li><a class="needsAttn" href="/css/keyframes.php"><code>@keyframes</code></a></li>
 		<li><a class="needsAttn" href="/css/position.php"><code>position</code></a></li>
+		<li><a class="needsAttn" href="/css/transform.php"><code>transform</code></a></li>
 	</ul>
 </nav>

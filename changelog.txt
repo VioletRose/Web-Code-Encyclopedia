@@ -1,3 +1,13 @@
+Wednesday, July 27th, 2016
+Additions:
+favicon.ico
+css/caption-side.php
+css/clear.php
+css/float.php: Currently a placeholder.
+css/font.php
+Changes
+css/csshead.php: Added links for caption-side, clear, float, font, keyframes, and transform.
+
 Monday, July 25th, 2016
 Changes:
 css.php: Added an additional sentence to the description of the % measurement.
