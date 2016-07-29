@@ -22,29 +22,33 @@
 	<h4><a href="/css/colors.php">Web Colors</a></h4>
 	<h4>Properties</h4>
 	<ul>
-		<!--For copy/paste purposes: <li><a href="/css/.php"><code></code></a></li>-->
-		<li><a class="needsAttn"><code>align-content</code></code></a></li>
-		<li><a class="needsAttn"><code>align-items</code></a></li>
-		<li><a class="needsAttn"><code>align-self</code></a></li>
-		<li><a href="/css/all.php"><code>all</code></a></li>
-		<li><a href="/css/animation.php"><code>animation</code></a></li>
-		<li><a href="/css/backface-visibility.php"><code>backface-visibility</code></a></li>
-		<li><a href="/css/background.php"><code>background</code></a></li>
-		<li><a href="/css/background-blend-mode.php"><code>background-blend-mode</code></a></li>
-		<li><a href="/css/border.php"><code>border</code></a></li>
-		<li><a href="/css/border-collapse.php"><code>border-collapse</code></a></li>
-		<li><a href="/css/border-image.php"><code>border-image</code></a></li>
-		<li><a href="/css/border-radius.php"><code>border-radius</code></a></li>
-		<li><a href="/css/border-spacing.php"><code>border-spacing</code></a></li>
-		<li><a href="/css/bottom.php"><code>bottom</code></a></li>
-		<li><a href="/css/box-shadow.php"><code>box-shadow</code></a></li>
-		<li><a href="/css/box-sizing.php"><code>box-sizing</code></a></li>
-		<li><a href="/css/caption-side.php"><code>caption-side</code></a></li>
-		<li><a href="/css/clear.php"><code>clear</code></a></li>
-		<li><a class="needsAttn" href="/css/float.php"><code>float</code></a></li>
-		<li><a href="/css/font.php"><code>font</code></a></li>
-		<li><a class="needsAttn" href="/css/keyframes.php"><code>@keyframes</code></a></li>
-		<li><a class="needsAttn" href="/css/position.php"><code>position</code></a></li>
-		<li><a class="needsAttn" href="/css/transform.php"><code>transform</code></a></li>
+		<!--For copy/paste purposes: <code><li><a href="/css/.php"></a></code></li>-->
+		<li><code><a class="needsAttn">align-content</a></code></li>
+		<li><code><a class="needsAttn">align-items</a></code></li>
+		<li><code><a class="needsAttn">align-self</a></code></li>
+		<li><code><a href="/css/all.php">all</a></code></li>
+		<li><code><a href="/css/animation.php">animation</a></code></li>
+		<li><code><a href="/css/backface-visibility.php">backface-visibility</a></code></li>
+		<li><code><a href="/css/background.php">background</a></code></li>
+		<li><code><a href="/css/background-blend-mode.php">background-blend-mode</a></code></li>
+		<li><code><a href="/css/border.php">border</a></code></li>
+		<li><code><a href="/css/border-collapse.php">border-collapse</a></code></li>
+		<li><code><a href="/css/border-image.php">border-image</a></code></li>
+		<li><code><a href="/css/border-radius.php">border-radius</a></code></li>
+		<li><code><a href="/css/border-spacing.php">border-spacing</a></code></li>
+		<li><code><a href="/css/bottom.php">bottom</a></code></li>
+		<li><code><a href="/css/box-shadow.php">box-shadow</a></code></li>
+		<li><code><a href="/css/box-sizing.php">box-sizing</a></code></li>
+		<li><code><a href="/css/caption-side.php">caption-side</a></code></li>
+		<li><code><a href="/css/clear.php">clear</a></code></li>
+		<li><code><a href="/css/clip.php">clip</a></code></li>
+		<li><code><a href="/css/color.php">color</a></code></li>
+		<li><code><a href="/css/column-gap.php">column-gap</a></code></li>
+		<li><code><a href="/css/columns.php">columns</a></code></li>
+		<li><code><a class="needsAttn" href="/css/float.php">float</a></code></li>
+		<li><code><a href="/css/font.php">font</a></code></li>
+		<li><code><a class="needsAttn" href="/css/keyframes.php">@keyframes</a></code></li>
+		<li><code><a class="needsAttn" href="/css/position.php">position</a></code></li>
+		<li><code><a class="needsAttn" href="/css/transform.php">transform</a></code></li>
 	</ul>
 </nav>

@@ -1,3 +1,12 @@
+Thursday, July 28th, 2016
+Additions:
+css/clip.php
+css/color.php
+css/column-gap.php
+css/columns.php
+Changes:
+css/csshead.php: Added links for clip, color, column-gap, and columns, and placed <a> inside <code> rather than the other way around.
+
 Wednesday, July 27th, 2016
 Additions:
 favicon.ico
