@@ -1,3 +1,11 @@
+Monday, August 1st, 2016
+Additions:
+css/column-rule.php
+Changes:
+css/csshead.php: Added a link for column-rule.
+Fixes:
+css/border.php: Fixed error in the description of border's value, and fixed the wrong default value specified for border-color.
+
 Thursday, July 28th, 2016
 Additions:
 css/clip.php

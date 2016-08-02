@@ -44,6 +44,7 @@
 		<li><code><a href="/css/clip.php">clip</a></code></li>
 		<li><code><a href="/css/color.php">color</a></code></li>
 		<li><code><a href="/css/column-gap.php">column-gap</a></code></li>
+		<code><li><a href="/css/column-rule.php">column-rule</a></code></li>
 		<li><code><a href="/css/columns.php">columns</a></code></li>
 		<li><code><a class="needsAttn" href="/css/float.php">float</a></code></li>
 		<li><code><a href="/css/font.php">font</a></code></li>

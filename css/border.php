@@ -83,7 +83,7 @@
 		<dl>
 			<dt><code><var>width</var> <var>style</var> <var>color</var></code></dt>
 			<dd>
-				&#10551; The values that would normally be set through the associated, non-shorthand background properties, in this order.
+				&#10551; The values that would normally be set through the associated, non-shorthand border properties, in this order.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -152,7 +152,7 @@
 		<h4>Accepted values of <code>border-color</code>:</h4>
 		<dl>
 			<dt><code><var>color</var></code></dt>
-			<dd>&#10551; The default value. Color variable, defaults to #000000. The border's color.</dd>
+			<dd>&#10551; The default value. Color variable, defaults to rgb(0, 0, 0). The border's color.</dd>
 			<dt><code>transparent</code></dt>
 			<dd>&#10551; A transparent border.</dd>
 			<dt><code>initial</code></dt>
