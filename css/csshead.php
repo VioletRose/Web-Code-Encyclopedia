@@ -45,7 +45,11 @@
 		<li><code><a href="/css/color.php">color</a></code></li>
 		<li><code><a href="/css/column-gap.php">column-gap</a></code></li>
 		<code><li><a href="/css/column-rule.php">column-rule</a></code></li>
+		<code><li><a href="/css/column-span.php">column-span</a></code></li>
 		<li><code><a href="/css/columns.php">columns</a></code></li>
+		<code><li><a href="/css/content.php">content</a></code></li>
+		<code><li><a href="/css/counter-increment.php">counter-increment</a></code></li>
+		<code><li><a href="/css/counter-reset.php">counter-reset</a></code></li>
 		<li><code><a class="needsAttn" href="/css/float.php">float</a></code></li>
 		<li><code><a href="/css/font.php">font</a></code></li>
 		<li><code><a class="needsAttn" href="/css/keyframes.php">@keyframes</a></code></li>
