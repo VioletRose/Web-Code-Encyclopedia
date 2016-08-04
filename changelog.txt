@@ -1,3 +1,9 @@
+Wednesday, August 3rd, 2016
+Additions
+css/cursor.php
+Changes:
+css/csshead.php: Added a link for cursor.
+
 Tuesday, August 2nd, 2016
 Additions:
 css/column-span.php
