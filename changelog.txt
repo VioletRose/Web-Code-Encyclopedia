@@ -1,5 +1,13 @@
+Friday, August 5th, 2016
+Additions:
+css/direction.php
+css/display.php
+css/empty-cells.php
+Changes:
+css/csshead.php: Added links for direction, display, and empty-cells.
+
 Wednesday, August 3rd, 2016
-Additions
+Additions:
 css/cursor.php
 Changes:
 css/csshead.php: Added a link for cursor.

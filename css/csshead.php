@@ -51,6 +51,9 @@
 		<code><li><a href="/css/counter-increment.php">counter-increment</a></code></li>
 		<code><li><a href="/css/counter-reset.php">counter-reset</a></code></li>
 		<code><li><a href="/css/cursor.php">cursor</a></code></li>
+		<code><li><a href="/css/direction.php">direction</a></code></li>
+		<code><li><a href="/css/display.php">display</a></code></li>
+		<code><li><a href="/css/empty-cells.php">empty-cells</a></code></li>
 		<li><code><a class="needsAttn" href="/css/float.php">float</a></code></li>
 		<li><code><a href="/css/font.php">font</a></code></li>
 		<li><code><a class="needsAttn" href="/css/keyframes.php">@keyframes</a></code></li>
