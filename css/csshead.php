@@ -54,6 +54,7 @@
 		<code><li><a href="/css/direction.php">direction</a></code></li>
 		<code><li><a href="/css/display.php">display</a></code></li>
 		<code><li><a href="/css/empty-cells.php">empty-cells</a></code></li>
+		<code><li><a href="/css/filter.php">filter</a></code></li>
 		<li><code><a class="needsAttn" href="/css/float.php">float</a></code></li>
 		<li><code><a href="/css/font.php">font</a></code></li>
 		<li><code><a class="needsAttn" href="/css/keyframes.php">@keyframes</a></code></li>
