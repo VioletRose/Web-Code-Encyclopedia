@@ -23,8 +23,8 @@
 	<h4>Properties</h4>
 	<ul>
 		<!--For copy/paste purposes: <code><li><a href="/css/.php"></a></code></li>-->
-		<li><code><a class="needsAttn">align-content</a></code></li>
-		<li><code><a class="needsAttn">align-items</a></code></li>
+		<li><code><a href="/css/align-content.php">align-content</a></code></li>
+		<li><code><a href="/css/align-items.php">align-items</a></code></li>
 		<li><code><a class="needsAttn">align-self</a></code></li>
 		<li><code><a href="/css/all.php">all</a></code></li>
 		<li><code><a href="/css/animation.php">animation</a></code></li>

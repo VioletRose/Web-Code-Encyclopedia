@@ -1,3 +1,10 @@
+Tuesday, August 9th, 2016
+Additions:
+css/align-content.php
+css/align-items.php
+Changes:
+css/csshead.php: Removed .needsAttn from the links for align-content and align-items.
+
 Monday, August 8th, 2016
 Additions:
 css/filter.php
