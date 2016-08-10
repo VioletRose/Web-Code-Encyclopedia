@@ -1,3 +1,14 @@
+Wednesday, August 10th, 2016
+Additions:
+css/align-self.php
+css/flex.php
+Changes:
+css/align-items.php: Added a bit more explanation to baseline alignment.
+css/csshead.php: Removed .needsAttn from the link for align-self, added links for align-self and flex.
+Fixes:
+css/align-content.php: Corrected the page heading.
+css/align-items.php: Corrected the page heading.
+
 Tuesday, August 9th, 2016
 Additions:
 css/align-content.php

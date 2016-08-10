@@ -1,5 +1,5 @@
 <?php
-    $PAGE_NAME = 'CSS Template';
+    $PAGE_NAME = 'align-items';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
 <main>
@@ -105,7 +105,7 @@
 			<dt><code>flex-end</code></dt>
 			<dd>&#10551; Items are aligned to the end of the container.</dd>
 			<dt><code>baseline</code></dt>
-			<dd>&#10551; Items are aligned so that their baselines (starting text lines) line up.</dd>
+			<dd>&#10551; Items are aligned so that their baselines (starting text lines) line up with every other baseline-aligned item.</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>

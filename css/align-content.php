@@ -1,5 +1,5 @@
 <?php
-    $PAGE_NAME = 'CSS Template';
+    $PAGE_NAME = 'align-content';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
 <main>

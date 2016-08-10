@@ -25,7 +25,7 @@
 		<!--For copy/paste purposes: <code><li><a href="/css/.php"></a></code></li>-->
 		<li><code><a href="/css/align-content.php">align-content</a></code></li>
 		<li><code><a href="/css/align-items.php">align-items</a></code></li>
-		<li><code><a class="needsAttn">align-self</a></code></li>
+		<li><code><a href="/css/align-self.php">align-self</a></code></li>
 		<li><code><a href="/css/all.php">all</a></code></li>
 		<li><code><a href="/css/animation.php">animation</a></code></li>
 		<li><code><a href="/css/backface-visibility.php">backface-visibility</a></code></li>
@@ -55,6 +55,7 @@
 		<code><li><a href="/css/display.php">display</a></code></li>
 		<code><li><a href="/css/empty-cells.php">empty-cells</a></code></li>
 		<code><li><a href="/css/filter.php">filter</a></code></li>
+		<code><li><a href="/css/flex.php">flex</a></code></li>
 		<li><code><a class="needsAttn" href="/css/float.php">float</a></code></li>
 		<li><code><a href="/css/font.php">font</a></code></li>
 		<li><code><a class="needsAttn" href="/css/keyframes.php">@keyframes</a></code></li>
