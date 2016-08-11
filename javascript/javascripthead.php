@@ -8,6 +8,11 @@
 <script src="/scripts/jquery-3.0.0.min.js"></script>
 </head>
 <body class="languageSection">
+<nav class="navSidebar">
+	<ul>
+		<li><code>&lt;page&gt;</code></li>
+	</ul>
+</nav>
 <header>
 	<h1 class="pageHeadline"><?php echo $PAGE_NAME; ?></h1>
 	<nav class="navTopbar">
@@ -18,8 +23,3 @@
 		<a href="/changelog.php">Changelog</a>
 	</nav>
 </header>
-<nav class="navSidebar">
-	<ul>
-		<li><code>&lt;page&gt;</code></li>
-	</ul>
-</nav>

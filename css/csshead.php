@@ -8,16 +8,6 @@
 <script src="/scripts/jquery-3.0.0.min.js"></script>
 </head>
 <body class="languageSection">
-<header>
-	<h1 class="pageHeadline"><?php echo $PAGE_NAME; ?></h1>
-	<nav class="navTopbar">
-		<a href="/index.php">Home</a>
-		<a href="/html.php">HTML</a>
-		<a href="/css.php">CSS</a>
-		<a href="/javascript.php">Javascript</a>
-		<a href="/changelog.php">Changelog</a>
-	</nav>
-</header>
 <nav class="navSidebar">
 	<h4><a href="/css/colors.php">Web Colors</a></h4>
 	<h4>Properties</h4>
@@ -56,10 +46,21 @@
 		<code><li><a href="/css/empty-cells.php">empty-cells</a></code></li>
 		<code><li><a href="/css/filter.php">filter</a></code></li>
 		<code><li><a href="/css/flex.php">flex</a></code></li>
-		<li><code><a class="needsAttn" href="/css/float.php">float</a></code></li>
+		<code><li><a href="/css/flex-flow.php">flex-flow</a></code></li>
+		<li><code><a href="/css/float.php">float</a></code></li>
 		<li><code><a href="/css/font.php">font</a></code></li>
 		<li><code><a class="needsAttn" href="/css/keyframes.php">@keyframes</a></code></li>
 		<li><code><a class="needsAttn" href="/css/position.php">position</a></code></li>
 		<li><code><a class="needsAttn" href="/css/transform.php">transform</a></code></li>
 	</ul>
 </nav>
+<header>
+	<h1 class="pageHeadline"><?php echo $PAGE_NAME; ?></h1>
+	<nav class="navTopbar">
+		<a href="/index.php">Home</a>
+		<a href="/html.php">HTML</a>
+		<a href="/css.php">CSS</a>
+		<a href="/javascript.php">Javascript</a>
+		<a href="/changelog.php">Changelog</a>
+	</nav>
+</header>

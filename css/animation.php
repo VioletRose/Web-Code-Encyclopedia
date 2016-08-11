@@ -130,6 +130,8 @@
 				&lt;/style&gt;
 				<br>
 				&lt;div id="ultimateBox"&gt;~^~&lt;br&gt;(&#9786)&lt;/div&gt;
+				<br>
+				&lt;p&gt;Mouse over the animated figure to see the direction reverse!&lt;/p&gt;
 			</code>
 		</figure>
 	</section>
@@ -197,6 +199,7 @@
 				}
 			</style>
 			<div id="ultimateBox">~^~<br>(&#9786)</div>
+			<p>Mouse over the animated figure to see the direction reverse!</p>
 		</figure>
 	</section>
 	<section>

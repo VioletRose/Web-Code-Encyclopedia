@@ -52,6 +52,8 @@
 				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div id="clipBox"&gt;&lt;/div&gt;
 				<br>
 				&lt;/div&gt;
+				<br>
+				&lt;p&gt;Mouse over the box to see the clipping change!&lt;/p&gt;
 			</code>
 		</figure>
 	</section>
@@ -79,6 +81,7 @@
 			<div class="containerBox">
 				<div id="clipBox"></div>
 			</div>
+			<p>Mouse over the box to see the clipping change!</p>
 		</figure>
 	</section>
 	<section>

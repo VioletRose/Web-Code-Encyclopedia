@@ -4,7 +4,7 @@
 ?>
 <main>
 	<section>
-		<p>Required properties: <code><a href="/css/display.php">display</a></code>, <code><a href="/css/flex-wrap.php">flex-wrap</a></code></p>
+		<p>Required properties: <code><a href="/css/display.php">display</a></code>, <code><a href="/css/flex-flow.php">flex-flow</a></code></p>
 		<p>This property causes the content (rows or columns) within a flex container with wrapping enabled to align differently relative to the container.</p>
 	</section>
 	<section>

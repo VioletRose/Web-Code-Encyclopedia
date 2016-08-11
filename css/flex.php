@@ -65,6 +65,8 @@
 				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="flexSquare"&gt;&lt;/div&gt;
 				<br>
 				&lt;/div&gt;
+				<br>
+				&lt;p&gt;Mouse over the larger square to see the size change!&lt;/p&gt;
 			</code>
 		</figure>
 	</section>
@@ -98,6 +100,7 @@
 				<div class="flexSquare"></div>
 				<div class="flexSquare"></div>
 			</div>
+			<p>Mouse over the larger square to see the size change!</p>
 		</figure>
 	</section>
 	<section>

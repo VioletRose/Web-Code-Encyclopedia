@@ -1,3 +1,17 @@
+Thursday, August 11th, 2016
+Additions:
+css/flex-flow.php
+css/float.php: Now a full page and no longer a placeholder.
+Changes:
+css.php: Closed an unclosed code tag.
+css/align-content.php: Changed flex-direction to flex-flow.
+css/animation.php: Added a line informing users that mouse hovering has an effect.
+css/clip.php: Added a line informing users that mouse hovering has an effect.
+css/csshead: Added a link for flex-flow, removed .needsAttn from the link for float, and moved the navigation sidebar's position in the HTML document.
+css/flex.php: Added a line informing users that mouse hovering has an effect.
+html/htmlhead.php: Moved the navigation sidebar's position in the HTML document.
+javascript/javascripthead.php: Moved the navigation sidebar's position in the HTML document.
+
 Wednesday, August 10th, 2016
 Additions:
 css/align-self.php

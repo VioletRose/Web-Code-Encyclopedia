@@ -8,16 +8,6 @@
 <script src="/scripts/jquery-3.0.0.min.js"></script>
 </head>
 <body class="languageSection">
-<header>
-	<h1 class="pageHeadline"><?php echo $PAGE_NAME; ?></h1>
-	<nav class="navTopbar">
-		<a href="/index.php">Home</a>
-		<a href="/html.php">HTML</a>
-		<a href="/css.php">CSS</a>
-		<a href="/javascript.php">Javascript</a>
-		<a href="/changelog.php">Changelog</a>
-	</nav>
-</header>
 <nav class="navSidebar">
 	<h4><a href="/html/attributes.php">Global Attributes</a></h4>
 	<h4>Block Elements</h4>
@@ -193,3 +183,13 @@
 		<li><code>&lt;tt&gt;</code></li>
 	</ul>
 </nav>
+<header>
+	<h1 class="pageHeadline"><?php echo $PAGE_NAME; ?></h1>
+	<nav class="navTopbar">
+		<a href="/index.php">Home</a>
+		<a href="/html.php">HTML</a>
+		<a href="/css.php">CSS</a>
+		<a href="/javascript.php">Javascript</a>
+		<a href="/changelog.php">Changelog</a>
+	</nav>
+</header>
