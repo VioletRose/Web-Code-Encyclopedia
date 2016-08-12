@@ -1,3 +1,9 @@
+Friday, August 12th, 2016
+Additions:
+css/font-face
+Changes:
+css/csshead.php: Added a link for @font-face.
+
 Thursday, August 11th, 2016
 Additions:
 css/flex-flow.php

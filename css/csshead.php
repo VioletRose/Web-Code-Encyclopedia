@@ -53,6 +53,10 @@
 		<li><code><a class="needsAttn" href="/css/position.php">position</a></code></li>
 		<li><code><a class="needsAttn" href="/css/transform.php">transform</a></code></li>
 	</ul>
+	<h4>Rules</h4>
+	<ul>
+		<code><li><a href="/css/font-face.php">@font-face</a></code></li>
+	</ul>
 </nav>
 <header>
 	<h1 class="pageHeadline"><?php echo $PAGE_NAME; ?></h1>
