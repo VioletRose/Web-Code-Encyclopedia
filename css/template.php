@@ -6,11 +6,12 @@
 	<section>
 		<p>Required property: <code><a href="/css/.php"></a></code></p>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
+		<p>This page is about a CSS rule and the descriptors it sets.</p>
 		<p></p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				<!--&nbsp;&nbsp;&nbsp;&nbsp;-->
 				
@@ -19,7 +20,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<style>
 				
 			</style>

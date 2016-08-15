@@ -38,6 +38,10 @@ section:not(.exampleFHS) {
 	padding: 0 8px;
 }
 
+.exampleFigure {
+	overflow-x: auto;
+}
+
 .languageSection {
 	padding-left: 150px;
 }

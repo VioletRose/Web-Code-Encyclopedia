@@ -1,3 +1,15 @@
+Monday, August 15th, 2016
+Additions:
+css/font-size-adjust.php
+css/height.php
+css/justify-content.php
+css/keyframes.php: Now a full page and no longer a placeholder.
+Changes:
+css/csshead.php: Added links for font-size-adjust, height, and justify-content, moved @keyframes to Rules and removed .needsAttn
+stylesheets/encyclopedia.css: Added a new rule for .exampleFigure, changing it to have a horizontal scrollbar if a line is too long to display.
+Fixes:
+css/csshead.php: Corrected improper order of opening/closing tags on several list entries.
+
 Friday, August 12th, 2016
 Additions:
 css/font-face

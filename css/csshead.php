@@ -12,7 +12,7 @@
 	<h4><a href="/css/colors.php">Web Colors</a></h4>
 	<h4>Properties</h4>
 	<ul>
-		<!--For copy/paste purposes: <code><li><a href="/css/.php"></a></code></li>-->
+		<!--For copy/paste purposes: <li><code><a href="/css/.php"></a></code></li>-->
 		<li><code><a href="/css/align-content.php">align-content</a></code></li>
 		<li><code><a href="/css/align-items.php">align-items</a></code></li>
 		<li><code><a href="/css/align-self.php">align-self</a></code></li>
@@ -34,28 +34,31 @@
 		<li><code><a href="/css/clip.php">clip</a></code></li>
 		<li><code><a href="/css/color.php">color</a></code></li>
 		<li><code><a href="/css/column-gap.php">column-gap</a></code></li>
-		<code><li><a href="/css/column-rule.php">column-rule</a></code></li>
-		<code><li><a href="/css/column-span.php">column-span</a></code></li>
+		<li><code><a href="/css/column-rule.php">column-rule</a></code></li>
+		<li><code><a href="/css/column-span.php">column-span</a></code></li>
 		<li><code><a href="/css/columns.php">columns</a></code></li>
-		<code><li><a href="/css/content.php">content</a></code></li>
-		<code><li><a href="/css/counter-increment.php">counter-increment</a></code></li>
-		<code><li><a href="/css/counter-reset.php">counter-reset</a></code></li>
-		<code><li><a href="/css/cursor.php">cursor</a></code></li>
-		<code><li><a href="/css/direction.php">direction</a></code></li>
-		<code><li><a href="/css/display.php">display</a></code></li>
-		<code><li><a href="/css/empty-cells.php">empty-cells</a></code></li>
-		<code><li><a href="/css/filter.php">filter</a></code></li>
-		<code><li><a href="/css/flex.php">flex</a></code></li>
-		<code><li><a href="/css/flex-flow.php">flex-flow</a></code></li>
+		<li><code><a href="/css/content.php">content</a></code></li>
+		<li><code><a href="/css/counter-increment.php">counter-increment</a></code></li>
+		<li><code><a href="/css/counter-reset.php">counter-reset</a></code></li>
+		<li><code><a href="/css/cursor.php">cursor</a></code></li>
+		<li><code><a href="/css/direction.php">direction</a></code></li>
+		<li><code><a href="/css/display.php">display</a></code></li>
+		<li><code><a href="/css/empty-cells.php">empty-cells</a></code></li>
+		<li><code><a href="/css/filter.php">filter</a></code></li>
+		<li><code><a href="/css/flex.php">flex</a></code></li>
+		<li><code><a href="/css/flex-flow.php">flex-flow</a></code></li>
 		<li><code><a href="/css/float.php">float</a></code></li>
 		<li><code><a href="/css/font.php">font</a></code></li>
-		<li><code><a class="needsAttn" href="/css/keyframes.php">@keyframes</a></code></li>
+		<li><code><a href="/css/font-size-adjust.php">font-size-adjust</a></code></li>
+		<li><code><a href="/css/height.php">height</a></code></li>
+		<li><code><a href="/css/justify-content.php">justify-content</a></code></li>
 		<li><code><a class="needsAttn" href="/css/position.php">position</a></code></li>
 		<li><code><a class="needsAttn" href="/css/transform.php">transform</a></code></li>
 	</ul>
 	<h4>Rules</h4>
 	<ul>
-		<code><li><a href="/css/font-face.php">@font-face</a></code></li>
+		<li><code><a href="/css/font-face.php">@font-face</a></code></li>
+		<li><code><a href="/css/keyframes.php">@keyframes</a></code></li>
 	</ul>
 </nav>
 <header>
