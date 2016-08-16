@@ -52,6 +52,10 @@
 		<li><code><a href="/css/font-size-adjust.php">font-size-adjust</a></code></li>
 		<li><code><a href="/css/height.php">height</a></code></li>
 		<li><code><a href="/css/justify-content.php">justify-content</a></code></li>
+		<li><code><a href="/css/left.php">left</a></code></li>
+		<li><code><a href="/css/letter-spacing.php">letter-spacing</a></code></li>
+		<li><code><a href="/css/line-height.php">line-height</a></code></li>
+		<li><code><a href="/css/list-style.php">list-style</a></code></li>
 		<li><code><a class="needsAttn" href="/css/position.php">position</a></code></li>
 		<li><code><a class="needsAttn" href="/css/transform.php">transform</a></code></li>
 	</ul>

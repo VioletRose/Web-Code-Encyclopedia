@@ -53,7 +53,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div class="flexBox"&gt;
+				&lt;div class="flexBox" id="justifiedFlexBox"&gt;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="flexSquare"&gt;&lt;/div&gt;
 				<br>

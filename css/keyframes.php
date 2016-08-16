@@ -31,7 +31,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;#keyframesBox {
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;animation: keyframeExample 7s infinite;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;animation: keyframeExample 2s linear infinite alternate;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 100px;
 				<br>

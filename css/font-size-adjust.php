@@ -37,6 +37,8 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="openSansSpan"&gt;If you are using Firefox, both of these lines will be quite close in size, though not fully identical.&lt;/span&gt;
 				<br>
+				&lt;br&gt;
+				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="arialSpan"&gt;If you are using Firefox, both of these lines will be quite close in size, though not fully identical.&lt;/span&gt;
 				<br>
 				&lt;/div&gt;
@@ -44,6 +46,8 @@
 				&lt;div&gt;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="openSansSpan"&gt;Whereas this is how they will appear in other browsers, or if the font size is not adjusted.&lt;/span&gt;
+				<br>
+				&lt;br&gt;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="arialSpan"&gt;Whereas this is how they will appear in other browsers, or if the font size is not adjusted.&lt;/span&gt;
 				<br>
