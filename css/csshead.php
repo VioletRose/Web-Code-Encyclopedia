@@ -56,6 +56,9 @@
 		<li><code><a href="/css/letter-spacing.php">letter-spacing</a></code></li>
 		<li><code><a href="/css/line-height.php">line-height</a></code></li>
 		<li><code><a href="/css/list-style.php">list-style</a></code></li>
+		<li><code><a href="/css/margin.php">margin</a></code></li>
+		<li><code><a href="/css/max-height.php">max-height</a></code></li>
+		<li><code><a href="/css/max-width.php">max-width</a></code></li>
 		<li><code><a class="needsAttn" href="/css/position.php">position</a></code></li>
 		<li><code><a class="needsAttn" href="/css/transform.php">transform</a></code></li>
 	</ul>

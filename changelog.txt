@@ -1,3 +1,13 @@
+Thursday, September 08th, 2016
+Additions:
+css/margin.php
+css/max-height.php
+css/max-width.php
+Changes:
+css/csshead.php: Added links for margin, max-height, and max-width.
+Fixes:
+css/font.php: Corrected a missing description.
+
 Tuesday, August 16th, 2016
 Additions:
 css/left.php

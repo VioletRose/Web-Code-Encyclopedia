@@ -58,7 +58,7 @@
 		<dl>
 			<dt><code><var>style</var> <var>variant</var> <var>weight</var> <var>size/line-height</var> <var>family</var></code></dt>
 			<dd>
-				&#10551; 
+				&#10551; The values that would normally be set through the associated, non-shorthand font properties, in this order.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
