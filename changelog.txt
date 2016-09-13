@@ -1,3 +1,21 @@
+Monday, September 12th, 2016
+Additions:
+css/min-height.php
+css/min-width.php
+css/opacity.php
+css/order.php
+Changes:
+css/csshead.php: Added links for min-height, min-width, opacity, and order.
+Fixes:
+css/flex-flow: Corrected the page title.
+css/justify-content: Corrected the page title.
+
+Sunday, September 11th, 2016
+Additions:
+css/media.php
+Changes:
+css/csshead.php: Added a link for @media.
+
 Thursday, September 08th, 2016
 Additions:
 css/margin.php

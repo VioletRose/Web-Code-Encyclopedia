@@ -59,6 +59,10 @@
 		<li><code><a href="/css/margin.php">margin</a></code></li>
 		<li><code><a href="/css/max-height.php">max-height</a></code></li>
 		<li><code><a href="/css/max-width.php">max-width</a></code></li>
+		<li><code><a href="/css/min-height.php">min-height</a></code></li>
+		<li><code><a href="/css/min-width.php">min-width</a></code></li>
+		<li><code><a href="/css/opacity.php">opacity</a></code></li>
+		<li><code><a href="/css/order.php">order</a></code></li>
 		<li><code><a class="needsAttn" href="/css/position.php">position</a></code></li>
 		<li><code><a class="needsAttn" href="/css/transform.php">transform</a></code></li>
 	</ul>
@@ -66,6 +70,7 @@
 	<ul>
 		<li><code><a href="/css/font-face.php">@font-face</a></code></li>
 		<li><code><a href="/css/keyframes.php">@keyframes</a></code></li>
+		<li><code><a href="/css/media.php">@media</a></code></li>
 	</ul>
 </nav>
 <header>
