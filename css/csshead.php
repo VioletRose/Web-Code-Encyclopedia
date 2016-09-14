@@ -63,6 +63,8 @@
 		<li><code><a href="/css/min-width.php">min-width</a></code></li>
 		<li><code><a href="/css/opacity.php">opacity</a></code></li>
 		<li><code><a href="/css/order.php">order</a></code></li>
+		<li><code><a href="/css/outline.php">outline</a></code></li>
+		<li><code><a href="/css/outline-offset.php">outline-offset</a></code></li>
 		<li><code><a class="needsAttn" href="/css/position.php">position</a></code></li>
 		<li><code><a class="needsAttn" href="/css/transform.php">transform</a></code></li>
 	</ul>

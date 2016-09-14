@@ -1,3 +1,10 @@
+Tuesday, September 13th, 2016
+Additions:
+css/outline.php
+css/outline-offset.php
+Changes:
+css/csshead.php: Added links for outline and outline-offset.
+
 Monday, September 12th, 2016
 Additions:
 css/min-height.php
