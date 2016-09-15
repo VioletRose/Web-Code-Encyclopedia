@@ -1,3 +1,10 @@
+Wednesday, September 14th, 2016
+Additions:
+css/overflow
+css/padding
+Changes:
+css/csshead.php: Added links for overflow and padding.
+
 Tuesday, September 13th, 2016
 Additions:
 css/outline.php
