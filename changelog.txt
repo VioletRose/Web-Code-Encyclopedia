@@ -1,3 +1,15 @@
+Thursday, September 15th, 2016
+Additions:
+css/page-break-after.php
+css/page-break-before.php
+css/page-break-inside.php
+css/perspective.php
+css/perspective-origin.php
+Changes:
+css/csshead.php: Added links for page-break-after, page-break-before, page-break-inside, perspective, and perspective-origin.
+Fixes:
+css/animation.php: Corrected incorrect reference to @keyframes as a property.
+
 Wednesday, September 14th, 2016
 Additions:
 css/overflow
