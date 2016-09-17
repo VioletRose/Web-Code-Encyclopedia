@@ -273,7 +273,7 @@
 	<section>
 		<h4>Accepted values of <code>animation-duration</code>:</h4>
 		<dl>
-			<dt><code><var>duration</var></code></dt>
+			<dt><code><var>duration</var>s</code></dt>
 			<dd>&#10551; Numeric variable, in whole seconds. The animation takes this long to complete.</dd>
 			<dt><code>initial</code></dt>
 			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>

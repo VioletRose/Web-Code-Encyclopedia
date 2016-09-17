@@ -72,7 +72,7 @@
 		<li><code><a href="/css/page-break-inside.php">page-break-inside</a></code></li>
 		<li><code><a href="/css/perspective.php">perspective</a></code></li>
 		<li><code><a href="/css/perspective-origin.php">perspective-origin</a></code></li>
-		<li><code><a class="needsAttn" href="/css/position.php">position</a></code></li>
+		<li><code><a href="/css/position.php">position</a></code></li>
 		<li><code><a class="needsAttn" href="/css/transform.php">transform</a></code></li>
 	</ul>
 	<h4>Rules</h4>

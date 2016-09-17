@@ -1,3 +1,11 @@
+Friday, September 16th, 2016
+Additions:
+css/position.php: Completed, no longer a placeholder.
+Changes:
+css/csshead.php: Removed .needsAttn from the link for position.
+Fixes:
+css/animation.php: Corrected missing information about the syntax of animation-duration.
+
 Thursday, September 15th, 2016
 Additions:
 css/page-break-after.php
