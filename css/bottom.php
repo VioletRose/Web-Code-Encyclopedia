@@ -49,7 +49,7 @@
 		</figure>
 	</section>
 	<section>
-		<h4>Accepted values:</h4>
+		<h4>Accepted values of <code>bottom</code>:</h4>
 		<dl>
 			<dt><code>auto</code></dt>
 			<dd>&#10551; The default value. The browser automatically calculates the bottom position.</dd>

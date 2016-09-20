@@ -1,3 +1,18 @@
+Monday, September 19th, 2016
+Additions:
+css/quotes.php
+css/resize.php
+css/right.php
+css/tab-size.php
+css/table-layout.php
+css/text-align.php
+css/white-space.php: Currently a placeholder.
+Changes:
+css/csshead.php: Added links for quotes, resize, right, tab-size, table-layout, text-align, and white-space (a placeholder).
+Fixes:
+css/bottom.php: Corrected the outdated header for the accepted values section.
+css/left.php: Corrected the outdated header for the accepted values section.
+
 Friday, September 16th, 2016
 Additions:
 css/position.php: Completed, no longer a placeholder.

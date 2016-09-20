@@ -73,7 +73,14 @@
 		<li><code><a href="/css/perspective.php">perspective</a></code></li>
 		<li><code><a href="/css/perspective-origin.php">perspective-origin</a></code></li>
 		<li><code><a href="/css/position.php">position</a></code></li>
+		<li><code><a href="/css/quotes.php">quotes</a></code></li>
+		<li><code><a href="/css/resize.php">resize</a></code></li>
+		<li><code><a href="/css/right.php">right</a></code></li>
+		<li><code><a href="/css/tab-size.php">tab-size</a></code></li>
+		<li><code><a href="/css/table-layout.php">table-layout</a></code></li>
+		<li><code><a href="/css/text-align.php">text-align</a></code></li>
 		<li><code><a class="needsAttn" href="/css/transform.php">transform</a></code></li>
+		<li><code><a class="needsAttn" href="/css/white-space.php">white-space</a></code></li>
 	</ul>
 	<h4>Rules</h4>
 	<ul>
