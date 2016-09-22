@@ -1,3 +1,23 @@
+Wednesday, September 21st, 2016
+Additions:
+css/text-shadow.php
+css/text-transform.php
+css/top.php
+css/unicode-bidi.php
+css/white-space.php: Completed, no longer a placeholder.
+Changes:
+css/csshead.php: Added links for text-shadow, text-transform, top, and unicode-bidi; removed .needsAttn from the link for whitespace.
+stylesheets/encyclopedia.css: Changed the site's background and border colors slightly.
+
+Tuesday, September 20th, 2016
+Additions:
+css/text-align-last.php
+css/text-decoration.php
+css/text-indent.php
+css/text-overflow.php
+Changes:
+css/csshead.php: Added links for text-align-last, text-decoration, text-indent, and text-overflow.
+
 Monday, September 19th, 2016
 Additions:
 css/quotes.php

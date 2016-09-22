@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: #ead8ff;
+	background-color: #e6bfff;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 }
@@ -23,7 +23,7 @@ dl:not(#exampledl) dd {
 
 footer:not(.exampleFHS), header:not(.exampleFHS), section:not(.exampleFHS) {
 	background-color: white;
-	border-color: #7F00FF;
+	border-color: #bd54ff;
 	border-style: solid;
 	box-shadow: 3px 3px 5px gray;
 	margin: 8px auto;

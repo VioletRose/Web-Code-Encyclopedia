@@ -79,8 +79,16 @@
 		<li><code><a href="/css/tab-size.php">tab-size</a></code></li>
 		<li><code><a href="/css/table-layout.php">table-layout</a></code></li>
 		<li><code><a href="/css/text-align.php">text-align</a></code></li>
+		<li><code><a href="/css/text-align-last.php">text-align-last</a></code></li>
+		<li><code><a href="/css/text-decoration.php">text-decoration</a></code></li>
+		<li><code><a href="/css/text-indent.php">text-indent</a></code></li>
+		<li><code><a href="/css/text-overflow.php">text-overflow</a></code></li>
+		<li><code><a href="/css/text-shadow.php">text-shadow</a></code></li>
+		<li><code><a href="/css/text-transform.php">text-transform</a></code></li>
+		<li><code><a href="/css/top.php">top</a></code></li>
 		<li><code><a class="needsAttn" href="/css/transform.php">transform</a></code></li>
-		<li><code><a class="needsAttn" href="/css/white-space.php">white-space</a></code></li>
+		<li><code><a href="/css/unicode-bidi.php">unicode-bidi</a></code></li>
+		<li><code><a href="/css/white-space.php">white-space</a></code></li>
 	</ul>
 	<h4>Rules</h4>
 	<ul>
