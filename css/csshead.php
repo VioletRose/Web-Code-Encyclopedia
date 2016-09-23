@@ -89,6 +89,11 @@
 		<li><code><a class="needsAttn" href="/css/transform.php">transform</a></code></li>
 		<li><code><a href="/css/unicode-bidi.php">unicode-bidi</a></code></li>
 		<li><code><a href="/css/white-space.php">white-space</a></code></li>
+		<li><code><a href="/css/width.php">width</a></code></li>
+		<li><code><a href="/css/word-break.php">word-break</a></code></li>
+		<li><code><a href="/css/word-spacing.php">word-spacing</a></code></li>
+		<li><code><a href="/css/word-wrap.php">word-wrap</a></code></li>
+		<li><code><a href="/css/z-index.php">z-index</a></code></li>
 	</ul>
 	<h4>Rules</h4>
 	<ul>

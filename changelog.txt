@@ -1,3 +1,13 @@
+Thursday, Septempber 22nd, 2016
+Additions:
+css/width.php
+css/word-break.php
+css/word-spacing.php
+css/word-wrap.php
+css/z-index.php
+Changes:
+css/csshead.php: Added links for width, word-break, word-spacing, word-wrap, and z-index.
+
 Wednesday, September 21st, 2016
 Additions:
 css/text-shadow.php
