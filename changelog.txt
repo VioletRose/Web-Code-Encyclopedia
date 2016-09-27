@@ -1,3 +1,10 @@
+Monday, September 26th, 2016
+Additions:
+css/vertical-align.php
+css/visibility.php
+Changes:
+css/csshead.php: Added links for vertical-align and visibility.
+
 Thursday, Septempber 22nd, 2016
 Additions:
 css/width.php

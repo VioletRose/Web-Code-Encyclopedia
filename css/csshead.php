@@ -88,6 +88,8 @@
 		<li><code><a href="/css/top.php">top</a></code></li>
 		<li><code><a class="needsAttn" href="/css/transform.php">transform</a></code></li>
 		<li><code><a href="/css/unicode-bidi.php">unicode-bidi</a></code></li>
+		<li><code><a href="/css/vertical-align.php">vertical-align</a></code></li>
+		<li><code><a href="/css/visibility.php">visibility</a></code></li>
 		<li><code><a href="/css/white-space.php">white-space</a></code></li>
 		<li><code><a href="/css/width.php">width</a></code></li>
 		<li><code><a href="/css/word-break.php">word-break</a></code></li>
