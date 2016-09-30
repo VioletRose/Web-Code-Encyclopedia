@@ -31,7 +31,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="rtlP"&gt;Right to left.&lt;/div&gt;
+				&lt;div id="rtlBox "&gt;Right to left.&lt;/div&gt;
 				<br>
 				&lt;div id="ltrBox"&gt;左から右へ&lt;/div&gt;
 			</code>

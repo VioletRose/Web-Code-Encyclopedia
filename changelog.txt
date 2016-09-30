@@ -1,3 +1,12 @@
+Friday, September 30th, 2016
+Additions:
+css/transform.php: Completed, no longer a placeholder.
+Changes:
+css/csshead.php: Removed .needsAttn from the link for transform.
+css/colors.php: Rearranged the color table by color group to make it a more useful reference.
+Fixes:
+css/unicode-bidi.php: Uploaded the correct, updated version.
+
 Tuesday, September 27th, 2016
 Additions:
 css/transition.php
