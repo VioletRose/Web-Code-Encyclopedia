@@ -1,3 +1,11 @@
+Sunday, October 02nd, 2016
+Additions:
+css/transform-origin.php
+css/transform-style.php
+Changes:
+css/css.php: Removed the disclaimer about the CSS section not being complete.
+css/csshead.php: Added links for transform-origin and transform-style.
+
 Friday, September 30th, 2016
 Additions:
 css/transform.php: Completed, no longer a placeholder.

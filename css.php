@@ -4,7 +4,6 @@
 ?>
 <main>
 	<section>
-		<p><strong>This section is not complete yet!</strong></p>
 		<p>On every page in this section, on the left side of the screen you will find links to pages for each of the properties used in CSS, sorted categorically and alphabetically, as well as indexes of CSS selectors and standard web colors. Each page will have a brief description of the property, an example of its use, and a section on how to set its value(s). On this page, you will also find explanations of the more basic concepts in CSS.</p>
 		<p>In HTML, some elements can't be used unless they are contained inside of other ones. But CSS code doesn't, internally, have parent/child roles, it only uses them when referring to other types of code. As such, where a property can only be used alongside of another property, I've noted this in the description. <strong>Additionally, to condense the otherwise huge amount of redundancy, shorthand properties and their related properties will all be described on the same page.</strong></p>
 	</section>

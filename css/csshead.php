@@ -12,7 +12,6 @@
 	<h4><a href="/css/colors.php">Web Colors</a></h4>
 	<h4>Properties</h4>
 	<ul>
-		<!--For copy/paste purposes: <li><code><a href="/css/.php"></a></code></li>-->
 		<li><code><a href="/css/align-content.php">align-content</a></code></li>
 		<li><code><a href="/css/align-items.php">align-items</a></code></li>
 		<li><code><a href="/css/align-self.php">align-self</a></code></li>
@@ -87,6 +86,8 @@
 		<li><code><a href="/css/text-transform.php">text-transform</a></code></li>
 		<li><code><a href="/css/top.php">top</a></code></li>
 		<li><code><a href="/css/transform.php">transform</a></code></li>
+		<li><code><a href="/css/transform-origin.php">transform-origin</a></code></li>
+		<li><code><a href="/css/transform-style.php">transform-style</a></code></li>
 		<li><code><a href="/css/transition.php">transition</a></code></li>
 		<li><code><a href="/css/unicode-bidi.php">unicode-bidi</a></code></li>
 		<li><code><a href="/css/vertical-align.php">vertical-align</a></code></li>
