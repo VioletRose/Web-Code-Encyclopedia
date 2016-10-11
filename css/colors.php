@@ -6,8 +6,8 @@
 	<section>
 		<p>When working with CSS, to make a truly great-looking website it's important to have a solid grasp of color. While modern web browsers can display all 16,777,216 colors covered by 0-255 RGB (Red, Green, and Blue) mixing, just by entering the appropriate hexadecimal or RGB values, there are also 139 specific colors you can refer to simply by name and the browser will know which color that is. They are listed below, along with examples, the general color group they belong to, and their hexadecimal and RGB values. So if you don't know exactly what color you want to use already, picking one from the list might be a good option for your site! Note that some colors have the same hexadecimal value, but may be referred to by multiple names to achieve the same effect. These include Aqua/Cyan, Fuchsia/Magenta, and all colors with gray/grey in their names.</p>
 	</section>
-	<section id="colorTableSection">
-		<table border="1">
+	<section>
+		<table border="1" class="styledTable">
 			<caption>Standard Web Colors</caption>
 			<colgroup>
 				<col id="colorName" span="1"></col>

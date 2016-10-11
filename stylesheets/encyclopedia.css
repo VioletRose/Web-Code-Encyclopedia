@@ -109,6 +109,17 @@ section:not(.exampleFHS) {
 	font-weight: normal;
 }
 
+.styledTable {
+	margin: 8px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.styledTable caption {
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
 .verticalCentering {
     position: absolute;/*The parent of this attribute must have position set to relative in order for the absolute position to have the proper position content.*/
 	top: 50%;
@@ -135,22 +146,6 @@ section:not(.exampleFHS) {
 
 #colorRGB {
 	width: 103px;
-}
-
-#colorTableSection {
-	height: 99vh;
-	overflow-y: scroll;
-	text-align: center;
-}
-
-#colorTableSection caption {
-	margin-bottom: 6px;
-	font-weight: bold;
-}
-
-#colorTableSection table {
-	margin: 8px auto;
-	width: 98%;
 }
 
 #exampledialog {

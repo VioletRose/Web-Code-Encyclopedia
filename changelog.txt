@@ -1,3 +1,11 @@
+Monday, October 10th, 2016
+Additions:
+css/prefixes.php
+Changes:
+css/colors.php: Added .styledTable, removed #colorTableSection.
+css/csshead.php: Added a link for prefixes.
+stylesheets.encyclopedia.css: Added .styledTable and .styledTable caption, removed #colorTableSection, #colorTableSection caption, and #colorTableSection table.
+
 Sunday, October 02nd, 2016
 Additions:
 css/transform-origin.php
