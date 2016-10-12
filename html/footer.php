@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;footer&gt;
 				<br>
@@ -22,8 +22,8 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
-			<footer class="exampleFHS">
+		<figure class="renderFigure">
+			<footer>
 				<p>Created by Violet Rose</p>
 				<p>Contact me at: <a href="mailto:actuallya@fakeemailaddress.com">actuallya@fakeemailaddress.com</a></p>
 			</footer>

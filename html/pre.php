@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;pre&gt;
 				<br>
@@ -28,7 +28,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<pre>&nbsp;&nbsp;&nbsp;&nbsp;This text  has<br>&nbsp;&nbsp;&nbsp;&nbsp;been   formatted in<br>&nbsp;&nbsp;&nbsp;&nbsp;a  very   stupid<br>&nbsp;&nbsp;&nbsp;&nbsp;way.</pre>
 			<pre>This text  has<br>been   formatted in<br>a  slightly less   stupid<br>way.</pre>
 		</figure>

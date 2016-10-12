@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;a href="/html.php"&gt;
 				<br>
@@ -22,7 +22,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">>
 			<a href="/html.php">
 				<p>Click here to be directed back to the main page about HTML! Or, click this image!</p>
 				<img src="/images/html.png">

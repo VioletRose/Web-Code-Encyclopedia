@@ -9,7 +9,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;style&gt;
 				<br>
@@ -17,9 +17,9 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-style: solid;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 100px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 94px;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 300px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 294px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -49,12 +49,12 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<style>
 				.exampleBox {
 					border-style: solid;
-					height: 100px;
-					width: 300px;
+					height: 94px;
+					width: 294px;
 				}
 				#leftClearBox {
 					background-color: lime;

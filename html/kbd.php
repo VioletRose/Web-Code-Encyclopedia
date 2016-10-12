@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;This is &lt;kbd&gt;keyboard input&lt;/kbd&gt;!&lt;/p&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p>This is <kbd>keyboard input</kbd>!</p>
 		</figure>
 	</section>

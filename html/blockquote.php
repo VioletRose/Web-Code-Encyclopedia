@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&nbsp;&nbsp;&nbsp;&nbsp;&lt;blockquote cite="https://violetrose.prototeam.org/html.php"&gt;
 				<br>
@@ -20,7 +20,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<blockquote cite="https://violetrose.prototeam.org/html.php">I will make the list of elements prettier in the future, but for right now I just wanted to get started.</blockquote>
 		</figure>
 	</section>

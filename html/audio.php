@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;audio src="/audio/bass-sample.mp3" controls loop preload="none"&gt;If you are viewing this, your browser does not support the &amp;lt;audio&amp;gt; tag or is blocking it.&lt;/audio&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<audio src="/audio/bass-sample.mp3" controls loop preload="none">If you are viewing this, your browser does not support the &lt;audio&;gt tag or is blocking it.</audio>
 		</figure>
 	</section>

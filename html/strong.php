@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;In general, whenever you are writing any body of text, there will be certain parts you consider highly important to the user. This is when the &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt; tag should be used, &lt;strong&gt;not&lt;/strong&gt; &lt;code&gt;&amp;lt;b&amp;gt;&lt;/code&gt;.&lt;/p&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p>In general, whenever you are writing any body of text, there will be certain parts you consider highly important to the user. This is when the <code>&lt;strong&gt;</code> tag should be used, <strong>not</strong> <code>&lt;b&gt;</code>.</p>
 		</figure>
 	</section>

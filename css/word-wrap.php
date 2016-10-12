@@ -18,7 +18,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;word-wrap: break-word;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 300px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 294px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -41,7 +41,7 @@
 				#wordWrapBox {
 					border-style: solid;
 					word-wrap: break-word;
-					width: 300px;
+					width: 294px;
 				}
 				#wordWrapBox:hover {
 					word-wrap: normal;

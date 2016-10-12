@@ -20,7 +20,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: mediumorchid;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 250px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 244px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transform: perspective(45px) rotate3d(0.50,0.20,0.30,10deg) skewX(-30deg) translate(90px,-25px);
 				<br>
@@ -48,7 +48,7 @@
 					background-color: thistle;
 					border: solid mediumorchid;
 					color: mediumorchid;
-					width: 250px;
+					width: 244px;
 					transform: perspective(45px) rotate3d(0.50,0.20,0.30,10deg) skewX(-30deg) translate(90px,-25px);
 				}
 				#transformedBox:hover {

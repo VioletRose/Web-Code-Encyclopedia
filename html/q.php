@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;It is often said that to achieve a state of neatness and precision in one's work, one must &lt;q&gt;Mind your p's and q's.&lt;/q&gt; However, this doesn't refer to careful handwriting as outward appearances might suggest, instead being a more metaphorical way to say that even the small details matter.&lt;/p&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p>It is often said that to achieve a state of neatness and precision in one's work, one must <q>Mind your p's and q's.</q> However, this doesn't refer to careful handwriting as outward appearances might suggest, instead being a more metaphorical way to say that even the small details matter.</p>
 		</figure>
 	</section>

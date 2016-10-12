@@ -21,7 +21,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text-align-last: justify;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 400px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 394px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -39,7 +39,7 @@
 					border-style: solid;
 					text-align: justify;
 					text-align-last: justify;
-					width: 400px;
+					width: 394px;
 				}
 			</style>
 			<div id="lastAlignedBox">Due to the way justified text attempts to evenly span the entire line it appears on, the last line usually needs to have a fallback or it may end up looking distinctly strange.</div>

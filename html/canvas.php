@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;canvas id="demoCanvas"&gt;This text will only show if your browser doesn't support the &amp;lt;canvas&amp;gt;&lt;/canvas&gt;
 				<br>
@@ -32,7 +32,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<canvas id="demoCanvas">This text will only show if your browser doesn't support the &lt;canvas&gt; element.</canvas>
 			<script>
 				document.addEventListener('DOMContentLoaded', function() {

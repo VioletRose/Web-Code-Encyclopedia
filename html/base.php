@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;base href="https://violetrose.prototeam.org/" target="_blank"&gt;
 			</code>

@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;div style="color:#7F00FF"&gt;
 				<br>
@@ -22,7 +22,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<div style="color:#7F00FF">
 				<h2>Div!</h2>
 				<p>Huzzah for divs!</p>

@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;img src="/images/examplemap.png" width="602" height="200" alt="Example Map" usemap="#examplemap"&gt;
 				<br>
@@ -28,7 +28,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<img src="/images/examplemap.png" width="602" height="200" alt="Example Map" usemap="#examplemap">
 			<map name="examplemap">
 				<area alt="Default" href="javascript:alert('You clicked the default region!')" shape="default">

@@ -16,7 +16,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-style: solid;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;max-width: 100px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;max-width: 94px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;overflow: auto;
 				<br>
@@ -32,7 +32,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="maxWidthBox"&gt;This box is set to be a quarter as wide as the browser window, but no more than 100px. Mouse over it to see what it would look like without a maximum width!&lt;/div&gt;
+				&lt;div id="maxWidthBox"&gt;This box is set to be a quarter as wide as the browser window, but no more than 94px. Mouse over it to see what it would look like without a maximum width!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -42,7 +42,7 @@
 			<style>
 				#maxWidthBox {
 					border-style: solid;
-					max-width: 100px;
+					max-width: 94px;
 					overflow: auto;
 					width: 25vw;
 				}
@@ -50,7 +50,7 @@
 					max-width: none;
 				}
 			</style>
-			<div id="maxWidthBox">This box is set to be a quarter as wide as the browser window, but no more than 100px. Mouse over it to see what it would look like without a maximum width!</div>
+			<div id="maxWidthBox">This box is set to be a quarter as wide as the browser window, but no more than 94px. Mouse over it to see what it would look like without a maximum width!</div>
 		</figure>
 	</section>
 	<section>

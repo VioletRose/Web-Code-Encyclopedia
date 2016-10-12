@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;table border="1"&gt;
 				<br>
@@ -92,7 +92,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<table border="1">
 				<caption>07/07/16 status of Web Encyclopedia</caption>
 				<thead>

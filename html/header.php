@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;header&gt;
 				<br>
@@ -32,8 +32,8 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
-			<header class="exampleFHS">
+		<figure class="renderFigure">
+			<header>
 				<h1>On the Versatility of the Glorious Div</h1>
 				<h3>by Violet Rose</h3>
 				<p>This text not reprinted with permission, because this is the original work and not a reprinting.</p>

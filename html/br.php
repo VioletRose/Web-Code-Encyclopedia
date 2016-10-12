@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				This is not
 				<br>
@@ -22,7 +22,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			This is not a valid way to insert a line break. You must use the &lt;br&gt; tag, like this:
 			<br>
 			to accomplish that.

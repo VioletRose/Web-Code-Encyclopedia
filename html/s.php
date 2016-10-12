@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;&lt;s&gt;I have 57 HTML tag pages.&lt;/s&gt;&lt;/p&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p><s>I have 57 HTML tag pages.</s></p>
 		</figure>
 	</section>

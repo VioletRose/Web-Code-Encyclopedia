@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;textarea rows="4" cols="70"&gt;Welcome to Violet's Web Code Encyclopedia, a project I am working on to familiarize myself with coding in HTML, CSS, and Javascript, in terms of both study and practice. Within this site, you will find visual examples and explanations of the various elements, declarations, and statements that are possible in each language.&lt;/textarea&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<textarea rows="4" cols="70">Welcome to Violet's Web Code Encyclopedia, a project I am working on to familiarize myself with coding in HTML, CSS, and Javascript, in terms of both study and practice. Within this site, you will find visual examples and explanations of the various elements, declarations, and statements that are possible in each language. If you wish, please delete this text and have fun writing your own!</textarea>
 		</figure>
 	</section>

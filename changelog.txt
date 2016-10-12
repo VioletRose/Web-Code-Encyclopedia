@@ -1,3 +1,14 @@
+Tuesday, October 11th, 2016
+Changes:
+css/*.php: Added .exampleFigure and .renderFigure to all remaining pages which lacked them.
+html/*.php: Added .exampleFigure and .renderFigure to all remaining pages which lacked them.
+stylesheets/encyclopedia.css: Improved rule targeting for better page efficiency, and made .renderFigure exempt from the otherwise-universal box-sizing rule.
+Fixes:
+css/*.php: Corrected the measurements which were invalidated by the change to box-sizing.
+css/all.php: The example now preserves the site's font face.
+css/align-self.php: Added missing example code.
+css/min-width.php: Corrected a mismatch between example and render figures.
+
 Monday, October 10th, 2016
 Additions:
 css/prefixes.php

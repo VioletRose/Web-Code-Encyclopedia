@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;video controls height="539" poster="/images/bloomingrose.png" preload="none" src="/video/bloomingrose.mp4 width="959"&gt;&lt;/video&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<video controls height="539" poster="/images/bloomingrose.png" preload="none" src="/video/bloomingrose.mp4" width="959"></video>
 		</figure>
 	</section>

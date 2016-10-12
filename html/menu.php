@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;menu id="examplemenu" type="context"&gt;
 				<br>
@@ -28,7 +28,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<menu id="examplemenu" type="context">
 				<menuitem icon="/images/violetflower.png" label="Home" onclick="window.open('https://violetrose.prototeam.org/index.php');"></menuitem>
 				<menuitem icon="/images/violetflower.png" label="HTML" onclick="window.open('https://violetrose.prototeam.org/html.php');"></menuitem>

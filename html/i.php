@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;The eighth word in this sentence is &lt;i&gt;italicized&lt;/i&gt; for no reason!&lt;/p&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p>The eighth word in this sentence is <i>italicized</i> for no reason!</p>
 		</figure>
 	</section>

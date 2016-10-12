@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;&lt;cite&gt;Rocket Leaguelt;/cite&gt; is developed by Psyonix, and was first released on July 7, 2015.&lt;/p&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p><cite>Rocket League</cite> is developed by Psyonix, and was first released on July 7, 2015.</p>
 		</figure>
 	</section>

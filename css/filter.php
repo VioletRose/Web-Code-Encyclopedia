@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;style&gt;
 				<br>
@@ -28,7 +28,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<style>
 				#filterImage {
 					-webkit-filter: blur(1px) brightness(120%) contrast(80%) drop-shadow(5px 5px 10px gray) grayscale(95%) hue-rotate(5deg) invert(75%) opacity(90%) saturate(120) sepia(5%);/*The filter property is webkit (effectively beta only) in Chrome and Opera.*/

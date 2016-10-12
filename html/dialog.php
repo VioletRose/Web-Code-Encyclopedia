@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;dialog&gt;This text won't even be rendered, because this window is closed.&lt;/dialog&gt;
 				<br>
@@ -20,7 +20,7 @@
 	</section>
 	<section id="exampledialog"><!--<dialog> is not counted as a child element, so this section was rendering too small. I am currently using CSS as a workaround until I can script it properly.-->
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<dialog>This text won't even be rendered, because this window is closed.</dialog>
 			<dialog open>This text will be rendered! Although if it doesn't look right, you may need to switch to a better web browser.</dialog>
 		</figure>

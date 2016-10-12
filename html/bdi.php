@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;ul&gt;
 				<br>
@@ -24,7 +24,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<ul>
 				<li>User: <bdi>VII.Rosa</bdi>, joined 07-04-2004</li>
 				<li>User: <bdi>CrescentWarrior</bdi>, joined 03-27-2006</li>

@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;A specific type of variable, known as "boolean", is the basis of all modern computing. Commonly known as 0s and 1s, boolean variables have only two possible values:&lt;/p&gt;
 				<br>
@@ -22,7 +22,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p>A specific type of variable, known as "boolean", is the basis of all modern computing. Commonly known as 0s and 1s, boolean variables have only two possible values:</p>
 			<var>0 - False</var>
 			<br>

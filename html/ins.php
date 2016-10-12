@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;Sometimes, text needs to be &lt;del&gt;corracted&lt;/del&gt;&lt;ins&gt;corrected&lt;/ins&gt;, but for some reason you want the mistake to be documented or noted in the finished product.&lt;/p&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p>Sometimes, text needs to be <del>corracted</del><ins>corrected</ins>, but for some reason you want the mistake to be documented or noted in the finished product.</p>
 		</figure>
 	</section>

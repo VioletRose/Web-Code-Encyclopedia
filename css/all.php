@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;style scoped&gt;
 				<br>
@@ -36,7 +36,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<style>
 				.redp {
 					background-color: red;
@@ -44,6 +44,7 @@
 				}
 				#normalp {
 					all: initial;
+					font-family: 'Open Sans', sans-serif;
 				}
 			</style>
 			<p class="redp">The background color in this <code>&lt;p&gt;</code> element is red.</p>

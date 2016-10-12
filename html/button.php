@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;button autofocus type="button" onclick="alert('Heh, made you click')"&gt;Autofocused!&lt;/button&gt;
 				<br>
@@ -20,7 +20,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<button autofocus type="button" onclick="alert('Heh, made you click')">Autofocused!</button>
 			<br>
 			<button disabled type="button">Disabled.</button>

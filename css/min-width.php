@@ -16,7 +16,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-style: solid;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min-width: 200px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min-width: 194px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;overflow: auto;
 				<br>
@@ -32,7 +32,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="minWidthBox"&gt;This box is set to be 1/20th as wide as the browser window, but no less than 200px. Mouse over it to see what it would look like without a minimum width!&lt;/div&gt;
+				&lt;div id="minWidthBox"&gt;This box is set to be 1/20th as wide as the browser window, but no less than 194px. Mouse over it to see what it would look like without a minimum width!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -42,7 +42,7 @@
 			<style>
 				#minWidthBox {
 					border-style: solid;
-					min-width: 200px;
+					min-width: 194px;
 					overflow: auto;
 					width: 5vw;
 				}
@@ -50,7 +50,7 @@
 					min-width: 0;
 				}
 			</style>
-			<div id="minWidthBox">This box is set to be 1/20th as wide as the browser window, but no less than 100px. Mouse over it to see what it would look like without a minimum width!</div>
+			<div id="minWidthBox">This box is set to be 1/20th as wide as the browser window, but no less than 194px. Mouse over it to see what it would look like without a minimum width!</div>
 		</figure>
 	</section>
 	<section>

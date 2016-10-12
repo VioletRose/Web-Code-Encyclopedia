@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;section&gt;
 				<br>
@@ -22,8 +22,8 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
-			<section class="exampleFHS">
+		<figure class="renderFigure">
+			<section>
 				<h1>Quantum Uncertainty</h1>
 				<p>Is this the example section? Or is the demonstration section? Is it both? Who could ever know for sure?</p>
 			</section>

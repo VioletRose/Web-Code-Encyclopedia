@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;h1&gt;Heading one!&lt;/h1&gt;
 				<br>
@@ -38,7 +38,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<h1>Heading one!</h1>
 			<p>This heading is rendered with 2em font size.</p>
 			<h2>Heading two!</h2>

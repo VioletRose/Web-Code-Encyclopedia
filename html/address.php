@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;address&gt;
 				<br>
@@ -36,7 +36,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<address>
 				Page created by <a href="mailto:actuallya@fakeemailaddress.com">Violet Rose</a>.
 				<br>

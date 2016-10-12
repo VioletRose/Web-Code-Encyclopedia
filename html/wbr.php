@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;On certain occasions, especially when paragraphs get longer or more verbose, it can become necessary to exert some control over where exactly the text will begin to wrap, since in specific places it could look rather &lt;wbr&gt;inopportune - especially at points where the flow of formatting depends on being uninterrupted. It can also be used if, for whatever reason, thetextcontinuesforsolong&lt;wbr&gt;withoutaspacethatyouwishtocontrolwhereit&lt;wbr&gt;wrapstothenextlineifitabsolutelymustdoso&lt;wbr&gt;becausenowebbrowsercanpossiblybebigenough&lt;wbr&gt;toactuallydisplaythefullthingfrombeginningtoend&lt;wbr&gt;withoutaninterruptionatsomepointwithinitsboundaries.&lt;/p&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p>On certain occasions, especially when paragraphs get longer or more verbose, it can become necessary to exert some control over where exactly the text will begin to wrap, since in specific places it could look rather <wbr>inopportune - especially at points where the flow of formatting depends on being uninterrupted. It can also be used if, for whatever reason, thetextcontinuesforsolong<wbr>withoutaspacethatyouwishtocontrolwhereit<wbr>wrapstothenextlineifitabsolutelymustdoso<wbr>becausenowebbrowsercanpossiblybebigenough<wbr>toactuallydisplaythefullthingfrombeginningtoend<wbr>withoutaninterruptionatsomepointwithinitsboundaries.</p>
 		</figure>
 	</section>

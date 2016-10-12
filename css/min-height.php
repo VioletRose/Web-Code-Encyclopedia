@@ -18,7 +18,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 5vh;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min-height: 100px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;min-height: 94px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;overflow: auto;
 				<br>
@@ -32,7 +32,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="minHeightBox"&gt;This box is set to be 1/20th as tall as the browser window, but no less than 100px. Mouse over it to see what it would look like without a minimum height!&lt;/div&gt;
+				&lt;div id="minHeightBox"&gt;This box is set to be 1/20th as tall as the browser window, but no less than 94px. Mouse over it to see what it would look like without a minimum height!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -43,14 +43,14 @@
 				#minHeightBox {
 					border-style: solid;
 					height: 5vh;
-					min-height: 100px;
+					min-height: 94px;
 					overflow: auto;
 				}
 				#minHeightBox:hover {
 					min-height: 0;
 				}
 			</style>
-			<div id="minHeightBox">This box is set to be 1/20th as tall as the browser window, but no less than 100px. Mouse over it to see what it would look like without a minimum height!</div>
+			<div id="minHeightBox">This box is set to be 1/20th as tall as the browser window, but no less than 94px. Mouse over it to see what it would look like without a minimum height!</div>
 		</figure>
 	</section>
 	<section>

@@ -18,7 +18,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 25vh;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;max-height: 100px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;max-height: 94px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;overflow: auto;
 				<br>
@@ -32,7 +32,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="maxHeightBox"&gt;This box is set to be a quarter as tall as the browser window, but no more than 100px. Mouse over it to see what it would look like without a maximum height!&lt;/div&gt;
+				&lt;div id="maxHeightBox"&gt;This box is set to be a quarter as tall as the browser window, but no more than 94px. Mouse over it to see what it would look like without a maximum height!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -43,14 +43,14 @@
 				#maxHeightBox {
 					border-style: solid;
 					height: 25vh;
-					max-height: 100px;
+					max-height: 94px;
 					overflow: auto;
 				}
 				#maxHeightBox:hover {
 					max-height: none;
 				}
 			</style>
-			<div id="maxHeightBox">This box is set to be a quarter as tall as the browser window, but no more than 100px. Mouse over it to see what it would look like without a maximum height!</div>
+			<div id="maxHeightBox">This box is set to be a quarter as tall as the browser window, but no more than 94px. Mouse over it to see what it would look like without a maximum height!</div>
 		</figure>
 	</section>
 	<section>

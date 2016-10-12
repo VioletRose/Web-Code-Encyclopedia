@@ -9,29 +9,74 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
-				<!--&nbsp;&nbsp;&nbsp;&nbsp;-->
-				
+				&lt;style&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;.flexBox {
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border: ridge lightgray;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display: flex;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;padding: 5px;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 64px;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 104px;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;}
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;.flexSquare {
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-color: black red lime blue;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-style: solid;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 44px;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 44px;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;}
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;#selfAlignedSquare {
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;align-self: flex-end;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;}
+				<br>
+				&lt;/style&gt;
+				<br>
+				&lt;div class="flexBox"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="flexSquare"&gt;A&lt;/div&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="flexSquare"&gt;A&lt;/div&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="flexSquare" id="selfAlignedSquare"&gt;A&lt;/div&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="flexSquare"&gt;A&lt;/div&gt;
+				<br>
+				&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<style>
 				.flexBox {
 					border: ridge lightgray;
 					display: flex;
 					padding: 5px;
-					height: 75px;
-					width: 116px;
+					height: 64px;
+					width: 104px;
 				}
 				.flexSquare {
 					border-color: black red lime blue;
 					border-style: solid;
-					height: 50px;
-					width: 50px;
+					height: 44px;
+					width: 44px;
 				}
 				#selfAlignedSquare {
 					align-self: flex-end;

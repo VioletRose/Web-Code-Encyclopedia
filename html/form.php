@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;form action="formsubmission.php" autocomplete="on" id="exampleform" method="POST" name="exampleform" target="_blank"&gt;
 				<br>
@@ -108,7 +108,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<form action="formsubmission.php" autocomplete="on" id="exampleform" method="POST" name="exampleform" target="_blank">
 				How did you find out about this website?
 				<br>

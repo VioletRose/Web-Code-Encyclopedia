@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;ul&gt;
 				<br>
@@ -36,7 +36,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<h4>Types of list markings:</h4>
 			<ul>
 				<li>Uppercase letters</li>

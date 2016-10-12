@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;meter high="4" low="2" max="5" min="1" optimum="3" value="3"&gt;Optimum&lt;/meter&gt;
 				<br>
@@ -32,7 +32,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<meter high="4" low="2" max="5" min="1" optimum="3" value="3">Optimum</meter>
 			<br>
 			<meter high="0.8" low="0.2" optimum="0.5" value="0.2">Not optimum</meter>

@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;title&gt;Violet's Web Code Encyclopedia - &amp;lt;title&amp;gt;&lt;/title&gt;
 			</code>

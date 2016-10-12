@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;link rel="stylesheet" type="text/css" href="/stylesheets/encyclopedia.css"&gt;
 				<br>

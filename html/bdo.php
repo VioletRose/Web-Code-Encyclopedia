@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;&lt;bdo dir="rtl"&gt;Right to left.&lt;/bdo&gt;&lt;/p&gt;
 				<br>
@@ -18,7 +18,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p><bdo dir="rtl">Right to left.</bdo></p>
 			<p><bdo dir="ltr">左から右へ</bdo></p>
 		</figure>

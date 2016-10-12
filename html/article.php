@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;article&gt;
 				<br>
@@ -22,7 +22,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<article>
 				<h1>&lt;article&gt;</h1>
 				<p>&lt;article&gt; is a slightly more complex auto-formatting element, intended for discrete articles on a webpage.</p>

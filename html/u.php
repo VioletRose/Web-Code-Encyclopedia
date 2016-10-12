@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;Despite the existence of many other tags that serve similar purposes, sometimes an &lt;u&gt;undrrline&lt;/u&gt; is still required.&lt;/p&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p>Despite the existence of many other tags that serve similar purposes, sometimes an <u>undrrline</u> is still required.</p>
 		</figure>
 	</section>

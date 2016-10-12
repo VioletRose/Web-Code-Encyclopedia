@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;iframe height="960" src="iframe.php" width="540" &gt;&lt;/iframe&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<iframe height="960" src="iframe.php" width="540"></iframe>
 		</figure>
 	</section>

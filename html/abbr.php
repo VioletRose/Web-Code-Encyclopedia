@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;The real power of &lt;abbr title="Hypertext Markup Language"&gt;HTML&lt;/abbr&gt; is the degree to which most of the actual work is done by the browser, not the website.&lt;/p&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">>
 			<p>The real power of <abbr title="Hypertext Markup Language">HTML</abbr> is the degree to which most of the actual work is done by the browser, not the website.</p>
 		</figure>
 	</section>

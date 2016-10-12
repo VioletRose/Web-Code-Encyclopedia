@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;This website continues to progress apace, and by the time it's done, I'll be a genius at web development!&lt;/p&gt;
 				<br>
@@ -18,7 +18,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p>This website continues to progress apace, and by the time it's done, I'll be a genius at web development!</p>
 		<p><small>Note: I will likely not be a genius at web development. Though it is possible.</small></p>
 		</figure>

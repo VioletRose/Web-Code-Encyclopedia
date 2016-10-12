@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;It is currently &lt;time&gt;2:07 PM&lt;/time&gt;. In 27 days' time, it will be &lt;time datetime="2016-07-04 0:00"&gt;Independence Day&lt;/time&gt;.&lt;/p&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p>It is currently <time>2:07 PM</time>. In 27 days' time, it will be <time datetime="2016-07-04 0:00">Independence Day</time>.</p>
 		</figure>
 	</section>

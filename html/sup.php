@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;The world wide web is full of content of every type, from the most everyday to the most bizarre&lt;sup&gt;[citation needed]&lt;/sup&gt;.&lt;/p&gt;
 			</code>
@@ -16,7 +16,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p>The world wide web is full of content of every type, from the most everyday to the most bizarre<sup>[citation needed]</sup>.</p>
 		</figure>
 	</section>

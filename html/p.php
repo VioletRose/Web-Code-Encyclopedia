@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;This is a paragraph! Or, at least that's what we're telling the web browser.&lt;/p&gt;
 				<br>
@@ -18,7 +18,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p>This is a paragraph! Or, at least that's what we're telling the web browser.</p>
 			<p>And this is also an alleged paragraph.</p>
 		</figure>

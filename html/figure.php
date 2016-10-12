@@ -9,7 +9,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;p&gt;This is an example of how the navigation panel for the HTML section of my encyclopedia looked as of May 28th, 2016:&lt;/p&gt;
 				<br>
@@ -27,7 +27,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 			<p>This is an example of how the navigation panel for the HTML section of my encyclopedia looked as of May 28th, 2016:</p>
 			<figure>
 				<img src="/images/navpanel.png" alt="Old HTML navigation panel" width="509" height="168">

@@ -8,7 +8,7 @@
 	</section>
 	<section>
 		<h4>Example of use:</h4>
-		<figure>
+		<figure class="exampleFigure">
 			<code>
 				&lt;script&gt;
 				<br>
@@ -30,7 +30,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure>
+		<figure class="renderFigure">
 		    <script>
 				/*This is calling the JQuery library, and is not normal Javascript.*/
 				$(document).ready(function() {

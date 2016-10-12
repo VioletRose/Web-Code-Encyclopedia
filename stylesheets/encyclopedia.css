@@ -8,6 +8,19 @@ body {
 	margin: 0;
 }
 
+body > footer, body > header, main > section {
+	background-color: white;
+	border-color: #bd54ff;
+	border-style: solid;
+	box-shadow: 3px 3px 5px gray;
+	margin: 8px auto;
+	max-width: 1080px;
+}
+
+body > header {
+	text-align: center;
+}
+
 code, kbd, pre, samp, textarea {
 	font-family: 'Inconsolata', monospace;
 }
@@ -21,20 +34,7 @@ dl:not(#exampledl) dd {
 	margin-left: 0;
 }
 
-footer:not(.exampleFHS), header:not(.exampleFHS), section:not(.exampleFHS) {
-	background-color: white;
-	border-color: #bd54ff;
-	border-style: solid;
-	box-shadow: 3px 3px 5px gray;
-	margin: 8px auto;
-	max-width: 1080px;
-}
-
-header:not(.exampleFHS) {
-	text-align: center;
-}
-
-section:not(.exampleFHS) {
+main > section {
 	padding: 0 8px;
 }
 
@@ -107,6 +107,10 @@ section:not(.exampleFHS) {
 .pageHeadline {
 	font-size: 3em;
 	font-weight: normal;
+}
+
+.renderFigure * {
+	box-sizing: initial;
 }
 
 .styledTable {
