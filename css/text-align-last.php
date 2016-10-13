@@ -19,6 +19,8 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text-align: justify;
 				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-moz-text-align-last: justify;
+				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text-align-last: justify;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 394px;
@@ -38,6 +40,7 @@
 				#lastAlignedBox {
 					border-style: solid;
 					text-align: justify;
+					-moz-text-align-last: justify;
 					text-align-last: justify;
 					width: 394px;
 				}

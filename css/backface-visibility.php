@@ -21,7 +21,9 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;.hiddenBackface {
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;backface-visibility: hidden
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-moz-backface-visibility: hidden;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;backface-visibility: hidden;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -41,7 +43,8 @@
 					transform: rotateY(180deg);
 				}
 				.hiddenBackface {
-					backface-visibility: hidden
+					-moz-backface-visibility: hidden;
+					backface-visibility: hidden;
 				}
 			</style>
 			<p class="rotatedp">This paragraph is rotated 180° on its vertical axis!</p>

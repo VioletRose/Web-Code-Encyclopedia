@@ -16,7 +16,11 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;#columnRuledP {
 				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-moz-column-rule: 7px ridge lavender;
+				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;column-rule: 7px ridge lavender;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-moz-columns: 100px 2;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;columns: 100px 2;
 				<br>
@@ -35,7 +39,9 @@
 		<figure class="renderFigure">
 			<style>
 				#columnRuledP {
+					-moz-column-rule: 7px ridge lavender;
 					column-rule: 7px ridge lavender;
+					-moz-columns: 100px 2;
 					columns: 100px 2;
 					width: 300px;
 				}

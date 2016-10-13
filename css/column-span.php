@@ -15,6 +15,8 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;.columnedDiv {
 				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-moz-columns: 100px 2;
+				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;columns: 100px 2;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 300px;
@@ -22,6 +24,8 @@
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;#spannedHeading {
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-moz-column-span: all;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;column-span: all;
 				<br>
@@ -52,10 +56,12 @@
 		<figure class="renderFigure">
 			<style>
 				.columnedDiv {
+					-moz-columns: 100px 2;
 					columns: 100px 2;
 					width: 300px;
 				}
 				#spannedHeading {
+					-moz-column-span: all;
 					column-span: all;
 				}
 			</style>

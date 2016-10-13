@@ -15,6 +15,8 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;#columnedP {
 				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-moz-columns: 100px 2;
+				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;columns: 100px 2;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 300px;
@@ -32,6 +34,7 @@
 		<figure class="renderFigure">
 			<style>
 				#columnedP {
+					-moz-columns: 100px 2;
 					columns: 100px 2;
 					width: 300px;
 				}

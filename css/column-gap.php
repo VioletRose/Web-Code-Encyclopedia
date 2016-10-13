@@ -15,7 +15,11 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;#setGapP {
 				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-moz-column-gap: 500px;
+				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;column-gap: 500px;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-moz-columns: 100px 2;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;columns: 100px 2;
 				<br>
@@ -32,7 +36,9 @@
 		<figure class="renderFigure">
 			<style>
 				#setGapP {
+					-moz-column-gap: 500px;
 					column-gap: 500px;
+					-moz-columns: 100px 2;
 					columns: 100px 2;
 				}
 			</style>

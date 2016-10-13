@@ -1,3 +1,16 @@
+Wednesday, October 12th, 2016
+Changes:
+stylesheets/encyclopedia.css: Added .centeredText.
+other.php: Added.
+Fixes:
+css/backface-visibility.php: Added a prefixed property for Firefox compatibility.
+css/column-gap.php: Added prefixed properties for Firefox compatibility.
+css/column-rule.php: Added prefixed properties for Firefox compatibility.
+css/columns.php: Added a prefixed property for Firefox compatibility.
+css/column-span.php: Added prefixed properties for Firefox compatibility.
+css/tab-size.php: Added a prefixed property for Firefox compatibility.
+css/text-align-last.php: Added a prefixed property for Firefox compatibility.
+
 Tuesday, October 11th, 2016
 Changes:
 css/*.php: Added .exampleFigure and .renderFigure to all remaining pages which lacked them.

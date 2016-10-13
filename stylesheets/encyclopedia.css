@@ -38,6 +38,10 @@ main > section {
 	padding: 0 8px;
 }
 
+.centeredText {
+	text-align: center;
+}
+
 .exampleFigure {
 	overflow-x: auto;
 }

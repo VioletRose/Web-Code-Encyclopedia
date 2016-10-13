@@ -15,6 +15,8 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;#tabSizedPre:hover {
 				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-moz-tab-size: 2;
+				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tab-size: 2;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
@@ -30,6 +32,7 @@
 		<figure class="renderFigure">
 			<style>
 				#tabSizedPre:hover {
+					-moz-tab-size: 2;
 					tab-size: 2;
 				}
 			</style>
