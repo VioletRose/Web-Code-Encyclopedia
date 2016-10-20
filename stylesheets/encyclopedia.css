@@ -38,12 +38,32 @@ main > section {
 	padding: 0 8px;
 }
 
+.activeMenu > .chevron {
+	transform: rotate(45deg);
+}
+
 .centeredText {
 	text-align: center;
 }
 
+.chevron {
+	border-style: solid;
+	border-width: 0 2px 2px 0;
+	height: 9px;
+	position: absolute;
+	right: 9px;
+	top: 10px;
+	transform: rotate(-45deg);
+	transition-duration: 400ms;
+	width: 9px;
+}
+
 .exampleFigure {
 	overflow-x: auto;
+}
+
+.hidden {
+	display: none;
 }
 
 .languageSection {
@@ -115,6 +135,28 @@ main > section {
 
 .renderFigure * {
 	box-sizing: initial;
+}
+
+.scriptedMenu {
+	cursor: pointer;
+	position: relative;
+}
+
+.scriptedMenu h4 {
+	border-color: lightgray darkgray darkgray lightgray;
+	border-style: outset;
+	box-shadow: 1px 1px 5px gray;
+	margin: 0 0 2px 0;
+	padding-right: 21px;
+}
+
+.scriptedMenu ul {
+	margin: 0;
+}
+
+.scriptedMenu.activeMenu > h4 {
+	border-style: inset;
+	box-shadow: 1px 1px 5px gray inset;
 }
 
 .styledTable {

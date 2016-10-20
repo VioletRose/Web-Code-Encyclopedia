@@ -1,3 +1,11 @@
+Wednesday, October 19th, 2016
+Additions:
+scripts/navmenu.js
+Changes:
+index.php: Changed "almost daily" to "regularly".
+javascript/javascripthead.php: Added a currently incomplete navigation menu.
+stylesheets/encyclopedia.css: Added .hidden and a large number of WIP rules related to the Javascript section's menu navigation.
+
 Wednesday, October 12th, 2016
 Changes:
 stylesheets/encyclopedia.css: Added .centeredText.
