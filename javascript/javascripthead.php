@@ -37,14 +37,6 @@
 				</ul>
 			</div>
 			<div class="scriptedMenu hidden">
-				<h4><code>CSSStyleDeclaration</code></h4>
-				<div class="chevron"></div>
-				<ul class="hidden">
-					<li><a <!--href="/javascript/cssstyledeclarationproperties.php"-->Properties</a></li>
-					<li><a <!--href="/javascript/cssstyledelcarationmethods.php"-->Methods</a></li>
-				</ul>
-			</div>
-			<div class="scriptedMenu hidden">
 				<h4>Global</h4>
 				<div class="chevron"></div>
 				<ul class="hidden">
@@ -83,6 +75,14 @@
 					<li><a <!--href="/javascript/locationmethods.php"-->Methods</a></li>
 				</ul>
 			</div>
+		</div>
+		<div class="scriptedMenu hidden">
+			<h4><code>CSSStyleDeclaration</code></h4>
+			<div class="chevron"></div>
+			<ul class="hidden">
+				<li><a <!--href="/javascript/cssstyledeclarationproperties.php"-->Properties</a></li>
+				<li><a <!--href="/javascript/cssstyledelcarationmethods.php"-->Methods</a></li>
+			</ul>
 		</div>
 		<div class="scriptedMenu hidden">
 			<div class="chevron"></div>
@@ -177,7 +177,7 @@
 			<h4>Operators</h4>
 			<div class="chevron"></div>
 			<ul class="hidden">
-				<li><a <!--href="/javascript/arithmeticoperators.php"-->Arithmetic</a></li>
+				<li><a href="/javascript/arithmeticoperators.php">Arithmetic</a></li>
 				<li><a <!--href="/javascript/assignmentoperators.php"-->Assignment</a></li>
 				<li><a <!--href="/javascript/stringoperators.php"-->String</a></li>
 				<li><a <!--href="/javascript/comparisonoperators.php"-->Comparison</a></li>
@@ -195,9 +195,9 @@
 			<h4>RegExp</h4>
 			<div class="chevron"></div>
 			<ul class="hidden">
-				<li><a <!--href="/javascript/overview-regexp">Overview</a></li>
-				<li><a <!--href="/javascript/regexpproperties">Properties</a></li>
-				<li><a <!--href="/javascript/regexpmethods">Methods</a></li>
+				<li><a <!--href="/javascript/overview-regexp"-->Overview</a></li>
+				<li><a <!--href="/javascript/regexpproperties"-->Properties</a></li>
+				<li><a <!--href="/javascript/regexpmethods"-->Methods</a></li>
 			</ul>
 		</div>
 		<div class="scriptedMenu hidden">

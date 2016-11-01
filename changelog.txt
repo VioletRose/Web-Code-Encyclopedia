@@ -1,3 +1,9 @@
+Monday, October 31st, 2016
+Additions:
+javascript/arithmeticoperators.php
+Changes:
+javascript/javascripthead.php: Enabled the link for Arithmetic Operators.
+
 Wednesday, October 19th, 2016
 Additions:
 scripts/navmenu.js
