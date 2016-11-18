@@ -1,3 +1,12 @@
+Thursday, November 17th, 2016
+Additions:
+javascript/assignmentoperators.php
+javascript/globalfunctions.php
+javascript/globalproperties.php
+Changes:
+javascript/arithmeticoperators.php: Removed the example from the page and changed the Syntax heading to Arithmetic Operators.
+javascript/javascripthead.php: Enabled the links for Assignment Operators, Global Functions, and Global Properties.
+
 Monday, October 31st, 2016
 Additions:
 javascript/arithmeticoperators.php

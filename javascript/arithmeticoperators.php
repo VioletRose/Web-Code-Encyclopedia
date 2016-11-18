@@ -4,8 +4,9 @@
 ?>
 <main>
 	<section>
-		<p>Arithmetic operators are a kind of operator used to adjust numbers in a few simple ways, and one slightly more complex. For obvious reasons, they must be targeted at numeric data, typically number variables, in order to work properly.</p>
+		<p>Arithmetic operators are a kind of operator used to adjust numbers in a few simple ways, and one slightly more complex. For obvious reasons, they must be targeted at numeric data, typically number variables, in order to work properly. However, their targets need not be numbers directly, they can be equations or even entire functions as long as numeric data is returned as the outcome.</p>
 	</section>
+<!--This part of the page is defunct and will no longer be used, but the work I did on it has been kept for historical value.
 	<section class="exampleSection">
 		<h4>Example of use:</h4>
 		<figure>
@@ -163,8 +164,9 @@
 			<div operator="--">Decrement: <input class="arithmeticInput incDecInput xInput" type="number" value="2"> decremented is <span class="zOutput">1</span>, as calculated by <code>var z = x--;</code>.</div>
 		</figure>
 	</section>
+-->
 	<section>
-		<h4>Syntax:</h4>
+		<h4>Arithmetic Operators:</h4>
 		<dl>
 			<dt><code>+</code></dt>
 			<dd>&#10551; Adds one number's value to another's. An example is <code>z = x + y</code>.</dd>

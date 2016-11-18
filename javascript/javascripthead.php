@@ -37,14 +37,6 @@
 				</ul>
 			</div>
 			<div class="scriptedMenu hidden">
-				<h4>Global</h4>
-				<div class="chevron"></div>
-				<ul class="hidden">
-					<li><a <!--href="/javascript/globalproperties.php"-->Properties</a></li>
-					<li><a <!--href="/javascript/globalfunctions.php"-->Functions</a></li>
-				</ul>
-			</div>
-			<div class="scriptedMenu hidden">
 				<h4>Navigator</h4>
 				<div class="chevron"></div>
 				<ul class="hidden">
@@ -91,6 +83,14 @@
 				<li><a <!--href="/javascript/overview-date.php"-->Overview</a></li>
 				<li><a <!--href="/javascript/dateproperties.php"-->Properties</a></li>
 				<li><a <!--href="/javascript/datemethods.php"-->Methods</a></li>
+			</ul>
+		</div>
+		<div class="scriptedMenu hidden">
+			<h4>Global</h4>
+			<div class="chevron"></div>
+			<ul class="hidden">
+				<li><a href="/javascript/globalproperties.php">Properties</a></li>
+				<li><a href="/javascript/globalfunctions.php">Functions</a></li>
 			</ul>
 		</div>
 		<div class="scriptedMenu hidden">
@@ -178,7 +178,7 @@
 			<div class="chevron"></div>
 			<ul class="hidden">
 				<li><a href="/javascript/arithmeticoperators.php">Arithmetic</a></li>
-				<li><a <!--href="/javascript/assignmentoperators.php"-->Assignment</a></li>
+				<li><a href="/javascript/assignmentoperators.php">Assignment</a></li>
 				<li><a <!--href="/javascript/stringoperators.php"-->String</a></li>
 				<li><a <!--href="/javascript/comparisonoperators.php"-->Comparison</a></li>
 				<li><a <!--href="/javascript/conditionaloperators.php"-->Conditional</a></li>
