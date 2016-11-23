@@ -10,7 +10,11 @@
 </head>
 <body class="languageSection">
 <nav class="navSidebar">
-	<div class="scriptedMenu">
+	<ul>
+		<li><a href="/javascript/global.php">Global</a></li>
+		<li><a href="/javascript/operators.php">Operators</a></li>
+	</ul>
+	<div class="hidden scriptedMenu">
 		<h4>Javascript</h4>
 		<div class="chevron"></div>
 		<div class="scriptedMenu hidden">
@@ -89,8 +93,8 @@
 			<h4>Global</h4>
 			<div class="chevron"></div>
 			<ul class="hidden">
-				<li><a href="/javascript/globalproperties.php">Properties</a></li>
-				<li><a href="/javascript/globalfunctions.php">Functions</a></li>
+				<li><a <!--href="/javascript/globalproperties.php"-->Properties</a></li>
+				<li><a <!--href="/javascript/globalfunctions.php"-->Functions</a></li>
 			</ul>
 		</div>
 		<div class="scriptedMenu hidden">
@@ -177,8 +181,8 @@
 			<h4>Operators</h4>
 			<div class="chevron"></div>
 			<ul class="hidden">
-				<li><a href="/javascript/arithmeticoperators.php">Arithmetic</a></li>
-				<li><a href="/javascript/assignmentoperators.php">Assignment</a></li>
+				<li><a <!--href="/javascript/arithmeticoperators.php"-->Arithmetic</a></li>
+				<li><a <!--href="/javascript/assignmentoperators.php"-->Assignment</a></li>
 				<li><a <!--href="/javascript/stringoperators.php"-->String</a></li>
 				<li><a <!--href="/javascript/comparisonoperators.php"-->Comparison</a></li>
 				<li><a <!--href="/javascript/conditionaloperators.php"-->Conditional</a></li>

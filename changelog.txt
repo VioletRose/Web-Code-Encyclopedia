@@ -1,3 +1,15 @@
+Tuesday, November 22, 2016
+Additions:
+javascript/global.php
+javascript/operators.php
+Changes:
+javascript/javascripthead.php: Hid the existing link system and added a simpler, temporary one until the menu can be refactored.
+Removals:
+javascript/arithmeticoperators.php
+javascript/assignmentoperators.php
+javascript/globalfunctions.php
+javascript/globalproperties.php
+
 Thursday, November 17th, 2016
 Additions:
 javascript/assignmentoperators.php
