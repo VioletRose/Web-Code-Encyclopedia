@@ -1,3 +1,9 @@
+Wednesday, November 23, 2016
+Additions:
+javascript/string.php
+Changes:
+javascript/javascripthead.php: Added a link for String.
+
 Tuesday, November 22, 2016
 Additions:
 javascript/global.php
