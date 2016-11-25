@@ -11,9 +11,10 @@
 <body class="languageSection">
 <nav class="navSidebar">
 	<ul>
-		<li><a href="/javascript/string.php">String</a></li>
 		<li><a href="/javascript/global.php">Global</a></li>
 		<li><a href="/javascript/operators.php">Operators</a></li>
+		<li><a href="/javascript/number.php">Number</a></li>
+		<li><a href="/javascript/string.php">String</a></li>
 	</ul>
 	<div class="hidden scriptedMenu">
 		<h4>Javascript</h4>

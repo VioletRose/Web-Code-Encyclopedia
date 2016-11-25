@@ -1,10 +1,16 @@
+Thursday, November 24th, 2016
+Additions:
+javascript/number.php
+Changes:
+javascript/javascripthead.php: Added a link for Number.
+
 Wednesday, November 23, 2016
 Additions:
 javascript/string.php
 Changes:
 javascript/javascripthead.php: Added a link for String.
 
-Tuesday, November 22, 2016
+Tuesday, November 22nd, 2016
 Additions:
 javascript/global.php
 javascript/operators.php
