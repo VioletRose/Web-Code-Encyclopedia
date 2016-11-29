@@ -1,3 +1,9 @@
+Monday, November 28th, 2016
+Additions:
+javascript/statements.php
+Changes:
+javascript/javascripthead.php: Added a link for Statements.
+
 Thursday, November 24th, 2016
 Additions:
 javascript/number.php
