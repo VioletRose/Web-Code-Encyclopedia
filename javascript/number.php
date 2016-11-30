@@ -4,7 +4,7 @@
 ?>
 <main>
 	<section>
-		<p>A number in Javascript is either a floating-point number (a form of number used in computing, which is prone to small inaccuracies in extreme cases but is much more efficient), or, more rarely, an integer, which is completely accurate but has size limitations, cannot have a decimal place, and is much less efficient. All properly stored number variables have the properties listed on this page, and can be controlled using these methods.</p>
+		<p>A number in Javascript is either a floating-point number (a form of number used in computing, which is prone to small inaccuracies in extreme cases), or, more rarely, an integer, which is completely accurate and highly efficient but has size limitations and cannot have a decimal place. All properly stored number variables have the properties listed on this page, and can be controlled using these methods.</p>
 	</section>
 	<section>
 		<h4>Number Properties:</h4>

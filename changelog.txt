@@ -1,3 +1,11 @@
+Tuesday, November 29th, 2016
+Additions:
+javascript/math.php
+Changes:
+javascript/javascripthead.php: Added a link for Math.
+Fixes:
+javascript/number.php: Corrected erroneous information regarding floating point numbers vs. integers.
+
 Monday, November 28th, 2016
 Additions:
 javascript/statements.php
