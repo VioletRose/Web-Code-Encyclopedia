@@ -1,3 +1,9 @@
+Wednesday, November 30th, 2016
+Additions:
+javascript/date.php
+Changes:
+javascript/javascripthead.php: Added a link for Date.
+
 Tuesday, November 29th, 2016
 Additions:
 javascript/math.php
