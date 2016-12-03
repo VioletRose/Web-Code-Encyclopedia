@@ -11,6 +11,7 @@
 <body class="languageSection">
 <nav class="navSidebar">
 	<ul>
+		<li><a href="/javascript/array.php">Array</a></li>
 		<li><a href="/javascript/date.php">Date</a></li>
 		<li><a href="/javascript/global.php">Global</a></li>
 		<li><a href="/javascript/math.php">Math</a></li>

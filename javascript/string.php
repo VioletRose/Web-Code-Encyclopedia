@@ -25,7 +25,7 @@
 			<dt><code>charCodeAt()</code></dt>
 			<dd>&#10551; As <code>charAt</code>, except it returns the Unicode value of the character, instead of the character itself.</dd>
 			<dt><code>concat()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Accepts any number of strings in its argument, and returns a string consisting of all of the specified strings joined together.</dd>
 			<dt><code>endsWith()</code></dt>
 			<dd>&#10551; Accepts a string or specific characters as its argument, and returns <code>true</code> if the string ends with its argument, or <code>false</code> if it does not.</dd>
 			<dt><code>fromCharCode()</code></dt>

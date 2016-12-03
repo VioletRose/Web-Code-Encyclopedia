@@ -137,7 +137,7 @@
 			<dt><code>UTC()</code></dt>
 			<dd>&#10551; Returns the number of milliseconds between zero time and the stored date in UTC.</dd>
 			<dt><code>valueOf()</code></dt>
-			<dd>&#10551;Returns the primitive value of the date object. This results in a series of numbers representing the stored date, which is how the value is actually stored.</dd>
+			<dd>&#10551; Returns the primitive value of the date object. This results in a series of numbers representing the stored date, which is how the value is actually stored.</dd>
 		</dl>
 	</section>
 </main>	
