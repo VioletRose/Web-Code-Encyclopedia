@@ -1,3 +1,11 @@
+Monday, December 05th, 2016
+Additions:
+javascript/boolean.php
+javascript/error.php
+javascript/regexp.php
+Changes:
+javascript/javascripthead.php: Added links for Boolean, Error, and RegExp.
+
 Friday, December 02nd, 2016
 Additions:
 javascript/array.php

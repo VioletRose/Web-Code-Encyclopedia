@@ -12,11 +12,14 @@
 <nav class="navSidebar">
 	<ul>
 		<li><a href="/javascript/array.php">Array</a></li>
+		<li><a href="/javascript/boolean.php">Boolean</a></li>
 		<li><a href="/javascript/date.php">Date</a></li>
+		<li><a href="/javascript/error.php">Error</a></li>
 		<li><a href="/javascript/global.php">Global</a></li>
 		<li><a href="/javascript/math.php">Math</a></li>
 		<li><a href="/javascript/number.php">Number</a></li>
 		<li><a href="/javascript/operators.php">Operators</a></li>
+		<li><a href="/javascript/regexp.php">RegExp</a></li>
 		<li><a href="/javascript/statements.php">Statements</a></li>
 		<li><a href="/javascript/string.php">String</a></li>
 	</ul>
