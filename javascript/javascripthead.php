@@ -10,6 +10,7 @@
 </head>
 <body class="languageSection">
 <nav class="navSidebar">
+	<h4>Javascript Objects</h4>
 	<ul>
 		<li><a href="/javascript/array.php">Array</a></li>
 		<li><a href="/javascript/boolean.php">Boolean</a></li>
@@ -22,6 +23,12 @@
 		<li><a href="/javascript/regexp.php">RegExp</a></li>
 		<li><a href="/javascript/statements.php">Statements</a></li>
 		<li><a href="/javascript/string.php">String</a></li>
+	</ul>
+	<h4>HTML DOM</h4>
+	<ul>
+		<li><a href="/javascript/document.php">Document</a></li>
+		<li><a href="/javascript/element.php">Element</a></li>
+		<li><a href="/javascript/events.php">Event</a></li>
 	</ul>
 	<div class="hidden scriptedMenu">
 		<h4>Javascript</h4>
