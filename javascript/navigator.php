@@ -17,11 +17,9 @@
 			<dt><code>appVersion</code></dt>
 			<dd>&#10551; A string containing the browser's internal version information.</dd>
 			<dt><code>cookieEnabled</code></dt>
-			<dd>&#10551; A boolean set to <code>true</code> if cookies are enabled in the browser, and <code>false</code> if they are not.</dd>
-				<!--How can it actually tell? Does it just check whether any cookies are enabled, or does it have to be the domain the script is served from?-->
+			<dd>&#10551; A boolean set to <code>true</code> if the current domain is allowed to set browser cookies, and <code>false</code> if it is not.</dd>
 			<dt><code>geolocation</code></dt>
-			<dd>&#10551; A Geolocation object containing the user's latitude and longitude; note that geolocation using this method will not work unless the user has enabled it.</dd>
-				<!--What is a Geolocation object and where do I find documentation for it?-->
+			<dd>&#10551; A Geolocation object containing the user's latitude and longitude; note that geolocation using this method will not work unless the user grants permission.</dd>
 			<dt><code>language</code></dt>
 			<dd>&#10551; A language code indicating the locale of the browser.</dd>
 			<dt><code>onLine</code></dt>
@@ -39,6 +37,45 @@
 		<dl>
 			<dt><code>javaEnabled()</code></dt>
 			<dd>&#10551; Returns <code>true</code> if Java is installed and enabled in the browser, otherwise, returns <code>false</code>.</dd>
+		</dl>
+	</section>
+	<section>
+		<h4>Geolocation Methods:</h4>
+		<dl>
+			<dt><code>getCurrentPosition()</code></dt>
+			<dd>&#10551; </dd>
+			<dt><code>watchPosition()</code></dt>
+			<dd>&#10551; </dd>
+			<dt><code>clearWatch()</code></dt>
+			<dd>&#10551; </dd>
+		</dl>
+	</section>
+	<section>
+		<h4>Position Properties:</h4>
+		<dl>
+			<dt><code>coords</code></dt>
+			<dd>&#10551; A Coordinates object containing the current location data.</dd>
+			<dt><code>timestamp</code></dt>
+			<dd>&#10551; A DOMTimeStamp representing the time the location was queried, in milliseconds from "zero time", which equates to 1970/01/01 00:00:00 UTC.</dd>
+		</dl>
+	</section>
+	<section>
+		<h4>Coordinates Properties:</h4>
+		<dl>
+			<dt><code>latitude</code></dt>
+			<dd>&#10551; A number representing latitude in decimal degrees.</dd>
+			<dt><code>longitude</code></dt>
+			<dd>&#10551; A number representing longitude in decimal degrees.</dd>
+			<dt><code>altitude</code></dt>
+			<dd>&#10551; A number representing metric altitude relative to sea level. This may return <code>null</code> if the browser cannot determine this data.</dd>
+			<dt><code>accuracy</code></dt>
+			<dd>&#10551; A number representing the accuracy (or how far off the latitude and longitude might be) of the coordinates, in meters.</dd>
+			<dt><code>altitudeAccuracy</code></dt>
+			<dd>&#10551; A number representing the accuracy of the altitude, in meters. This may return <code>null</code> if the browser cannot determine this data.</dd>
+			<dt><code>heading</code></dt>
+			<dd>&#10551; A number representing which direction the device is currently judged to be moving, in degrees relative to 0 (true north). This may return <code>NaN</code> if <code>Coordinates.speed</code> is <code>0</code>, or <code>null</code> if the browser cannot determine this data.</dd>
+			<dt><code>speed</code></dt>
+			<dd>&#10551; A number representing the current traveling speed of the device in meters per second. This may return <code>null</code> if the browser cannot determine this data.</dd>
 		</dl>
 	</section>
 </main>	

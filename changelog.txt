@@ -1,3 +1,17 @@
+Sunday, January 29th, 2017
+Additions:
+javascript/attribute.php
+javascript/element.php
+javascript/event.php
+javascript/history.php
+javascript/location.php
+javascript/screen.php
+javascript/style.php
+Changes:
+images/html.png: Crushed for reduced file size.
+images/navpanel.png: Crushed for reduced file size.
+javascript/javascripthead.php: Added sections for Javascript Objects, Browser BOM, and HTML Dom, as well as links for Attribute, Element, Event, History, Location, Screen, and Style.
+
 Monday, December 05th, 2016
 Additions:
 javascript/boolean.php

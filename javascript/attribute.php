@@ -19,8 +19,7 @@
 	</section>
 	<section>
 		<h4><code>NamedNodeMap</code> Properties:</h4>
-		<p><code>NamedNodeMap<code> objects</p>
-			<!--What is the stated purpose of this object?-->
+		<p><code>NamedNodeMap<code> objects are arrays containing an attribute object in each entry, each having <code>name</code> and <code>value</code> properties storing their key-value pairs.</p>
 		<dl>
 			<dt><code>length</code></dt>
 			<dd>&#10551; Returns the number of entries the node map contains, starting from 0.</dd>

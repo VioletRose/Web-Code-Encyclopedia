@@ -24,11 +24,21 @@
 		<li><a href="/javascript/statements.php">Statements</a></li>
 		<li><a href="/javascript/string.php">String</a></li>
 	</ul>
+	<h4>Browser BOM</h4>
+	<ul>
+		<li class="hidden"><a href="/javascript/window.php">Window</a></li>
+		<li class="hidden"><a href="/javascript/navigator.php">Navigator</a></li>
+		<li><a href="/javascript/screen.php">Screen</a></li>
+		<li><a href="/javascript/history.php">History</a></li>
+		<li><a href="/javascript/location.php">Location</a></li>
+	</ul>
 	<h4>HTML DOM</h4>
 	<ul>
-		<li><a href="/javascript/document.php">Document</a></li>
+		<li class="hidden"><a href="/javascript/document.php">Document</a></li>
 		<li><a href="/javascript/element.php">Element</a></li>
-		<li><a href="/javascript/events.php">Event</a></li>
+		<li><a href="/javascript/attribute.php">Attribute</a></li>
+		<li><a href="/javascript/event.php">Event</a></li>
+		<li><a href="/javascript/style.php">Style</a></li>
 	</ul>
 	<div class="hidden scriptedMenu">
 		<h4>Javascript</h4>
