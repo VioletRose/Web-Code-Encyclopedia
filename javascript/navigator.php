@@ -43,11 +43,11 @@
 		<h4>Geolocation Methods:</h4>
 		<dl>
 			<dt><code>getCurrentPosition()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Accepts 1 to 2 functions in its argument, one required and one optional, as well as an optional <code>PositionOptions</code> object. The first function is run when the location query is successful, and only accepts one argument in the form of a variable name which will be used to target the <code>Position</code> object containing the location data. The second function runs if the location query is unsuccessful, and only accepts one argument in the form of a variable name which will be used to target the <code>PositionError</code> constant number containing the reason for the error (<code>1</code> for PERMISSION_DENIED if the page didn't have permission to query location, <code>2</code> for POSITION_UNAVAILABLE if the device returned an error while attempting to determine position, and <code>3</code> for TIMEOUT if the option was set to limit the amount of time the location query had to finish). If provided, the <code>PositionOptions</code> object changes the default behavior of the query.</dd>
 			<dt><code>watchPosition()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; As <code>getCurrentPosition()</code>, except instead of running once, a listener is established to repeat the location query with the specified parameters each time the device's location changes; this method also returns an ID which can be used by <code>clearWatch()</code> to remove the listener.</dd>
 			<dt><code>clearWatch()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Accepts an ID provided by execution of the <code>watchPosition()</code> method in its argument, and removes the listener associated with that ID.</dd>
 		</dl>
 	</section>
 	<section>
@@ -57,6 +57,17 @@
 			<dd>&#10551; A Coordinates object containing the current location data.</dd>
 			<dt><code>timestamp</code></dt>
 			<dd>&#10551; A DOMTimeStamp representing the time the location was queried, in milliseconds from "zero time", which equates to 1970/01/01 00:00:00 UTC.</dd>
+		</dl>
+	</section>
+	<section>
+		<h4>PositionOptions Properties:</h4>
+		<dl>
+			<dt><code>enableHighAccuracy</code></dt>
+			<dd>&#10551; A boolean indicating whether or not the device should be using high-accuracy mode for its position (which can take longer or use more power). If <code>true</code>, high-accuracy mode will be used, but if <code>false</code>, a less accurate position will be returned using less time and power. Defaults to <code>false</code>.</dd>
+			<dt><code>timeout</code></dt>
+			<dd>&#10551; How long the device has to provide location data before the query fails, as any positive number representing a number of milliseconds; defaults to <code>Infinity</code>.</dd>
+			<dt><code>maximumAge</code></dt>
+			<dd>&#10551; How old cached location data on the device can be before it will not be accepted as valid (and the device will be required to attempt to return an un-cached position), as any positive number representing milliseconds; defaults to <code>0</code> which will not allow un-cached positions at all. If set to <code>Infinity</code>,</dd>
 		</dl>
 	</section>
 	<section>
