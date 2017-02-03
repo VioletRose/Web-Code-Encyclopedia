@@ -28,7 +28,6 @@
 			<dd>&#10551; A number representing the number of <code>&lt;iframe&gt;</code> elements in the window.</dd>
 			<dt><code>localStorage</code></dt>
 			<dd>&#10551; The local storage object associated with the window.</dd>
-				<!--Is this actually true?-->
 			<dt><code>location</code></dt>
 			<dd>&#10551; The Location object for the window.</dd>
 			<dt><code>name</code></dt>
@@ -78,12 +77,11 @@
 			<dt><code>alert()</code></dt>
 			<dd>&#10551; Accepts a string in its argument, and pops up an alert on the user's screen containing that message. Since this takes focus from the current window and needs to be clicked away, this method should be used sparingly, if at all.</dd>
 			<dt><code>atob()</code></dt>
-			<dd>&#10551; Accepts a string encoded by the <code>btoa</code> method and returns its decoded value.</dd>
+			<dd>&#10551; Accepts a string encoded in base-64, a type of encoding mostly useful for turning binary data into web-safe strings, and returns its decoded value.</dd>
 			<dt><code>blur()</code></dt>
 			<dd>&#10551; Removes active focus from the current window.</dd>
 			<dt><code>btoa()</code></dt>
 			<dd>&#10551; Accepts a string, and returns its value encoded in base-64.</dd>
-				<!--What does this actually mean, and what is it for?-->
 			<dt><code>clearInterval()</code></dt>
 			<dd>&#10551; Accepts a global variable containing an interval, and stops the execution of that interval if it was running.</dd>
 			<dt><code>clearTimeout()</code></dt>
@@ -105,8 +103,47 @@
 			<dt><code>moveTo()</code></dt>
 			<dd>&#10551; Accepts two numbers in its argument, which will be used as X and Y target coordinates (relative to the full monitor size) to move the window to that location. Note that this will place the top left of the viewport at that location, which may result in the browser's title bar being above the top of the screen.</dd>
 			<dt><code>open()</code></dt>
-			<dd>&#10551; </dd>
-				<!--Jesus what is this method-->
+			<dd>
+				&#10551; Opens a new window (some browsers may automatically open it in a new tab instead), and supports a larger than normal number of arguments.
+				<details>
+					<summary>Arguments:</summary>
+					<dl>
+						<dt><code>"<var>URL</var>"</code></dt>
+						<dd>&#10551; Optional; the URL to be opened in the new window. If not provided, the new window will default to about:blank.</dd>
+						<dt><code>name="<var>target</var>"</code></dt>
+						<dd>&#10551; Optional; the destination of the new window. <code>_blank</code> is a new window (or new tab with certain browser configurations, and is the default behavior. Other supported targets, mostly intended for dealing with <code>&lt;iframe&gt;</code> elements, nested or singular, are <code>_parent</code> to replace the parent frame, <code>_self</code> to replace the current frame, <code>_top</code> to replace the top level frame, or the assigned name of a specific window to replace that window.</dd>
+						<dt><var>specs</var></dt>
+						<dd>
+							&#10551; Any of the following may be used to change aspects of the new window. If more than one is used, each must be separated by commas and no spaces.
+							<details>
+								<summary>Specs:</summary>
+								<dl>
+									<dt><code>height="<var>pixels</var>"</code></dt>
+									<dd>&#10551; The height of the new window, in pixels; cannot be less than <code>100</code>.</dd>
+									<dt><code>left="<var>pixels</var>"</code></dt>
+									<dd>&#10551; The left position of the window, relative to the left edge of the screen; negative values are not allowed, i.e. it can be no further left than the leftmost side of the screen.</dd>
+									<dt><code>menubar="<var>yes</var>|<var>no</var>|<var>0</var>|<var>1</var>"</code></dt>
+									<dd>&#10551; Whether or not the menu bar is displayed.</dd>
+									<dt><code>scrollbars"<var>yes</var>|<var>no</var>|<var>0</var>|<var>1</var>"</code></dt>
+									<dd>&#10551; Whether or not scroll bars are displayed; only usable in IE, Firefox, and Opera.</dd>
+									<dt><code>status="<var>yes</var>|<var>no</var>|<var>0</var>|<var>1</var>"</code></dt>
+									<dd>&#10551; Whether or not a status bar is added.</dd>
+									<dt><code>titlebar="<var>yes</var>|<var>no</var>|<var>0</var>|<var>1</var>"</code></dt>
+									<dd>&#10551; Whether or not the title bar is displayed; this will not function unless this method is being called by an HTML application (other than a web browser) or a trusted dialog box.</dd>
+									<dt><code>toolbar="<var>yes</var>|<var>no</var>|<var>0</var>|<var>1</var>"</code></dt>
+									<dd>&#10551; Whether or not the browser toolbar is displayed; only usable in IE and Firefox.</dd>
+									<dt><code>top="<var>pixels</var>"</code></dt>
+									<dd>&#10551; The top position of the window, relative to the top of the screen; negative values are not allowed.</dd>
+									<dt><code>width="<var>pixels</var>"</code></dt>
+									<dd>&#10551; The width of the new window, in pixels; cannot be less than <code>100</code>.</dd>
+								</dl>
+							</details>
+						</dd>
+						<dt><code>replace="<var>true</var>|<var>false</var>"</code></dt>
+						<dd>&#10551; Whether or not the new window (if opened into an existing frame) will replace the current document in that frame's history list, or create a new entry for the new document.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>print()</code></dt>
 			<dd>&#10551; Opens a Print dialog box, allowing the user to select printing options and either print or cancel.</dd>
 			<dt><code>prompt()</code></dt>
@@ -133,15 +170,15 @@
 			<dt><code>anchorNode</code></dt>
 			<dd>&#10551; The DOM node in which the selection begins.</dd>
 			<dt><code>anchorOffset</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; A number representing how offset the start of the selection is from the beginning of the <code>anchorNode</code>. For text and comment nodes, each increment is one character, while for other node types, each increment is a child node.</dd>
 			<dt><code>focusNode</code></dt>
 			<dd>&#10551; The DOM node in which the selection ends.</dd>
 			<dt><code>focusOffset</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; A number representing how offset the end of the selection is from the beginning of the <code>focusNode</code>. For text nodes, each increment is one character, while for element nodes, each increment is a child node.</dd>
 			<dt><code>isCollapsed</code></dt>
 			<dd>&#10551; A boolean set to <code>true</code> if the selection's start and end points are in the same position, or <code>false</code> otherwise.</dd>
 			<dt><code>rangeCount</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; The number of ranges in the selection.</dd>
 		</dl>
 	</section>
 	<section>
@@ -149,29 +186,29 @@
 		<p></p>
 		<dl>
 			<dt><code>getRangeAt()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Accepts an index number in its argument, and returns the range within the selection at that index.</dd>
 			<dt><code>collapse()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Accepts a node and an offset in its argument, and reduces the selection to only that specific offset within that node.</dd>
 			<dt><code>extend()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Accepts a node and offset in its argument, and expands the selection forward or backward to encompass that offset within that node.</dd>
 			<dt><code>collapseToStart()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Reduces the selection to the starting point of the first range in the selection.</dd>
 			<dt><code>collapseToEnd()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Reduces the selection to the ending point of the last range in the selection.</dd>
 			<dt><code>selectAllChildren()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Accepts a node in its argument, and sets the selection to encompass all of that node's child nodes, replacing the previous selection.</dd>
 			<dt><code>addRange()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Accepts a Range object in its argument, and adds that range to the selection.</dd>
 			<dt><code>removeRange()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Accepts a Range object in its argument, and removes that range from the selection.</dd>
 			<dt><code>removeAllRanges()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Removes all ranges from the selection.</dd>
 			<dt><code>deleteFromDocument()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Removes all text currently within the selection from the document.</dd>
 			<dt><code>toString()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Returns the text currently within the selection as a single string.</dd>
 			<dt><code>containsNode()</code></dt>
-			<dd>&#10551; </dd>
+			<dd>&#10551; Accepts a node and a boolean in its arguments, and checks whether or not that node is included in the selection; if the boolean is <code>true</code>, this method will return <code>true</code> even if that node is only partially selected, while if it is <code>false</code>, it will only return <code>true</code> if the entire node is selected. Otherwise, returns <code>false</code>.</dd>
 		</dl>
 	</section>
 	<section>
@@ -221,17 +258,11 @@
 			<dt><code>insertNode()</code></dt>
 			<dd>&#10551; Accepts a node in its argument, and inserts that node into the document at the start of the range.</dd>
 			<dt><code>surroundContents()</code></dt>
-			<dd>&#10551; </dd>
-				<!--How exactly does the argument work for this?-->
+			<dd>&#10551; Accepts a node in its argument, and moves the contents of the range to a point just after that node in the document. However, this method will fail if the range includes the beginning or end of a non-text node, but not its corresponding end or beginning.</dd>
 			<dt><code>compareBoundaryPoints()</code></dt>
-			<dd>&#10551; </dd>
-				<!--I don't fully understand how constants work in Javascript..-->
+			<dd>&#10551; Accepts a constant (to control the comparison behavior) and another range in its argument, and compares the current range against the targeted range to determine which appears first in the document; possible constant values are <code>Range.END_TO_END</code>, <code>Range.END_TO_START</code>, <code>Range.START_TO_END</code>, and <code>Range.START_TO_START</code>, controlling whether the two ranges are compared from their start or end points. The method returns <code>-1<code> if the other range's targeted point is before the current range's targeted point, <code>0</code> if they are equal or identical, and <code>1</code> </dd>
 			<dt><code>cloneRange()</code></dt>
 			<dd>&#10551; Returns a copy of the Range object with the same values.</dd>
-				<!--Is this correct?-->
-			<dt><code>detach()</code></dt>
-			<dd>&#10551; </dd>
-				<!--I don't get how this works..-->
 			<dt><code>toString()</code></dt>
 			<dd>&#10551; Returns the text contents of the range as a string.</dd>
 		</dl>

@@ -26,8 +26,8 @@
 	</ul>
 	<h4>Browser BOM</h4>
 	<ul>
-		<li class="hidden"><a href="/javascript/window.php">Window</a></li>
-		<li class="hidden"><a href="/javascript/navigator.php">Navigator</a></li>
+		<li><a href="/javascript/window.php">Window</a></li>
+		<li><a href="/javascript/navigator.php">Navigator</a></li>
 		<li><a href="/javascript/screen.php">Screen</a></li>
 		<li><a href="/javascript/history.php">History</a></li>
 		<li><a href="/javascript/location.php">Location</a></li>

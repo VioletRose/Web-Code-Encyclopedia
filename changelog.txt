@@ -1,8 +1,12 @@
+Thursay, February 02nd, 2017
+Additions:
+javascript/window.php
+Changes:
+javascript/javascripthead.php: Enabled the links for Navigator and Window.
+
 Monday, January 30th, 2017
 Additions:
 javascript/navigator.php
-Changes:
-javascript/javascripthead.php: Added a link for Navigator.
 
 Sunday, January 29th, 2017
 Additions:
