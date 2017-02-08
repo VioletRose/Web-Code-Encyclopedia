@@ -40,6 +40,16 @@
 		<li><a href="/javascript/event.php">Event</a></li>
 		<li><a href="/javascript/style.php">Style</a></li>
 	</ul>
+	<h4>jQuery</h4>
+	<ul>
+		<li>Effects</li>
+		<li>Events</li>
+		<li>HTML/CSS</li>
+		<li>Misc</li>
+		<li>Properties</li>
+		<li>Selectors</li>
+		<li>Traversing</li>
+	</ul>
 	<div class="hidden scriptedMenu">
 		<h4>Javascript</h4>
 		<div class="chevron"></div>

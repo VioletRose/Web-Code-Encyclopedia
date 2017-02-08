@@ -1,3 +1,9 @@
+Tuesday, February 07th, 2017
+Additions:
+javascript/selectors.php
+Changes:
+javascript/javascripthead.php: Added a section for jQuery and added a link for Selectors.
+
 Thursay, February 02nd, 2017
 Additions:
 javascript/window.php
