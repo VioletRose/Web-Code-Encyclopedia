@@ -47,7 +47,7 @@
 		<li>HTML/CSS</li>
 		<li>Misc</li>
 		<li>Properties</li>
-		<li>Selectors</li>
+		<li><a href="/javascript/jqselectors.php">Selectors</a></li>
 		<li>Traversing</li>
 	</ul>
 	<div class="hidden scriptedMenu">
