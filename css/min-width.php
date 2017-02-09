@@ -57,11 +57,11 @@
 		<h4>Accepted values of <code>min-width</code>:</h4>
 		<dl>
 			<dt><code><var>width</var></code></dt>
-			<dd>&#10551; Numeric variable, in measurements or percentages of the containing block's width; defaults to <code>0</code>. The minimum width of the element.</dd>
+			<dd>Numeric variable, in measurements or percentages of the containing block's width; defaults to <code>0</code>. The minimum width of the element.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

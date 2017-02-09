@@ -103,21 +103,21 @@
 		<h4>Accepted values of <code>align-content</code>:</h4>
 		<dl>
 			<dt><code>stretch</code></dt>
-			<dd>&#10551; The default value. Each wrapped row or column will attempt to take up an equal amount of space within the container. Elements will resize to fill empty space if their dimensions are not set.</dd>
+			<dd>The default value. Each wrapped row or column will attempt to take up an equal amount of space within the container. Elements will resize to fill empty space if their dimensions are not set.</dd>
 			<dt><code>center</code></dt>
-			<dd>&#10551; The content will align to the center of the container.</dd>
+			<dd>The content will align to the center of the container.</dd>
 			<dt><code>flex-start</code></dt>
-			<dd>&#10551; The content will align to the beginning of the container.</dd>
+			<dd>The content will align to the beginning of the container.</dd>
 			<dt><code>flex-end</code></dt>
-			<dd>&#10551; The content will align to the end of the container.</dd>
+			<dd>The content will align to the end of the container.</dd>
 			<dt><code>space-between</code></dt>
-			<dd>&#10551; The rows or columns will be as far away from the center of the container as possible.</dd>
+			<dd>The rows or columns will be as far away from the center of the container as possible.</dd>
 			<dt><code>space-around</code></dt>
-			<dd>&#10551; The rows or columns will have even amounts of spacing between the beginning of the container, the end of the container, and each other.</dd>
+			<dd>The rows or columns will have even amounts of spacing between the beginning of the container, the end of the container, and each other.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

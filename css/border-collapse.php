@@ -111,13 +111,13 @@
 		<h4>Accepted values of <code>border-collapse</code>:</h4>
 		<dl>
 			<dt><code>separate</code></dt>
-			<dd>&#10551; The default. Each border is separated.</dd>
+			<dd>The default. Each border is separated.</dd>
 			<dt><code>collapse</code></dt>
-			<dd>&#10551; Adjacent borders will be merged.</dd>
+			<dd>Adjacent borders will be merged.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

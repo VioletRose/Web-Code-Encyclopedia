@@ -27,7 +27,7 @@
 		<h4>Attributes</h4>
 		<dl>
 			<dt><code>dir</code></dt>
-			<dd>&#10551; Specifies whether the text should be rendered left to right, or right to left. Accepted values are <code>ltr</code> and <code>rtl</code>.</dd>
+			<dd>Specifies whether the text should be rendered left to right, or right to left. Accepted values are <code>ltr</code> and <code>rtl</code>.</dd>
 		</dl>
 	</section>
 </main>	

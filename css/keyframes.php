@@ -70,11 +70,11 @@
 		<h4>Descriptors used by <code>@keyframes</code>:</h4>
 		<dl>
 			<dt><code><var>position</var></code></dt>
-			<dd>&#10551; Numeric value, in percentages ranging from <code>0%</code> to <code>100%</code>. The frame's place in the animation.</dd>
+			<dd>Numeric value, in percentages ranging from <code>0%</code> to <code>100%</code>. The frame's place in the animation.</dd>
 			<dt><code>from</code></dt>
-			<dd>&#10551; Equivalent to <code>0%</code>.</dd>
+			<dd>Equivalent to <code>0%</code>.</dd>
 			<dt><code>to</code></dt>
-			<dd>&#10551; Equivalent to <code>100%</code>.</dd>
+			<dd>Equivalent to <code>100%</code>.</dd>
 		</dl>
 	</section>
 	<section>

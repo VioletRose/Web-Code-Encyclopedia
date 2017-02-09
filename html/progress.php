@@ -30,9 +30,9 @@
 		<h4>Attributes</h4>
 		<dl>
 			<dt><code>max</code></dt>
-			<dd>&#10551; Defines the maximum numeric value of the element, upon which it is complete. If this attribute is not set, it will default to 1.</dd>
+			<dd>Defines the maximum numeric value of the element, upon which it is complete. If this attribute is not set, it will default to 1.</dd>
 			<dt><code>value</code></dt>
-			<dd>&#10551; Defines the current numeric value of the element. If not defined, the element will animate to represent being not fully loaded.</dd>
+			<dd>Defines the current numeric value of the element. If not defined, the element will animate to represent being not fully loaded.</dd>
 		</dl>
 	</section>
 </main>	

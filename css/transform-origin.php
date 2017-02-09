@@ -109,18 +109,18 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>x-origin</var></code></dt>
-						<dd>&#10551; Required numeric/text variable, in measurements, <code>left</code>, <code>center</code>, or <code>right</code>; defaults to <code>50%</code>. The horizontal offset.</dd>
+						<dd>Required numeric/text variable, in measurements, <code>left</code>, <code>center</code>, or <code>right</code>; defaults to <code>50%</code>. The horizontal offset.</dd>
 						<dt><code><var>y-origin</var></code></dt>
-						<dd>&#10551; Optional numeric/text variable, in measurements, <code>top</code>, <code>center</code>, or <code>bottom</code>; defaults to <code>50%</code>. The vertical offset.</dd>
+						<dd>Optional numeric/text variable, in measurements, <code>top</code>, <code>center</code>, or <code>bottom</code>; defaults to <code>50%</code>. The vertical offset.</dd>
 						<dt><code><var>z-origin</var></code></dt>
-						<dd>&#10551; Optional numeric variable, in measurements; defaults to <code>0</code>. The depth offset.</dd>
+						<dd>Optional numeric variable, in measurements; defaults to <code>0</code>. The depth offset.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

@@ -29,7 +29,7 @@
 		<h4>Attributes</h4>
 		<dl>
 			<dt><code>open</code></dt>
-			<dd>&#10551; If present, the element will be open by default rather than closed.</dd>
+			<dd>If present, the element will be open by default rather than closed.</dd>
 		</dl>
 	</section>
 </main>	

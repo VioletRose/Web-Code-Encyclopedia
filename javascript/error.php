@@ -17,22 +17,22 @@
 					<summary>Supported Values:</summary>
 					<dl>
 						<dt><code>EvalError</code></dt>
-						<dd>&#10551; Indicates that an error has occured in the <code>eval()</code> function. Newer versions of Javascript use <code>SyntaxError</code> instead.</dd>
+						<dd>Indicates that an error has occured in the <code>eval()</code> function. Newer versions of Javascript use <code>SyntaxError</code> instead.</dd>
 						<dt><code>RangeError</code></dt>
-						<dd>&#10551; Indicates that a number out of range error has occurred.</dd>
+						<dd>Indicates that a number out of range error has occurred.</dd>
 						<dt><code>ReferenceError</code></dt>
-						<dd>&#10551; Indicates that an illegal reference has occurred.</dd>
+						<dd>Indicates that an illegal reference has occurred.</dd>
 						<dt><code>SyntaxError</code></dt>
-						<dd>&#10551; Indicates that a syntax error has occurred.</dd>
+						<dd>Indicates that a syntax error has occurred.</dd>
 						<dt><code>TypeError</code></dt>
-						<dd>&#10551; Indicates that a type error has occurred.</dd>
+						<dd>Indicates that a type error has occurred.</dd>
 						<dt><code>URIError</code></dt>
-						<dd>&#10551; Indicates that an error has occurred in the <code>encodeURI</code> method.</dd>
+						<dd>Indicates that an error has occurred in the <code>encodeURI</code> method.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>message</code></dt>
-			<dd>&#10551; This property stores an error message as a string, which is a bit more specific about what caused the error to occur, often specifying a function, method, or variable which failed to work properly.</dd>
+			<dd>This property stores an error message as a string, which is a bit more specific about what caused the error to occur, often specifying a function, method, or variable which failed to work properly.</dd>
 		</dl>
 	</section>
 </main>	

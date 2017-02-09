@@ -39,11 +39,11 @@
 		<h4>Accepted values of <code>color</code>:</h4>
 		<dl>
 			<dt><code><var>color</var></code></dt>
-			<dd>&#10551; Color variable, defaults to <code>rgb(0, 0, 0)</code>. The color of the text.</dd>
+			<dd>Color variable, defaults to <code>rgb(0, 0, 0)</code>. The color of the text.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

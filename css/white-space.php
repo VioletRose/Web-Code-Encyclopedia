@@ -54,19 +54,19 @@
 		<h4>Accepted values of <code>white-space</code>:</h4>
 		<dl>
 			<dt><code>normal</code></dt>
-			<dd>&#10551; The default value. Whitespace renders as a single space, text wraps to the next line when it reaches the opposite edge of the element, but not if a line break is present in the HTML document.</dd>
+			<dd>The default value. Whitespace renders as a single space, text wraps to the next line when it reaches the opposite edge of the element, but not if a line break is present in the HTML document.</dd>
 			<dt><code>nowrap</code></dt>
-			<dd>&#10551; Whitespace renders as a single space, but text continues without wrapping, overflowing its containing element if necessary, even if a line break is present in the HTML document.</dd>
+			<dd>Whitespace renders as a single space, but text continues without wrapping, overflowing its containing element if necessary, even if a line break is present in the HTML document.</dd>
 			<dt><code>pre</code></dt>
-			<dd>&#10551; Whitespace displays exactly as written in the HTML document, and text continues without wrapping unless a line break is present in the HTML document.</dd>
+			<dd>Whitespace displays exactly as written in the HTML document, and text continues without wrapping unless a line break is present in the HTML document.</dd>
 			<dt><code>pre-line</code></dt>
-			<dd>&#10551; Whitespace renders as a single space, text wraps to the next line when possible, and text also wraps if a line break is present in the HTML document.</dd>
+			<dd>Whitespace renders as a single space, text wraps to the next line when possible, and text also wraps if a line break is present in the HTML document.</dd>
 			<dt><code>pre-wrap</code></dt>
-			<dd>&#10551; Whitespace displays exactly as written in the HTML document, and text wraps to the next line when possible, or if a line break is present in the HTML document.</dd>
+			<dd>Whitespace displays exactly as written in the HTML document, and text wraps to the next line when possible, or if a line break is present in the HTML document.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

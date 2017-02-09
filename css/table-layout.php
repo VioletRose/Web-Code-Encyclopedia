@@ -114,13 +114,13 @@
 		<h4>Accepted values of <code> table-layout</code>:</h4>
 		<dl>
 			<dt><code>auto</code></dt>
-			<dd>&#10551; The default value. Each column's width is determined by the cell with the longest content. The browser must load the entire table before determining column widths.</dd>
+			<dd>The default value. Each column's width is determined by the cell with the longest content. The browser must load the entire table before determining column widths.</dd>
 			<dt><code>fixed</code></dt>
-			<dd>&#10551; Column width is uniform, and the table's width is evenly divided amongst all columns. The browser can display the table as soon as it loads the first row. However, this value will not function if any of the table's cells would be smaller than their contents.</dd>
+			<dd>Column width is uniform, and the table's width is evenly divided amongst all columns. The browser can display the table as soon as it loads the first row. However, this value will not function if any of the table's cells would be smaller than their contents.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

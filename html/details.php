@@ -33,14 +33,14 @@
 		<h4>Child tags of <code>&lt;details&gt;</code></h4>
 		<dl>
 			<dt><code>summary</code></dt>
-			<dd>&#10551; Designates the included text as a summary of the <code>&lt;details&gt;</code> element, which will be displayed associated with the arrow the user clicks to view the contents of that element.</dd>
+			<dd>Designates the included text as a summary of the <code>&lt;details&gt;</code> element, which will be displayed associated with the arrow the user clicks to view the contents of that element.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;details&gt;</code></h4>
 		<dl>
 			<dt><code>open</code></dt>
-			<dd>&#10551; If present, the element will be open by default rather than closed.</dd>
+			<dd>If present, the element will be open by default rather than closed.</dd>
 		</dl>
 	</section>
 </main>	

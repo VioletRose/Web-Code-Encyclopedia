@@ -54,13 +54,13 @@
 		<h4>Accepted values of <code>word-wrap</code>:</h4>
 		<dl>
 			<dt><code>normal</code></dt>
-			<dd>&#10551; The default behavior. Word wrapping follows the normal rules, only breaking at spaces and hyphens.</dd>
+			<dd>The default behavior. Word wrapping follows the normal rules, only breaking at spaces and hyphens.</dd>
 			<dt><code>break-word</code></dt>
-			<dd>&#10551; Extremely long words will be broken midway through to prevent overflow.</dd>
+			<dd>Extremely long words will be broken midway through to prevent overflow.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

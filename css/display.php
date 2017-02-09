@@ -177,45 +177,45 @@
 		<h4>Accepted values of <code>display</code>:</h4>
 		<dl>
 			<dt><code>inline</code></dt>
-			<dd>&#10551; The element displays inline, seamlessly integrating with text.</dd>
+			<dd>The element displays inline, seamlessly integrating with text.</dd>
 			<dt><code>block</code></dt>
-			<dd>&#10551; The element displays as a block, requiring itself to be on a new line.</dd>
+			<dd>The element displays as a block, requiring itself to be on a new line.</dd>
 			<dt><code>flex</code></dt>
-			<dd>&#10551; The element displays as a flex block, which behaves as a normal block but causes child elements to position themselves within it according on the flex property values.</dd>
+			<dd>The element displays as a flex block, which behaves as a normal block but causes child elements to position themselves within it according on the flex property values.</dd>
 			<dt><code>inline-block</code></dt>
-			<dd>&#10551; The element displays as an inline block, which does not require a new line for itself, but can have a width and height that push other elements away.</dd>
+			<dd>The element displays as an inline block, which does not require a new line for itself, but can have a width and height that push other elements away.</dd>
 			<dt><code>inline-flex</code></dt>
-			<dd>&#10551; The element displays as an inline flex block, which behaves as an inline block but causes child elements to position themselves within it according to the flex property values.</dd>
+			<dd>The element displays as an inline flex block, which behaves as an inline block but causes child elements to position themselves within it according to the flex property values.</dd>
 			<dt><code>inline-table</code></dt>
-			<dd>&#10551; The element displays as an inline table, a container for other table components.</dd>
+			<dd>The element displays as an inline table, a container for other table components.</dd>
 			<dt><code>list-item</code></dt>
-			<dd>&#10551; The element displays as a list entry.</dd>
+			<dd>The element displays as a list entry.</dd>
 			<dt><code>run-in</code></dt>
-			<dd>&#10551; The element displays as inline or a block depending on context; specifically, if it precedes a block element, it will display as if it were an inline child of that element.</dd>
+			<dd>The element displays as inline or a block depending on context; specifically, if it precedes a block element, it will display as if it were an inline child of that element.</dd>
 			<dt><code>table</code></dt>
-			<dd>&#10551; The element displays as a table block, a container for other table components.</dd>
+			<dd>The element displays as a table block, a container for other table components.</dd>
 			<dt><code>table-caption</code></dt>
-			<dd>&#10551; The element displays as a table caption, positioning itself appropriately within a table.</dd>
+			<dd>The element displays as a table caption, positioning itself appropriately within a table.</dd>
 			<dt><code>table-column-group</code></dt>
-			<dd>&#10551; The element displays as a table column group, positioning itself appropriately within a table.</dd>
+			<dd>The element displays as a table column group, positioning itself appropriately within a table.</dd>
 			<dt><code>table-header-group</code></dt>
-			<dd>&#10551; The element displays as a table header group, positioning itself appropriately within a table.</dd>
+			<dd>The element displays as a table header group, positioning itself appropriately within a table.</dd>
 			<dt><code>table-footer-group</code></dt>
-			<dd>&#10551; The element displays as a table footer group, positioning itself appropriately within a table.</dd>
+			<dd>The element displays as a table footer group, positioning itself appropriately within a table.</dd>
 			<dt><code>table-row-group</code></dt>
-			<dd>&#10551; The element displays as a table row group, positioning itself appropriately within a table.</dd>
+			<dd>The element displays as a table row group, positioning itself appropriately within a table.</dd>
 			<dt><code>table-cell</code></dt>
-			<dd>&#10551; The element displays as a table cell, positioning itself appropriately within a table.</dd>
+			<dd>The element displays as a table cell, positioning itself appropriately within a table.</dd>
 			<dt><code>table-column</code></dt>
-			<dd>&#10551; The element displays as a table column, positioning itself appropriately within a table.</dd>
+			<dd>The element displays as a table column, positioning itself appropriately within a table.</dd>
 			<dt><code>table-row</code></dt>
-			<dd>&#10551; The element displays as a table row, positioning itself appropriately within a table.</dd>
+			<dd>The element displays as a table row, positioning itself appropriately within a table.</dd>
 			<dt><code>none</code></dt>
-			<dd>&#10551; The element does not display at all.</dd>
+			<dd>The element does not display at all.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

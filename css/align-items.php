@@ -97,19 +97,19 @@
 		<h4>Accepted values of <code></code>:</h4>
 		<dl>
 			<dt><code>stretch</code></dt>
-			<dd>&#10551; The default value. Items are stretched to fully fit the container, unless their sizes are fixed.</dd>
+			<dd>The default value. Items are stretched to fully fit the container, unless their sizes are fixed.</dd>
 			<dt><code>center</code></dt>
-			<dd>&#10551; Items are centered within the container, from the top or the sides depending on if they are in rows or columns.</dd>
+			<dd>Items are centered within the container, from the top or the sides depending on if they are in rows or columns.</dd>
 			<dt><code>flex-start</code></dt>
-			<dd>&#10551; Items are aligned to the beginning of the container.</dd>
+			<dd>Items are aligned to the beginning of the container.</dd>
 			<dt><code>flex-end</code></dt>
-			<dd>&#10551; Items are aligned to the end of the container.</dd>
+			<dd>Items are aligned to the end of the container.</dd>
 			<dt><code>baseline</code></dt>
-			<dd>&#10551; Items are aligned so that their baselines (starting text lines) line up with every other baseline-aligned item.</dd>
+			<dd>Items are aligned so that their baselines (starting text lines) line up with every other baseline-aligned item.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

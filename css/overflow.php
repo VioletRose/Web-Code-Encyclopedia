@@ -101,26 +101,26 @@
 		<h4>Sub-properties of <code>overflow</code>:</h4>
 		<dl>
 			<dt><code>overflow-x</code></dt>
-			<dd>&#10551; Defines the horizontal overflow behavior of the element.</dd>
+			<dd>Defines the horizontal overflow behavior of the element.</dd>
 			<dt><code>overflow-y</code></dt>
-			<dd>&#10551; Defines the vertical overflow behavior of the element.</dd>
+			<dd>Defines the vertical overflow behavior of the element.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Accepted values of <code>overflow</code>, <code>overflow-x</code>, and <code>overflow-y</code>:</h4>
 		<dl>
 			<dt><code>visible</code></dt>
-			<dd>&#10551; The default value. Overflowing content simply displays outside of the element - obviously an undesirable result, but it can be useful for debugging, to more immediately see the problem.</dd>
+			<dd>The default value. Overflowing content simply displays outside of the element - obviously an undesirable result, but it can be useful for debugging, to more immediately see the problem.</dd>
 			<dt><code>hidden</code></dt>
-			<dd>&#10551; Overflowing content is simply hidden and unviewable.</dd>
+			<dd>Overflowing content is simply hidden and unviewable.</dd>
 			<dt><code>scroll</code></dt>
-			<dd>&#10551; Overflowing content is hidden, but a scroll bar is added to the element. Note that the scroll bar appears whether or not any overflow occurs.</dd>
+			<dd>Overflowing content is hidden, but a scroll bar is added to the element. Note that the scroll bar appears whether or not any overflow occurs.</dd>
 			<dt><code>auto</code></dt>
-			<dd>&#10551; Similar to <code>scroll</code>, but the scroll bar only appears if content actually overflows.</dd>
+			<dd>Similar to <code>scroll</code>, but the scroll bar only appears if content actually overflows.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

@@ -42,7 +42,7 @@
 		<h4>Accepted values of <code></code>:</h4>
 		<dl>
 			<dt><code>none</code></dt>
-			<dd>&#10551; The default value. No effects will be applied.</dd>
+			<dd>The default value. No effects will be applied.</dd>
 			<dt><code>blur(<var>blur</var>)</code></dt>
 			<dd>
 				&#10551; The image will be blurred.
@@ -50,7 +50,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var></var></code></dt>
-						<dd>&#10551; Optional numeric variable, in measurements; defaults to 0. Determines the extent of blurring, with higher measurements resulting in more blur.</dd>
+						<dd>Optional numeric variable, in measurements; defaults to 0. Determines the extent of blurring, with higher measurements resulting in more blur.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -61,7 +61,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>brightness</var></code></dt>
-						<dd>&#10551; Optional numeric value, in percentages; defaults to <code>100%</code>. <code>0%</code> is fully black, <code>100%</code>is normal brightness, and higher values result in more brightness.</dd>
+						<dd>Optional numeric value, in percentages; defaults to <code>100%</code>. <code>0%</code> is fully black, <code>100%</code>is normal brightness, and higher values result in more brightness.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -72,7 +72,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>contrast</var></code></dt>
-						<dd>&#10551; Optional numeric value, in percentages; defaults to <code>100%</code>. <code>0%</code> is fully black, <code>100%</code>is normal contrast, and higher values result in less contrast.</dd>
+						<dd>Optional numeric value, in percentages; defaults to <code>100%</code>. <code>0%</code> is fully black, <code>100%</code>is normal contrast, and higher values result in less contrast.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -83,15 +83,15 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>x-offset</var></code></dt>
-						<dd>&#10551; Required numeric variable, in pixels. The horizontal distance the shadow should be offset from the image.</dd>
+						<dd>Required numeric variable, in pixels. The horizontal distance the shadow should be offset from the image.</dd>
 						<dt><code><var>y-offset</var></code></dt>
-						<dd>&#10551; Required numeric variable, in pixels. The vertical distance the shadow should be offset from the image.</dd>
+						<dd>Required numeric variable, in pixels. The vertical distance the shadow should be offset from the image.</dd>
 						<dt><code><var>blur</var></code></dt>
-						<dd>&#10551; Optional numeric variable, in pixels; defaults to <code>0</code>. The additional distance across which the shadow should be blurred.</dd>
+						<dd>Optional numeric variable, in pixels; defaults to <code>0</code>. The additional distance across which the shadow should be blurred.</dd>
 						<dt><code><var>spread</var></code></dt>
-						<dd>&#10551; Optional numeric variable, in pixels; defaults to <code>0</code>. The additional size of the shadow beyond the size of the image. Note that many browsers don't support this fourth value, even in the webkit form of the property.</dd>
+						<dd>Optional numeric variable, in pixels; defaults to <code>0</code>. The additional size of the shadow beyond the size of the image. Note that many browsers don't support this fourth value, even in the webkit form of the property.</dd>
 						<dt><code><var>color</var></code></dt>
-						<dd>&#10551; Optional color variable, defaults to <code>rgb(0, 0, 0)</code>. The color of the shadow.</dd>
+						<dd>Optional color variable, defaults to <code>rgb(0, 0, 0)</code>. The color of the shadow.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -102,7 +102,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>grayscale</var></code></dt>
-						<dd>&#10551; Optional numeric variable, in percentages; defaults to <code>0</code>. <code>100%</code> is a fully grayscale image.</dd>
+						<dd>Optional numeric variable, in percentages; defaults to <code>0</code>. <code>100%</code> is a fully grayscale image.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -113,7 +113,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>rotation</var></code></dt>
-						<dd>&#10551; Optional numeric variable, in numbers; maximum of 360. The number of degrees around the color wheel the hue should be rotated.</dd>
+						<dd>Optional numeric variable, in numbers; maximum of 360. The number of degrees around the color wheel the hue should be rotated.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -124,7 +124,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>inversion</var></code></dt>
-						<dd>&#10551; Optional numeric variable, in percentages; defaults to <code>0</code>. <code>100%</code> is a fully color-inverted image.</dd>
+						<dd>Optional numeric variable, in percentages; defaults to <code>0</code>. <code>100%</code> is a fully color-inverted image.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -135,7 +135,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>opacity</var></code></dt>
-						<dd>&#10551; Optional numeric variable, in percentages; defaults to <code>100%</code>. <code>0</code> is a fully transparent image.</dd>
+						<dd>Optional numeric variable, in percentages; defaults to <code>100%</code>. <code>0</code> is a fully transparent image.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -146,7 +146,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>saturation</var></code></dt>
-						<dd>&#10551; Optional numeric variable, in percentages; defaults to <code>100%</code>. <code>0</code> is fully un-saturated, while values above <code>100%</code> result in hypersaturation.</dd>
+						<dd>Optional numeric variable, in percentages; defaults to <code>100%</code>. <code>0</code> is fully un-saturated, while values above <code>100%</code> result in hypersaturation.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -157,7 +157,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>sepia</var></code></dt>
-						<dd>&#10551; Optional numeric variable, in percentages; defaults to <code>0</code>. <code>100%</code> is a fully sepia image.</dd>
+						<dd>Optional numeric variable, in percentages; defaults to <code>0</code>. <code>100%</code> is a fully sepia image.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -168,14 +168,14 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>URL</var></code></dt>
-						<dd>&#10551; Required URL variable. The location of an XML file that specifies a SVG filter to be used.</dd>
+						<dd>Required URL variable. The location of an XML file that specifies a SVG filter to be used.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

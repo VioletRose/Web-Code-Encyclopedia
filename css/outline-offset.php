@@ -55,11 +55,11 @@
 		<h4>Accepted values of <code>outline-offset</code>:</h4>
 		<dl>
 			<dt><code><var>offset</var></code></dt>
-			<dd>&#10551; Numeric value, in measurements; defaults to <code>0</code>. The distance between the element and its outline - how much it is offset by.</dd>
+			<dd>Numeric value, in measurements; defaults to <code>0</code>. The distance between the element and its outline - how much it is offset by.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

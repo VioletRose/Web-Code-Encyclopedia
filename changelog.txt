@@ -1,3 +1,9 @@
+Thursday, February 09th, 2017
+Changes:
+*: Removed redundant preceding arrows and spaces from non-example <dd> elements sitewide.
+javascript/event.php: Added caveats to the dblclick and keypress event descriptions.
+stylesheets/encyclopedia.css: Added a preceding arrow and space to every non-example <dd> element on the site.
+
 Wednesday, February 08th, 2017
 Changes:
 javascript/jqselectors.php: Renamed from selectors.php.

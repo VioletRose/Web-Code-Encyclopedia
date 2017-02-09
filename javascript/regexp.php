@@ -10,28 +10,28 @@
 		<h4>RegExp Properties:</h4>
 		<dl>
 			<dt><code>constructor</code></dt>
-			<dd>&#10551; This property stores the code that created the regular expression's prototype. Unless this regular epxression, somewhere up its heredity, was created by the <code>new</code> operator, this will return <code>function RegExp() { [native code] }</code>, reflecting a core part of Javascript's engine.</dd>
+			<dd>This property stores the code that created the regular expression's prototype. Unless this regular epxression, somewhere up its heredity, was created by the <code>new</code> operator, this will return <code>function RegExp() { [native code] }</code>, reflecting a core part of Javascript's engine.</dd>
 			<dt><code>global</code></dt>
-			<dd>&#10551; Returns <code>true</code> if the pattern is using the <code>g</code> modifier, otherwise, returns <code>false</code>.</dd>
+			<dd>Returns <code>true</code> if the pattern is using the <code>g</code> modifier, otherwise, returns <code>false</code>.</dd>
 			<dt><code>ignoreCase</code></dt>
-			<dd>&#10551; Returns <code>true</code> if the pattern is using the <code>i</code> modifier, otherwise returns <code>false</code>.</dd>
+			<dd>Returns <code>true</code> if the pattern is using the <code>i</code> modifier, otherwise returns <code>false</code>.</dd>
 			<dt><code>lastIndex</code></dt>
-			<dd>&#10551; Stores an integer representing the character index (location) of the last match found by the <code>exec</code> or <code>test</code> methods. Note that both methods reset this to <code>0</code> if no match is found.</dd>
+			<dd>Stores an integer representing the character index (location) of the last match found by the <code>exec</code> or <code>test</code> methods. Note that both methods reset this to <code>0</code> if no match is found.</dd>
 			<dt><code>multiline</code></dt>
-			<dd>&#10551; Returns <code>true</code> if the pattern is using the <code>m</code> modifier, otherwise, returns <code>false</code>.</dd>
+			<dd>Returns <code>true</code> if the pattern is using the <code>m</code> modifier, otherwise, returns <code>false</code>.</dd>
 			<dt><code>source</code></dt>
-			<dd>&#10551; Returns the text of the regular expression. Note that this is only the main pattern, excluding modifiers.</dd>
+			<dd>Returns the text of the regular expression. Note that this is only the main pattern, excluding modifiers.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>RegExp Methods:</h4>
 		<dl>
 			<dt><code>exec()</code></dt>
-			<dd>&#10551; Accepts a string in its argument, and returns the first character or sequence of characters it finds that match the regular expression, otherwise, returns <code>null</code>.</dd>
+			<dd>Accepts a string in its argument, and returns the first character or sequence of characters it finds that match the regular expression, otherwise, returns <code>null</code>.</dd>
 			<dt><code>test()</code></dt>
-			<dd>&#10551; Accepts a string in its argument, and returns <code>true</code> if it finds a match for the regular expression, otherwise, returns <code>false</code>.</dd>
+			<dd>Accepts a string in its argument, and returns <code>true</code> if it finds a match for the regular expression, otherwise, returns <code>false</code>.</dd>
 			<dt><code>toString()</code></dt>
-			<dd>&#10551; Returns the regular expression as a string.</dd>
+			<dd>Returns the regular expression as a string.</dd>
 		</dl>
 	</section>
 </main>	

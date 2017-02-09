@@ -39,13 +39,13 @@
 		<h4>Accepted values of <code>direction</code>:</h4>
 		<dl>
 			<dt><code>ltr</code></dt>
-			<dd>&#10551; The default value. Text is left to right.</dd>
+			<dd>The default value. Text is left to right.</dd>
 			<dt><code>rtl</code></dt>
-			<dd>&#10551; Text is right to left.</dd>
+			<dd>Text is right to left.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

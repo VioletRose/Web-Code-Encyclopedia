@@ -51,22 +51,22 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>x-offset</var></code></dt>
-						<dd>&#10551; Required, numeric variable, in measurements. The horizontal distance the shadow should be offset from the text.</dd>
+						<dd>Required, numeric variable, in measurements. The horizontal distance the shadow should be offset from the text.</dd>
 						<dt><code><var>y-offset</var></code></dt>
-						<dd>&#10551; Required, numeric variable, in measurements. The vertical distance the shadow should be offset from the text.</dd>
+						<dd>Required, numeric variable, in measurements. The vertical distance the shadow should be offset from the text.</dd>
 						<dt><code><var>blur</var></code></dt>
-						<dd>&#10551; Optional, numeric variable, in measurements, defaults to 0. The additional distance across which the shadow should be blurred.</dd>
+						<dd>Optional, numeric variable, in measurements, defaults to 0. The additional distance across which the shadow should be blurred.</dd>
 						<dt><code><var>color</var></code></dt>
-						<dd>&#10551; Optional, color variable, defaults to #000000. The color of the shadow.</dd>
+						<dd>Optional, color variable, defaults to #000000. The color of the shadow.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>none</code></dt>
-			<dd>&#10551; The default value. No shadow will be displayed.</dd>
+			<dd>The default value. No shadow will be displayed.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

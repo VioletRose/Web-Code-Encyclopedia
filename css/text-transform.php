@@ -66,17 +66,17 @@
 		<h4>Accepted values of <code></code>:</h4>
 		<dl>
 			<dt><code>none</code></dt>
-			<dd>&#10551; The default value. Text will display as it was written in the HTML document.</dd>
+			<dd>The default value. Text will display as it was written in the HTML document.</dd>
 			<dt><code>capitalize</code></dt>
-			<dd>&#10551; The first letter of each word will be capitalized.</dd>
+			<dd>The first letter of each word will be capitalized.</dd>
 			<dt><code>uppercase</code></dt>
-			<dd>&#10551; Every letter will be capitalized.</dd>
+			<dd>Every letter will be capitalized.</dd>
 			<dt><code>lowercase</code></dt>
-			<dd>&#10551; Every letter will be made lowercase.</dd>
+			<dd>Every letter will be made lowercase.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

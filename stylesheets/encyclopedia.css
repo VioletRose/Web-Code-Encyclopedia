@@ -34,6 +34,10 @@ dl:not(#exampledl) dd {
 	margin-left: 0;
 }
 
+dl:not(#exampledl) dd::before {
+	content: "\002937 \A0";
+}
+
 main > section {
 	padding: 0 8px;
 }

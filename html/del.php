@@ -24,9 +24,9 @@
 		<h4>Attributes</h4>
 		<dl>
 			<dt><code>cite</code></dt>
-			<dd>&#10551; Defines a URL meant to be a citation for why the text was deleted.</dd>
+			<dd>Defines a URL meant to be a citation for why the text was deleted.</dd>
 			<dt><code>datetime</code></dt>
-			<dd>&#10551; Defines the date and, optionally, time that the text was deleted, in YYYY-MM-DDThh:mm:ssTZD format. The components are year/month/day, T as a separator if time is being specified, then hour (in 24 hour format), minute, second, and three letter time zone designator.</dd>
+			<dd>Defines the date and, optionally, time that the text was deleted, in YYYY-MM-DDThh:mm:ssTZD format. The components are year/month/day, T as a separator if time is being specified, then hour (in 24 hour format), minute, second, and three letter time zone designator.</dd>
 		</dl>
 	</section>
 </main>	

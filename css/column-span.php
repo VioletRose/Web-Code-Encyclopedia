@@ -79,13 +79,13 @@
 		<h4>Accepted values of <code>column-span</code>:</h4>
 		<dl>
 			<dt><code>1</code></dt>
-			<dd>&#10551; The default value. The heading only spans a single text column.</dd>
+			<dd>The default value. The heading only spans a single text column.</dd>
 			<dt><code>all</code></dt>
-			<dd>&#10551; The heading spans as many columns of text as its length allows for.</dd>
+			<dd>The heading spans as many columns of text as its length allows for.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

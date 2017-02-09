@@ -170,19 +170,19 @@
 		<p>Arithmetic operators are a kind of operator used to adjust numbers in a few simple ways, and one slightly more complex. For obvious reasons, they must be targeted at numeric data, typically number variables, in order to work properly. However, their targets need not be numbers directly, they can be equations or even entire functions as long as numeric data is returned as the outcome.</p>
 		<dl>
 			<dt><code>+</code></dt>
-			<dd>&#10551; Adds one number's value to another's. An example is <code>z = x + y</code>.</dd>
+			<dd>Adds one number's value to another's. An example is <code>z = x + y</code>.</dd>
 			<dt><code>-</code></dt>
-			<dd>&#10551; Subtracts one number's value to another's. An example is <code>z = x - y</code>.</dd>
+			<dd>Subtracts one number's value to another's. An example is <code>z = x - y</code>.</dd>
 			<dt><code>*</code></dt>
-			<dd>&#10551; Multiplies one number's value by another's. An example is <code>z = x * y</code>.</dd>
+			<dd>Multiplies one number's value by another's. An example is <code>z = x * y</code>.</dd>
 			<dt><code>/</code></dt>
-			<dd>&#10551; Divides one number's value by another's. An example is <code>z = x / y</code>.</dd>
+			<dd>Divides one number's value by another's. An example is <code>z = x / y</code>.</dd>
 			<dt><code>%</code></dt>
-			<dd>&#10551; Divides one number's value by another's and returns the remainder as the result. An example is <code>z = x % y</code>.</dd>
+			<dd>Divides one number's value by another's and returns the remainder as the result. An example is <code>z = x % y</code>.</dd>
 			<dt><code>++</code></dt>
-			<dd>&#10551; Increments a number by one. An example is <code>z = ++x</code> or <code>z = x++</code>.</dd>
+			<dd>Increments a number by one. An example is <code>z = ++x</code> or <code>z = x++</code>.</dd>
 			<dt><code>--</code></dt>
-			<dd>&#10551; Decrements a number by one. An example is <code>z = --y</code> or <code>z = y--</code>.</dd>
+			<dd>Decrements a number by one. An example is <code>z = --y</code> or <code>z = y--</code>.</dd>
 		</dl>
 	</section>
 	<section>
@@ -190,17 +190,17 @@
 		<p>Assignment operators are operators used to assign values to nearly anything which can have a value. Whatever is placed before the assignment operator will have its value set to the latter, whether the latter is just a value or a function which produces a usable value as its result.</p>
 		<dl>
 			<dt><code>=</code></dt>
-			<dd>&#10551; Sets any value to the specified value. An example is <code>var second = 2;</code>, which sets <code>second</code> to <code>2</code></dd>
+			<dd>Sets any value to the specified value. An example is <code>var second = 2;</code>, which sets <code>second</code> to <code>2</code></dd>
 			<dt><code>+=</code></dt>
-			<dd>&#10551; Sets a value to itself plus another value. An example is <code>second += 2;</code>, which adds <code>2</code> to the value of <code>second</code>.</dd>
+			<dd>Sets a value to itself plus another value. An example is <code>second += 2;</code>, which adds <code>2</code> to the value of <code>second</code>.</dd>
 			<dt><code>-=</code></dt>
-			<dd>&#10551; Sets a numeric value to itself minus another value. An example is <code>second -= 2;</code>, which subtracts <code>2</code> from the value of <code>second</code>.</dd>
+			<dd>Sets a numeric value to itself minus another value. An example is <code>second -= 2;</code>, which subtracts <code>2</code> from the value of <code>second</code>.</dd>
 			<dt><code>*=</code></dt>
-			<dd>&#10551; Sets a numeric value to itself multiplied by another value. An example is <code>second *= 2;</code>, which multiplies <code>second</code>'s value by <code>2</code>.</dd>
+			<dd>Sets a numeric value to itself multiplied by another value. An example is <code>second *= 2;</code>, which multiplies <code>second</code>'s value by <code>2</code>.</dd>
 			<dt><code>/=</code></dt>
-			<dd>&#10551; Sets a numeric value to itself divided by another value. An example is <code>second /= 2;</code>, which divides <code>second</code>'s value by <code>2</code>.</dd>
+			<dd>Sets a numeric value to itself divided by another value. An example is <code>second /= 2;</code>, which divides <code>second</code>'s value by <code>2</code>.</dd>
 			<dt><code>%=</code></dt>
-			<dd>&#10551; Sets a numeric value to itself after a modulus operation with another value (divide by, then return the remainder). An example is <code>second %= 2;</code>, which performs a modulus operation on the value of <code>second</code> using <code>2</code> for the division.</dd>
+			<dd>Sets a numeric value to itself after a modulus operation with another value (divide by, then return the remainder). An example is <code>second %= 2;</code>, which performs a modulus operation on the value of <code>second</code> using <code>2</code> for the division.</dd>
 		</dl>
 	</section>
 	<section>
@@ -208,9 +208,9 @@
 		<p>The two string operators offer ways of conjoining multiple strings into a single one. Due to them having the same format as arithmetic operators, care needs to be taken with what value types are used with them - they will operate on string, numeric, and other variable types but may not have desirable results.</p>
 		<dl>
 			<dt><code>+</code></dt>
-			<dd>&#10551; When placed between two instances of string data, returns the two of them combined. For example, <code>stringZ = stringX + stringY;</code> will result in <code>stringZ</code>'s value being set to that of <code>stringX</code> combined with <code>stringY</code>'s.</dd>
+			<dd>When placed between two instances of string data, returns the two of them combined. For example, <code>stringZ = stringX + stringY;</code> will result in <code>stringZ</code>'s value being set to that of <code>stringX</code> combined with <code>stringY</code>'s.</dd>
 			<dt><code></code></dt>
-			<dd>&#10551; Similar to the above, but acting directly on the left-hand target. For example, <code>stringX += stringY</code> will result in <code>stringX</code>'s value being set to itself combined with <code>stringY</code>'s.</dd>
+			<dd>Similar to the above, but acting directly on the left-hand target. For example, <code>stringX += stringY</code> will result in <code>stringX</code>'s value being set to itself combined with <code>stringY</code>'s.</dd>
 		</dl>
 	</section>
 	<section>
@@ -218,28 +218,28 @@
 		<p>These are all boolean - whatever the results of the comparison they make between the left and right values, the outcome will always be either <code>true</code> or <code>false</code>.</p>
 		<dl>
 			<dt><code>==</code></dt>
-			<dd>&#10551; Returns <code>true</code> if the two values are the same, otherwise, returns <code>false</code>.</dd>
+			<dd>Returns <code>true</code> if the two values are the same, otherwise, returns <code>false</code>.</dd>
 			<dt><code>===</code></dt>
-			<dd>&#10551; Returns <code>true</code> if the two values are the same and of the same type, otherwise, returns <code>false</code>.</dd>
+			<dd>Returns <code>true</code> if the two values are the same and of the same type, otherwise, returns <code>false</code>.</dd>
 			<dt><code>!=</code></dt>
-			<dd>&#10551; Returns <code>true</code> if the two values are not the same, otherwise, returns <code>false</code>.</dd>
+			<dd>Returns <code>true</code> if the two values are not the same, otherwise, returns <code>false</code>.</dd>
 			<dt><code>!==</code></dt>
-			<dd>&#10551; Returns <code>true</code> if the two values are not the same or not of the same type, otherwise, returns <code>false</code>.</dd>
+			<dd>Returns <code>true</code> if the two values are not the same or not of the same type, otherwise, returns <code>false</code>.</dd>
 			<dt><code>&gt;</code></dt>
-			<dd>&#10551; Returns <code>true</code> if the left value is greater than the right, otherwise, returns <code>false</code>. If used on a string, it compares the UTF point indices of the first non-identical characters, with later characters being evaluated as greater.</dd>
+			<dd>Returns <code>true</code> if the left value is greater than the right, otherwise, returns <code>false</code>. If used on a string, it compares the UTF point indices of the first non-identical characters, with later characters being evaluated as greater.</dd>
 			<dt><code>&lt;</code></dt>
-			<dd>&#10551; Returns <code>true</code> if the left value is lesser than the right, otherwise, returns <code>false</code>. If used on a string, it compares the UTF point indices of the first non-identical characters, with earlier characters being evaluated as lesser.</dd>
+			<dd>Returns <code>true</code> if the left value is lesser than the right, otherwise, returns <code>false</code>. If used on a string, it compares the UTF point indices of the first non-identical characters, with earlier characters being evaluated as lesser.</dd>
 			<dt><code>&gt;=</code></dt>
-			<dd>&#10551; Similar to <code>&gt;</code>, but it will additionally return <code>true</code> if the values are identical.</dd>
+			<dd>Similar to <code>&gt;</code>, but it will additionally return <code>true</code> if the values are identical.</dd>
 			<dt><code>&lt;=</code></dt>
-			<dd>&#10551; Similar to <code>&lt;</code>, but it will additionally return <code>true</code> if the values are identical.</dd>
+			<dd>Similar to <code>&lt;</code>, but it will additionally return <code>true</code> if the values are identical.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>The Conditional (Ternary) Operator:</h4>
 		<dl>
 			<dt><code>?</code></dt>
-			<dd>&#10551; A unique operator placed between any logic that will return a boolean value on the left, and a pair of possible values on the right - if the boolean is <code>true</code>, the first of the right values  will be used, and if the boolean is <code>false</code>, the second will be used. An example would be <code>ternary = (10 < 21) ? 'lower value':'higher value';</code>.</dd>
+			<dd>A unique operator placed between any logic that will return a boolean value on the left, and a pair of possible values on the right - if the boolean is <code>true</code>, the first of the right values  will be used, and if the boolean is <code>false</code>, the second will be used. An example would be <code>ternary = (10 < 21) ? 'lower value':'higher value';</code>.</dd>
 		</dl>
 	</section>
 	<section>
@@ -247,11 +247,11 @@
 		<p>The operator's operator, these are primarily useful for making comparisons between comparisons, to easily make a logical decision based on the outputs of multiple checks.</p>
 		<dl>
 			<dt><code>&amp;&amp;</code></dt>
-			<dd>&#10551; Returns <code>true</code> when the values to the left and right are both <code>true</code>, otherwise, returns <code>false</code>.</dd>
+			<dd>Returns <code>true</code> when the values to the left and right are both <code>true</code>, otherwise, returns <code>false</code>.</dd>
 			<dt><code>||</code></dt>
-			<dd>&#10551; Returns <code>true</code> if either of the values to the left or right are <code>true</code>, otherwise, returns <code>false</code>.</dd>
+			<dd>Returns <code>true</code> if either of the values to the left or right are <code>true</code>, otherwise, returns <code>false</code>.</dd>
 			<dt><code>!</code></dt>
-			<dd>&#10551; This operator only accepts values on the right. It returns <code>true</code> if its right side value is <code>false</code>, and <code>false</code> if its right side value is <code>true</code>.</dd>
+			<dd>This operator only accepts values on the right. It returns <code>true</code> if its right side value is <code>false</code>, and <code>false</code> if its right side value is <code>true</code>.</dd>
 		</dl>
 	</section>
 	<section>
@@ -259,52 +259,52 @@
 		<p>These operators specialize in handling 32 bit numbers, and function more like logic gates than standard operators. 32 bit numbers, internally, are sequences of 0s and 1s, which is important to the way these operators work.</p>
 		<dl>
 			<dt><code>&amp;</code></dt>
-			<dd>&#10551; The AND operator compares the left and right values, returning a value consisting of 0s in places where either value contains a 0, and 1s in places where both values contain 1s.</dd>
+			<dd>The AND operator compares the left and right values, returning a value consisting of 0s in places where either value contains a 0, and 1s in places where both values contain 1s.</dd>
 			<dt><code>|</code></dt>
-			<dd>&#10551; The OR operator compares the left and right values, returning a value consisting of 0s in places where both values contain 0s, and 1s in places where either value contains a 1.</dd>
+			<dd>The OR operator compares the left and right values, returning a value consisting of 0s in places where both values contain 0s, and 1s in places where either value contains a 1.</dd>
 			<dt><code>~</code></dt>
-			<dd>&#10551; The NOT operator only accepts values on the right. It returns the value to its right, adjusted so that all 0s are now 1s and all 1s are now 0s.</dd>
+			<dd>The NOT operator only accepts values on the right. It returns the value to its right, adjusted so that all 0s are now 1s and all 1s are now 0s.</dd>
 			<dt><code>^</code></dt>
-			<dd>&#10551; The XOR operator (exclusive OR) compares the left and right values, returning a value consisting of 0s in places where either both values contain 0s, or both values contain 1s, and 1s in places where one value contains a 1 and the other does not.</dd>
+			<dd>The XOR operator (exclusive OR) compares the left and right values, returning a value consisting of 0s in places where either both values contain 0s, or both values contain 1s, and 1s in places where one value contains a 1 and the other does not.</dd>
 			<dt><code>&lt;&lt;</code></dt>
-			<dd>&#10551; The left shift operator returns the 32 bit value on the left, modified by having each 0 and 1 moved a number of places to the left controlled by the right value, which is <em>not</em> 32 bit. Note that 1s pushed off the left side by this operation will simply be gone, and everything coming from the right will be 0s.</dd>
+			<dd>The left shift operator returns the 32 bit value on the left, modified by having each 0 and 1 moved a number of places to the left controlled by the right value, which is <em>not</em> 32 bit. Note that 1s pushed off the left side by this operation will simply be gone, and everything coming from the right will be 0s.</dd>
 			<dt><code>&gt;&gt;</code></dt>
-			<dd>&#10551; The right shift operator is identical to the left shift operator, except that it shifts right instead of left.</dd>
+			<dd>The right shift operator is identical to the left shift operator, except that it shifts right instead of left.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>The <code>typeof</code> Operator:</h4>
 		<dl>
 			<dt><code>typeof</code></dt>
-			<dd>&#10551; This operator only accepts values on the right. It returns the type of the value to its right; possible types include boolean, function, number, object, string, undefined etc.</dd>
+			<dd>This operator only accepts values on the right. It returns the type of the value to its right; possible types include boolean, function, number, object, string, undefined etc.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>The <code>delete</code> Operator:</h4>
 		<dl>
 			<dt><code>delete</code></dt>
-			<dd>&#10551; This operator only accepts values on the right. It deletes a property from an object, removing its value; any query of this property, until it is defined again, will return <code>undefined</code>.</dd>
+			<dd>This operator only accepts values on the right. It deletes a property from an object, removing its value; any query of this property, until it is defined again, will return <code>undefined</code>.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>The <code>in</code> Operator:</h4>
 		<dl>
 			<dt><code></code></dt>
-			<dd>&#10551; This operator checks whether the object on the right (and everything in Javascript is, technically speaking, an object) has the property specified on the left, returning <code>true</code> if it does, and <code>false</code> if it does not. For example, <code>'length' in String</code> returns <code>true</code>, because <code>length</code> is a property of <code>String</code>.</dd>
+			<dd>This operator checks whether the object on the right (and everything in Javascript is, technically speaking, an object) has the property specified on the left, returning <code>true</code> if it does, and <code>false</code> if it does not. For example, <code>'length' in String</code> returns <code>true</code>, because <code>length</code> is a property of <code>String</code>.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>The <code>instanceof</code> Operator:</h4>
 		<dl>
 			<dt><code>instanceof</code></dt>
-			<dd>&#10551; This operator checks whether the object on the left is an instance of the object on the right. Javascript objects are frequently classified in this way; as an example, if <code>alphabet</code> is defined as a string, then <code>alphabet instanceof Number</code> will return <code>false</code>, but <code>alphabet instanceof String</code> will return <code>true</code>.</dd>
+			<dd>This operator checks whether the object on the left is an instance of the object on the right. Javascript objects are frequently classified in this way; as an example, if <code>alphabet</code> is defined as a string, then <code>alphabet instanceof Number</code> will return <code>false</code>, but <code>alphabet instanceof String</code> will return <code>true</code>.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>The <code>void</code> Operator:</h4>
 		<dl>
 			<dt><code>void</code></dt>
-			<dd>&#10551; This operator is used as a wrapper to ensure that certain types of evaluated statements (placed as its argument), especially bookmarklets and HTML-placed event handlers, will return <code>undefined</code> after evaluation as opposed to anything else which the browser might misinterpret as an instruction.</dd>
+			<dd>This operator is used as a wrapper to ensure that certain types of evaluated statements (placed as its argument), especially bookmarklets and HTML-placed event handlers, will return <code>undefined</code> after evaluation as opposed to anything else which the browser might misinterpret as an instruction.</dd>
 		</dl>
 	</section>
 </main>	

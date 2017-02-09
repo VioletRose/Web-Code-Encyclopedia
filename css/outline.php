@@ -59,11 +59,11 @@
 		<h4>Sub-properties of <code>outline</code>:</h4>
 		<dl>
 			<dt><code>outline-color</code></dt>
-			<dd>&#10551; Defines the color of the outline.</dd>
+			<dd>Defines the color of the outline.</dd>
 			<dt><code>outline-style</code></dt>
-			<dd>&#10551; Defines the style of the outline.</dd>
+			<dd>Defines the style of the outline.</dd>
 			<dt><code>outline-width</code></dt>
-			<dd>&#10551; Defines the width of the outline.</dd>
+			<dd>Defines the width of the outline.</dd>
 		</dl>
 	</section>
 	<section>
@@ -76,77 +76,77 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>color</var></code></dt>
-						<dd>&#10551; Optional. The value of <code>outline-color</code>.</dd>
+						<dd>Optional. The value of <code>outline-color</code>.</dd>
 						<dt><code><var>style</var></code></dt>
-						<dd>&#10551; Optional. The value of <code>outline-style</code>.</dd>
+						<dd>Optional. The value of <code>outline-style</code>.</dd>
 						<dt><code><var>width</var></code></dt>
-						<dd>&#10551; Optional. The value of <code>outline-width</code>.</dd>
+						<dd>Optional. The value of <code>outline-width</code>.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Accepted values of <code>outline-color</code>:</h4>
 		<dl>
 			<dt><code>invert</code></dt>
-			<dd>&#10551; The default value. The browser automatically calculates a color that will contrast with the background behind the outline, so it always remains visible.</dd>
+			<dd>The default value. The browser automatically calculates a color that will contrast with the background behind the outline, so it always remains visible.</dd>
 			<dt><code><var>color</var></code></dt>
-			<dd>&#10551; Color variable. The outline's color.</dd>
+			<dd>Color variable. The outline's color.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Accepted values of <code>outline-style</code>:</h4>
 		<dl>
 			<dt><code>none</code></dt>
-			<dd>&#10551; The default value. No outline.</dd>
+			<dd>The default value. No outline.</dd>
 			<dt><code>hidden</code></dt>
-			<dd>&#10551; An outline that doesn't display.</dd>
+			<dd>An outline that doesn't display.</dd>
 			<dt><code>dotted</code></dt>
-			<dd>&#10551; An outline composed of squares with equal amounts of white space in between them.</dd>
+			<dd>An outline composed of squares with equal amounts of white space in between them.</dd>
 			<dt><code>dashed</code></dt>
-			<dd>&#10551; An outline composed of rectangles with equal amounts of white space in between them.</dd>
+			<dd>An outline composed of rectangles with equal amounts of white space in between them.</dd>
 			<dt><code>solid</code></dt>
-			<dd>&#10551; An outline composed of a single solid line.</dd>
+			<dd>An outline composed of a single solid line.</dd>
 			<dt><code>double</code></dt>
-			<dd>&#10551; An outline composed of two smaller solid lines with white space in between them.</dd>
+			<dd>An outline composed of two smaller solid lines with white space in between them.</dd>
 			<dt><code>groove</code></dt>
-			<dd>&#10551; An outline composed of four solid lines, two of the normal color and two a darker color, simulating a 3-dimensional groove.</dd>
+			<dd>An outline composed of four solid lines, two of the normal color and two a darker color, simulating a 3-dimensional groove.</dd>
 			<dt><code>ridge</code></dt>
-			<dd>&#10551; An outline composed of four solid lines, two of the normal color and two a darker color, simulating a 3-dimensional ridge.</dd>
+			<dd>An outline composed of four solid lines, two of the normal color and two a darker color, simulating a 3-dimensional ridge.</dd>
 			<dt><code>inset</code></dt>
-			<dd>&#10551; An outline composed of two solid lines, one of the normal color and one a darker color, simulating a depressed button.</dd>
+			<dd>An outline composed of two solid lines, one of the normal color and one a darker color, simulating a depressed button.</dd>
 			<dt><code>outset</code></dt>
-			<dd>&#10551; An outline composed of two solid lines, one of the normal color and one a darker color, simulating a raised button.</dd>
+			<dd>An outline composed of two solid lines, one of the normal color and one a darker color, simulating a raised button.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Accepted values of <code>outline-width</code>:</h4>
 		<dl>
 			<dt><code>medium</code></dt>
-			<dd>&#10551; The default value. An outline 3px thick.</dd>
+			<dd>The default value. An outline 3px thick.</dd>
 			<dt><code>thin</code></dt>
-			<dd>&#10551; An outline 1px thick.</dd>
+			<dd>An outline 1px thick.</dd>
 			<dt><code>thick</code></dt>
-			<dd>&#10551; An outline 5px thick.</dd>
+			<dd>An outline 5px thick.</dd>
 			<dt><code><var>width</var></code></dt>
-			<dd>&#10551; Numeric variable, in measurements. The width of the outline.</dd>
+			<dd>Numeric variable, in measurements. The width of the outline.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

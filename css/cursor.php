@@ -498,67 +498,67 @@
 		<h4>Accepted values of <code></code>:</h4>
 		<dl>
 			<dt><code>alias</code></dt>
-			<dd>&#10551; A cursor indicating an alias (or shortcut) to something is to be created.</dd>
+			<dd>A cursor indicating an alias (or shortcut) to something is to be created.</dd>
 			<dt><code>all-scroll</code></dt>
-			<dd>&#10551; A cursor indicating that something can be scrolled in any direction.</dd>
+			<dd>A cursor indicating that something can be scrolled in any direction.</dd>
 			<dt><code>auto</code></dt>
-			<dd>&#10551; The default value. The browser auto-selects an appropriate cursor.</dd>
+			<dd>The default value. The browser auto-selects an appropriate cursor.</dd>
 			<dt><code>cell</code></dt>
-			<dd>&#10551; A cursor indicating that a table cell may be selected.</dd>
+			<dd>A cursor indicating that a table cell may be selected.</dd>
 			<dt><code>context-menu</code></dt>
-			<dd>&#10551; A cursor indicating that a context menu is available.</dd>
+			<dd>A cursor indicating that a context menu is available.</dd>
 			<dt><code>col-resize</code></dt>
-			<dd>&#10551; A cursor indicating that a table column may be resized horizontally.</dd>
+			<dd>A cursor indicating that a table column may be resized horizontally.</dd>
 			<dt><code>copy</code></dt>
-			<dd>&#10551; A cursor indicating that something is to be copied.</dd>
+			<dd>A cursor indicating that something is to be copied.</dd>
 			<dt><code>crosshair</code></dt>
-			<dd>&#10551; A cursor that looks like a crosshair.</dd>
+			<dd>A cursor that looks like a crosshair.</dd>
 			<dt><code>default</code></dt>
-			<dd>&#10551; The user's default cursor.</dd>
+			<dd>The user's default cursor.</dd>
 			<dt><code>e-resize</code></dt>
-			<dd>&#10551; A cursor indicating that the edge of something can be moved right.</dd>
+			<dd>A cursor indicating that the edge of something can be moved right.</dd>
 			<dt><code>ew-resize</code></dt>
-			<dd>&#10551; A cursor indicating that the edges of something can be moved left or right.</dd>
+			<dd>A cursor indicating that the edges of something can be moved left or right.</dd>
 			<dt><code>grab</code></dt>
-			<dd>&#10551; A cursor indicating that something can be grabbed.</dd>
+			<dd>A cursor indicating that something can be grabbed.</dd>
 			<dt><code>grabbing</code></dt>
-			<dd>&#10551; A cursor indicating that something is being grabbed.</dd>
+			<dd>A cursor indicating that something is being grabbed.</dd>
 			<dt><code>help</code></dt>
-			<dd>&#10551; A cursor indicating that help is available.</dd>
+			<dd>A cursor indicating that help is available.</dd>
 			<dt><code>move</code></dt>
-			<dd>&#10551; A cursor indicating that something can be moved.</dd>
+			<dd>A cursor indicating that something can be moved.</dd>
 			<dt><code>n-resize</code></dt>
-			<dd>&#10551; A cursor indicating that the edge of something can be moved up.</dd>
+			<dd>A cursor indicating that the edge of something can be moved up.</dd>
 			<dt><code>ne-resize</code></dt>
-			<dd>&#10551; A cursor indicating that the edge of something can be moved up and right.</dd>
+			<dd>A cursor indicating that the edge of something can be moved up and right.</dd>
 			<dt><code>nesw-resize</code></dt>
-			<dd>&#10551; A cursor indicating that the edges of something can be moved up and right or down and left.</dd>
+			<dd>A cursor indicating that the edges of something can be moved up and right or down and left.</dd>
 			<dt><code>ns-resize</code></dt>
-			<dd>&#10551; A cursor indicating that the edges of something can be moved up or down.</dd>
+			<dd>A cursor indicating that the edges of something can be moved up or down.</dd>
 			<dt><code>nw-resize</code></dt>
-			<dd>&#10551; A cursor indicating that the edges of something can be moved up and left.</dd>
+			<dd>A cursor indicating that the edges of something can be moved up and left.</dd>
 			<dt><code>nwse-resize</code></dt>
-			<dd>&#10551; A cursor indicating that the edges of something can be moved up and left or down and right.</dd>
+			<dd>A cursor indicating that the edges of something can be moved up and left or down and right.</dd>
 			<dt><code>no-drop</code></dt>
-			<dd>&#10551; A cursor indicating that a dragged object cannot be dropped here.</dd>
+			<dd>A cursor indicating that a dragged object cannot be dropped here.</dd>
 			<dt><code>none</code></dt>
-			<dd>&#10551; No cursor.</dd>
+			<dd>No cursor.</dd>
 			<dt><code>not-allowed</code></dt>
-			<dd>&#10551; A cursor indicating that the requested action will not be allowed.</dd>
+			<dd>A cursor indicating that the requested action will not be allowed.</dd>
 			<dt><code>pointer</code></dt>
-			<dd>&#10551; A cursor indicating that something is a link.</dd>
+			<dd>A cursor indicating that something is a link.</dd>
 			<dt><code>progress</code></dt>
-			<dd>&#10551; A cursor indicating that a process is in progress.</dd>
+			<dd>A cursor indicating that a process is in progress.</dd>
 			<dt><code>row-resize</code></dt>
-			<dd>&#10551; A cursor indicating that a table row may be resized vertically.</dd>
+			<dd>A cursor indicating that a table row may be resized vertically.</dd>
 			<dt><code>s-resize</code></dt>
-			<dd>&#10551; A cursor indicating that the edge of something can be moved down.</dd>
+			<dd>A cursor indicating that the edge of something can be moved down.</dd>
 			<dt><code>se-resize</code></dt>
-			<dd>&#10551; A cursor indicating that the edge of something can be moved down and right.</dd>
+			<dd>A cursor indicating that the edge of something can be moved down and right.</dd>
 			<dt><code>sw-resize</code></dt>
-			<dd>&#10551; A cursor indicating that the edge of something can be moved down and left.</dd>
+			<dd>A cursor indicating that the edge of something can be moved down and left.</dd>
 			<dt><code>text</code></dt>
-			<dd>&#10551; A cursor indicating that text may be selected.</dd>
+			<dd>A cursor indicating that text may be selected.</dd>
 			<dt><code>url(<var>URL</var>,<var>fallback</var>)</code></dt>
 			<dd>
 				&#10551; A prioritized list of URLs to custom cursor images. Additional URLs may be added within the parentheses, separated by commas, and the first usable option will be used. The list should always end with another value of <code>cursor</code>, often <code>auto</code>, so that if the images can't be displayed the cursor will still show.
@@ -566,26 +566,26 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>URL</var></code></dt>
-						<dd>&#10551; URL variable. The address of the image to be used as a cursor.</dd>
+						<dd>URL variable. The address of the image to be used as a cursor.</dd>
 						<dt><code><var>fallback</var></code></dt>
-						<dd>&#10551; Text variable, other values of <code>cursor</code>. A generic fallback in case the image cursors aren't usable.</dd>
+						<dd>Text variable, other values of <code>cursor</code>. A generic fallback in case the image cursors aren't usable.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>vertical-text</code></dt>
-			<dd>&#10551; A cursor indicating that vertical text may be selected.</dd>
+			<dd>A cursor indicating that vertical text may be selected.</dd>
 			<dt><code>w-resize</code></dt>
-			<dd>&#10551; A cursor indicating that the edge of something may be moved left.</dd>
+			<dd>A cursor indicating that the edge of something may be moved left.</dd>
 			<dt><code>wait</code></dt>
-			<dd>&#10551; A cursor indicating that a process is currently busy.</dd>
+			<dd>A cursor indicating that a process is currently busy.</dd>
 			<dt><code>zoom-in</code></dt>
-			<dd>&#10551; A cursor indicating that something can be zoomed in.</dd>
+			<dd>A cursor indicating that something can be zoomed in.</dd>
 			<dt><code>zoom-out</code></dt>
-			<dd>&#10551; A cursor indicating that something can be zoomed out.</dd>
+			<dd>A cursor indicating that something can be zoomed out.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

@@ -11,7 +11,7 @@
 		<p></p>
 		<dl>
 			<dt><code></code></dt>
-			<dd>&#10551; </dd>
+			<dd></dd>
 		</dl>
 	</section>
 </main>	

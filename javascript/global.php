@@ -63,11 +63,11 @@
 		<p>These are technically properties of the window object, and can be accessed as such. All three global properties are varying kinds of error state - if a variable is set equal to one of these values, it's usually the result of an error or mistake in the code, and functions which rely on it will fail unexpectedly. These globals being preset allows scripts to compare variables against them, to ensure no such error has occurred and, if it has, to handle the error gracefully.</p>
 		<dl>
 			<dt><code>Infinity</code></dt>
-			<dd>&#10551; The global property whose value is set as <code>Infinity</code>, representing a number too large for Javascript's floating point number system to use. Unlike the other two global properties, a variable whose property ends up set as <code>Infinity</code> will still retain one part of the original value before it became broken, specifically whether the value was a positive or negative number.</dd>
+			<dd>The global property whose value is set as <code>Infinity</code>, representing a number too large for Javascript's floating point number system to use. Unlike the other two global properties, a variable whose property ends up set as <code>Infinity</code> will still retain one part of the original value before it became broken, specifically whether the value was a positive or negative number.</dd>
 			<dt><code>NaN</code></dt>
-			<dd>&#10551; The global property whose value is set as <code>NaN</code>, short for "Not a Number". If an impossible mathematical operation is performed, or the wrong type of data (usually a string) is used for something expecting a number, its value may end up as <code>NaN</code>; furthermore, these variables can be compared to <code>NaN</code> to determine if they're in a broken state.</dd>
+			<dd>The global property whose value is set as <code>NaN</code>, short for "Not a Number". If an impossible mathematical operation is performed, or the wrong type of data (usually a string) is used for something expecting a number, its value may end up as <code>NaN</code>; furthermore, these variables can be compared to <code>NaN</code> to determine if they're in a broken state.</dd>
 			<dt><code>undefined</code></dt>
-			<dd>&#10551; The global property whose value is set as <code>undefined</code>. Any variable that exists without ever having its value set has a value of <code>undefined</code>, which is another state that tends to be the result or cause of errors and mistakes.</dd>
+			<dd>The global property whose value is set as <code>undefined</code>. Any variable that exists without ever having its value set has a value of <code>undefined</code>, which is another state that tends to be the result or cause of errors and mistakes.</dd>
 		</dl>
 	</section>
 <!--This part of the page is defunct and will no longer be used, but the work I did on it has been kept for historical value.
@@ -222,27 +222,27 @@
 		<p>Notably, global functions require the entirety of the data upon which they are expected to act to be passed to them as an argument.</p>
 		<dl>
 			<dt><code>decodeURI</code></dt>
-			<dd>&#10551; Accepts a URI previously encoded by <code>encodeURI</code> and returns it in decoded form.</dd>
+			<dd>Accepts a URI previously encoded by <code>encodeURI</code> and returns it in decoded form.</dd>
 			<dt><code>decodeURIComponent</code></dt>
-			<dd>&#10551; Accepts a URI component or set of components previously encoded by <code>encodeURL</code> and returns it in decoded form.</dd>
+			<dd>Accepts a URI component or set of components previously encoded by <code>encodeURL</code> and returns it in decoded form.</dd>
 			<dt><code>encodeURI</code></dt>
-			<dd>&#10551; Accepts a URL and encodes it for use as a URI, such as a search string, escaping special characters which are not allowed in URIs, returning the encoded output; exceptions include: , / ? : @ & = + $ #</dd>
+			<dd>Accepts a URL and encodes it for use as a URI, such as a search string, escaping special characters which are not allowed in URIs, returning the encoded output; exceptions include: , / ? : @ & = + $ #</dd>
 			<dt><code>encodeURIComponent</code></dt>
-			<dd>&#10551; Accepts a URL and encodes it and all of its separate components for use as a URI, escaping all special characters <code>encodeURI</code> does as well as the normal exceptions and returning the encoded output.</dd>
+			<dd>Accepts a URL and encodes it and all of its separate components for use as a URI, escaping all special characters <code>encodeURI</code> does as well as the normal exceptions and returning the encoded output.</dd>
 			<dt><code>eval</code></dt>
-			<dd>&#10551; Accepts a string (which may be constructed from multiple string variables) as its argument, and runs it as Javascript code. In this way, a script can be used to write a script with modular parts; however, one must be very careful about any use of this function where user input is concerned, because users can be tricked into using your page to run arbitrary code. This can even include accessing a malicious website and executing content from it using your own site's security credentials.</dd>
+			<dd>Accepts a string (which may be constructed from multiple string variables) as its argument, and runs it as Javascript code. In this way, a script can be used to write a script with modular parts; however, one must be very careful about any use of this function where user input is concerned, because users can be tricked into using your page to run arbitrary code. This can even include accessing a malicious website and executing content from it using your own site's security credentials.</dd>
 			<dt><code>isFinite</code></dt>
-			<dd>&#10551; Accepts a number as its argument, in practice a numeric variable or output, and returns <code>true</code> for valid, finite floating point numbers, and <code>false</code> for numbers outside floating point limits and for non-numeric inputs.</dd>
+			<dd>Accepts a number as its argument, in practice a numeric variable or output, and returns <code>true</code> for valid, finite floating point numbers, and <code>false</code> for numbers outside floating point limits and for non-numeric inputs.</dd>
 			<dt><code>isNaN</code></dt>
-			<dd>&#10551; Accepts anything as its argument, and returns <code>true</code> if the input is non-numeric, or <code>false</code> if it is a number.</dd>
+			<dd>Accepts anything as its argument, and returns <code>true</code> if the input is non-numeric, or <code>false</code> if it is a number.</dd>
 			<dt><code>Number</code></dt>
-			<dd>&#10551; Accepts non-string data as its argument, and attempts to convert it to a number semi-intelligently; for example, <code>true</code> will become <code>1</code>, while <code>false</code> will become 0. However, anything it cannot successfully convert to a number, such as a string, even including <code>'true'</code>, will return <code>NaN</code>.</dd>
+			<dd>Accepts non-string data as its argument, and attempts to convert it to a number semi-intelligently; for example, <code>true</code> will become <code>1</code>, while <code>false</code> will become 0. However, anything it cannot successfully convert to a number, such as a string, even including <code>'true'</code>, will return <code>NaN</code>.</dd>
 			<dt><code>parseFloat</code></dt>
-			<dd>&#10551; Accepts strings as its argument, and parses them for numeric content by taking the first character in the string and determining whether or not it is a number. If it is, it continues parsing until it reaches the end of the number and returns the result as a floating point number, discarding the remaining text. If the first character is not a number, it returns <code>NaN</code>.</dd>
+			<dd>Accepts strings as its argument, and parses them for numeric content by taking the first character in the string and determining whether or not it is a number. If it is, it continues parsing until it reaches the end of the number and returns the result as a floating point number, discarding the remaining text. If the first character is not a number, it returns <code>NaN</code>.</dd>
 			<dt><code>parseInt</code></dt>
-			<dd>&#10551; Identical to <code>parseFloat</code>, except that it returns its value as an integer rather than a floating point number, meaning decimal places will be discarded.</dd>
+			<dd>Identical to <code>parseFloat</code>, except that it returns its value as an integer rather than a floating point number, meaning decimal places will be discarded.</dd>
 			<dt><code>String</code></dt>
-			<dd>&#10551; Accepts anything as its argument, and attempts to convert it to a string semi-intelligently. It does not have a failure state as <code>Number</code> does, since anything can be converted to a string in one way or another, but the results may not be easily readable if the input doesn't lend itself well to string conversion.</dd>
+			<dd>Accepts anything as its argument, and attempts to convert it to a string semi-intelligently. It does not have a failure state as <code>Number</code> does, since anything can be converted to a string in one way or another, but the results may not be easily readable if the input doesn't lend itself well to string conversion.</dd>
 		</dl>
 	</section>
 </main>	

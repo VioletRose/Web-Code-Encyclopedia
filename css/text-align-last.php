@@ -52,23 +52,23 @@
 		<h4>Accepted values of <code>text-align-last</code>:</h4>
 		<dl>
 			<dt><code>auto</code></dt>
-			<dd>&#10551; The default value. The last line is aligned left.</dd>
+			<dd>The default value. The last line is aligned left.</dd>
 			<dt><code>left</code></dt>
-			<dd>&#10551; The last line is aligned left. This is functionally identical to <code>auto</code>.</dd>
+			<dd>The last line is aligned left. This is functionally identical to <code>auto</code>.</dd>
 			<dt><code>right</code></dt>
-			<dd>&#10551; The last line is aligned right.</dd>
+			<dd>The last line is aligned right.</dd>
 			<dt><code>center</code></dt>
-			<dd>&#10551; The last line is center aligned.</dd>
+			<dd>The last line is center aligned.</dd>
 			<dt><code>justify</code></dt>
-			<dd>&#10551; The last line is justified anyway, which can result in extremely large spaces between words.</dd>
+			<dd>The last line is justified anyway, which can result in extremely large spaces between words.</dd>
 			<dt><code>start</code></dt>
-			<dd>&#10551; The last line is aligned to the side of the element where text originates from, depending on if it is normally left-to-right or right-to-left.</dd>
+			<dd>The last line is aligned to the side of the element where text originates from, depending on if it is normally left-to-right or right-to-left.</dd>
 			<dt><code>end</code></dt>
-			<dd>&#10551; The last line is aligned to the side of element opposite where text originates from, depending on if it is normally left-to-right or right-to-left.</dd>
+			<dd>The last line is aligned to the side of element opposite where text originates from, depending on if it is normally left-to-right or right-to-left.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

@@ -103,19 +103,19 @@
 		<h4>Accepted values of <code>justify-content</code>:</h4>
 		<dl>
 			<dt><code>flex-start</code></dt>
-			<dd>&#10551; The content will justify to the beginning of the row or column, leaving empty space at the end.</dd>
+			<dd>The content will justify to the beginning of the row or column, leaving empty space at the end.</dd>
 			<dt><code>flex-end</code></dt>
-			<dd>&#10551; The content will justify to the end of the row or column, leaving empty space at the beginning.</dd>
+			<dd>The content will justify to the end of the row or column, leaving empty space at the beginning.</dd>
 			<dt><code>center</code></dt>
-			<dd>&#10551; The content will justify to the center of the row or column, leaving empty space on both sides.</dd>
+			<dd>The content will justify to the center of the row or column, leaving empty space on both sides.</dd>
 			<dt><code>space-between</code></dt>
-			<dd>&#10551; The content will have empty space distributed evenly between each item.</dd>
+			<dd>The content will have empty space distributed evenly between each item.</dd>
 			<dt><code>space-around</code></dt>
-			<dd>&#10551; The content will have empty space distributed evenly before and after each item.</dd>
+			<dd>The content will have empty space distributed evenly before and after each item.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

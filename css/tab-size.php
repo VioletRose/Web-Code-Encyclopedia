@@ -43,11 +43,11 @@
 		<h4>Accepted values of <code>tab-size</code>:</h4>
 		<dl>
 			<dt><code><var>spaces</var></code></dt>
-			<dd>&#10551; Numeric variable, in whole numbers; defaults to <code>8</code>. Specifies how many spaces are used to represent a single tab character within the element.</dd>
+			<dd>Numeric variable, in whole numbers; defaults to <code>8</code>. Specifies how many spaces are used to represent a single tab character within the element.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

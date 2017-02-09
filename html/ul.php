@@ -55,7 +55,7 @@
 		<h4>Child tags of <code>ul</code></h4>
 		<dl>
 			<dt><code>&lt;li&gt;</code></dt>
-			<dd>&#10551; Designates the included text as a list entry, and precedes it with a list marker.</dd>
+			<dd>Designates the included text as a list entry, and precedes it with a list marker.</dd>
 	</section>
 </main>	
 <?php

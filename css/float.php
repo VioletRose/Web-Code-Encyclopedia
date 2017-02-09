@@ -54,15 +54,15 @@
 		<h4>Accepted values of <code>float</code>:</h4>
 		<dl>
 			<dt><code>none</code></dt>
-			<dd>&#10551; The default value. The element does not float.</dd>
+			<dd>The default value. The element does not float.</dd>
 			<dt><code>left</code></dt>
-			<dd>&#10551; The element floats to the left.</dd>
+			<dd>The element floats to the left.</dd>
 			<dt><code>right</code></dt>
-			<dd>&#10551; The element floats to the right.</dd>
+			<dd>The element floats to the right.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

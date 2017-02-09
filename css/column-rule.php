@@ -53,11 +53,11 @@
 		<h4>Sub-properties of <code>column-rule</code>:</h4>
 		<dl>
 			<dt><code>column-rule-width</code></dt>
-			<dd>&#10551; Defines the width of the rule.</dd>
+			<dd>Defines the width of the rule.</dd>
 			<dt><code>column-rule-style</code></dt>
-			<dd>&#10551; Defines the style of the rule.</dd>
+			<dd>Defines the style of the rule.</dd>
 			<dt><code>column-rule-color</code></dt>
-			<dd>&#10551; Defines the color of the rule.</dd>
+			<dd>Defines the color of the rule.</dd>
 		</dl>
 	</section>
 	<section>
@@ -70,75 +70,75 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>width</var></code></dt>
-						<dd>&#10551; Optional. The value of <code>column-rule-width</code>.</dd>
+						<dd>Optional. The value of <code>column-rule-width</code>.</dd>
 						<dt><code><var>style</var></code></dt>
-						<dd>&#10551; Optional. The value of <code>column-rule-style</code>. Note that while this is not required in the declaration, the border will not display if this is not set here or elsewhere.</dd>
+						<dd>Optional. The value of <code>column-rule-style</code>. Note that while this is not required in the declaration, the border will not display if this is not set here or elsewhere.</dd>
 						<dt><code><var>color</var></code></dt>
-						<dd>&#10551; Optional. The value of <code>column-rule-color</code>.</dd>
+						<dd>Optional. The value of <code>column-rule-color</code>.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 		<section>
 		<h4>Accepted values of <code>column-rule-width</code>:</h4>
 		<dl>
 			<dt><code>medium</code></dt>
-			<dd>&#10551; The default value. A rule 3px thick.</dd>
+			<dd>The default value. A rule 3px thick.</dd>
 			<dt><code>thin</code></dt>
-			<dd>&#10551; A rule 1px thick.</dd>
+			<dd>A rule 1px thick.</dd>
 			<dt><code>thick</code></dt>
-			<dd>&#10551; A rule 5px thick.</dd>
+			<dd>A rule 5px thick.</dd>
 			<dt><code><var>width</var></code></dt>
-			<dd>&#10551; Numeric variable, in measurements. The width of the rule.</dd>
+			<dd>Numeric variable, in measurements. The width of the rule.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 		<section>
 		<h4>Accepted values of <code>column-rule-style</code>:</h4>
 		<dl>
 			<dt><code>none</code></dt>
-			<dd>&#10551; The default value. No rule.</dd>
+			<dd>The default value. No rule.</dd>
 			<dt><code>hidden</code></dt>
-			<dd>&#10551; A rule that doesn't display.</dd>
+			<dd>A rule that doesn't display.</dd>
 			<dt><code>dotted</code></dt>
-			<dd>&#10551; A rule composed of squares with equal amounts of white space between them.</dd>
+			<dd>A rule composed of squares with equal amounts of white space between them.</dd>
 			<dt><code>dashed</code></dt>
-			<dd>&#10551; A rule composed of rectangles with equal amounts of white space between them.</dd>
+			<dd>A rule composed of rectangles with equal amounts of white space between them.</dd>
 			<dt><code>solid</code></dt>
-			<dd>&#10551; A rule composed of a single solid line.</dd>
+			<dd>A rule composed of a single solid line.</dd>
 			<dt><code>double</code></dt>
-			<dd>&#10551; A rule composed of two smaller solid lines with white space in between them.</dd>
+			<dd>A rule composed of two smaller solid lines with white space in between them.</dd>
 			<dt><code>groove</code></dt>
-			<dd>&#10551; A rule composed of four solid lines, two of the normal color and two a darker color, simulating a 3-dimensional groove.</dd>
+			<dd>A rule composed of four solid lines, two of the normal color and two a darker color, simulating a 3-dimensional groove.</dd>
 			<dt><code>ridge</code></dt>
-			<dd>&#10551; A rule composed of four solid lines, two of the normal color and two a darker color, simulating a 3-dimensional ridge.</dd>
+			<dd>A rule composed of four solid lines, two of the normal color and two a darker color, simulating a 3-dimensional ridge.</dd>
 			<dt><code>inset</code></dt>
-			<dd>&#10551; A rule composed of two solid lines, one of the normal color and one a darker color, simulating a depressed button.</dd>
+			<dd>A rule composed of two solid lines, one of the normal color and one a darker color, simulating a depressed button.</dd>
 			<dt><code>outset</code></dt>
-			<dd>&#10551; A rule composed of two solid lines, one of the normal color and one a darker color, simulating a raised button.</dd>
+			<dd>A rule composed of two solid lines, one of the normal color and one a darker color, simulating a raised button.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 		<section>
 		<h4>Accepted values of <code>column-rule-color</code>:</h4>
 		<dl>
 			<dt><code><var>color</var></code></dt>
-			<dd>&#10551; Color variable. Defaults to rgb(0, 0, 0).</dd>
+			<dd>Color variable. Defaults to rgb(0, 0, 0).</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

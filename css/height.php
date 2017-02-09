@@ -45,13 +45,13 @@
 		<h4>Accepted values of <code>height</code>:</h4>
 		<dl>
 			<dt><code>auto</code></dt>
-			<dd>&#10551; The default value. The browser calculates the height of the element, usually based on its contents.</dd>
+			<dd>The default value. The browser calculates the height of the element, usually based on its contents.</dd>
 			<dt><code><var>height</var></code></dt>
-			<dd>&#10551; Numeric variable, in measurements. A specific height for the element.</dd>
+			<dd>Numeric variable, in measurements. A specific height for the element.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

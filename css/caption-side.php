@@ -60,13 +60,13 @@
 		<h4>Accepted values of <code>caption-side</code>:</h4>
 		<dl>
 			<dt><code>top</code></dt>
-			<dd>&#10551; The default value. The caption is above the table.</dd>
+			<dd>The default value. The caption is above the table.</dd>
 			<dt><code>bottom</code></dt>
-			<dd>&#10551; The caption is beneath the table.</dd>
+			<dd>The caption is beneath the table.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

@@ -24,20 +24,20 @@
 		<h4>Child Tags</h4>
 		<dl>
 			<dt><code>&lt;source&gt;</code></dt>
-			<dd>&#10551; Allows the browser to select multiple possible source files for the audio, selecting the first one the browser is compatible with.</dd>
+			<dd>Allows the browser to select multiple possible source files for the audio, selecting the first one the browser is compatible with.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;audio&gt;</code></h4>
 		<dl>
 			<dt><code>autoplay</code></dt>
-			<dd>&#10551; If present, instructs the browser to begin playing the audio immediately upon the page being loaded. <strong>This attribute is to be used only with care - it is not recommended for use in virtually any situation.</strong></dd>
+			<dd>If present, instructs the browser to begin playing the audio immediately upon the page being loaded. <strong>This attribute is to be used only with care - it is not recommended for use in virtually any situation.</strong></dd>
 			<dt><code>controls</code></dt>
-			<dd>&#10551; If present, the audio player will have a play/pause button, a mute/unmute button, and a volume slider.</dd>
+			<dd>If present, the audio player will have a play/pause button, a mute/unmute button, and a volume slider.</dd>
 			<dt><code>loop</code></dt>
-			<dd>&#10551; If present, the audio will repeat play from the beginning once it reaches the end of the file.</dd>
+			<dd>If present, the audio will repeat play from the beginning once it reaches the end of the file.</dd>
 			<dt><code>muted</code></dt>
-			<dd>&#10551; If present, the audio will be muted by default.</dd>
+			<dd>If present, the audio will be muted by default.</dd>
 			<dt><code>preload</code></dt>
 			<dd>
 				&#10551; Hints to the browser of how the author believes the file should be preloaded along with the page. The browser does not necessarily have to follow these instructions in all circumstances.
@@ -45,27 +45,27 @@
 					<summary>Accepted values:</summary>
 					<dl>
 						<dt><code>auto</code></dt>
-						<dd>&#10551; Suggests that the browser should preload the audio along with the page.</dd>
+						<dd>Suggests that the browser should preload the audio along with the page.</dd>
 						<dt><code>metadata</code></dt>
-						<dd>&#10551; Suggests that the browser should only preload the metadata of the audio.</dd>
+						<dd>Suggests that the browser should only preload the metadata of the audio.</dd>
 						<dt><code>none</code></dt>
-						<dd>&#10551; Suggests that the browser should not preload the audio file at all.</dd>
+						<dd>Suggests that the browser should not preload the audio file at all.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>src</code></dt>
-			<dd>&#10551; Specifies the URL of the audio file to be played.</dd>
+			<dd>Specifies the URL of the audio file to be played.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of &lt;source&gt;</h4>
 		<dl>
 			<dt><code>media</code></dt>
-			<dd>&#10551; This attribute is not currently supported in any browser.</dd>
+			<dd>This attribute is not currently supported in any browser.</dd>
 			<dt><code>src</code></dt>
-			<dd>&#10551; Functions identically to the same attribute of the parent element.</dd>
+			<dd>Functions identically to the same attribute of the parent element.</dd>
 			<dt><code>type</code></dt>
-			<dd>&#10551; Specifies the type of audio file targeted by <code>src</code>. See <a href="https://www.iana.org/assignments/media-types/media-types.xhtml#audio">here</a> for a complete list of accepted values.</dd>
+			<dd>Specifies the type of audio file targeted by <code>src</code>. See <a href="https://www.iana.org/assignments/media-types/media-types.xhtml#audio">here</a> for a complete list of accepted values.</dd>
 		</dl>
 	</section>
 </main>

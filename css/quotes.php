@@ -40,7 +40,7 @@
 		<h4>Accepted values of <code>quotes</code>:</h4>
 		<dl>
 			<dt><code>none</code></dt>
-			<dd>&#10551; Specifies that <code>open-quote</code> and <code>close-quote</code> will produce no quotation marks.</dd>
+			<dd>Specifies that <code>open-quote</code> and <code>close-quote</code> will produce no quotation marks.</dd>
 			<dt><code>"<var>open-mark-1</var>" "<var>close-mark-1</var>" "<var>open-mark-2</var>" "<var>close-mark-2</var>"</code></dt>
 			<dd>
 				&#10551; The specific text values that will be used as quotation marks.
@@ -48,20 +48,20 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code>"<var>open-mark-1</var>"</code></dt>
-						<dd>&#10551; Required text variable; defaults to <code>"</code>. The character or string to be used to open the quotation.</dd>
+						<dd>Required text variable; defaults to <code>"</code>. The character or string to be used to open the quotation.</dd>
 						<dt><code>"<var>close-mark-1</var>"</code></dt>
-						<dd>&#10551; Required text variable; defaults to <code>"</code>. The character or string to be used to close the quotation.</dd>
+						<dd>Required text variable; defaults to <code>"</code>. The character or string to be used to close the quotation.</dd>
 						<dt><code>"<var>open-mark-2</var>"</code></dt>
-						<dd>&#10551; Optional text variable; defaults to <code>'</code>. The character or string to be used to open a quotation inside of another quotation.</dd>
+						<dd>Optional text variable; defaults to <code>'</code>. The character or string to be used to open a quotation inside of another quotation.</dd>
 						<dt><code>"<var>close-mark-2</var>"</code></dt>
-						<dd>&#10551; Optional text variable; defaults to <code>'</code>. The character or string to be used to close a quotation inside of another quotation.</dd>
+						<dd>Optional text variable; defaults to <code>'</code>. The character or string to be used to close a quotation inside of another quotation.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 	<section>

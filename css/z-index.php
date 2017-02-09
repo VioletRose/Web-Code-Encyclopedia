@@ -163,13 +163,13 @@
 		<h4>Accepted values of <code>z-index</code>:</h4>
 		<dl>
 			<dt><code>auto</code></dt>
-			<dd>&#10551; The default value. Elements detached from the document flow stack with those closer to the beginning of the HTML document being lower; however, this value also results in the element taking the same place in the order as its parent, if meaningful.</dd>
+			<dd>The default value. Elements detached from the document flow stack with those closer to the beginning of the HTML document being lower; however, this value also results in the element taking the same place in the order as its parent, if meaningful.</dd>
 			<dt><code><var>order</var></code></dt>
-			<dd>&#10551; Numeric variable, in whole numbers. A negative value allows elements detached from the document flow, which normally 'hover' over the page, to display behind all of the normal page content, while <code>0</code> produces results identical to <code>auto</code>, and higher values result in increasing priority.</dd>
+			<dd>Numeric variable, in whole numbers. A negative value allows elements detached from the document flow, which normally 'hover' over the page, to display behind all of the normal page content, while <code>0</code> produces results identical to <code>auto</code>, and higher values result in increasing priority.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

@@ -70,13 +70,13 @@
 		<h4>Sub-properties of <code>margin</code>:</h4>
 		<dl>
 			<dt><code>margin-top</code></dt>
-			<dd>&#10551; Defines the size of the top margin.</dd>
+			<dd>Defines the size of the top margin.</dd>
 			<dt><code>margin-right</code></dt>
-			<dd>&#10551; Defines the size of the right margin.</dd>
+			<dd>Defines the size of the right margin.</dd>
 			<dt><code>margin-bottom</code></dt>
-			<dd>&#10551; Defines the size of the bottom margin.</dd>
+			<dd>Defines the size of the bottom margin.</dd>
 			<dt><code>margin-left</code></dt>
-			<dd>&#10551; Defines the size of the left margin.</dd>
+			<dd>Defines the size of the left margin.</dd>
 		</dl>
 	</section>
 	<section>
@@ -89,33 +89,33 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>top</var></code></dt>
-						<dd>&#10551; Required. The value of <code>margin-top</code>.</dd>
+						<dd>Required. The value of <code>margin-top</code>.</dd>
 						<dt><code><var>right</var></code></dt>
-						<dd>&#10551; Optional. The value of <code>margin-right</code>.</dd>
+						<dd>Optional. The value of <code>margin-right</code>.</dd>
 						<dt><code><var>bottom</var></code></dt>
-						<dd>&#10551; Optional. The value of <code>margin-bottom</code>.</dd>
+						<dd>Optional. The value of <code>margin-bottom</code>.</dd>
 						<dt><code><var>left</var></code></dt>
-						<dd>&#10551; Optional. The value of <code>margin-bottom</code>.</dd>
+						<dd>Optional. The value of <code>margin-bottom</code>.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 		<section>
 		<h4>Accepted values of <code>margin-top</code>, <code>margin-right</code>, <code>margin-bottom</code>, and <code>margin-left</code>:</h4>
 		<dl>
 			<dt><code><var>size</var></code></dt>
-			<dd>&#10551; Numeric variable, in measurements or percentages of the element's width; defaults to <code>0</code>. The size of the margin on the given side of an element.</dd>
+			<dd>Numeric variable, in measurements or percentages of the element's width; defaults to <code>0</code>. The size of the margin on the given side of an element.</dd>
 			<dt><code>auto</code></dt>
-			<dd>&#10551; The browser automatically calculates the margin.</dd>
+			<dd>The browser automatically calculates the margin.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

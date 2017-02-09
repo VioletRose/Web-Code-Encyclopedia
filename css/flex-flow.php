@@ -143,9 +143,9 @@
 		<h4>Sub-properties of <code></code>:</h4>
 		<dl>
 			<dt><code>flex-direction</code></dt>
-			<dd>&#10551; This property allows you to change the direction of item sorting within a flex container.</dd>
+			<dd>This property allows you to change the direction of item sorting within a flex container.</dd>
 			<dt><code>flex-wrap</code></dt>
-			<dd>&#10551; This property allows you to specify whether items within a flex container wrap, and if so, which direction.</dd>
+			<dd>This property allows you to specify whether items within a flex container wrap, and if so, which direction.</dd>
 		</dl>
 	</section>
 	<section>
@@ -158,48 +158,48 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>direction</var></code></dt>
-						<dd>&#10551; Optional. The value of <code>flex-direction</code>.</dd>
+						<dd>Optional. The value of <code>flex-direction</code>.</dd>
 						<dt><code><var>wrap</var></code></dt>
-						<dd>&#10551; Optional. The value of <code>flex-wrap</code>.</dd>
+						<dd>Optional. The value of <code>flex-wrap</code>.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Accepted values of <code>flex-direction</code>:</h4>
 		<dl>
 			<dt><code>row</code></dt>
-			<dd>&#10551; The default value. Items are displayed in horizontal rows.</dd>
+			<dd>The default value. Items are displayed in horizontal rows.</dd>
 			<dt><code>row-reverse</code></dt>
-			<dd>&#10551; Items are displayed in reversed horizontal rows.</dd>
+			<dd>Items are displayed in reversed horizontal rows.</dd>
 			<dt><code>column</code></dt>
-			<dd>&#10551; Items are displayed in vertical columns.</dd>
+			<dd>Items are displayed in vertical columns.</dd>
 			<dt><code>column-reverse</code></dt>
-			<dd>&#10551; Items are displayed in reversed vertical columns.</dd>
+			<dd>Items are displayed in reversed vertical columns.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Accepted values of <code>flex-wrap</code>:</h4>
 		<dl>
 			<dt><code>nowrap</code></dt>
-			<dd>&#10551; The default value. Items will not wrap, extending past the bounds of the container if necessary.</dd>
+			<dd>The default value. Items will not wrap, extending past the bounds of the container if necessary.</dd>
 			<dt><code>wrap</code></dt>
-			<dd>&#10551; Items will wrap to a new line upon reaching the edge of the container.</dd>
+			<dd>Items will wrap to a new line upon reaching the edge of the container.</dd>
 			<dt><code>wrap-reverse</code></dt>
-			<dd>&#10551; Items will wrap to a new line upon reaching the edge of the container, but right-to-left for rows, and bottom-to-top for columns.</dd>
+			<dd>Items will wrap to a new line upon reaching the edge of the container, but right-to-left for rows, and bottom-to-top for columns.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

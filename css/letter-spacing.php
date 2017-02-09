@@ -48,13 +48,13 @@
 		<h4>Accepted values of <code>letter-spacing</code>:</h4>
 		<dl>
 			<dt><code>normal</code></dt>
-			<dd>&#10551; The default value, equivalent to <code>0</code>. Text will have the normal amount of spacing between letters.</dd>
+			<dd>The default value, equivalent to <code>0</code>. Text will have the normal amount of spacing between letters.</dd>
 			<dt><code><var>spacing</var></code></dt>
-			<dd>&#10551; Numeric variable, in measurements; negative numbers are allowed. The amount of added or reduced space between letters.</dd>
+			<dd>Numeric variable, in measurements; negative numbers are allowed. The amount of added or reduced space between letters.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

@@ -88,7 +88,7 @@
 		<h4>Accepted values of <code>clip</code>:</h4>
 		<dl>
 			<dt><code>auto</code></dt>
-			<dd>&#10551; The default value. No clipping is done.</dd>
+			<dd>The default value. No clipping is done.</dd>
 			<dt><code>rect(<var>top</var>,<var>right</var>,<var>bottom</var>,<var>left</var>)</code></dt>
 			<dd>
 				&#10551; Defines the four edges of the clip area, measured from the top left of the element.
@@ -96,20 +96,20 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>top</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The top edge of the clip area.</dd>
+						<dd>Numeric variable, in measurements. The top edge of the clip area.</dd>
 						<dt><code><var>right</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The right edge of the clip area.</dd>
+						<dd>Numeric variable, in measurements. The right edge of the clip area.</dd>
 						<dt><code><var>bottom</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The bottom edge of the clip area.</dd>
+						<dd>Numeric variable, in measurements. The bottom edge of the clip area.</dd>
 						<dt><code><var>left</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The left edge of the clip area.</dd>
+						<dd>Numeric variable, in measurements. The left edge of the clip area.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

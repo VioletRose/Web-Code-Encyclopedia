@@ -52,13 +52,13 @@
 		<h4>Accepted values of <code>right</code>:</h4>
 		<dl>
 			<dt><code>auto</code></dt>
-			<dd>&#10551; The default value. The browser automatically calculates the right position.</dd>
+			<dd>The default value. The browser automatically calculates the right position.</dd>
 			<dt><code><var>adjustment</var></code></dt>
-			<dd>&#10551; Numeric variable, in measurements. The amount of distance the right position is adjusted leftwards by.</dd>
+			<dd>Numeric variable, in measurements. The amount of distance the right position is adjusted leftwards by.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

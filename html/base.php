@@ -26,15 +26,15 @@
 					<summary>Accepted values:</summary>
 					<dl>
 						<dt><code>_blank</code></dt>
-						<dd>&#10551; Opens the content in a new window or tab.</dd>
+						<dd>Opens the content in a new window or tab.</dd>
 						<dt><code>_self</code></dt>
-						<dd>&#10551; Opens the content in the same frame where it was clicked. This is the default behavior.</dd>
+						<dd>Opens the content in the same frame where it was clicked. This is the default behavior.</dd>
 						<dt><code>_parent</code></dt>
-						<dd>&#10551; Opens the content in the parent frame of the child frame where the link appears, if applicable.</dd>
+						<dd>Opens the content in the parent frame of the child frame where the link appears, if applicable.</dd>
 						<dt><code>_top</code></dt>
-						<dd>&#10551; Opens the content in the full body of the window.</dd>
+						<dd>Opens the content in the full body of the window.</dd>
 						<dt><code><var>framename</var></code></dt>
-						<dd>&#10551; When <code><var>framename</var></code> is replaced with the name of a valid frame, will open the content in that frame.</dd>
+						<dd>When <code><var>framename</var></code> is replaced with the name of a valid frame, will open the content in that frame.</dd>
 					</dl>
 				</details>
 			</dd>

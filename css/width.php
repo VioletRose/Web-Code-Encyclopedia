@@ -45,13 +45,13 @@
 		<h4>Accepted values of <code>width</code>:</h4>
 		<dl>
 			<dt><code>auto</code></dt>
-			<dd>&#10551; The default value. The browser calculates the width of the element, usually spanning the width of the container unless it's an inline block.</dd>
+			<dd>The default value. The browser calculates the width of the element, usually spanning the width of the container unless it's an inline block.</dd>
 			<dt><code><var>width</var></code></dt>
-			<dd>&#10551; Numeric variable, in measurements. A specific width for the element.</dd>
+			<dd>Numeric variable, in measurements. A specific width for the element.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

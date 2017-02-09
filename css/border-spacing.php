@@ -93,16 +93,16 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>x-spacing</var></code></dt>
-						<dd>&#10551; Required, numeric variable, in measurements, defaults to 2px. The horizontal spacing between borders.</dd>
+						<dd>Required, numeric variable, in measurements, defaults to 2px. The horizontal spacing between borders.</dd>
 						<dt><code><var>y-spacing</var></code></dt>
-						<dd>&#10551; Required, numeric variable, in measurements, defaults to the value of <code>x-spacing</code>. The vertical spacing between borders.</dd>
+						<dd>Required, numeric variable, in measurements, defaults to the value of <code>x-spacing</code>. The vertical spacing between borders.</dd>
 					</dl>
 				</details>
 				</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

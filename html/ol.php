@@ -63,16 +63,16 @@
 		<h4>Child tags of &lt;ol&gt;</h4>
 		<dl>
 			<dt><code>&lt;li&gt;</code></dt>
-			<dd>&#10551; Designates the included text as a list entry, and precedes it with a list marker.</dd>
+			<dd>Designates the included text as a list entry, and precedes it with a list marker.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;ol&gt;</code></h4>
 		<dl>
 			<dt><code>reversed</code></dt>
-			<dd>&#10551; If present, the consecutive values of the list's entries will count down, rather than up.</dd>
+			<dd>If present, the consecutive values of the list's entries will count down, rather than up.</dd>
 			<dt><code>start</code></dt>
-			<dd>&#10551; Defines the numeric starting value of the list. The first entry, unless specified otherwise, will be this number.</dd>
+			<dd>Defines the numeric starting value of the list. The first entry, unless specified otherwise, will be this number.</dd>
 			<dt><code>type</code></dt>
 			<dd>
 				&#10551; Defines the type of marker preceding each list entry. Note that if the <code>value</code> of an entry is 0 or below, it will be displayed numerically regardless of the normal behavior.
@@ -80,15 +80,15 @@
 					<summary>Accepted values:</summary>
 					<dl>
 						<dt><code>1</code></dt>
-						<dd>&#10551; Standard numbers.</dd>
+						<dd>Standard numbers.</dd>
 						<dt><code>A</code></dt>
-						<dd>&#10551; Uppercase letters in alphabetical order. This is treated as a base 26 counting system, and entries past 26 will be wrapped around to AA, AB etc.</dd>
+						<dd>Uppercase letters in alphabetical order. This is treated as a base 26 counting system, and entries past 26 will be wrapped around to AA, AB etc.</dd>
 						<dt><code>a</code></dt>
-						<dd>&#10551; Lowercase letters in alphabetical order. This is treated as a base 26 counting system, and entries past 26 will be wrapped around to AA, AB etc.</dd>
+						<dd>Lowercase letters in alphabetical order. This is treated as a base 26 counting system, and entries past 26 will be wrapped around to AA, AB etc.</dd>
 						<dt><code>I</code></dt>
-						<dd>&#10551; Uppercase Roman numerals.</dd>
+						<dd>Uppercase Roman numerals.</dd>
 						<dt><code>i</code></dt>
-						<dd>&#10551; Lowercase Roman numerals.</dd>
+						<dd>Lowercase Roman numerals.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -98,7 +98,7 @@
 		<h4>Attributes of <code>&lt;li&gt;</code></h4>
 			<dl>
 				<dt><code>value</code></dt>
-				<dd>&#10551; Defines the numeric value of this entry within the <code>&lt;ol&gt;</code> element.
+				<dd>Defines the numeric value of this entry within the <code>&lt;ol&gt;</code> element.
 			</dl>
 	</section>
 </main>	

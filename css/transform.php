@@ -63,7 +63,7 @@
 		<h4>Accepted values of <code></code>:</h4>
 		<dl>
 			<dt><code>none</code></dt>
-			<dd>&#10551; The default value; no transformation will be done.</dd>
+			<dd>The default value; no transformation will be done.</dd>
 			<dt><code>matrix(<var>n</var>,<var>n</var>,<var>n</var>,<var>n</var>,<var>n</var>,<var>n</var>)</code></dt>
 			<dd>
 				&#10551; A complex 2d transformation done using a matrix calculation. The browser will take the matrix, and multiply it by each of the element's corner positions. The actual mathematics involved are highly technical, but if one understands it fully, this method is the most direct and minimal way to accomplish the work of multiple transformations. If one doesn't understand matrix calculations, this value is best avoided or used with a third party tool to arrive at the necessary matrix. Note that for performance reasons, browsers usually convert the full transform effects into <code>matrix</code> or <code>matrix3d</code>, and the results can be viewed using developer tools.
@@ -71,7 +71,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>n</var></code></dt>
-						<dd>&#10551; Numeric variable. An entry within the matrix calculation.</dd>
+						<dd>Numeric variable. An entry within the matrix calculation.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -82,7 +82,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>n</var></code></dt>
-						<dd>&#10551; Numeric variable. An entry within the matrix calculation.</dd>
+						<dd>Numeric variable. An entry within the matrix calculation.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -93,9 +93,9 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>x</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The horizontal component of the transformation; negative numbers are used for leftward movement, and positive values for rightward.</dd>
+						<dd>Numeric variable, in measurements. The horizontal component of the transformation; negative numbers are used for leftward movement, and positive values for rightward.</dd>
 						<dt><code><var>y</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The vertical component of the transformation; negative numbers are used for upward movement, and positive values for downward.</dd>
+						<dd>Numeric variable, in measurements. The vertical component of the transformation; negative numbers are used for upward movement, and positive values for downward.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -106,11 +106,11 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>x</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The horizontal component of the transformation; negative numbers are used for leftward movement, and positive values for rightward.</dd>
+						<dd>Numeric variable, in measurements. The horizontal component of the transformation; negative numbers are used for leftward movement, and positive values for rightward.</dd>
 						<dt><code><var>y</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The vertical component of the transformation; negative numbers are used for upward movement, and positive values for downward.</dd>
+						<dd>Numeric variable, in measurements. The vertical component of the transformation; negative numbers are used for upward movement, and positive values for downward.</dd>
 						<dt><code><var>z</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The depth component of the transformation; negative numbers are used for movement away, and positive values for movement towards.</dd>
+						<dd>Numeric variable, in measurements. The depth component of the transformation; negative numbers are used for movement away, and positive values for movement towards.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -121,7 +121,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>x</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. Negative numbers are used for leftward movement, and positive values for rightward.</dd>
+						<dd>Numeric variable, in measurements. Negative numbers are used for leftward movement, and positive values for rightward.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -132,7 +132,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>y</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The vertical component of the transformation; negative numbers are used for upward movement, and positive values for downward.</dd>
+						<dd>Numeric variable, in measurements. The vertical component of the transformation; negative numbers are used for upward movement, and positive values for downward.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -143,7 +143,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>z</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The depth component of the transformation; negative numbers are used for movement away, and positive values for movement towards.</dd>
+						<dd>Numeric variable, in measurements. The depth component of the transformation; negative numbers are used for movement away, and positive values for movement towards.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -154,9 +154,9 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>x</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The adjustment to width.</dd>
+						<dd>Numeric variable, in measurements. The adjustment to width.</dd>
 						<dt><code><var>y</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The adjustment to height.</dd>
+						<dd>Numeric variable, in measurements. The adjustment to height.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -167,11 +167,11 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>x</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The adjustment to width.</dd>
+						<dd>Numeric variable, in measurements. The adjustment to width.</dd>
 						<dt><code><var>y</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The adjustment to height.</dd>
+						<dd>Numeric variable, in measurements. The adjustment to height.</dd>
 						<dt><code><var>z</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The adjustment to depth.</dd>
+						<dd>Numeric variable, in measurements. The adjustment to depth.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -182,7 +182,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>x</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The adjustment to width.</dd>
+						<dd>Numeric variable, in measurements. The adjustment to width.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -193,7 +193,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>y</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The adjustment to height.</dd>
+						<dd>Numeric variable, in measurements. The adjustment to height.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -204,7 +204,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>z</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. The adjustment to depth.</dd>
+						<dd>Numeric variable, in measurements. The adjustment to depth.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -215,7 +215,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>angle</var></code></dt>
-						<dd>&#10551; Numeric variable, in degrees. Negative values result in counterclockwise rotation, and positive values result in clockwise rotation.</dd>
+						<dd>Numeric variable, in degrees. Negative values result in counterclockwise rotation, and positive values result in clockwise rotation.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -226,13 +226,13 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>x</var></code></dt>
-						<dd>&#10551; Numeric variable, in numbers. The first "degree of liberty" for the axis.</dd>
+						<dd>Numeric variable, in numbers. The first "degree of liberty" for the axis.</dd>
 						<dt><code><var>y</var></code></dt>
-						<dd>&#10551; Numeric variable, in numbers. The second "degree of liberty" for the axis.</dd>
+						<dd>Numeric variable, in numbers. The second "degree of liberty" for the axis.</dd>
 						<dt><code><var>z</var></code></dt>
-						<dd>&#10551; Numeric variable, in numbers. The third "degree of liberty" for the axis.</dd>
+						<dd>Numeric variable, in numbers. The third "degree of liberty" for the axis.</dd>
 						<dt><code><var>angle</var></code></dt>
-						<dd>&#10551; Numeric variable, in degrees. Negative values result in counterclockwise rotation, and positive values result in clockwise rotation.</dd>
+						<dd>Numeric variable, in degrees. Negative values result in counterclockwise rotation, and positive values result in clockwise rotation.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -243,7 +243,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>angle</var></code></dt>
-						<dd>&#10551; Numeric variable, in degrees. Negative values result in counterclockwise rotation, and positive values result in clockwise rotation.</dd>
+						<dd>Numeric variable, in degrees. Negative values result in counterclockwise rotation, and positive values result in clockwise rotation.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -254,7 +254,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>angle</var></code></dt>
-						<dd>&#10551; Numeric variable, in degrees. Negative values result in counterclockwise rotation, and positive values result in clockwise rotation.</dd>
+						<dd>Numeric variable, in degrees. Negative values result in counterclockwise rotation, and positive values result in clockwise rotation.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -265,7 +265,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>angle</var></code></dt>
-						<dd>&#10551; Numeric variable, in degrees. Negative values result in counterclockwise rotation, and positive values result in clockwise rotation.</dd>
+						<dd>Numeric variable, in degrees. Negative values result in counterclockwise rotation, and positive values result in clockwise rotation.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -276,9 +276,9 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>x-angle</var></code></dt>
-						<dd>&#10551; Numeric variable, in degrees. Negative values result in the top corners moving right and the bottom corners moving left, positive values have the opposite effect.</dd>
+						<dd>Numeric variable, in degrees. Negative values result in the top corners moving right and the bottom corners moving left, positive values have the opposite effect.</dd>
 						<dt><code><var>y-angle</var></code></dt>
-						<dd>&#10551; Numeric variable, in degrees. Negative values result in the left corners moving down and the right corners moving up, positive values have the opposite effect.</dd>
+						<dd>Numeric variable, in degrees. Negative values result in the left corners moving down and the right corners moving up, positive values have the opposite effect.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -289,7 +289,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>angle</var></code></dt>
-						<dd>&#10551; Numeric variable, in degrees. Negative values result in the top corners moving right and the bottom corners moving left, positive values have the opposite effect.</dd>
+						<dd>Numeric variable, in degrees. Negative values result in the top corners moving right and the bottom corners moving left, positive values have the opposite effect.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -300,7 +300,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>angle</var></code></dt>
-						<dd>&#10551; Numeric variable, in degrees. Negative values result in the left corners moving down and the right corners moving up, positive values have the opposite effect.</dd>
+						<dd>Numeric variable, in degrees. Negative values result in the left corners moving down and the right corners moving up, positive values have the opposite effect.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -311,14 +311,14 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>n</var></code></dt>
-						<dd>&#10551; Numeric variable, in measurements. How far away the transformed element appears to be, for purposes of 3d rendering.</dd>
+						<dd>Numeric variable, in measurements. How far away the transformed element appears to be, for purposes of 3d rendering.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

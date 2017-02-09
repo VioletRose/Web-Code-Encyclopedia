@@ -85,13 +85,13 @@
 		<h4>Accepted values of <code>perspective</code>:</h4>
 		<dl>
 			<dt><code><var>distance</var></code></dt>
-			<dd>&#10551; Numeric variable, in measurements. How far away the rotated child element appears to be, for purposes of 3d rendering.</dd>
+			<dd>Numeric variable, in measurements. How far away the rotated child element appears to be, for purposes of 3d rendering.</dd>
 			<dt><code>none</code></dt>
-			<dd>&#10551; The default value; equivalent to 0. The perspective is not set.</dd>
+			<dd>The default value; equivalent to 0. The perspective is not set.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

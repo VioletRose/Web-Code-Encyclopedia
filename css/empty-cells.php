@@ -90,13 +90,13 @@
 		<h4>Accepted values of <code></code>:</h4>
 		<dl>
 			<dt><code>show</code></dt>
-			<dd>&#10551; The default value. Background and border are shown for empty cells.</dd>
+			<dd>The default value. Background and border are shown for empty cells.</dd>
 			<dt><code>hide</code></dt>
-			<dd>&#10551; Background and border are hidden for empty cells.</dd>
+			<dd>Background and border are hidden for empty cells.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

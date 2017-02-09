@@ -55,11 +55,11 @@
 		<h4>Accepted values of <code>all</code>:</h4>
 		<dl>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets all properties assigned to the element to their initial, unmodified values.</dd>
+			<dd>Sets all properties assigned to the element to their initial, unmodified values.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets all properties assigned to the element to the parent element's values if they are inheritable. If they are not, they will be unchanged.</dd>
+			<dd>Sets all properties assigned to the element to the parent element's values if they are inheritable. If they are not, they will be unchanged.</dd>
 			<dt><code>unset</code></dt>
-			<dd>&#10551; Sets all properties assigned to the element to the parent element's values if they are inheritable. If they are not, they will be set to the initial values instead.</dd>
+			<dd>Sets all properties assigned to the element to the parent element's values if they are inheritable. If they are not, they will be set to the initial values instead.</dd>
 		</dl>
 	</section>
 </main>

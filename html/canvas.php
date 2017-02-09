@@ -48,9 +48,9 @@
 		<h4>Attributes</h4>
 		<dl>
 			<dt><code>height</code></dt>
-			<dd>&#10551; Defines the canvas's height, in pixels.</dd>
+			<dd>Defines the canvas's height, in pixels.</dd>
 			<dt><code>width</code></dt>
-			<dd>&#10551; Defines the canvas's width, in pixels.</dd>
+			<dd>Defines the canvas's width, in pixels.</dd>
 		</dl>
 	</section>
 </main>	

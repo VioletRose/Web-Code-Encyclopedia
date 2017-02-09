@@ -60,11 +60,11 @@
 		<h4>Accepted values of <code></code>:</h4>
 		<dl>
 			<dt><code><var>opacity</var></code></dt>
-			<dd>&#10551; Numeric variable, between <code>0</code> (fully transparent) and <code>1</code> (fully opaque); defaults to <code>1</code>. The element's level of opacity.</dd>
+			<dd>Numeric variable, between <code>0</code> (fully transparent) and <code>1</code> (fully opaque); defaults to <code>1</code>. The element's level of opacity.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

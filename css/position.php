@@ -141,17 +141,17 @@
 		<h4>Accepted values of <code>position</code>:</h4>
 		<dl>
 			<dt><code>static</code></dt>
-			<dd>&#10551; The default value. Elements with this value render in their default position, based on their position in the HTML document and the CSS rules affecting the layout of the page.</dd>
+			<dd>The default value. Elements with this value render in their default position, based on their position in the HTML document and the CSS rules affecting the layout of the page.</dd>
 			<dt><code>absolute</code></dt>
-			<dd>&#10551; The element is fully removed from the document flow, and appears 'floating' over its original place in the page unless given directional properties, in which case it moves along the appropriate axis relative to the top left corner of its most immediate relatively positioned ancestor. If no such element exists, it takes a position relative to the top left corner of the document itself.</dd>
+			<dd>The element is fully removed from the document flow, and appears 'floating' over its original place in the page unless given directional properties, in which case it moves along the appropriate axis relative to the top left corner of its most immediate relatively positioned ancestor. If no such element exists, it takes a position relative to the top left corner of the document itself.</dd>
 			<dt><code>fixed</code></dt>
-			<dd>&#10551; Similar to <code>absolute</code> in terms of its initial position, except it moves to always stay in the same place within the browser window.</dd>
+			<dd>Similar to <code>absolute</code> in terms of its initial position, except it moves to always stay in the same place within the browser window.</dd>
 			<dt><code>relative</code></dt>
-			<dd>&#10551; The element is positioned relative to its normal position. Unless specifically made to move by other properties, this will appear identical to <code>static</code>, since relatively positioned elements still retain a normal place in the document flow, unlike absolutely positioned or fixed elements.</dd>
+			<dd>The element is positioned relative to its normal position. Unless specifically made to move by other properties, this will appear identical to <code>static</code>, since relatively positioned elements still retain a normal place in the document flow, unlike absolutely positioned or fixed elements.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

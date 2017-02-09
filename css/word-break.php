@@ -63,15 +63,15 @@
 		<h4>Accepted values of <code>word-break</code>:</h4>
 		<dl>
 			<dt><code>normal</code></dt>
-			<dd>&#10551; The default value. Lines break according to their default rules.</dd>
+			<dd>The default value. Lines break according to their default rules.</dd>
 			<dt><code>break-all</code></dt>
-			<dd>&#10551; Lines break when they reach the end of the element, even if that means breaking in the middle of words.</dd>
+			<dd>Lines break when they reach the end of the element, even if that means breaking in the middle of words.</dd>
 			<dt><code>keep-all</code></dt>
-			<dd>&#10551; Lines cannot break in the middle of words under any circumstances.</dd>
+			<dd>Lines cannot break in the middle of words under any circumstances.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

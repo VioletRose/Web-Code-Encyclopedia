@@ -45,9 +45,9 @@
 		<h4>Child tags of <code>&lt;dl&gt;</code></h4>
 		<dl>
 			<dt><code>&lt;dd&gt;</code></dt>
-			<dd>&#10551; Contains the definition of the preceding term.</dd>
+			<dd>Contains the definition of the preceding term.</dd>
 			<dt><code>&lt;dt&gt;</code></dt>
-			<dd>&#10551; Contains the term to be defined.</dd>
+			<dd>Contains the term to be defined.</dd>
 		</dl>
 	</section>
 </main>	

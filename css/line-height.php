@@ -60,13 +60,13 @@
 		<h4>Accepted values of <code>line-height</code>:</h4>
 		<dl>
 			<dt><code>normal</code></dt>
-			<dd>&#10551; The default value. A normal line height. Equivalency varies by browser, but tends to be around <code>120%</code>.</dd>
+			<dd>The default value. A normal line height. Equivalency varies by browser, but tends to be around <code>120%</code>.</dd>
 			<dt><code><var>height</var></code></dt>
-			<dd>&#10551; Numeric variable, in numbers which will be multiplied by the current font size to determine line height, percentages of the current font size, or measurements. The height difference between lines.</dd>
+			<dd>Numeric variable, in numbers which will be multiplied by the current font size to determine line height, percentages of the current font size, or measurements. The height difference between lines.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

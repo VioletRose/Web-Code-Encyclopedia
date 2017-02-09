@@ -24,7 +24,7 @@
 		<h4>Attributes</h4>
 		<dl>
 			<dt><code>datetime</code></dt>
-			<dd>&#10551; Specifies a machine-readable datetime. See <a href="https://www.w3.org/TR/html-markup/input.datetime.html#input.datetime.attrs.value">here</a> for information on accepted ways of formatting the value.</dd>
+			<dd>Specifies a machine-readable datetime. See <a href="https://www.w3.org/TR/html-markup/input.datetime.html#input.datetime.attrs.value">here</a> for information on accepted ways of formatting the value.</dd>
 		</dl>
 	</section>
 </main>	

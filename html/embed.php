@@ -24,13 +24,13 @@
 		<h4>Attributes</h4>
 		<dl>
 			<dt><code>height</code></dt>
-			<dd>&#10551; Defines the embedded content's display height, in pixels.</dd>
+			<dd>Defines the embedded content's display height, in pixels.</dd>
 			<dt><code>src</code></dt>
-			<dd>&#10551; Specifies the URL of the file to be embedded.</dd>
+			<dd>Specifies the URL of the file to be embedded.</dd>
 			<dt><code>type</code></dt>
-			<dd>&#10551; Specifies the type of file targeted by <code>src</code>. See <a href="https://www.iana.org/assignments/media-types/media-types.xhtml">here</a> for a complete list of accepted values.</dd>
+			<dd>Specifies the type of file targeted by <code>src</code>. See <a href="https://www.iana.org/assignments/media-types/media-types.xhtml">here</a> for a complete list of accepted values.</dd>
 			<dt><code>width</code></dt>
-			<dd>&#10551; Defines the embedded content's display width, in pixels.</dd>
+			<dd>Defines the embedded content's display width, in pixels.</dd>
 		</dl>
 	</section>
 </main>

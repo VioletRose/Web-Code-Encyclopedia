@@ -64,76 +64,76 @@
 		<h4>Descriptors used by <code>@font-face</code>:</h4>
 		<dl>
 			<dt><code>font-family</code></dt>
-			<dd>&#10551; Defines the name of the font.</dd>
+			<dd>Defines the name of the font.</dd>
 			<dt><code>src</code></dt>
-			<dd>&#10551; Defines the URL of the font file.</dd>
+			<dd>Defines the URL of the font file.</dd>
 			<dt><code>font-stretch</code></dt>
-			<dd>&#10551; Defines how the font will be stretched by default. <strong>No browser currently supports this descriptor.</strong></dd>
+			<dd>Defines how the font will be stretched by default. <strong>No browser currently supports this descriptor.</strong></dd>
 			<dt><code>font-style</code></dt>
-			<dd>&#10551; Defines how the font will be styled by default.</dd>
+			<dd>Defines how the font will be styled by default.</dd>
 			<dt><code>font-weight</code></dt>
-			<dd>&#10551; Defines the font's default weight.</dd>
+			<dd>Defines the font's default weight.</dd>
 			<dt><code>unicode-range</code></dt>
-			<dd>&#10551; Defines the range of Unicode characters the font supports. See <a href="http://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt">here</a> for further information on unicode ranges. Multiple values may be used, separated by a comma and a space.</dd>
+			<dd>Defines the range of Unicode characters the font supports. See <a href="http://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt">here</a> for further information on unicode ranges. Multiple values may be used, separated by a comma and a space.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Accepted values of <code>font-family</code>:</h4>
 		<dl>
 			<dt><code>'<var>name</var>'</code></dt>
-			<dd>&#10551; The name of the font, which will be used in <code>font-family</code>.</dd>
+			<dd>The name of the font, which will be used in <code>font-family</code>.</dd>
 		</dl>
 	</section>
 		<section>
 		<h4>Accepted values of <code>src</code>:</h4>
 		<dl>
 			<dt><code>url(<var>URL</var>)</code></dt>
-			<dd>&#10551; URL variable. The URL of the font file to be used. Valid file formats are TTF, OTF, WOFF, WOFF2, SVG, and EOT, though only WOFF is fully compatible with all browsers.</dd>
+			<dd>URL variable. The URL of the font file to be used. Valid file formats are TTF, OTF, WOFF, WOFF2, SVG, and EOT, though only WOFF is fully compatible with all browsers.</dd>
 		</dl>
 	</section>
 		<section>
 		<h4>Accepted values of <code>font-stretch</code>:</h4>
 		<dl>
 			<dt><code>normal</code></dt>
-			<dd>&#10551; The default value.</dd>
+			<dd>The default value.</dd>
 			<dt><code>condensed</code></dt>
-			<dd>&#10551; Condensed letters.</dd>
+			<dd>Condensed letters.</dd>
 			<dt><code>ultra-condensed</code></dt>
-			<dd>&#10551; Ultra-condensed letters.</dd>
+			<dd>Ultra-condensed letters.</dd>
 			<dt><code>extra-condensed</code></dt>
-			<dd>&#10551; Extra-condensed letters.</dd>
+			<dd>Extra-condensed letters.</dd>
 			<dt><code>semi-condensed</code></dt>
-			<dd>&#10551; Semi-condensed letters.</dd>
+			<dd>Semi-condensed letters.</dd>
 			<dt><code>expanded</code></dt>
-			<dd>&#10551; Expanded letters.</dd>
+			<dd>Expanded letters.</dd>
 			<dt><code>semi-expanded</code></dt>
-			<dd>&#10551; Semi-expanded letters.</dd>
+			<dd>Semi-expanded letters.</dd>
 			<dt><code>extra-expanded</code></dt>
-			<dd>&#10551; Extra-expanded letters.</dd>
+			<dd>Extra-expanded letters.</dd>
 			<dt><code>ultra-expanded</code></dt>
-			<dd>&#10551; Ultra-expanded letters.</dd>
+			<dd>Ultra-expanded letters.</dd>
 		</dl>
 	</section>
 		<section>
 		<h4>Accepted values of <code>font-style</code>:</h4>
 		<dl>
 			<dt><code>normal</code></dt>
-			<dd>&#10551; The default value. Normal, unslanted letters.</dd>
+			<dd>The default value. Normal, unslanted letters.</dd>
 			<dt><code>italic</code></dt>
-			<dd>&#10551; Italic, right-slanted letters.</dd>
+			<dd>Italic, right-slanted letters.</dd>
 			<dt><code>oblique</code></dt>
-			<dd>&#10551; Oblique letters, similar to italic, but with a slightly more extreme slant.</dd>
+			<dd>Oblique letters, similar to italic, but with a slightly more extreme slant.</dd>
 		</dl>
 	</section>
 		<section>
 		<h4>Accepted values of <code>font-weight</code>:</h4>
 		<dl>
 			<dt><code>normal</code></dt>
-			<dd>&#10551; The default value, equivalent to 400. Letters of the standard thickness.</dd>
+			<dd>The default value, equivalent to 400. Letters of the standard thickness.</dd>
 			<dt><code>bold</code></dt>
-			<dd>&#10551; Equivalent to 700. Bold letters.</dd>
+			<dd>Equivalent to 700. Bold letters.</dd>
 			<dt><code><var>100-900</var></code></dt>
-			<dd>&#10551; Numeric variable, in multiples of 100, from 100 to 900. A specific font weight.</dd>
+			<dd>Numeric variable, in multiples of 100, from 100 to 900. A specific font weight.</dd>
 		</dl>
 	</section>
 		<section>
@@ -146,14 +146,14 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>start</var></code></dt>
-						<dd>&#10551; Required hexadecimal variable, in Unicode ranges, defaults to <code>0</code>. The start of the Unicode range the font supports; with most fonts, this will be <code>0</code>.</dd>
+						<dd>Required hexadecimal variable, in Unicode ranges, defaults to <code>0</code>. The start of the Unicode range the font supports; with most fonts, this will be <code>0</code>.</dd>
 						<dt><code><var>end</var></code></dt>
-						<dd>&#10551; Required hexadecimal variable, in Unicode ranges, defaults to <code>10FFFF</code>. The end of the Unicode range the font supports.</dd>
+						<dd>Required hexadecimal variable, in Unicode ranges, defaults to <code>10FFFF</code>. The end of the Unicode range the font supports.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>U+<var>character</var></code></dt>
-			<dd>&#10551; Optional hexadeximal variable, in Unicode characters. A specific unicode character the font supports.</dd>
+			<dd>Optional hexadeximal variable, in Unicode characters. A specific unicode character the font supports.</dd>
 		</dl>
 	</section>
 </main>

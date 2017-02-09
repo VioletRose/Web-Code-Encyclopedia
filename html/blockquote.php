@@ -28,7 +28,7 @@
 		<h4>Attributes</h4>
 		<dl>
 			<dt>cite</dt>
-			<dd>&#10551; Specifies a URL of where the text is quoted from. Note that this URL will not be displayed on the actual webpage.</dd>
+			<dd>Specifies a URL of where the text is quoted from. Note that this URL will not be displayed on the actual webpage.</dd>
 		</dl>
 	</section>
 </main>	

@@ -69,17 +69,17 @@
 		<h4>Accepted values of <code></code>:</h4>
 		<dl>
 			<dt><code>left</code></dt>
-			<dd>&#10551; The default value. Text aligns to the left side of the element.</dd>
+			<dd>The default value. Text aligns to the left side of the element.</dd>
 			<dt><code>right</code></dt>
-			<dd>&#10551; Text aligns to the right side of the element.</dd>
+			<dd>Text aligns to the right side of the element.</dd>
 			<dt><code>center</code></dt>
-			<dd>&#10551; Text aligns to the center of the element.</dd>
+			<dd>Text aligns to the center of the element.</dd>
 			<dt><code>justified</code></dt>
-			<dd>&#10551; If possible, each space between words stretches evenly until the line of text occupies the full width of the element. If not, it looks identical to <code>left</code>.</dd>
+			<dd>If possible, each space between words stretches evenly until the line of text occupies the full width of the element. If not, it looks identical to <code>left</code>.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

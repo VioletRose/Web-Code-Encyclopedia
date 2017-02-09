@@ -45,15 +45,15 @@
 		<h4>Accepted values of <code>visibility</code>:</h4>
 		<dl>
 			<dt><code>visible</code></dt>
-			<dd>&#10551; The default value. The element displays as normal.</dd>
+			<dd>The default value. The element displays as normal.</dd>
 			<dt><code>hidden</code></dt>
-			<dd>&#10551; The element does not display, but the page's layout remains the same, still leaving empty space where the hidden element was. Additionally, this property doesn't automatically pass down to children of the hidden element.</dd>
+			<dd>The element does not display, but the page's layout remains the same, still leaving empty space where the hidden element was. Additionally, this property doesn't automatically pass down to children of the hidden element.</dd>
 			<dt><code>collapse</code></dt>
-			<dd>&#10551; In theory, this value only applies to sub-elements of tables, and hides them while allowing the space they occupied to be taken by other table elements. However, in practice this value doesn't work in multiple major browsers and is best not ever used.</dd>
+			<dd>In theory, this value only applies to sub-elements of tables, and hides them while allowing the space they occupied to be taken by other table elements. However, in practice this value doesn't work in multiple major browsers and is best not ever used.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

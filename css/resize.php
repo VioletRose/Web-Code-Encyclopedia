@@ -46,17 +46,17 @@
 		<h4>Accepted values of <code>resize</code>:</h4>
 		<dl>
 			<dt><code>none</code></dt>
-			<dd>&#10551; The default value. The element cannot be resized by the user.</dd>
+			<dd>The default value. The element cannot be resized by the user.</dd>
 			<dt><code>both</code></dt>
-			<dd>&#10551; The element can be resized horizontally and vertically.</dd>
+			<dd>The element can be resized horizontally and vertically.</dd>
 			<dt><code>horizontal</code></dt>
-			<dd>&#10551; The element can only be resized horizontally.</dd>
+			<dd>The element can only be resized horizontally.</dd>
 			<dt><code>vertical</code></dt>
-			<dd>&#10551; The element can only be resized vertically.</dd>
+			<dd>The element can only be resized vertically.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

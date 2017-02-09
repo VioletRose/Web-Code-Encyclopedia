@@ -58,15 +58,15 @@
 		<h4>Accepted values of <code>unicode-bidi</code>:</h4>
 		<dl>
 			<dt><code>normal</code></dt>
-			<dd>&#10551; The default value. The <code>direction</code> property's value is ignored.</dd>
+			<dd>The default value. The <code>direction</code> property's value is ignored.</dd>
 			<dt><code>embed</code></dt>
-			<dd>&#10551; The <code>direction</code> property is used, but only governs punctuation and which side of the element text originates on, allowing for right-to-left text to be shown in the middle of a block of left-to-right text or vice versa, text direction being governed by how it's entered into the HTML document. Note that this only works if the element is being rendered inline.</dd>
+			<dd>The <code>direction</code> property is used, but only governs punctuation and which side of the element text originates on, allowing for right-to-left text to be shown in the middle of a block of left-to-right text or vice versa, text direction being governed by how it's entered into the HTML document. Note that this only works if the element is being rendered inline.</dd>
 			<dt><code>bidi-override</code></dt>
-			<dd>&#10551; If the element is rendered inline, functions identically to <code>embed</code>. In block elements, the direction of text is strictly governed by the <code>direction</code> property and nothing else, forcing all text within the element to render as <code>direction</code> dictates.</dd>
+			<dd>If the element is rendered inline, functions identically to <code>embed</code>. In block elements, the direction of text is strictly governed by the <code>direction</code> property and nothing else, forcing all text within the element to render as <code>direction</code> dictates.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

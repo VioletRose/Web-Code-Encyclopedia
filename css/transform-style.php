@@ -88,13 +88,13 @@
 		<h4>Accepted values of <code>transform-style</code>:</h4>
 		<dl>
 			<dt><code>flat</code></dt>
-			<dd>&#10551; The default value. Child elements of a transformed parent will render flat upon its surface.</dd>
+			<dd>The default value. Child elements of a transformed parent will render flat upon its surface.</dd>
 			<dt><code>preserve-3d</code></dt>
-			<dd>&#10551; Child elements of a transformed parent will retain 3d shape themselves.</dd>
+			<dd>Child elements of a transformed parent will retain 3d shape themselves.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

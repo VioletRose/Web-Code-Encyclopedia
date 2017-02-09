@@ -39,13 +39,13 @@
 		<h4>Accepted values of <code></code>:</h4>
 		<dl>
 			<dt><code>normal</code></dt>
-			<dd>&#10551; The default value. A normal amount of space taken by each space, equivalent to <code>0.25em</code>.</dd>
+			<dd>The default value. A normal amount of space taken by each space, equivalent to <code>0.25em</code>.</dd>
 			<dt><code><var>spacing</var></code></dt>
-			<dd>&#10551; Numeric variable, in measurements. A specified amount of spacing per space.</dd>
+			<dd>Numeric variable, in measurements. A specified amount of spacing per space.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

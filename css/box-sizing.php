@@ -60,13 +60,13 @@
 		<h4>Accepted values of <code>box-sizing</code>:</h4>
 		<dl>
 			<dt><code>content-box</code></dt>
-			<dd>&#10551; The default value. Only the element's content is considered in width and height.</dd>
+			<dd>The default value. Only the element's content is considered in width and height.</dd>
 			<dt><code>border-box</code></dt>
-			<dd>&#10551; The element's height and width include border and padding size as well as content.</dd>
+			<dd>The element's height and width include border and padding size as well as content.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

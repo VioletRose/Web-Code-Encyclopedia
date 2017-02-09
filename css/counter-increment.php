@@ -54,7 +54,7 @@
 		<h4>Accepted values of <code>counter-increment</code>:</h4>
 		<dl>
 			<dt><code>none</code></dt>
-			<dd>&#10551; The default value. No counters will increment.</dd>
+			<dd>The default value. No counters will increment.</dd>
 			<dt><code><var>id</var> <var>number</var></code></dt>
 			<dd>
 				&#10551; The specified counter will increment by the specified number.
@@ -62,16 +62,16 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>id</var></code></dt>
-						<dd>&#10551; Required id variable. The id of an existing counter, or a new counter id to be defined.</dd>
+						<dd>Required id variable. The id of an existing counter, or a new counter id to be defined.</dd>
 						<dt><code><var>increment</var></code></dt>
-						<dd>&#10551; Optional numeric variable, in numbers, defaults to 1. How much the counter increments by each time its selector appears.</dd>
+						<dd>Optional numeric variable, in numbers, defaults to 1. How much the counter increments by each time its selector appears.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

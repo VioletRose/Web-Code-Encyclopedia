@@ -162,45 +162,45 @@
 		<h4>Child tags of <code>&lt;form&gt;</code></h4>
 		<dl>
 			<dt><code>&lt;fieldset&gt;</code></dt>
-			<dd>&#10551; This element is used as a subcontainer within a form, to contain a category of related information.</dd>
+			<dd>This element is used as a subcontainer within a form, to contain a category of related information.</dd>
 			<dt><code>&lt;input&gt;</code></dt>
-			<dd>&#10551; This element creates a box the user may type into, which will be submitted as form data.</dd>
+			<dd>This element creates a box the user may type into, which will be submitted as form data.</dd>
 			<dt><code>&lt;label&gt;</code></dt>
-			<dd>&#10551; This tag designates the included text as a label for a specific <code>&lt;input&gt;</code> id. Clicking on it will act as a click on the associated <code>&lt;input&gt;</code> element.</dd>
+			<dd>This tag designates the included text as a label for a specific <code>&lt;input&gt;</code> id. Clicking on it will act as a click on the associated <code>&lt;input&gt;</code> element.</dd>
 			<dt><code>&lt;output&gt;</code></dt>
-			<dd>&#10551; This element displays the output of a calculation, such as one that adds two or more of the user's numeric inputs together. However, it will not display if there is no Javascript to do the calculation.</dd>
+			<dd>This element displays the output of a calculation, such as one that adds two or more of the user's numeric inputs together. However, it will not display if there is no Javascript to do the calculation.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Child tag of <code>&lt;fieldset&gt;</code></h4>
 		<dl>
 			<dt><code>&lt;legend&gt;</code></dt>
-			<dd>&#10551; This tag designates the included text as a caption to be displayed on its containing <code>&lt;fieldset&gt;</code> element.</dd>
+			<dd>This tag designates the included text as a caption to be displayed on its containing <code>&lt;fieldset&gt;</code> element.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Child tag of <code>&lt;input&gt;</code></h4>
 		<dl>
 			<dt><code>&lt;datalist&gt;</code></dt>
-			<dd>&#10551; This tag acts as a container for multiple <code>&lt;option&gt;</code> tags, and uses their contained text as a list of possible autocomplete entries for an associated <code>&lt;input&gt;</code> element.</dd>
+			<dd>This tag acts as a container for multiple <code>&lt;option&gt;</code> tags, and uses their contained text as a list of possible autocomplete entries for an associated <code>&lt;input&gt;</code> element.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Child tag of of <code>&lt;datalist&gt;</code></h4>
 		<dl>
 			<dt><code>&lt;option&gt;</code></dt>
-			<dd>&#10551; This tag designates the included text as a list entry for a <code>&lt;datalist&gt;</code> and its associated <code>&lt;input&gt;</code> element.</dd>
+			<dd>This tag designates the included text as a list entry for a <code>&lt;datalist&gt;</code> and its associated <code>&lt;input&gt;</code> element.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;form&gt;</code></h4>
 		<dl>
 			<dt><code>accept-charset</code></dt>
-			<dd>&#10551; Defines the character encoding the form data will be submitted with. If not defined, this will be the same as the page containing the <code>&lt;form&gt;</code> element. In theory, this attribute accepts any character set as a value, but in practice most will not function except for <code>UTF-8</code> and <code>ISO-8859-1</code>. Under almost any circumstance, <code>UTF-8</code> is preferable.</dd>
+			<dd>Defines the character encoding the form data will be submitted with. If not defined, this will be the same as the page containing the <code>&lt;form&gt;</code> element. In theory, this attribute accepts any character set as a value, but in practice most will not function except for <code>UTF-8</code> and <code>ISO-8859-1</code>. Under almost any circumstance, <code>UTF-8</code> is preferable.</dd>
 			<dt><code>action</code></dt>
-			<dd>&#10551; Defines the target URL where the form data will be submitted to on completion.</dd>
+			<dd>Defines the target URL where the form data will be submitted to on completion.</dd>
 			<dt><code>autocomplete</code></dt>
-			<dd>&#10551; Defines whether the form should have autocomplete functionality <code>on</code> or <code>off</code>.</dd>
+			<dd>Defines whether the form should have autocomplete functionality <code>on</code> or <code>off</code>.</dd>
 			<dt><code>enctype</code></dt>
 			<dd>
 				&#10551; Defines how the form's data should be encoded before submission to the server. This is a different sort of encoding from the choice of character set.
@@ -208,11 +208,11 @@
 					<summary>Accepted values:</summary>
 					<dl>
 						<dt><code>application/x-www-form-urlencoded</code></dt>
-						<dd>&#10551; The default behavior. All text characters will be encoded.</dd>
+						<dd>The default behavior. All text characters will be encoded.</dd>
 						<dt><code>multipart/form-data</code></dt>
-						<dd>&#10551; No text characters will be encoded.</dd>
+						<dd>No text characters will be encoded.</dd>
 						<dt><code>text/plain</code></dt>
-						<dd>&#10551; Spaces are converted to + characters, but no other text characters will be encoded.</dd>
+						<dd>Spaces are converted to + characters, but no other text characters will be encoded.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -223,16 +223,16 @@
 					<summary>Accepted values:</summary>
 					<dl>
 						<dt><code>get</code></dt>
-						<dd>&#10551; The form data will be appended to the URL, i.e. <code>URL?name=value&name=value</code>.</dd>
+						<dd>The form data will be appended to the URL, i.e. <code>URL?name=value&name=value</code>.</dd>
 						<dt><code>post</code></dt>
-						<dd>&#10551; The form data will be sent as an HTTP post transaction.</dd>
+						<dd>The form data will be sent as an HTTP post transaction.</dd>
 					</dl>
 				</summary>
 			</dd>
 			<dt><code>name</code></dt>
-			<dd>&#10551; Defines the name of the form, which can be used to target it with Javascript.</dd>
+			<dd>Defines the name of the form, which can be used to target it with Javascript.</dd>
 			<dt><code>novalidate</code></dt>
-			<dd>&#10551; If present, the form data will not be validated on submission.</dd>
+			<dd>If present, the form data will not be validated on submission.</dd>
 			<dt><code>target</code></dt>
 			<dd>
 				&#10551; Defines where the response will be displayed after submitting the form.
@@ -240,15 +240,15 @@
 					<summary>Accepted values:</summary>
 					<dl>
 						<dt><code>_blank</code></dt>
-						<dd>&#10551; Opens the response page in a new window or tab.</dd>
+						<dd>Opens the response page in a new window or tab.</dd>
 						<dt><code>_self</code></dt>
-						<dd>&#10551; Opens the response page in the same frame where the form was was submitted. This is the default behavior.</dd>
+						<dd>Opens the response page in the same frame where the form was was submitted. This is the default behavior.</dd>
 						<dt><code>_parent</code></dt>
-						<dd>&#10551; Opens the response page in the parent frame of the child frame where the form appears, if applicable.</dd>
+						<dd>Opens the response page in the parent frame of the child frame where the form appears, if applicable.</dd>
 						<dt><code>_top</code></dt>
-						<dd>&#10551; Opens the response page in the full body of the window, overriding all frames.</dd>
+						<dd>Opens the response page in the full body of the window, overriding all frames.</dd>
 						<dt><code><var>framename</var></code></dt>
-						<dd>&#10551; When <code><var>framename</var></code> is replaced with the name of a valid frame, will open the response page in that frame.</dd>
+						<dd>When <code><var>framename</var></code> is replaced with the name of a valid frame, will open the response page in that frame.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -258,11 +258,11 @@
 		<h4>Attributes of <code>&lt;fieldset&gt;</code></h4>
 		<dl>
 			<dt><code>disabled</code></dt>
-			<dd>&#10551; If present, input elements within the container will be grayed out and unusable.</dd>
+			<dd>If present, input elements within the container will be grayed out and unusable.</dd>
 			<dt><code>form</code></dt>
-			<dd>&#10551; Specifies the id of the <code>&lt;form&gt;</code> element the container is associated with. Not necessary if the container is a child of the <code>&lt;form&gt;</code> element.</dd>
+			<dd>Specifies the id of the <code>&lt;form&gt;</code> element the container is associated with. Not necessary if the container is a child of the <code>&lt;form&gt;</code> element.</dd>
 			<dt><code>name</code></dt>
-			<dd>&#10551; Defines the name of the container. This can be used to target it with Javascript, and will appear in the submitted form data as well.</dd>
+			<dd>Defines the name of the container. This can be used to target it with Javascript, and will appear in the submitted form data as well.</dd>
 		</dl>
 	</section>
 	<section>
@@ -275,34 +275,34 @@
 					<summary>Accepted values:</summary>
 					<dl>
 						<dt><code>.<var>file_extension</var></code></dt>
-						<dd>&#10551; When <code>.<var>file_extension</var></code> is replaced with a valid file extension, files with the specified file extension will be accepted.</dd>
+						<dd>When <code>.<var>file_extension</var></code> is replaced with a valid file extension, files with the specified file extension will be accepted.</dd>
 						<dt><code>audio/*</code></dt>
-						<dd>&#10551; All audio file types will be accepted.</dd>
+						<dd>All audio file types will be accepted.</dd>
 						<dt><code>video/*</code></dt>
-						<dd>&#10551; All video file types will be accepted.</dd>
+						<dd>All video file types will be accepted.</dd>
 						<dt><code>image/*</code></dt>
-						<dd>&#10551; All image file types will be accepted.</dd>
+						<dd>All image file types will be accepted.</dd>
 						<dt><code><var>media_type</var></code></dt>
-						<dd>&#10551; When <code><var>media_type</var></code> is replaced with a valid media type, files of the specified media type will be accepted. See <a href="https://www.iana.org/assignments/media-types/media-types.xhtml">here</a> for a full list of possible values.</dd>
+						<dd>When <code><var>media_type</var></code> is replaced with a valid media type, files of the specified media type will be accepted. See <a href="https://www.iana.org/assignments/media-types/media-types.xhtml">here</a> for a full list of possible values.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>alt</code></dt>
-			<dd>&#10551; If <code>type</code> is set to <code>image</code>, specifies alternate text for the image, to be displayed if for some reason the image fails to load.</dd>
+			<dd>If <code>type</code> is set to <code>image</code>, specifies alternate text for the image, to be displayed if for some reason the image fails to load.</dd>
 			<dt><code>autocomplete</code></dt>
-			<dd>&#10551; If <code>type</code> is set to a value that allows text input, defines whether the element should have autocomplete functionality <code>on</code> or <code>off</code>.</dd>
+			<dd>If <code>type</code> is set to a value that allows text input, defines whether the element should have autocomplete functionality <code>on</code> or <code>off</code>.</dd>
 			<dt><code>autofocus</code></dt>
-			<dd>&#10551; If present, specifies that the element should be focused (selected) when the page loads, scrolling down the page to its location if necessary.</dd>
+			<dd>If present, specifies that the element should be focused (selected) when the page loads, scrolling down the page to its location if necessary.</dd>
 			<dt><code>checked</code></dt>
-			<dd>&#10551; If <code>type</code> is set to <code>checkbox</code> or <code>radio</code>, specifies that the element should be checked by default when the user loads the page.</dd>
+			<dd>If <code>type</code> is set to <code>checkbox</code> or <code>radio</code>, specifies that the element should be checked by default when the user loads the page.</dd>
 			<dt><code>dirname</code></dt>
-			<dd>&#10551; If <code>type</code> is set to a value that allows text input, specifies that the text direction of the user's text input should be submitted along with the form data. Must be set to <code><var>name</var>.dir</code>, where <var>name</var> is the same as the element's <code>name</code> attribute.</dd>
+			<dd>If <code>type</code> is set to a value that allows text input, specifies that the text direction of the user's text input should be submitted along with the form data. Must be set to <code><var>name</var>.dir</code>, where <var>name</var> is the same as the element's <code>name</code> attribute.</dd>
 			<dt><code>disabled</code></dt>
-			<dd>&#10551; If present, the element will be grayed out and unusable.</dd>
+			<dd>If present, the element will be grayed out and unusable.</dd>
 			<dt><code>form</code></dt>
-			<dd>&#10551; Specifies the id of <code>&lt;form&gt;</code> element the element belongs to. Not necessary if the element is a child of the <code>&lt;form&gt;</code> element.</dd>
+			<dd>Specifies the id of <code>&lt;form&gt;</code> element the element belongs to. Not necessary if the element is a child of the <code>&lt;form&gt;</code> element.</dd>
 			<dt><code>formaction</code></dt>
-			<dd>&#10551; Defines the target URL where the form data will be submitted to on completion.</dd>
+			<dd>Defines the target URL where the form data will be submitted to on completion.</dd>
 			<dt><code>formenctype</code></dt>
 			<dd>
 				&#10551; Defines how the form's data should be encoded before submission to the server.
@@ -310,11 +310,11 @@
 					<summary>Accepted values:</summary>
 					<dl>
 						<dt><code>application/x-www-form-urlencoded</code></dt>
-						<dd>&#10551; The default behavior. All text characters will be encoded.</dd>
+						<dd>The default behavior. All text characters will be encoded.</dd>
 						<dt><code>multipart/form-data</code></dt>
-						<dd>&#10551; No text characters will be encoded.</dd>
+						<dd>No text characters will be encoded.</dd>
 						<dt><code>text/plain</code></dt>
-						<dd>&#10551; Spaces are converted to + characters, but no other text characters will be encoded.</dd>
+						<dd>Spaces are converted to + characters, but no other text characters will be encoded.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -325,14 +325,14 @@
 					<summary>Accepted values:</summary>
 					<dl>
 						<dt><code>get</code></dt>
-						<dd>&#10551; The form data will be appended to the URL, i.e. <code>URL?name=value&name=value</code>.</dd>
+						<dd>The form data will be appended to the URL, i.e. <code>URL?name=value&name=value</code>.</dd>
 						<dt><code>post</code></dt>
-						<dd>&#10551; The form data will be sent as an HTTP post transaction.</dd>
+						<dd>The form data will be sent as an HTTP post transaction.</dd>
 					</dl>
 				</summary>
 			</dd>
 			<dt><code>formnovalidate</code></dt>
-			<dd>&#10551; If present, the form data will not be validated on submission.</dd>
+			<dd>If present, the form data will not be validated on submission.</dd>
 			<dt><code>formtarget</code></dt>
 			<dd>
 				&#10551; Defines where the response will be displayed after submitting the form.
@@ -340,46 +340,46 @@
 					<summary>Accepted values:</summary>
 					<dl>
 						<dt><code>_blank</code></dt>
-						<dd>&#10551; Opens the response page in a new window or tab.</dd>
+						<dd>Opens the response page in a new window or tab.</dd>
 						<dt><code>_self</code></dt>
-						<dd>&#10551; Opens the response page in the same frame where the form was was submitted. This is the default behavior.</dd>
+						<dd>Opens the response page in the same frame where the form was was submitted. This is the default behavior.</dd>
 						<dt><code>_parent</code></dt>
-						<dd>&#10551; Opens the response page in the parent frame of the child frame where the form appears, if applicable.</dd>
+						<dd>Opens the response page in the parent frame of the child frame where the form appears, if applicable.</dd>
 						<dt><code>_top</code></dt>
-						<dd>&#10551; Opens the response page in the full body of the window, overriding all frames.</dd>
+						<dd>Opens the response page in the full body of the window, overriding all frames.</dd>
 						<dt><code><var>framename</var></code></dt>
-						<dd>&#10551; When <code><var>framename</var></code> is replaced with the name of a valid frame, will open the response page in that frame.</dd>
+						<dd>When <code><var>framename</var></code> is replaced with the name of a valid frame, will open the response page in that frame.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>height</code></dt>
-			<dd>&#10551; If <code>type</code> is set to <code>image</code>, defines the height of the element, in pixels.</dd>
+			<dd>If <code>type</code> is set to <code>image</code>, defines the height of the element, in pixels.</dd>
 			<dt><code>list</code></dt>
-			<dd>&#10551; Specifies the id of a <code>&lt;datalist&gt;</code> element that should be associated with this <code>&lt;input&gt;</code> element.</dd>
+			<dd>Specifies the id of a <code>&lt;datalist&gt;</code> element that should be associated with this <code>&lt;input&gt;</code> element.</dd>
 			<dt><code>max</code></dt>
-			<dd>&#10551; If <code>type</code> is set to a value that allows numeric input, specifies a maximum allowed integer.</dd>
+			<dd>If <code>type</code> is set to a value that allows numeric input, specifies a maximum allowed integer.</dd>
 			<dt><code>maxlength</code></dt>
-			<dd>&#10551; If <code>type</code> is set to a value that allows text input, specifies a maximum character length.</dd>
+			<dd>If <code>type</code> is set to a value that allows text input, specifies a maximum character length.</dd>
 			<dt><code>min</code></dt>
-			<dd>&#10551; If <code>type</code> is set to a value that allows numeric input, specifies a minimum allowed integer.</dd>
+			<dd>If <code>type</code> is set to a value that allows numeric input, specifies a minimum allowed integer.</dd>
 			<dt><code>multiple</code></dt>
-			<dd>&#10551; If <code>type</code> is set to <code>email</code> or <code>file</code>, specifies that the user may submit multiple entries at once.</dd>
+			<dd>If <code>type</code> is set to <code>email</code> or <code>file</code>, specifies that the user may submit multiple entries at once.</dd>
 			<dt><code>name</code></dt>
-			<dd>&#10551; Defines the name of the element, which can be used to target it with Javascript.</dd>
+			<dd>Defines the name of the element, which can be used to target it with Javascript.</dd>
 			<dt><code>pattern</code></dt>
-			<dd>&#10551; If <code>type</code> is set to a value that allows text input, specifies a regular expression (without beginning or ending flags) to define what inputs will be allowed. If the user's input doesn't match the regular expression, the form cannot be submitted and the user will be asked to correct their input. For information on how a regular expression is formatted, see <a href="http://www.w3schools.com/js/js_regexp.asp">here</a>.</dd>
+			<dd>If <code>type</code> is set to a value that allows text input, specifies a regular expression (without beginning or ending flags) to define what inputs will be allowed. If the user's input doesn't match the regular expression, the form cannot be submitted and the user will be asked to correct their input. For information on how a regular expression is formatted, see <a href="http://www.w3schools.com/js/js_regexp.asp">here</a>.</dd>
 			<dt><code>placeholder</code></dt>
-			<dd>&#10551; If <code>type</code> is set to a value that allows text input, defines placeholder text that will appear in the field until the user begins typing, as a hint about the type of data required.</dd>
+			<dd>If <code>type</code> is set to a value that allows text input, defines placeholder text that will appear in the field until the user begins typing, as a hint about the type of data required.</dd>
 			<dt><code>readonly</code></dt>
-			<dd>&#10551; If present, specifies that the value of the element cannot be changed by the user.</dd>
+			<dd>If present, specifies that the value of the element cannot be changed by the user.</dd>
 			<dt><code>required</code></dt>
-			<dd>&#10551; If present, completing this entry is required for the form to be submitted.</dd>
+			<dd>If present, completing this entry is required for the form to be submitted.</dd>
 			<dt><code>size</code></dt>
-			<dd>&#10551; Defines the width, in characters, of the element.</dd>
+			<dd>Defines the width, in characters, of the element.</dd>
 			<dt><code>src</code></dt>
-			<dd>&#10551; If <code>type</code> is set to <code>image</code>, specifies the URL of the image to be displayed.</dd>
+			<dd>If <code>type</code> is set to <code>image</code>, specifies the URL of the image to be displayed.</dd>
 			<dt><code>step</code></dt>
-			<dd>&#10551; If <code>type</code> is set to a value that allows numeric input, specifies how many steps at a time the integer will be increased/decreased by the up/down buttons.</dd>
+			<dd>If <code>type</code> is set to a value that allows numeric input, specifies how many steps at a time the integer will be increased/decreased by the up/down buttons.</dd>
 			<dt><code>type</code></dt>
 			<dd>
 				&#10551; Defines the type of the <code>&lt;input&gt;</code> element, which determines what kinds of input it will accept. Numeric selectors come with integrated up/down arrows to adjust their value.
@@ -387,89 +387,89 @@
 					<summary>Accepted values:</summary>
 					<dl>
 						<dt><code>button</code></dt>
-						<dd>&#10551; A clickable button, usually used with Javascript to determine the results of clicking.</dd>
+						<dd>A clickable button, usually used with Javascript to determine the results of clicking.</dd>
 						<dt><code>checkbox</code></dt>
-						<dd>&#10551; A checkbox, unchecked by default.</dd>
+						<dd>A checkbox, unchecked by default.</dd>
 						<dt><code>color</code></dt>
-						<dd>&#10551; A color selector with controls for hue (with a range of 0-239), saturation and luminosity (0-240), and red/green/blue (0-255), as well as a visual palette.</dd>
+						<dd>A color selector with controls for hue (with a range of 0-239), saturation and luminosity (0-240), and red/green/blue (0-255), as well as a visual palette.</dd>
 						<dt><code>date</code></dt>
-						<dd>&#10551; A preformatted numeric selector for calendar dates, in mm/dd/yyyy format.</dd>
+						<dd>A preformatted numeric selector for calendar dates, in mm/dd/yyyy format.</dd>
 						<dt><code>datetime-local</code></dt>
-						<dd>&#10551; A preformatted numeric selector for date and time, in mm/dd/yyyy + 12 hour format.</dd>
+						<dd>A preformatted numeric selector for date and time, in mm/dd/yyyy + 12 hour format.</dd>
 						<dt><code>email</code></dt>
-						<dd>&#10551; A text entry field that will only accept email addresses as input.</dd>
+						<dd>A text entry field that will only accept email addresses as input.</dd>
 						<dt><code>file</code></dt>
-						<dd>&#10551; A button that, when clicked, will launch a file upload dialog.</dd>
+						<dd>A button that, when clicked, will launch a file upload dialog.</dd>
 						<dt><code>hidden</code></dt>
-						<dd>&#10551; An input field that is not displayed to the user.</dd>
+						<dd>An input field that is not displayed to the user.</dd>
 						<dt><code>image</code></dt>
-						<dd>&#10551; A clickable image, which both acts as a submit button and registers the user's input in the format <samp>x=<var>coordinate</var>&y=<var>coordinate</var></samp>, with each coordinate being the specific horizontal and vertical pixels of the image that the user clicked.</dd>
+						<dd>A clickable image, which both acts as a submit button and registers the user's input in the format <samp>x=<var>coordinate</var>&y=<var>coordinate</var></samp>, with each coordinate being the specific horizontal and vertical pixels of the image that the user clicked.</dd>
 						<dt><code>month</code></dt>
-						<dd>&#10551; A preformatted numeric selector for month and year, in <var>month_name</var>, yyyy format.</dd>
+						<dd>A preformatted numeric selector for month and year, in <var>month_name</var>, yyyy format.</dd>
 						<dt><code>number</code></dt>
-						<dd>&#10551; A basic numeric selector.</dd>
+						<dd>A basic numeric selector.</dd>
 						<dt><code>password</code></dt>
-						<dd>&#10551; A text entry field that will display the user's input with bullets instead of the typed characters.</dd>
+						<dd>A text entry field that will display the user's input with bullets instead of the typed characters.</dd>
 						<dt><code>radio</code></dt>
-						<dd>&#10551; A circle that will contain a bullet when clicked. Similar to <code>checkbox</code>, but cannot be unchecked by clicking twice.</dd>
+						<dd>A circle that will contain a bullet when clicked. Similar to <code>checkbox</code>, but cannot be unchecked by clicking twice.</dd>
 						<dt><code>range</code></dt>
-						<dd>&#10551; A slider, defaulting to 50 and ranging from 0 to 100, where the exact number is not displayed.</dd>
+						<dd>A slider, defaulting to 50 and ranging from 0 to 100, where the exact number is not displayed.</dd>
 						<dt><code>reset</code></dt>
-						<dd>&#10551; A button that, when clicked, resets all associated form buttons to their default values.</dd>
+						<dd>A button that, when clicked, resets all associated form buttons to their default values.</dd>
 						<dt><code>search</code></dt>
-						<dd>&#10551; A text entry field intended to contain a search string.</dd>
+						<dd>A text entry field intended to contain a search string.</dd>
 						<dt><code>submit</code></dt>
-						<dd>&#10551; A submit button for the form.</dd>
+						<dd>A submit button for the form.</dd>
 						<dt><code>tel</code></dt>
-						<dd>&#10551; A text entry field intended to contain a phone number, and that will attempt to format the user's input accordingly in the form data. However, the user can enter arbitrary text here by default, so it is recommended to use this in conjunction with the <code>pattern</code> attribute.</dd>
+						<dd>A text entry field intended to contain a phone number, and that will attempt to format the user's input accordingly in the form data. However, the user can enter arbitrary text here by default, so it is recommended to use this in conjunction with the <code>pattern</code> attribute.</dd>
 						<dt><code>text</code></dt>
-						<dd>&#10551; A basic text entry field.</dd>
+						<dd>A basic text entry field.</dd>
 						<dt><code>time</code></dt>
-						<dd>&#10551; A preformatted numeric selector for time, in 12 hour format.</dd>
+						<dd>A preformatted numeric selector for time, in 12 hour format.</dd>
 						<dt><code>url</code></dt>
-						<dd>&#10551; A text entry field that will only accept absolute URLs as input.</dd>
+						<dd>A text entry field that will only accept absolute URLs as input.</dd>
 						<dt><code>week</code></dt>
-						<dd>&#10551; A preformatted numeric selector for weeks, in week ww yyyy format.</dd>
+						<dd>A preformatted numeric selector for weeks, in week ww yyyy format.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>value</code></dt>
-			<dd>&#10551; Specifies the default value of the element. If <code>type</code> is set to a value that allows text input, the user's input will override this in the submitted form data.</dd>
+			<dd>Specifies the default value of the element. If <code>type</code> is set to a value that allows text input, the user's input will override this in the submitted form data.</dd>
 			<dt><code>width</code></dt>
-			<dd>&#10551; Defines the width of the element, in pixels.</dd>
+			<dd>Defines the width of the element, in pixels.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;label&gt;</code></h4>
 		<dl>
 			<dt><code>for</code></dt>
-			<dd>&#10551; Specifies the id of the <code>&lt;input&gt;</code> element the label is associated with.</dd>
+			<dd>Specifies the id of the <code>&lt;input&gt;</code> element the label is associated with.</dd>
 			<dt><code>form</code></dt>
-			<dd>&#10551; Specifies the id of <code>&lt;form&gt;</code> element(s) the label belongs to. Not necessary if the label is a child of the <code>&lt;form&gt;</code> element.</dd>
+			<dd>Specifies the id of <code>&lt;form&gt;</code> element(s) the label belongs to. Not necessary if the label is a child of the <code>&lt;form&gt;</code> element.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;output&gt;</code></h4>
 		<dl>
 			<dt><code>for</code></dt>
-			<dd>&#10551; Specifies the id of the <code>&lt;input&gt;</code> element the label is associated with.</dd>
+			<dd>Specifies the id of the <code>&lt;input&gt;</code> element the label is associated with.</dd>
 			<dt><code>form</code></dt>
-			<dd>&#10551; Specifies the id of the <code>&lt;form&gt;</code> element the label belongs to. Not necessary if the label is a child of the <code>&lt;form&gt;</code> element.</dd>
+			<dd>Specifies the id of the <code>&lt;form&gt;</code> element the label belongs to. Not necessary if the label is a child of the <code>&lt;form&gt;</code> element.</dd>
 			<dt><code>name</code></dt>
-			<dd>&#10551; Defines a name for the element. This can be used to target it with Javascript.</dd>
+			<dd>Defines a name for the element. This can be used to target it with Javascript.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;option&gt;</code></h4>
 		<dl>
 			<dt><code>disabled</code></dt>
-			<dd>&#10551; If present, this option will be displayed, but cannot be selected.</dd>
+			<dd>If present, this option will be displayed, but cannot be selected.</dd>
 			<dt><code>label</code></dt>
-			<dd>&#10551; Defines a label for the option, which will be displayed <em>instead</em> of the included text.</dd>
+			<dd>Defines a label for the option, which will be displayed <em>instead</em> of the included text.</dd>
 			<dt><code>selected</code></dt>
-			<dd>&#10551; Specifies that the option should be pre-selected when the page loads. Note: this does nothing in an <code>&lt;input&gt;</code> element.</dd>
+			<dd>Specifies that the option should be pre-selected when the page loads. Note: this does nothing in an <code>&lt;input&gt;</code> element.</dd>
 			<dt><code>value</code></dt>
-			<dd>&#10551; Defines a text string associated with the option, which is what actually gets submitted with the form data.</dd>
+			<dd>Defines a text string associated with the option, which is what actually gets submitted with the form data.</dd>
 		</dl>
 	</section>
 </main>

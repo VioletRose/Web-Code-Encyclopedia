@@ -41,9 +41,9 @@
 		<h4>Child tags of <code>&lt;ruby&gt;</code></h4>
 		<dl>
 			<dt><code>&lt;rp&gt;</code></dt>
-			<dd>&#10551; This tag is meant to contain a single opening or closing parenthesis, one placed before and one after each <code>&lt;rt&gt;</code> tag. They will only be displayed if the user's browser does not support the <code>&lt;ruby&gt;</code> tag.</dd>
+			<dd>This tag is meant to contain a single opening or closing parenthesis, one placed before and one after each <code>&lt;rt&gt;</code> tag. They will only be displayed if the user's browser does not support the <code>&lt;ruby&gt;</code> tag.</dd>
 			<dt><code>&lt;rt&gt;</code></dt>
-			<dd>&#10551; This tag contains an annotation for the <code>&lt;ruby&gt;</code> tag, and displays the included text above a preceding character in a 50% sized font.</dd>
+			<dd>This tag contains an annotation for the <code>&lt;ruby&gt;</code> tag, and displays the included text above a preceding character in a 50% sized font.</dd>
 		</dl>
 	</section>
 </main>	

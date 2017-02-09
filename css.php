@@ -45,40 +45,40 @@
 			<summary>Absolute measurements:</summary>
 			<dl>
 				<dt><code>cm</code></dt>
-				<dd>&#10551; Each unit is one centimeter.</dd>
+				<dd>Each unit is one centimeter.</dd>
 				<dt><code>mm</code></dt>
-				<dd>&#10551; Each unit is one millimeter (1/10th of a centimeter).</dd>
+				<dd>Each unit is one millimeter (1/10th of a centimeter).</dd>
 				<dt><code>in</code></dt>
-				<dd>&#10551; Each unit is one inch (2.54 centimeters).</dd>
+				<dd>Each unit is one inch (2.54 centimeters).</dd>
 				<dt><code>px</code></dt>
-				<dd>&#10551; Each unit is one pixel (1/96th of an inch).</dd>
+				<dd>Each unit is one pixel (1/96th of an inch).</dd>
 				<dt><code>pt</code></dt>
-				<dd>&#10551; Each unit is one point (1/72th of an inch). The most common measurement of font size.</dd>
+				<dd>Each unit is one point (1/72th of an inch). The most common measurement of font size.</dd>
 				<dt><code>pc</code></dt>
-				<dd>&#10551; Each unit is one pica (12 points).</dd>
+				<dd>Each unit is one pica (12 points).</dd>
 			</dl>
 		</details>
 		<details>
 			<summary>Relative measurements:</summary>
 			<dl>
 				<dt><code>em</code></dt>
-				<dd>&#10551; Each unit is 100% of the size of the element's current font.</dd>
+				<dd>Each unit is 100% of the size of the element's current font.</dd>
 				<dt><code>ex</code></dt>
-				<dd>&#10551; Each unit is approximately 2% of the current font's x-height.</dd> <!--This needs verification and may be incorrect.-->
+				<dd>Each unit is approximately 2% of the current font's x-height.</dd> <!--This needs verification and may be incorrect.-->
 				<dt><code>ch</code></dt>
-				<dd>&#10551; Each unit is approximately 1% of the width of the current font's 0 character.</dd> <!--This needs verification and may be incorrect.-->
+				<dd>Each unit is approximately 1% of the width of the current font's 0 character.</dd> <!--This needs verification and may be incorrect.-->
 				<dt><code>rem</code></dt>
-				<dd>&#10551; Each unit is 100% of the size of the <code>&lt;body&gt;</code> element's current font.</dd>
+				<dd>Each unit is 100% of the size of the <code>&lt;body&gt;</code> element's current font.</dd>
 				<dt><code>vw</code></dt>
-				<dd>&#10551; Each unit is 1% of the width of the viewport, which is the browser window.</dd>
+				<dd>Each unit is 1% of the width of the viewport, which is the browser window.</dd>
 				<dt><code>vh</code></dt>
-				<dd>&#10551; Each unit is 1% of the height of the viewport, which is the browser window.</dd>
+				<dd>Each unit is 1% of the height of the viewport, which is the browser window.</dd>
 				<dt><code>vmin</code></dt>
-				<dd>&#10551; Each unit is 1% of the height or width of the viewport, whichever is smaller.</dd>
+				<dd>Each unit is 1% of the height or width of the viewport, whichever is smaller.</dd>
 				<dt><code>vmax</code></dt>
-				<dd>&#10551; Each unit is 1% of the height or width of the viewport, whichever is larger.</dd>
+				<dd>Each unit is 1% of the height or width of the viewport, whichever is larger.</dd>
 				<dt><code>%</code></dt>
-				<dd>&#10551; A percentage of the parent element's size, from 0% to 100%. Under most circumstances, if this is being used as a measurement of distance, distance is from the top left corner of the element. Note that <code>&lt;body&gt;</code> is always the parent element if nothing else is.</dd>
+				<dd>A percentage of the parent element's size, from 0% to 100%. Under most circumstances, if this is being used as a measurement of distance, distance is from the top left corner of the element. Note that <code>&lt;body&gt;</code> is always the parent element if nothing else is.</dd>
 			</dl>
 		</details>
 	</section>

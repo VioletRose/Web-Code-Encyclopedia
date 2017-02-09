@@ -70,13 +70,13 @@
 		<h4>Sub-properties of <code>padding</code>:</h4>
 		<dl>
 			<dt><code>padding-top</code></dt>
-			<dd>&#10551; Defines the size of the top padding.</dd>
+			<dd>Defines the size of the top padding.</dd>
 			<dt><code>padding-right</code></dt>
-			<dd>&#10551; Defines the size of the right padding.</dd>
+			<dd>Defines the size of the right padding.</dd>
 			<dt><code>padding-bottom</code></dt>
-			<dd>&#10551; Defines the size of the bottom padding.</dd>
+			<dd>Defines the size of the bottom padding.</dd>
 			<dt><code>padding-left</code></dt>
-			<dd>&#10551; Defines the size of the left padding.</dd>
+			<dd>Defines the size of the left padding.</dd>
 		</dl>
 	</section>
 	<section>
@@ -89,31 +89,31 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>top</var></code></dt>
-						<dd>&#10551; Required. The value of <code>padding-top</code>.</dd>
+						<dd>Required. The value of <code>padding-top</code>.</dd>
 						<dt><code><var>right</var></code></dt>
-						<dd>&#10551; Optional. The value of <code>padding-right</code>.</dd>
+						<dd>Optional. The value of <code>padding-right</code>.</dd>
 						<dt><code><var>bottom</var></code></dt>
-						<dd>&#10551; Optional. The value of <code>padding-bottom</code>.</dd>
+						<dd>Optional. The value of <code>padding-bottom</code>.</dd>
 						<dt><code><var>left</var></code></dt>
-						<dd>&#10551; Optional. The value of <code>padding-left</code>.</dd>
+						<dd>Optional. The value of <code>padding-left</code>.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Accepted values of <code>padding-top</code>, <code>padding-right</code>, <code>padding-bottom</code>, and <code>padding-left</code>:</h4>
 		<dl>
 			<dt><code><var>padding</var></code></dt>
-			<dd>&#10551; Numeric variable, in measurements or percentages of the element's width. The size of the element's padding.</dd>
+			<dd>Numeric variable, in measurements or percentages of the element's width. The size of the element's padding.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

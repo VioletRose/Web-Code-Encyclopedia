@@ -56,13 +56,13 @@
 		<h4>Sub-properties of <code>border-radius</code>:</h4>
 		<dl>
 			<dt><code>border-top-left-radius</code></dt>
-			<dd>&#10551; Defines a rounded top left corner of the border.</dd>
+			<dd>Defines a rounded top left corner of the border.</dd>
 			<dt><code>border-top-right-radius</code></dt>
-			<dd>&#10551; Defines a rounded top right corner of the border.</dd>
+			<dd>Defines a rounded top right corner of the border.</dd>
 			<dt><code>border-bottom-right-radius</code></dt>
-			<dd>&#10551; Defines a rounded bottom right corner of the border.</dd>
+			<dd>Defines a rounded bottom right corner of the border.</dd>
 			<dt><code>border-bottom-left-radius</code></dt>
-			<dd>&#10551; Defines a rounded bottom left corner of the border.</dd>
+			<dd>Defines a rounded bottom left corner of the border.</dd>
 		</dl>
 	</section>
 	<section>
@@ -75,20 +75,20 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>top-left-radius</var></code></dt>
-						<dd>&#10551; Required, numeric variable, in measurements or percentages (cannot exceed 50%), defaults to 0. The rounding of the border's top left corner.</dd>
+						<dd>Required, numeric variable, in measurements or percentages (cannot exceed 50%), defaults to 0. The rounding of the border's top left corner.</dd>
 						<dt><code><var>top-right-radius</var></code></dt>
-						<dd>&#10551; Optional, numeric variable, in measurements or percentages (cannot exceed 50%), defaults to the value of <code>top-left-radius</code>. The rounding of the border's top right corner.</dd>
+						<dd>Optional, numeric variable, in measurements or percentages (cannot exceed 50%), defaults to the value of <code>top-left-radius</code>. The rounding of the border's top right corner.</dd>
 						<dt><code><var>bottom-right-radius</var></code></dt>
-						<dd>&#10551; Optional, numeric variable, in measurements or percentages (cannot exceed 50%), defaults to the value of <code>top-left-radius</code>. The rounding of the border's bottom right corner.</dd>
+						<dd>Optional, numeric variable, in measurements or percentages (cannot exceed 50%), defaults to the value of <code>top-left-radius</code>. The rounding of the border's bottom right corner.</dd>
 						<dt><code><var>bottom-left-radious</var></code></dt>
-						<dd>&#10551; Optional, numeric variable, in measurements or percentages (cannot exceed 50%), defaults to the value of <code>top-right-radius</code>. The rounding of the border's bottom left corner.</dd>					
+						<dd>Optional, numeric variable, in measurements or percentages (cannot exceed 50%), defaults to the value of <code>top-right-radius</code>. The rounding of the border's bottom left corner.</dd>					
 					</dl>
 				</details>
 			</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

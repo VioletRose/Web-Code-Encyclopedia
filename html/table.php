@@ -138,33 +138,33 @@
 		<h4>Child tags of <code>&lt;table&gt;</code></h4>
 		<dl>
 			<dt><code>&lt;caption&gt;</code></dt>
-			<dd>&#10551; Defines the included text as a caption for the table, which will be displayed above it. Should be placed first within the <code>&lt;table&gt;</code> element if used.</dd>
+			<dd>Defines the included text as a caption for the table, which will be displayed above it. Should be placed first within the <code>&lt;table&gt;</code> element if used.</dd>
 			<dt><code>&lt;colgroup&gt;</code></dt>
-			<dd>&#10551; Defines columns within the table, allowing styling to be done by column rather than by row or by cell. May be used by itself or as a container for multiple <code>&lt;col&gt;</code> elements. Should be placed second within the <code>&lt;table&gt;</code> element. Note that specifically for this element and <code>&lt;col&gt;</code>, the global attribute <code>style</code> only has four uses enabled, <code>background-color</code>, <code>border</code>, <code>width</code>, and <code>visibility</code>.</dd>
+			<dd>Defines columns within the table, allowing styling to be done by column rather than by row or by cell. May be used by itself or as a container for multiple <code>&lt;col&gt;</code> elements. Should be placed second within the <code>&lt;table&gt;</code> element. Note that specifically for this element and <code>&lt;col&gt;</code>, the global attribute <code>style</code> only has four uses enabled, <code>background-color</code>, <code>border</code>, <code>width</code>, and <code>visibility</code>.</dd>
 			<dt><code>&lt;tbody&gt;</code></dt>
-			<dd>&#10551; Defines the contained elements as the main body of the table. Should be placed fifth within the <code>&lt;table&gt;</code> element if used.</dd>
+			<dd>Defines the contained elements as the main body of the table. Should be placed fifth within the <code>&lt;table&gt;</code> element if used.</dd>
 			<dt><code>&lt;tfoot&gt;</code></dt>
-			<dd>&#10551; Defines the contained elements as a footer for the table, such as sums of the columns. Should be placed fourth within the <code>&lt;table&gt;</code> element if used.</dd>
+			<dd>Defines the contained elements as a footer for the table, such as sums of the columns. Should be placed fourth within the <code>&lt;table&gt;</code> element if used.</dd>
 			<dt><code>&lt;thead&gt;</code></dt>
-			<dd>&#10551; Defines the contained elements as a header for the table, such as names of the columns. Should be placed third within the <code>&lt;table&gt;</code> element if used.</dd>
+			<dd>Defines the contained elements as a header for the table, such as names of the columns. Should be placed third within the <code>&lt;table&gt;</code> element if used.</dd>
 			<dt><code>&lt;tr&gt;</code></dt>
-			<dd>&#10551; Defines the contained elements as a row within the table. Can be placed directly in the table, or within <code>&lt;thead&gt;</code>, <code>&lt;tfoot&gt;</code>, or <code>&lt;tbody&gt;</code> elements.</dd>
+			<dd>Defines the contained elements as a row within the table. Can be placed directly in the table, or within <code>&lt;thead&gt;</code>, <code>&lt;tfoot&gt;</code>, or <code>&lt;tbody&gt;</code> elements.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Child tags of <code>&lt;colgroup&gt;</code></h4>
 		<dl>
 			<dt><code>&lt;col&gt;</code></dt>
-			<dd>&#10551; Defines a subgroup of columns within a <code>&lt;colgroup&gt;</code> element, which can be a single column or multiple at a time. Note that specifically for this element and <code>&lt;colgroup&gt;</code>, the global attribute <code>style</code> only has four uses enabled, <code>background-color</code>, <code>border</code>, <code>width</code>, and <code>visibility</code>.</dd>
+			<dd>Defines a subgroup of columns within a <code>&lt;colgroup&gt;</code> element, which can be a single column or multiple at a time. Note that specifically for this element and <code>&lt;colgroup&gt;</code>, the global attribute <code>style</code> only has four uses enabled, <code>background-color</code>, <code>border</code>, <code>width</code>, and <code>visibility</code>.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Child tags of <code>&lt;tr&gt;</code></h4>
 		<dl>
 			<dt><code>&lt;td&gt;</code></dt>
-			<dd>&#10551; Defines a cell within the table row.</dd>
+			<dd>Defines a cell within the table row.</dd>
 			<dt><code>&lt;th&gt;</code></dt>
-			<dd>&#10551; Defines a header cell within the table row. The included text will be bolded and centered.</dd>
+			<dd>Defines a header cell within the table row. The included text will be bolded and centered.</dd>
 		</dl>
 	</section>
 	</section>
@@ -172,45 +172,45 @@
 		<h4>Attributes of <code>&lt;table&gt;</code></h4>
 		<dl>
 			<dt><code>border</code></dt>
-			<dd>&#10551; If set to <code>0</code>, the table and its contents will be borderless. If set to <code>1</code>, they will be bordered, which is the default.</dd>
+			<dd>If set to <code>0</code>, the table and its contents will be borderless. If set to <code>1</code>, they will be bordered, which is the default.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;colgroup&gt;</code></h4>
 		<dl>
 			<dt><code>span</code></dt>
-			<dd>&#10551; Defines how many table columns this element's style rules will apply to.</dd>
+			<dd>Defines how many table columns this element's style rules will apply to.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;col&gt;</code></h4>
 		<dl>
 			<dt><code>span</code></dt>
-			<dd>&#10551; Defines how many table columns this element's style rules will apply to.</dd>
+			<dd>Defines how many table columns this element's style rules will apply to.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;td&gt;</code></h4>
 		<dl>
 			<dt><code>colspan</code></dt>
-			<dd>&#10551; Defines how many table columns this cell should span.</dd>
+			<dd>Defines how many table columns this cell should span.</dd>
 			<dt><code>headers</code></dt>
-			<dd>&#10551; Specifies the id of a <code>&lt;th&gt;</code> element this cell is related to. This attribute can accept multiple ids, separated by spaces.</dd>
+			<dd>Specifies the id of a <code>&lt;th&gt;</code> element this cell is related to. This attribute can accept multiple ids, separated by spaces.</dd>
 			<dt><code>rowspan</code></dt>
-			<dd>&#10551; Defines how many table rows this cell should span.</dd>
+			<dd>Defines how many table rows this cell should span.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>Attributes of <code>&lt;th&gt;</code></h4>
 		<dl>
 			<dt><code>abbr</code></dt>
-			<dd>&#10551; Defines an abbreviation version of the cell's content.</dd>
+			<dd>Defines an abbreviation version of the cell's content.</dd>
 			<dt><code>colspan</code></dt>
-			<dd>&#10551; Defines how many table columns this cell should span.</dd>
+			<dd>Defines how many table columns this cell should span.</dd>
 			<dt><code>headers</code></dt>
-			<dd>&#10551; Specifies the id of a <code>&lt;th&gt;</code> element this cell is related to. This attribute can accept multiple ids, separated by spaces.</dd>
+			<dd>Specifies the id of a <code>&lt;th&gt;</code> element this cell is related to. This attribute can accept multiple ids, separated by spaces.</dd>
 			<dt><code>rowspan</code></dt>
-			<dd>&#10551; Defines how many table columns this cell should span.</dd>
+			<dd>Defines how many table columns this cell should span.</dd>
 			<dt><code>scope</code></dt>
 			<dd>
 				&#10551; Defines what this cell is a header for.
@@ -218,13 +218,13 @@
 					<summary>Accepted values:</summary>
 						<dl>
 						<dt><code>col</code></dt>
-						<dd>&#10551; A column.</dd>
+						<dd>A column.</dd>
 						<dt><code>colgroup</code></dt>
-						<dd>&#10551; A group of columns.</dd>
+						<dd>A group of columns.</dd>
 						<dt><code>row</code></dt>
-						<dd>&#10551; A row.</dd>
+						<dd>A row.</dd>
 						<dt><code>rowgroup</code></dt>
-						<dd>&#10551; A group of rows.</dd>
+						<dd>A group of rows.</dd>
 				</details>
 			</dd>
 		</dl>

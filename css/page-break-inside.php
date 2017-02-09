@@ -55,13 +55,13 @@
 		<h4>Accepted values of <code>page-break-inside</code>:</h4>
 		<dl>
 			<dt><code>auto</code></dt>
-			<dd>&#10551; The default value. Page breaking will be determined automatically.</dd>
+			<dd>The default value. Page breaking will be determined automatically.</dd>
 			<dt><code>avoid</code></dt>
-			<dd>&#10551; If possible, page breaking will be avoided within this element.</dd>
+			<dd>If possible, page breaking will be avoided within this element.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

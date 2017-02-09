@@ -85,13 +85,13 @@
 		<h4>Accepted values of <code>font-size-adjust</code>:</h4>
 		<dl>
 			<dt><code><var>ratio</var></code></dt>
-			<dd>&#10551; Numeric variable, in numbers representing an aspect ratio (for fonts, the difference between uppercase and lowercase X). The common font Arial is equal to <code>0.52</code>.</dd>
+			<dd>Numeric variable, in numbers representing an aspect ratio (for fonts, the difference between uppercase and lowercase X). The common font Arial is equal to <code>0.52</code>.</dd>
 			<dt><code>none</code></dt>
-			<dd>&#10551; The default value. No font size adjustment will take place.</dd>
+			<dd>The default value. No font size adjustment will take place.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

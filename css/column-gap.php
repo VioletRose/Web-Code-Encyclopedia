@@ -49,13 +49,13 @@
 		<h4>Accepted values of <code>column-gap</code>:</h4>
 		<dl>
 			<dt><code><var>gap</var></code></dt>
-			<dd>&#10551; Numeric variable, in measurements. The amount of space between text columns.</dd>
+			<dd>Numeric variable, in measurements. The amount of space between text columns.</dd>
 			<dt><code>normal</code></dt>
-			<dd>&#10551; The default value. Columns will have a normal amount of space between them as determined by the browser, usually around 1em.</dd>
+			<dd>The default value. Columns will have a normal amount of space between them as determined by the browser, usually around 1em.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

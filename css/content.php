@@ -48,9 +48,9 @@
 		<h4>Accepted values of <code>content</code>:</h4>
 		<dl>
 			<dt><code>normal</code></dt>
-			<dd>&#10551; Exclusive value; the default value. Sets the added content to the default value, which is nothing.</dd>
+			<dd>Exclusive value; the default value. Sets the added content to the default value, which is nothing.</dd>
 			<dt><code>none</code></dt>
-			<dd>&#10551; Exclusive value. No content will be added.</dd>
+			<dd>Exclusive value. No content will be added.</dd>
 			<dt><code>counter(<var>Counter</var>)</code></dt>
 			<dd>
 				&#10551; Additive value. The value of a specified CSS counter will be added. Since CSS counters increment as the document is rendered, the value will depend on where the content is placed.
@@ -58,7 +58,7 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>counter</var></code></dt>
-						<dd>&#10551; The id of a CSS counter defined by <code><a href="/css/counter-increment.php">counter-increment</a></code> or <code><a href="/css/counter-reset.php">counter-reset</a></code>.</dd>
+						<dd>The id of a CSS counter defined by <code><a href="/css/counter-increment.php">counter-increment</a></code> or <code><a href="/css/counter-reset.php">counter-reset</a></code>.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -69,20 +69,20 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>attribute</var></code></dt>
-						<dd>&#10551; A specific HTML attribute of the selected element.</dd>
+						<dd>A specific HTML attribute of the selected element.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code><var>text</var></code></dt>
-			<dd>&#10551; Additive value. Text variable. The string to be added.</dd>
+			<dd>Additive value. Text variable. The string to be added.</dd>
 			<dt><code>open-quote</code></dt>
-			<dd>&#10551; Additive value. An opening quotation mark will be added. Note that due to widespread use of the " character for both opening and closing quotes, web browsers typically just insert a generic quotation mark instead of a specific type.</dd>
+			<dd>Additive value. An opening quotation mark will be added. Note that due to widespread use of the " character for both opening and closing quotes, web browsers typically just insert a generic quotation mark instead of a specific type.</dd>
 			<dt><code>close-quote</code></dt>
-			<dd>&#10551; Additive value. A closing quotation mark will be added. Has no effect without <code>open-quote</code> being used first.</dd>
+			<dd>Additive value. A closing quotation mark will be added. Has no effect without <code>open-quote</code> being used first.</dd>
 			<dt><code>no-open-quote</code></dt>
-			<dd>&#10551; Additive value. No opening quotation mark will be added.</dd>
+			<dd>Additive value. No opening quotation mark will be added.</dd>
 			<dt><code>no-close-quote</code></dt>
-			<dd>&#10551; Additive value. No closing quotation mark will be added.</dd>
+			<dd>Additive value. No closing quotation mark will be added.</dd>
 			<dt><code>url(<var>URL</var>)</code></dt>
 			<dd>
 				&#10551; Additive value. The content of the URL will be inserted, if it is an image or media file the browser recognizes.
@@ -90,14 +90,14 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>URL</var></code></dt>
-						<dd>&#10551; URL variable. The address of the content to be added.</dd>
+						<dd>URL variable. The address of the content to be added.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

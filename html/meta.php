@@ -24,9 +24,9 @@
 		<h4>Attributes</h4>
 		<dl>
 			<dt><code>charset</code></dt>
-			<dd>&#10551; Defines the text encoding for the page.</dd>
+			<dd>Defines the text encoding for the page.</dd>
 			<dt><code>content</code></dt>
-			<dd>&#10551; When placed in the same <code>&lt;meta&gt;</code> element as <code>content</code> or <code>http-equiv</code>, the text string entered as its value will be associated with them. Note: if this is a list of keywords, each one should be separated by a single comma and no spaces, such as <code>"<var>word one</var>,<var>word two</var>"</code>.</dd>
+			<dd>When placed in the same <code>&lt;meta&gt;</code> element as <code>content</code> or <code>http-equiv</code>, the text string entered as its value will be associated with them. Note: if this is a list of keywords, each one should be separated by a single comma and no spaces, such as <code>"<var>word one</var>,<var>word two</var>"</code>.</dd>
 			<dt><code>http-equiv</code></dt>
 			<dd>
 				&#10551; This attribute interacts with <code>content</code> by defining its purpose.
@@ -34,11 +34,11 @@
 					<summary>Accepted values:</summary>
 					<dl>
 						<dt><code>content-type</code></dt>
-						<dd>&#10551; Specifies that the value of <code>content</code> is the text encoding to be used on the page. This no longer has any use case, since <code>charset</code> is more ideal for the same purpose.</dd>
+						<dd>Specifies that the value of <code>content</code> is the text encoding to be used on the page. This no longer has any use case, since <code>charset</code> is more ideal for the same purpose.</dd>
 						<dt><code>default-style</code></dt>
-						<dd>&#10551; Specifies that the value of <code>content</code> is the URL of a .css stylesheet containing style rules to be used on the current page. This no longer has any use case, since the <code>&lt;link&gt;</code> element is more ideal for the same purpose.</dd>
+						<dd>Specifies that the value of <code>content</code> is the URL of a .css stylesheet containing style rules to be used on the current page. This no longer has any use case, since the <code>&lt;link&gt;</code> element is more ideal for the same purpose.</dd>
 						<dt><code>refresh</code></dt>
-						<dd>&#10551; Specifies that the value of <code>content</code> is the interval in seconds at which the page should automatically refresh. Note that great care should be taken with this functionality, as taking control away from the user in this fashion is ill-advised in the majority of possible circumstances.</dd>
+						<dd>Specifies that the value of <code>content</code> is the interval in seconds at which the page should automatically refresh. Note that great care should be taken with this functionality, as taking control away from the user in this fashion is ill-advised in the majority of possible circumstances.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -49,15 +49,15 @@
 					<summary>Accepted values:</summary>
 					<dl>
 						<dt><code>application-name</code></dt>
-						<dd>&#10551; Specifies that the value of <code>content</code> is the name of the Web application that the page is representing.</dd>
+						<dd>Specifies that the value of <code>content</code> is the name of the Web application that the page is representing.</dd>
 						<dt><code>author</code></dt>
-						<dd>&#10551; Specifies that the value of <code>content</code> is the name of the page's author.</dd>
+						<dd>Specifies that the value of <code>content</code> is the name of the page's author.</dd>
 						<dt><code>description</code></dt>
-						<dd>&#10551; Specifies that the value of <code>content</code> is a description of the page.</dd>
+						<dd>Specifies that the value of <code>content</code> is a description of the page.</dd>
 						<dt><code>generator</code></dt>
-						<dd>&#10551; Specifies that the value of <code>content</code> is the name of one of the software packages used to generate the page, if it was not written by hand.</dd>
+						<dd>Specifies that the value of <code>content</code> is the name of one of the software packages used to generate the page, if it was not written by hand.</dd>
 						<dt><code>keywords</code></dt>
-						<dd>&#10551; Specifies that the value of <code>content</code> is a list of keywords related to the page.<dd>
+						<dd>Specifies that the value of <code>content</code> is a list of keywords related to the page.<dd>
 					</dl>
 				</details>
 			</dd>

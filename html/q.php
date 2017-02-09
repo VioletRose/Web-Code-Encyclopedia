@@ -24,7 +24,7 @@
 		<h4>Attributes</h4>
 		<dl>
 			<dt><code>cite</code></dt>
-			<dd>&#10551; Specifies the URL that the quote is cited from.
+			<dd>Specifies the URL that the quote is cited from.
 	</section>
 </main>	
 <?php

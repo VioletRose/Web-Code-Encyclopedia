@@ -121,11 +121,11 @@
 		<h4>Accepted values of <code>order</code>:</h4>
 		<dl>
 			<dt><code><var>order</var></code></dt>
-			<dd>&#10551; Numeric value, in numbers; defaults to <code>0</code>. Defines the element's place within the flex container, overriding the normal order which is governed by which appears first in the HTML document.</dd>
+			<dd>Numeric value, in numbers; defaults to <code>0</code>. Defines the element's place within the flex container, overriding the normal order which is governed by which appears first in the HTML document.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

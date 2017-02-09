@@ -94,16 +94,16 @@
 					<summary>Variables:</summary>
 					<dl>
 						<dt><code><var>x-origin</var></code></dt>
-						<dd>&#10551; Required numeric/string variable, in measurements, percentages from <code>0%</code> to <code>100%</code>, or <code>left</code>, <code>center</code>, or <code>right</code>, equivalent to <code>0%</code>, <code>50%</code>, and <code>100%</code> respectively; defaults to <code>50%</code>. The horizontal position of the perspective.</dd>
+						<dd>Required numeric/string variable, in measurements, percentages from <code>0%</code> to <code>100%</code>, or <code>left</code>, <code>center</code>, or <code>right</code>, equivalent to <code>0%</code>, <code>50%</code>, and <code>100%</code> respectively; defaults to <code>50%</code>. The horizontal position of the perspective.</dd>
 						<dt><code><var>y-origin</var></code></dt>
-						<dd>&#10551; Required numeric/string variable, in measurements, percentages from <code>0%</code> to <code>100%</code>, or <code>top</code>, <code>center</code>, or <code>bottom</code>, equivalent to <code>0%</code>, <code>50%</code>, and <code>100%</code> respectively; defaults to <code>50%</code>. The vertical position of the perspective.</dd>
+						<dd>Required numeric/string variable, in measurements, percentages from <code>0%</code> to <code>100%</code>, or <code>top</code>, <code>center</code>, or <code>bottom</code>, equivalent to <code>0%</code>, <code>50%</code>, and <code>100%</code> respectively; defaults to <code>50%</code>. The vertical position of the perspective.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>

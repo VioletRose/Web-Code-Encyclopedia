@@ -90,37 +90,37 @@
 		<h4>Accepted values of <code>background-blend-mode</code>:</h4>
 		<dl>
 			<dt><code>normal</code></dt>
-			<dd>&#10551; The default value. No blending will be applied.</dd>
+			<dd>The default value. No blending will be applied.</dd>
 			<dt><code>multiply</code></dt>
-			<dd>&#10551; Each pixel's color value will be multiplied by the color value of the next layer, usually resulting in a darker color. Multiplying by black results in black, and multiplying by white makes no change.</dd>
+			<dd>Each pixel's color value will be multiplied by the color value of the next layer, usually resulting in a darker color. Multiplying by black results in black, and multiplying by white makes no change.</dd>
 			<dt><code>screen</code></dt>
-			<dd>&#10551; The inverse of multiply, lightening rather than darkening.</dd>
+			<dd>The inverse of multiply, lightening rather than darkening.</dd>
 			<dt><code>overlay</code></dt>
-			<dd>&#10551; A more complex mode that attempts a more accurate result. Light colors get lighter, dark colors get darker.</dd>
+			<dd>A more complex mode that attempts a more accurate result. Light colors get lighter, dark colors get darker.</dd>
 			<dt><code>darken</code></dt>
-			<dd>&#10551; Compares layers and always displays the darker pixels.</dd>
+			<dd>Compares layers and always displays the darker pixels.</dd>
 			<dt><code>lighten</code></dt>
-			<dd>&#10551; Compares layers and always displays the lighter pixels.</dd>
+			<dd>Compares layers and always displays the lighter pixels.</dd>
 			<dt><code>color-dodge</code></dt>
-			<dd>&#10551; Brightens the base color, reducing contrast.</dd>
+			<dd>Brightens the base color, reducing contrast.</dd>
 			<dt><code>color-burn</code></dt>
-			<dd>&#10551; Darkens the base color, increasing contrast.</dd>
+			<dd>Darkens the base color, increasing contrast.</dd>
 			<dt><code>hard-light</code></dt>
-			<dd>&#10551; Multiplies or screens colors depending on the blend color. A lighter blend results in a lighter image, darker results in darker.</dd>
+			<dd>Multiplies or screens colors depending on the blend color. A lighter blend results in a lighter image, darker results in darker.</dd>
 			<dt><code>soft-light</code></dt>
-			<dd>&#10551; Dodges and burns rather than multiplying and screening, resulting in a closer blend rather than greater extremes.</dd>
+			<dd>Dodges and burns rather than multiplying and screening, resulting in a closer blend rather than greater extremes.</dd>
 			<dt><code>difference</code></dt>
-			<dd>&#10551; Compares layers and subtracts the color with the greater brightness from the other.</dd>
+			<dd>Compares layers and subtracts the color with the greater brightness from the other.</dd>
 			<dt><code>exclusion</code></dt>
-			<dd>&#10551; Similar to <code>difference</code>, but produces less contrast overall.</dd>
+			<dd>Similar to <code>difference</code>, but produces less contrast overall.</dd>
 			<dt><code>hue</code></dt>
-			<dd>&#10551; Merges the hue of the blend color with the luminosity and saturation of the base color.</dd>
+			<dd>Merges the hue of the blend color with the luminosity and saturation of the base color.</dd>
 			<dt><code>saturation</code></dt>
-			<dd>&#10551; Merges the saturation of the blend color with the hue and luminosity of the base color.</dd>
+			<dd>Merges the saturation of the blend color with the hue and luminosity of the base color.</dd>
 			<dt><code>color</code></dt>
-			<dd>&#10551; Merges the hue and saturation of the blend color with the luminosity of the base color.</dd>
+			<dd>Merges the hue and saturation of the blend color with the luminosity of the base color.</dd>
 			<dt><code>luminosity</code></dt>
-			<dd>&#10551; Merges the luminosity of the blend color with the hue and saturation of the base color.</dd>
+			<dd>Merges the luminosity of the blend color with the hue and saturation of the base color.</dd>
 		</dl>
 	</section>
 </main>

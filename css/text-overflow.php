@@ -52,13 +52,13 @@
 		<h4>Accepted values of <code>text-overflow</code>:</h4>
 		<dl>
 			<dt><code>clip</code></dt>
-			<dd>&#10551; The default value. Text that overflows its container will simply be clipped with no indication that this was done.</dd>
+			<dd>The default value. Text that overflows its container will simply be clipped with no indication that this was done.</dd>
 			<dt><code>ellipsis</code></dt>
 			<dd>&#10551 Renders an ellipsis (&#8230;) to indicate that text beyond a given point was hidden.</dd>
 			<dt><code>initial</code></dt>
-			<dd>&#10551; Sets this property to its initial, unmodified value.</dd>
+			<dd>Sets this property to its initial, unmodified value.</dd>
 			<dt><code>inherit</code></dt>
-			<dd>&#10551; Sets this property to the value assigned to its parent element.</dd>
+			<dd>Sets this property to the value assigned to its parent element.</dd>
 		</dl>
 	</section>
 </main>
