@@ -83,11 +83,11 @@
 					<summary>Arguments:</summary>
 					<dl>
 						<dt><code><var>duration</var></code></dt>
-						<dd>Optional; the amount of time it takes the fading to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
+						<dd>Optional; the amount of time it takes the transition to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
 						<dt><code><var>easing</var></code></dt>
-						<dd>Optional; The speed curve of the fading. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the fading occurs at the same speed throughout its duration.</dd>
+						<dd>Optional; The speed curve of the transition. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the transition proceeds at the same speed throughout its duration.</dd>
 						<dt><code><var>callback</var></code></dt>
-						<dd>Optional; a callback function to be executed after the fading has fully completed.</dd>
+						<dd>Optional; a callback function to be executed after the transition has fully completed.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -98,11 +98,11 @@
 					<summary>Arguments:</summary>
 					<dl>
 						<dt><code><var>duration</var></code></dt>
-						<dd>Optional; the amount of time it takes the fading to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
+						<dd>Optional; the amount of time it takes the transition to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
 						<dt><code><var>easing</var></code></dt>
-						<dd>Optional; The speed curve of the fading. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the fading occurs at the same speed throughout its duration.</dd>
+						<dd>Optional; The speed curve of the transition. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the transition proceeds at the same speed throughout its duration.</dd>
 						<dt><code><var>callback</var></code></dt>
-						<dd>Optional; a callback function to be executed after the fading has fully completed.</dd>
+						<dd>Optional; a callback function to be executed after the transition has fully completed.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -113,13 +113,13 @@
 					<summary>Arguments:</summary>
 					<dl>
 						<dt><code><var>duration</var></code></dt>
-						<dd>Required; the amount of time it takes the fading to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
+						<dd>Required; the amount of time it takes the transition to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
 						<dt><code><var>opacity</var></code></dt>
 						<dd>Required; the opacity level to be faded to. Must be a numeric value between <code>0.00</code> and <code>1.00</code>.
 						<dt><code><var>easing</var></code></dt>
-						<dd>Optional; The speed curve of the fading. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the fading occurs at the same speed throughout its duration.</dd>
+						<dd>Optional; The speed curve of the transition. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the transition proceeds at the same speed throughout its duration.</dd>
 						<dt><code><var>callback</var></code></dt>
-						<dd>Optional; a callback function to be executed after the fading has fully completed.</dd>
+						<dd>Optional; a callback function to be executed after the transition has fully completed.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -130,11 +130,11 @@
 					<summary>Arguments:</summary>
 					<dl>
 						<dt><code><var>duration</var></code></dt>
-						<dd>Optional; the amount of time it takes the fading to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
+						<dd>Optional; the amount of time it takes the transition to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
 						<dt><code><var>easing</var></code></dt>
-						<dd>Optional; The speed curve of the fading. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the fading occurs at the same speed throughout its duration.</dd>
+						<dd>Optional; The speed curve of the transition. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the transition proceeds at the same speed throughout its duration.</dd>
 						<dt><code><var>callback</var></code></dt>
-						<dd>Optional; a callback function to be executed after the fading has fully completed.</dd>
+						<dd>Optional; a callback function to be executed after the transition has fully completed.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -147,28 +147,94 @@
 					<summary>Arguments:</summary>
 					<dl>
 						<dt><code><var>duration</var></code></dt>
-						<dd>Optional; the amount of time it takes the hiding to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
+						<dd>Optional; the amount of time it takes the transition to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
 						<dt><code><var>easing</var></code></dt>
-						<dd>Optional; The speed curve of the hiding. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the hiding occurs at the same speed throughout its duration.</dd>
+						<dd>Optional; The speed curve of the transition. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the transition proceeds at the same speed throughout its duration.</dd>
 						<dt><code><var>callback</var></code></dt>
-						<dd>Optional; a callback function to be executed after the hiding has fully completed.</dd>
+						<dd>Optional; a callback function to be executed after the transition has fully completed.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>queue()</code></dt>
 			<dd>Can accept a queue name in its argument, and returns the current queue for the statement's selected element(s) as an array containing each remaining queue item as an entry. If no queue name is provided, it defaults to <code>"fx"</code>.</dd>
 			<dt><code>show()</code></dt>
-			<dd></dd>
+			<dd>
+				Can accept up to three arguments, and if any of the statement's selected element(s) are currently hidden, visibly transitions them from 0% to 100% opacity and 0 to normal height. This is effectively a combination of the <code>fadeIn()</code> and <code>slideDown()</code> methods.
+				<details>
+					<summary>Arguments:</summary>
+					<dl>
+						<dt><code><var>duration</var></code></dt>
+						<dd>Optional; the amount of time it takes the transition to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
+						<dt><code><var>easing</var></code></dt>
+						<dd>Optional; The speed curve of the transition. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the transition proceeds at the same speed throughout its duration.</dd>
+						<dt><code><var>callback</var></code></dt>
+						<dd>Optional; a callback function to be executed after the transition has fully completed.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>slideDown()</code></dt>
-			<dd></dd>
+			<dd>
+				Can accept up to three arguments, and if any of the statement's selected element(s) are currently hidden, visibly transitions them from 0 to normal height.
+				<details>
+					<summary>Arguments:</summary>
+					<dl>
+						<dt><code><var>duration</var></code></dt>
+						<dd>Optional; the amount of time it takes the transition to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
+						<dt><code><var>easing</var></code></dt>
+						<dd>Optional; The speed curve of the transition. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the transition proceeds at the same speed throughout its duration.</dd>
+						<dt><code><var>callback</var></code></dt>
+						<dd>Optional; a callback function to be executed after the transition has fully completed.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>slideToggle()</code></dt>
-			<dd></dd>
+			<dd>
+				Can accept up to three arguments, and depending on whether the statement's selected element(s) are currently hidden or visible, runs <code>slideDown()</code> or <code>slideUp()</code> to toggle that status.
+				<details>
+					<summary>Arguments:</summary>
+					<dl>
+						<dt><code><var>duration</var></code></dt>
+						<dd>Optional; the amount of time it takes the transition to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
+						<dt><code><var>easing</var></code></dt>
+						<dd>Optional; The speed curve of the transition. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the transition proceeds at the same speed throughout its duration.</dd>
+						<dt><code><var>callback</var></code></dt>
+						<dd>Optional; a callback function to be executed after the transition has fully completed.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>slideUp()</code></dt>
-			<dd></dd>
+			<dd>
+				Can accept up to three arguments, and if any of the statement's selected element(s) are currently visible, visibly transitions them from normal height to 0.
+				<details>
+					<summary>Arguments:</summary>
+					<dl>
+						<dt><code><var>duration</var></code></dt>
+						<dd>Optional; the amount of time it takes the transition to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
+						<dt><code><var>easing</var></code></dt>
+						<dd>Optional; The speed curve of the transition. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the transition proceeds at the same speed throughout its duration.</dd>
+						<dt><code><var>callback</var></code></dt>
+						<dd>Optional; a callback function to be executed after the transition has fully completed.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>stop()</code></dt>
-			<dd></dd>
+			<dd>Can accept up to two boolean values in its arguments; default behavior is to stop the currently running animation on the statement's selected element(s) at their current point, meaning they will never reach their original target style values. If one <code>true</code> value is provided, all queued animations will also be removed from the queue, and if a second <code>true</code> value is provided, the affected animations will be completed immediately instead of halted partway through. Note that this method, unlike most others, does not have a place in its arguments for a queue name, so all queues will be affected. Additionally, because both arguments are booleans, if clearing the queue is not desired but instant completion of animations is, a <code>false</code> value must be provided as the first argument.</dd>
+				<!--Does stopping result in the next item in the queue immediately running, running after any specified delays, or what?-->
 			<dt><code>toggle()</code></dt>
-			<dd></dd>
+			<dd>
+				Can accept up to three arguments, and depending on whether the statement's selected element(s) are currently hidden or visible, runs <code>slideDown()</code> or <code>slideUp()</code> to toggle that status. This is effectively a combination of the <code>fadeToggle()</code> and <code>slideToggle()</code> methods.
+				<details>
+					<summary>Arguments:</summary>
+					<dl>
+						<dt><code><var>duration</var></code></dt>
+						<dd>Optional; the amount of time it takes the transition to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
+						<dt><code><var>easing</var></code></dt>
+						<dd>Optional; The speed curve of the transition. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the transition proceeds at the same speed throughout its duration.</dd>
+						<dt><code><var>callback</var></code></dt>
+						<dd>Optional; a callback function to be executed after the transition has fully completed.</dd>
+					</dl>
+				</details>
+			</dd>
 		</dl>
 	</section>
 </main>	

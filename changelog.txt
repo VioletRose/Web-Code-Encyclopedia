@@ -1,6 +1,13 @@
+Monday, February 13th, 2017
+Changes:
+index.php: Added credit and links to W3Schools and the Mozilla Developer Network.
+
 Thursday, February 09th, 2017
 Changes:
 *: Removed redundant preceding arrows and spaces from non-example <dd> elements sitewide.
+images/bloomingrose.png: Crushed to reduce file size.
+images/html.png: Crushed to reduce file size.
+images/navpanel.png: Crushed to reduce file seize.
 javascript/event.php: Added caveats to the dblclick and keypress event descriptions.
 stylesheets/encyclopedia.css: Added a preceding arrow and space to every non-example <dd> element on the site.
 
