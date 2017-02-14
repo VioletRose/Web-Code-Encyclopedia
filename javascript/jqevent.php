@@ -86,11 +86,25 @@
 				</details>
 			</dd>
 			<dt><code>one()</code></dt>
-			<dd></dd>
+			<dd>
+				Attaches an event handler to the statement's selected element(s) and their child elements, to be run a single time <em>for each element</em> when the specified event(s) occur. Accepts several arguments, each separated by a comma and a space.
+				<details>
+					<summary>Arguments:</summary>
+					<dl>
+						<dt><code>"<var>event</var>"</code></dt>
+						<dd>Required; the event(s) the handler will be watching for. Multiple events may be specified, separated by spaces.</dd>
+						<dt><code>{<var>property</var>: <var>data</var>}</code></dt>
+						<dd>Optional; specifies additional data to be passed to the function, in the form of a property which will be added to the function's <code>event.data</code> object.</dd>
+							<!--This either. I need to know both if I did it right, as well as caveats/drawbacks to this approach.-->
+						<dt><code><var>function</var>()</code></dt>
+						<dd>Required; the function to be run when the specified event(s) occur.</dd>
+					</dl>
+				</details>
+			</dd>
 			<dt><code>$.proxy()</code></dt>
 			<dd></dd>
 			<dt><code>ready()</code></dt>
-			<dd></dd>
+			<dd>Accepts a function in its argument, and runs that function once the document has finished loading. Because scripts can sometimes run faster than the page loads, with highly undesirable results, every script intended to run as soon as the page loads should be inside a wrapper such as this.</dd>
 			<dt><code>resize()</code></dt>
 			<dd>Accepts an optional function in its argument, and if the <code>resize</code> event occurs on the statement's selected element(s), that function will run; if no function is provided, the <code>resize</code> event is artificially triggered.</dd>
 			<dt><code>scroll()</code></dt>
@@ -100,9 +114,10 @@
 			<dt><code>submit()</code></dt>
 			<dd>Accepts an optional function in its argument, and if the <code>submit</code> event occurs on the statement's selected element(s), that function will run; if no function is provided, the <code>submit</code> event is artificially triggered.</dd>
 			<dt><code>trigger()</code></dt>
-			<dd></dd>
+			<dd>Accepts an event in its argument, and artificially triggers that event on the selected element(s); notably, this event can be one of the standard JavaScript events, or a custom event. Additional arguments may also be specified, which will be passed as parameters to any event handlers which respond to the event.</dd>
+				<!--Custom events? What is this about?-->
 			<dt><code>triggerHandler()</code></dt>
-			<dd></dd>
+			<dd>As <code>trigger()</code>, except only the specified event is triggered, and not any browser default behavior that might exist for this event on the statement's selected element(s).</dd>
 		</dl>
 	</section>
 	<section>
@@ -112,44 +127,47 @@
 			<dt><code><var>event</var>.currentTarget</code></dt>
 			<dd>The current DOM element in the event bubbling phase.</dd>
 			<dt><code><var>event</var>.data</code></dt>
-			<dd></dd>
+			<dd>The additional data passed to the event handler via the <code>on()</code> or <code>one()</code> methods.</dd>
+				<!--Is there any other way to pass data this way?-->
 			<dt><code><var>event</var>.delegateTarget</code></dt>
-			<dd></dd>
+			<dd>The element that the currently active jQuery event handler is attached to. If no child selector was used with the <code>on()</code> method that attached the event handler, this will return identical results to <code><var>event</var>.currentTarget</code>.</dd>
 			<dt><code><var>event</var>.namespace</code></dt>
 			<dd></dd>
+				<!--I don't get this at all, the example is junk.-->
 			<dt><code><var>event</var>.pageX</code></dt>
-			<dd></dd>
+			<dd>The mouse position relative to the left edge of the document.</dd>
 			<dt><code><var>event</var>.pageY</code></dt>
-			<dd></dd>
+			<dd>The mouse position relative to the top edge of the document.</dd>
 			<dt><code><var>event</var>.relatedTarget</code></dt>
-			<dd></dd>
+			<dd>For events triggered by the mouse cursor moving onto/off of an element, this contains the element the cursor moved off of/onto.</dd>
 			<dt><code><var>event</var>.result</code></dt>
-			<dd></dd>
+			<dd>The previous value returned by any event handler associated with this event.</dd>
+				<!--Is this correct?-->
 			<dt><code><var>event</var>.target</code></dt>
-			<dd></dd>
+			<dd>The element which originally triggered the event.</dd>
 			<dt><code><var>event</var>.timeStamp</code></dt>
-			<dd></dd>
+			<dd>The time at which the event was triggered, in milliseconds from zero time.</dd>
 			<dt><code><var>event</var>.type</code></dt>
-			<dd></dd>
+			<dd>The event type which was triggered.</dd>
 			<dt><code><var>event</var>.which</code></dt>
-			<dd></dd>
+			<dd>For keyboard/click events, the keyboard key or mouse button which triggered the event.</dd>
 		</dl>
 	</section>
 	<section>
 		<h4>jQuery Event Parameter Methods:</h4>
 		<dl>
 			<dt><code><var>event</var>.isDefaultPrevented()</code></dt>
-			<dd></dd>
+			<dd>Returns <code>true</code> if the <code><var>event</var>.preventDefault()</code> method was called for the event; otherwise, returns <code>false</code>.</dd>
 			<dt><code><var>event</var>.isImmediatePropagationStopped()</code></dt>
-			<dd></dd>
+			<dd>Returns <code>true</code> if the <code><var>event</var>.stopImmediatePropagation()</code> method was called for the event; otherwise, returns <code>false</code>.</dd>
 			<dt><code><var>event</var>.isPropagationStopped()</code></dt>
-			<dd></dd>
+			<dd>Returns <code>true</code> if the <code><var>event</var>.stopPropagation()</code> method was called for the event; otherwise, returns <code>false</code>.</dd>
 			<dt><code><var>event</var>.preventDefault()</code></dt>
-			<dd></dd>
+			<dd>When run inside an event handler's function, stops the browser's default behavior for this event occurring in this element.</dd>
 			<dt><code><var>event</var>.stopImmediatePropagation()</code></dt>
-			<dd></dd>
+			<dd>When run inside an event handler's function, stops any other event handlers from responding to the same event, as well as preventing event bubbling to parent elements.</dd>
 			<dt><code><var>event</var>.stopPropagation()</code></dt>
-			<dd></dd>
+			<dd>When run inside an event handler's function, prevents event bubbling to parent elements.</dd>
 		</dl>
 	</section>
 </main>	
