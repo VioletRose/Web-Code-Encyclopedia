@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;progress&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This tag displays a visible progress meter in the website, representing something's amount of completion. The example I give here is static, but these are most often used alongside scripting to show progress dynamically.</p>
 	</section>

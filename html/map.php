@@ -2,40 +2,46 @@
     $PAGE_NAME = '&lt;map&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
-		<p>This tag creates an image map, which defines clickable areas inside of a single displayed image, each area having a different effect when clicked, either different link URLs or Javascript commands.</p>
+		<p>This tag creates an image map, which defines clickable areas inside of a single displayed image, each area having a different effect when clicked, either different link URLs or Javascript commands. One issue, however, is that because they not only have their size defined with specific measurements that might overflow if their containing element shrinks, but they also can't be resized because they rely on precise pixel coordinates for their functionality. As such, the only way to make them mobile-safe is to allow their container to be scrolled.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>
 		<figure class="exampleFigure">
 			<code>
-				&lt;img src="/images/examplemap.png" width="602" height="200" alt="Example Map" usemap="#examplemap"&gt;
+				&lt;div style="overflow: auto;"&gt;
 				<br>
-				&lt;map name="examplemap"&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="/images/examplemap.png" width="602" height="200" alt="Example Map" usemap="#examplemap"&gt;
 				<br>
-				&lt;area alt="Default" href="javascript:alert('You clicked the default region!')" shape="default"&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;map name="examplemap"&gt;
 				<br>
-				&lt;area alt="Rectangle" coords="50,50,150,150" href="javascript:alert('You clicked the rectangle!')" shape="rect"&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;area alt="Default" href="javascript:alert('You clicked the default region!')" shape="default"&gt;
 				<br>
-				&lt;area alt="Circle" coords="301,100,51" href="javascript:alert('You clicked the circle!')" shape="circle"&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;area alt="Rectangle" coords="50,50,150,150" href="javascript:alert('You clicked the rectangle!')" shape="rect"&gt;
 				<br>
-				&lt;area alt="Polygon" coords="480,54,507,59,530,72,543,112,541,140,511,142,477,126,457,106,460,71," href="javascript:alert('You clicked the polygon!')" shape="poly"&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;area alt="Circle" coords="301,100,51" href="javascript:alert('You clicked the circle!')" shape="circle"&gt;
 				<br>
-				&lt;/map&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;area alt="Polygon" coords="480,54,507,59,530,72,543,112,541,140,511,142,477,126,457,106,460,71," href="javascript:alert('You clicked the polygon!')" shape="poly"&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;/map&gt;
+				<br>
+				&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure class="renderFigure">
-			<img src="/images/examplemap.png" width="602" height="200" alt="Example Map" usemap="#examplemap">
-			<map name="examplemap">
-				<area alt="Default" href="javascript:alert('You clicked the default region!')" shape="default">
-				<area alt="Rectangle" coords="50,50,150,150" href="javascript:alert('You clicked the rectangle!')" shape="rect">
-				<area alt="Circle" coords="301,100,51" href="javascript:alert('You clicked the circle!')" shape="circle">
-				<area alt="Polygon" coords="480,54,507,59,530,72,543,112,541,140,511,142,477,126,457,106,460,71," href="javascript:alert('You clicked the polygon!')" shape="poly">
-			</map>
+			<div style="overflow: auto;">
+				<img src="/images/examplemap.png" width="602" height="200" alt="Example Map" usemap="#examplemap">
+				<map name="examplemap">
+					<area alt="Default" href="javascript:alert('You clicked the default region!')" shape="default">
+					<area alt="Rectangle" coords="50,50,150,150" href="javascript:alert('You clicked the rectangle!')" shape="rect">
+					<area alt="Circle" coords="301,100,51" href="javascript:alert('You clicked the circle!')" shape="circle">
+					<area alt="Polygon" coords="480,54,507,59,530,72,543,112,541,140,511,142,477,126,457,106,460,71," href="javascript:alert('You clicked the polygon!')" shape="poly">
+				</map>
+			</div>
 		</figure>
 	</section>
 	<section>
@@ -69,7 +75,7 @@
 			<dd>Specifies which media and/or device linked content is optimized for; see <a href="http://www.w3schools.com/tags/att_a_media.asp">here</a> for accepted values.
 			<dt><code>rel</code></dt>
 			<dd>
-				&#10551; Specifies how the current page relates to linked content. 
+				Specifies how the current page relates to linked content. 
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -102,7 +108,7 @@
 			</dd>
 			<dt><code>shape</code></dt>
 			<dd>
-				&#10551; Defines the shape of the area.
+				Defines the shape of the area.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -119,7 +125,7 @@
 			</dd>
 			<dt><code>target</code></dt>
 			<dd>
-				&#10551; Specifies where linked content should be opened. 
+				Specifies where linked content should be opened. 
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>

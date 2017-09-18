@@ -2,9 +2,9 @@
     $PAGE_NAME = '&lt;meta&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
-		<p>This element is used for defining certain things about the page as a whole, including the text encoding (which has a displayed effect) and other general data that is more useful in terms of the Syntactic Web. It is especially important for search engine optimization, because it can be used to succinctly list what sort of content is on the page that someone might be searching for. It can only be placed in the <code>&lt;head&gt;</code>, not in the <code>&lt;body&gt;</code>.</p>
+		<p>This element is used for defining certain things about the page as a whole, including the text encoding (which has a displayed effect) and other general data that is more useful in terms of the Semantic Web. It is especially important for search engine optimization, because it can be used to succinctly list what sort of content is on the page that someone might be searching for. It can only be placed in the <code>&lt;head&gt;</code>, not in the <code>&lt;body&gt;</code>.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>
@@ -29,7 +29,7 @@
 			<dd>When placed in the same <code>&lt;meta&gt;</code> element as <code>content</code> or <code>http-equiv</code>, the text string entered as its value will be associated with them. Note: if this is a list of keywords, each one should be separated by a single comma and no spaces, such as <code>"<var>word one</var>,<var>word two</var>"</code>.</dd>
 			<dt><code>http-equiv</code></dt>
 			<dd>
-				&#10551; This attribute interacts with <code>content</code> by defining its purpose.
+				This attribute interacts with <code>content</code> by defining its purpose.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -44,7 +44,7 @@
 			</dd>
 			<dt><code>name</code></dt>
 			<dd>
-				&#10551; Unlike how this attribute functions for most other elements, in this case it has specific allowed values and doesn't simply accept a text string.
+				Unlike how this attribute functions for most other elements, in this case it has specific allowed values and doesn't simply accept a text string.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -57,7 +57,7 @@
 						<dt><code>generator</code></dt>
 						<dd>Specifies that the value of <code>content</code> is the name of one of the software packages used to generate the page, if it was not written by hand.</dd>
 						<dt><code>keywords</code></dt>
-						<dd>Specifies that the value of <code>content</code> is a list of keywords related to the page.<dd>
+						<dd>Specifies that the value of <code>content</code> is a list of keywords related to the page.</dd>
 					</dl>
 				</details>
 			</dd>

@@ -2,12 +2,12 @@
 	$PAGE_NAME = 'RegExp';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
-		<p>The RegExp object handles the use of regular expressions, also known as patterns. Regular expressions are very compact and efficient search conditions, used to check whether or not string data matches their query. They consist of a series of specially formatted queries, and are nearly unreadable to humans, requiring detailed knowledge of how they function to use or understand. The tradeoff is that they are very small and easy to process compared to typing comparison strings out in plain text, which can be important for performance if searching through a very large amount of data. However, this page does not document the details of regular expressions themselves, but the RegExp object which handles them.</p>
+		<p>RegExp objects handles the use of regular expressions, also known as patterns. Regular expressions are very compact and efficient search conditions, used to check whether or not string data matches their query. They consist of a series of specially formatted queries, and are nearly unreadable to humans, requiring detailed knowledge of how they function to use or understand. The tradeoff is that they are very small and easy to process compared to typing comparison strings out in plain text, which can be important for performance if searching through a very large amount of data. However, this page does not document the details of regular expressions themselves, but the RegExp object which handles them.</p>
 	</section>
 	<section>
-		<h4>RegExp Properties:</h4>
+		<h4>RegExp Type Properties:</h4>
 		<dl>
 			<dt><code>constructor</code></dt>
 			<dd>This property stores the code that created the regular expression's prototype. Unless this regular epxression, somewhere up its heredity, was created by the <code>new</code> operator, this will return <code>function RegExp() { [native code] }</code>, reflecting a core part of Javascript's engine.</dd>
@@ -24,7 +24,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>RegExp Methods:</h4>
+		<h4>RegExp Type Methods:</h4>
 		<dl>
 			<dt><code>exec()</code></dt>
 			<dd>Accepts a string in its argument, and returns the first character or sequence of characters it finds that match the regular expression, otherwise, returns <code>null</code>.</dd>

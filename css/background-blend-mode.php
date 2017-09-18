@@ -2,7 +2,7 @@
     $PAGE_NAME = 'background-blend-mode';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows blending to occur between background images and colors, mixing them together in a number of possible ways. When employing this property, lots of testing is important to find the ideal mode to use for the things you're blending together.</p>
 	</section>
@@ -11,6 +11,14 @@
 		<figure class="exampleFigure">
 			<code>
 				&lt;style&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;.backgroundBlend Box {
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-size: cover;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;max-width: 100%;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;#backgroundGradientBox {
 				<br>
@@ -26,8 +34,6 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-image: url(/images/bloomingrose.png);
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-size: contain;
-				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 200px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 352px;
@@ -40,8 +46,6 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-blend-mode: screen;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-size: contain;
-				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 200px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 352px;
@@ -50,11 +54,11 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="backgroundGradientBox"&gt;&lt;/div&gt;
+				&lt;div class="backgroundBlendBox" id="backgroundGradientBox"&gt;&lt;/div&gt;
 				<br>
-				&lt;div id="backgroundImageBox"&gt;&lt;/div&gt;
+				&lt;div class="backgroundBlendBox" id="backgroundImageBox"&gt;&lt;/div&gt;
 				<br>
-				&lt;div id="backgroundBlendBox"&gt;&lt;/div&gt;
+				&lt;div class="backgroundBlendBox" id="backgroundBlendBox"&gt;&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -62,6 +66,10 @@
 		<h4>Will be rendered as:</h4>
 		<figure class="renderFigure">
 			<style>
+				.backgroundBlendBox {
+					background-size: cover;
+					max-width: 100%
+				}
 				#backgroundGradientBox {
 					background-image: repeating-radial-gradient(circle, black, #ead8ff 16%, fuchsia 33%);
 					height: 200px;
@@ -69,21 +77,19 @@
 				}
 				#backgroundImageBox {
 					background-image: url(/images/bloomingrose.png);
-					background-size: contain;
 					height: 200px;
 					width: 352px;
 				}
 				#backgroundBlendBox {
 					background-image: repeating-radial-gradient(circle, black, #ead8ff 16%, fuchsia 33%), url(/images/bloomingrose.png);
 					background-blend-mode: screen;
-					background-size: contain;
 					height: 200px;
 					width: 352px;
 				}
 			</style>
-			<div id="backgroundGradientBox"></div>
-			<div id="backgroundImageBox"></div>
-			<div id="backgroundBlendBox"></div>
+			<div class="backgroundBlendBox" id="backgroundGradientBox"></div>
+			<div class="backgroundBlendBox" id="backgroundImageBox"></div>
+			<div class="backgroundBlendBox" id="backgroundBlendBox"></div>
 		</figure>
 	</section>
 	<section>

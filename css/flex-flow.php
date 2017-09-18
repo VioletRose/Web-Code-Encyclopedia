@@ -2,7 +2,7 @@
     $PAGE_NAME = 'flex-flow';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/display.php">display</a></code></p>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
@@ -90,7 +90,7 @@
 				<br>
 				&lt;/div&gt;
 				<br>
-				&lt;p&gt;Mouse over the box to see the order change!&lt;/p&gt;
+				&lt;p&gt;You can mouse over the box to see the order change!&lt;/p&gt;
 			</code>
 		</figure>
 	</section>
@@ -136,7 +136,7 @@
 				<div class="flexSquare">15</div>
 				<div class="flexSquare">16</div>
 			</div>
-			<p>Mouse over the box to see the order change!</p>
+			<p>You can mouse over the box to see the order change!</p>
 		</figure>
 	</section>
 	<section>
@@ -153,7 +153,7 @@
 		<dl>
 			<dt><code><var>direction</var> <var>wrap</var></code></dt>
 			<dd>
-				&#10551; The values that would normally be set through the associated, non-shorthand animation properties, in this order.
+				The values that would normally be set through the associated, non-shorthand animation properties, in this order.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

@@ -2,7 +2,7 @@
     $PAGE_NAME = 'box-sizing';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to specify whether an element's height and width are defined only by its actual content, or also by borders and padding.</p>
 	</section>
@@ -18,11 +18,9 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;box-sizing: border-box;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 200px;
-				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;padding: 25px;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 300px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 150px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -34,7 +32,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="sizingBox"&gt;Mouse over the box to see how much larger this box would be with normal sizing rules!&lt;/div&gt;
+				&lt;div id="sizingBox"&gt;You can mouse over the box to see how much larger this box would be with normal sizing rules!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -45,15 +43,14 @@
 				#sizingBox {
 					border: 25px double;
 					box-sizing: border-box;
-					height: 200px;
 					padding: 25px;
-					width: 300px;
+					width: 150px;
 				}
 				#sizingBox:hover {
 					box-sizing: content-box;
 				}
 			</style>
-			<div id="sizingBox">Mouse over the box to see how much larger this box would be with normal sizing rules!</div>
+			<div id="sizingBox">You can mouse over the box to see how much larger this box would be with normal sizing rules!</div>
 		</figure>
 	</section>
 	<section>

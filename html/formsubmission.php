@@ -6,7 +6,7 @@
 $formSubmitted = $_POST['submit'];
 if(isset($formSubmitted)) {
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>You were referred to this site via <samp><?php echo htmlspecialchars($_POST['referred']); ?></samp>!</p>
 		<p>You think the most historic date is <samp><?php echo htmlspecialchars($_POST['historicdate']); ?></samp>!</p>
@@ -29,7 +29,7 @@ if(isset($formSubmitted)) {
 <?php
 }else {
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>You have not submitted a form to this URL. Maybe you should go to the <a href="/html/form.php"<code>&lt;form&gt;</code></a> page!</p>
 	</section>

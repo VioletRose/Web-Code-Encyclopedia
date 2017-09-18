@@ -2,9 +2,9 @@
     $PAGE_NAME = '&lt;s&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
-		<p>This Syntactic Web tag designates the included text as no longer correct or relevant, but has not been deleted or replaced, as well as styling it with a strikethrough.</p>
+		<p>This Semantic Web tag designates the included text as no longer correct or relevant, but has not been deleted or replaced, as well as styling it with a strikethrough.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>

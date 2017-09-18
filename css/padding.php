@@ -2,7 +2,7 @@
     $PAGE_NAME = 'CSS Template';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
 		<p>This property and the sub-properties it sets allow you to define the size of an element's padding, the amount of space between its edges/borders and the content inside - effectively an inside-out margin.</p>
@@ -84,7 +84,7 @@
 		<dl>
 			<dt><code><var>top</var> <var>right</var> <var>bottom</var> <var>left</var></code></dt>
 			<dd>
-				&#10551; The values that would normally be set through the associated, non-shorthand padding properties, in this order.
+				The values that would normally be set through the associated, non-shorthand padding properties, in this order.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

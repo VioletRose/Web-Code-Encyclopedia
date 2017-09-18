@@ -2,7 +2,7 @@
     $PAGE_NAME = 'background';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
 		<p>This property and the sub-properties it sets allow you to define and control what appears in the page's background, i.e. behind the visible elements. This can be colors, images, or both blended together.</p>
@@ -68,7 +68,7 @@
 		<dl>
 			<dt><code><var>color</var> <var>image</var> <var>position</var>/<var>size</var> <var>repeat</var> <var>origin<var> <var>clip</var> <var>attachment</var></code></dt>
 			<dd>
-				&#10551; The values that would normally be set through the associated, non-shorthand background properties, in this order. If both position and size are being defined, due to them both using numeric variables they must be separated by a / character.
+				The values that would normally be set through the associated, non-shorthand background properties, in this order. If both position and size are being defined, due to them both using numeric variables they must be separated by a / character.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -117,7 +117,7 @@
 			<dd>An image will be used as the background. <code><var>URL</var></code> is a text variable, URLs only. Multiple images may be set, separated by a comma and a space.</dd>
 			<dt><code>linear-gradient(<var>direction</var>, <var>color</var> <var>range</var>, <var>color</var> <var>range</var>)</code></dt>
 			<dd>
-				&#10551; A linear gradient, colors beginning at one edge and fading from one to another until reaching the other edge, instead of an image. At least two colors are required for a gradient, but there is no hard limit to the number of additional colors that can be defined.
+				A linear gradient, colors beginning at one edge and fading from one to another until reaching the other edge, instead of an image. At least two colors are required for a gradient, but there is no hard limit to the number of additional colors that can be defined.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -134,7 +134,7 @@
 			<dd>Almost identical to <code>linear-gradient</code>, using the same variables, the only difference being that if the final color is ended before <code><var>100%</var></code>, instead of it continuing to fill all remaining space, the gradient will repeat itself equally as many times as it has space to.</dd>
 			<dt><code>radial-gradient(<var>shape</var>, <var>size</var>, at <var>x-coord</var> <var>y-coord</var>, <var>color</var> <var>range</var>, <var>color</var> <var>range</var>)</code></dt>
 			<dd>
-				&#10551; A radial gradient, colors beginning at the center and fading from one to another until reaching the edges, instead of an image. At least two colors are required for a gradient, but there is no hard limit to the number of additional colors that can be defined.
+				A radial gradient, colors beginning at the center and fading from one to another until reaching the edges, instead of an image. At least two colors are required for a gradient, but there is no hard limit to the number of additional colors that can be defined.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -168,7 +168,7 @@
 		<dl>
 			<dt><code><var>x-coordinate y-coordinate</var></code></dt>
 			<dd>
-				&#10551; Defines the placement of the top left corner of the background image.
+				Defines the placement of the top left corner of the background image.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -192,7 +192,7 @@
 			<dd>The default value. The image's size will be unchanged from the source file.</dd>
 			<dt><code><var>width</var> <var>height</var></code></dt>
 			<dd>
-				&#10551; Defines the width and height of the image.
+				Defines the width and height of the image.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

@@ -2,9 +2,9 @@
     $PAGE_NAME = '&lt;i&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
-		<p>This tag styles text inline to be italicized. Note, however, that due to the Syntactic Web design philosophy, this tag should usually be avoided in favor of other tags depending on the actual reason for the difference. Usually, italic text is used to indicate an emphatic tone, as if emulating spoken words using a louder, sharper tone, and for this purpose, the &lt;em&gt; tag is better suited. Generally speaking, a tag like this should only be used in cases where none of the normal contexts apply, such as if the text is meant to look different for a purely aesthetic reason.</p>
+		<p>This tag styles text inline to be italicized. Note, however, that due to the Semantic Web design philosophy, this tag should usually be avoided in favor of other tags depending on the actual reason for the difference. Usually, italic text is used to indicate an emphatic tone, as if emulating spoken words using a louder, sharper tone, and for this purpose, the &lt;em&gt; tag is better suited. Generally speaking, a tag like this should only be used in cases where none of the normal contexts apply, such as if the text is meant to look different for a purely aesthetic reason.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>

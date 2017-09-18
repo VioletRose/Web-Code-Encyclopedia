@@ -2,7 +2,7 @@
     $PAGE_NAME = 'z-index';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/position.php">position</a></code></p>
 		<p>This property allows you to define a stack order/priority, effectively which one is 'highest' for display purposes, for elements detached from the document flow with <code>position</code>.</p>
@@ -41,19 +41,13 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;#zIndexNegative1 {
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;right: 200px;
-				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;top: 0;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bottom: 182px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;z-index: -1;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;#zIndex0 {
-				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;left: 0px;
-				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;top: 0px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;z-index: 0;
 				<br>
@@ -125,13 +119,10 @@
 					width: 194px;
 				}
 				#zIndexNegative1 {
-					right: 200px;
-					top: 0;
+					bottom: 182px;
 					z-index: -1;
 				}
 				#zIndex0 {
-					left: 0px;
-					top: 0px;
 					z-index: 0;
 				}
 				#zIndex1 {

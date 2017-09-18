@@ -2,9 +2,9 @@
     $PAGE_NAME = '&lt;nav&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
-		<p>This Syntactic Web container designates the contained elements and text as a block of navigational links. Not all links should be contained inside a <code>&lt;nav&gt;</code> element, just many navigation links that will all be displayed together.</p>
+		<p>This Semantic Web container designates the contained elements and text as a block of navigational links. Not all links should be contained inside a <code>&lt;nav&gt;</code> element, just many navigation links that will all be displayed together.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>

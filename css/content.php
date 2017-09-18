@@ -2,7 +2,7 @@
     $PAGE_NAME = 'content';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to insert pseudo-elements before or after a specified element, which appear normally but are not actually part of the HTML document and can't be seen by scripts. Note that <code>content</code> may only be used with the <code>::before</code> and <code>::after</code> selectors.
 	</section>
@@ -38,7 +38,9 @@
 					counter-increment: pCounter
 				}
 				#postContentP::after {
-					content: " pCounter = " open-quote counter(pCounter) close-quote " Tag ID = " open-quote attr(id) close-quote " " url(/images/violetflower.png);
+					display: block;
+					content: "pCounter = " open-quote counter(pCounter) close-quote "\A Tag ID = " open-quote attr(id) close-quote "\A" url(/images/violetflower.png);
+					white-space: pre;
 				}
 			</style>
 			<p id="postContentP">The following is a demonstration of the <code>content</code> property.</p>
@@ -53,7 +55,7 @@
 			<dd>Exclusive value. No content will be added.</dd>
 			<dt><code>counter(<var>Counter</var>)</code></dt>
 			<dd>
-				&#10551; Additive value. The value of a specified CSS counter will be added. Since CSS counters increment as the document is rendered, the value will depend on where the content is placed.
+				Additive value. The value of a specified CSS counter will be added. Since CSS counters increment as the document is rendered, the value will depend on where the content is placed.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -64,7 +66,7 @@
 			</dd>
 			<dt><code>attr(<var>attribute</var>)</code></dt>
 			<dd>
-				&#10551; Additive value. The value of an HTML attribute will be added (as text).
+				Additive value. The value of an HTML attribute will be added (as text).
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -85,7 +87,7 @@
 			<dd>Additive value. No closing quotation mark will be added.</dd>
 			<dt><code>url(<var>URL</var>)</code></dt>
 			<dd>
-				&#10551; Additive value. The content of the URL will be inserted, if it is an image or media file the browser recognizes.
+				Additive value. The content of the URL will be inserted, if it is an image or media file the browser recognizes.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

@@ -2,7 +2,7 @@
     $PAGE_NAME = 'counter-reset';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property specifies a counter that will increase to a specified number each time its selector appears. However, it activates as the page is rendering; the counter's effective value depends on where on the page it is queried. If you have 26 <code>&lt;p&gt;</code> elements on the page, but reset the counter halfway down, the 14th will return a value consistent with being the first one.</p>
 	</section>
@@ -66,7 +66,7 @@
 			<dd>The default value. No counters will reset.</dd>
 			<dt><code><var>id</var> <var>number</var></code></dt>
 			<dd>
-				&#10551; The specified counter will reset to the specified number.
+				The specified counter will reset to the specified number.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

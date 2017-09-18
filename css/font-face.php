@@ -2,7 +2,7 @@
     $PAGE_NAME = '@font-face';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This page is about a CSS rule and the descriptors it sets.</p>
 		<p>This rule defines a new font family for your website. Normally the <code>font-family</code> property will only find fonts installed on the user's system, but with this rule, a new font can be defined and be certain to work reliably as long as the font itself is set up properly, and the URL continues to work.</p>
@@ -141,7 +141,7 @@
 		<dl>
 			<dt><code>U+<var>start</var>-<var>end</var></code></dt>
 			<dd>
-				&#10551; The Unicode range the font supports.
+				The Unicode range the font supports.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

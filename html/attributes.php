@@ -2,7 +2,7 @@
     $PAGE_NAME = 'Global Attributes';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Attributes can be added onto HTML elements, to give them additional context or instructions beyond what the element itself and its CSS rules, if any, might apply. Some attributes are boolean, and will take effect if they are present on an element, while most others require their value to be set with the syntax attribute="value". Each HTML element page will list possible attributes specific to it and its child elements, if any, but the attributes on this page are ones that can be applied to any HTML element you choose, though of course, this may not always be useful.</p>
 	</section>

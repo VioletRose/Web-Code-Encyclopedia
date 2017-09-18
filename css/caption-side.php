@@ -2,7 +2,7 @@
     $PAGE_NAME = 'caption-side';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to specify whether a table caption appears below or above the table itself.</p>
 	</section>

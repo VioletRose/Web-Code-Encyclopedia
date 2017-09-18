@@ -2,7 +2,7 @@
     $PAGE_NAME = 'text-indent';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to define an amount of space that the first line of text in an element should be indented by. This only applies to the first line, and not to text after any subsequent line breaks.</p>
 	</section>
@@ -26,7 +26,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;p id="indentedP"&gt;This text demonstrates an indentation amount. Mouse over it to see a different value!&lt;/p&gt;
+				&lt;p id="indentedP"&gt;This text demonstrates an indentation amount. You can mouse over it to see a different value!&lt;/p&gt;
 			</code>
 		</figure>
 	</section>
@@ -41,7 +41,7 @@
 					text-indent: 6em;
 				}
 			</style>
-			<p id="indentedP">This text demonstrates an indentation amount. Mouse over it to see a different value!</p>
+			<p id="indentedP">This text demonstrates an indentation amount. You can mouse over it to see a different value!</p>
 		</figure>
 	</section>
 	<section>

@@ -2,19 +2,19 @@
 	$PAGE_NAME = 'Boolean';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Booleans are the simplest type of variable, which can only have two values, <code>false</code> and <code>true</code>. When storing data amounting to a simple binary distinction such as yes/no or on/off, boolean variables are the most efficient thing to use.</p>
 	</section>
 	<section>
-		<h4>Boolean as a Function:</h4>
+		<h4>Boolean Object Methods:</h4>
 		<dl>
 			<dt><code>Boolean()</code></dt>
 			<dd>The Boolean object may be run as a function, and accepts a conditional check in its argument. It will return <code>false</code> or <code>true</code>, depending on the result of the check.</dd>
 		</dl>
 	</section>
 	<section>
-		<h4>Boolean Properties:</h4>
+		<h4>Boolean Type Properties:</h4>
 		<p></p>
 		<dl>
 			<dt><code>constructor</code></dt>
@@ -24,12 +24,12 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Boolean Methods:</h4>
+		<h4>Boolean Type Methods:</h4>
 		<p></p>
 		<dl>
 			<dt><code>toString()</code></dt>
 			<dd>Returns the boolean's value as a string.</dd>
-			<dt><code></code></dt>
+			<dt><code>valueOf()</code></dt>
 			<dd>Returns the primitive value of the boolean.</dd>
 		</dl>
 	</section>

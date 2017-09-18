@@ -2,7 +2,7 @@
     $PAGE_NAME = 'overflow';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
 		<p>This property and the sub-properties it sets allow you to define how an element behaves when its content becomes larger than its own boundaries. Note that unlike all other shorthand properties, <code>overflow</code> simply sets both of its sub-properties at the same time, rather than allowing individually different settings for each of them.</p>
@@ -61,7 +61,7 @@
 				<br>
 				&lt;/div&gt;
 				<br>
-				&lt;p&gt;Mousing over the colored boxes will make them disappear. Use this to see how the scroll bars disappear if they're no longer needed!&lt;/p&gt;
+				&lt;p&gt;You can mouse over the colored boxes to make them disappear. Use this to see how you can only scroll in a direction if there is more content there!&lt;/p&gt;
 			</code>
 		</figure>
 	</section>
@@ -94,7 +94,7 @@
 				<div id="overflowXBox"></div>
 				<div id="overflowYBox"></div>
 			</div>
-			<p>Mousing over the colored boxes will make them smaller. Use this to see how the scroll bars disappear if they're no longer needed!</p>
+			<p>You can mouse over the colored boxes to make them disappear. Use this to see how you can only scroll in a direction if there is more content there!</p>
 		</figure>
 	</section>
 	<section>

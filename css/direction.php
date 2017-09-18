@@ -2,7 +2,7 @@
     $PAGE_NAME = 'direction';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to use CSS to define whether the specified text is left to right, or right to left. Note that this does not change the facing of the letters, nor the order of words; it alters punctuation by moving sentence-ending characters, and changes which side of the page text originates from.</p>
 	</section>

@@ -2,7 +2,7 @@
     $PAGE_NAME = 'transform-origin';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/transform.php">transform</a></code></p>
 		<p>This property allows you to set a center point for transformation. Normally, transformations take effect from the center of an element, but with this property, that behavior can be changed. For obvious reasons, it will have no effect on an element without such a transformation.</p>
@@ -84,11 +84,12 @@
 					border-color: red limegreen blue black;
 					border-style: solid;
 					height: 94px;
-					margin: 140px 0 140px 95px;
+					margin: 140px 0;
 					transform-origin: left top;
 					width: 94px;
 				}
 				#leftTopBlock {
+					margin-left: 100px;
 					transform-origin: left top;
 				}
 				#rightBottomBlock {
@@ -104,7 +105,7 @@
 		<dl>
 			<dt><code><var>x-origin</var> <var>y-origin</var> <var>z-origin</var></code></dt>
 			<dd>
-				&#10551; Offset amounts for the center point of the transformation. Note that since all accept the same types of value, if you desire to use the second or third values but not the preceding one(s), you must set them to <code>0</code>.
+				Offset amounts for the center point of the transformation. Note that since all accept the same types of value, if you desire to use the second or third values but not the preceding one(s), you must set them to <code>0</code>.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

@@ -2,7 +2,7 @@
     $PAGE_NAME = 'white-space';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to control how whitespace (meaning tab characters or multiple space characters in a row) and text wrapping function within the specified element. Regardless of wrap settings, the <a href="/html/br.php"><code>&lt;br&gt;</code></a> tag will always be respected.</p>
 	</section>
@@ -14,9 +14,15 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;#whitespaceBox {
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;white-space: pre-wrap;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-style: solid;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 300px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;max-width: 300px;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;overflow: hidden;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text-overflow: ellipsis;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;white-space: pre-wrap;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -28,7 +34,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="whitespaceBox"&gt;Tab&#9;characters&#9;are&#9;being&#9;used&#9;for&#9;spaces&#9;within&#9;this&#9;box,&#9;as&#9;well&lt;br&gt;&#9;as&#9;a&#9;couple&#9;of&#9;random&#9;line&#9;breaks,&#9;but&#9;text&#9;still&#9;wraps.&#9;Mouse&#9;over&#9;it&#9;to&#9;see&#9;&lt;br&gt;the&#9;opposite&#9;behavior!&lt;/div&gt;
+				&lt;div id="whitespaceBox"&gt;Tab&#9;characters&#9;are&#9;being&#9;used&#9;for&#9;spaces&#9;within&#9;this&#9;box,&#9;as&#9;well&lt;br&gt;&#9;as&#9;a&#9;couple&#9;of&#9;random&#9;line&#9;breaks,&#9;but&#9;text&#9;still&#9;wraps.&#9;You&#9;can&#9;mouse&#9;over&#9;it&#9;to&#9;see&#9;&lt;br&gt;the&#9;opposite&#9;behavior!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -37,15 +43,18 @@
 		<figure class="renderFigure">
 			<style>
 				#whitespaceBox {
+					border-style: solid;
+					max-width: 300px;
+					overflow: hidden;
+					text-overflow: ellipsis;
 					white-space: pre-wrap;
-					width: 300px;
 				}
 				#whitespaceBox:hover {
 					white-space: nowrap;
 				}
 			</style>
 			<div id="whitespaceBox">Tab&#9;characters&#9;are&#9;being&#9;used&#9;for&#9;spaces&#9;within&#9;this&#9;box,&#9;as&#9;well
-<!--			-->&#9;as&#9;a&#9;couple&#9;of&#9;random&#9;line&#9;breaks,&#9;but&#9;text&#9;still&#9;wraps.&#9;Mouse&#9;over&#9;it&#9;to&#9;see&#9;
+<!--			-->&#9;as&#9;a&#9;couple&#9;of&#9;random&#9;line&#9;breaks,&#9;but&#9;text&#9;still&#9;wraps.&#9;You&#9;can&#9;mouse&#9;over&#9;it&#9;to&#9;see&#9;
 <!--			-->the&#9;opposite&#9;behavior!<!--
 			--></div>
 		</figure>

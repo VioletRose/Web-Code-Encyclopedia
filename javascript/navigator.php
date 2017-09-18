@@ -2,12 +2,12 @@
 	$PAGE_NAME = 'Navigator';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>The Navigator object represents the user's web browser. Its properties and method are used for gleaning information about the browser, its version, and its settings, usually in order to properly implement browser-specific behavior or workarounds.</p>
 	</section>
 	<section>
-		<h4>Navigator Properties:</h4>
+		<h4>Navigator Object Properties:</h4>
 		<p>Note that as a result of problems with browser support early in the life cycle of the internet, some properties that would otherwise be useful for determining which browser is in use have been standardized across all browsers in an attempt to render the browser detection practice known as "user agent sniffing" obsolete.</p>
 		<dl>
 			<dt><code>appCodeName</code></dt>
@@ -33,17 +33,17 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Navigator Methods:</h4>
+		<h4>Navigator Object Methods:</h4>
 		<dl>
 			<dt><code>javaEnabled()</code></dt>
 			<dd>Returns <code>true</code> if Java is installed and enabled in the browser, otherwise, returns <code>false</code>.</dd>
 		</dl>
 	</section>
 	<section>
-		<h4>Geolocation Methods:</h4>
+		<h4>Geolocation Type Methods:</h4>
 		<dl>
 			<dt><code>getCurrentPosition()</code></dt>
-			<dd>Accepts 1 to 2 functions in its argument, one required and one optional, as well as an optional <code>PositionOptions</code> object. The first function is run when the location query is successful, and only accepts one argument in the form of a variable name which will be used to target the <code>Position</code> object containing the location data. The second function runs if the location query is unsuccessful, and only accepts one argument in the form of a variable name which will be used to target the <code>PositionError</code> constant number containing the reason for the error (<code>1</code> for PERMISSION_DENIED if the page didn't have permission to query location, <code>2</code> for POSITION_UNAVAILABLE if the device returned an error while attempting to determine position, and <code>3</code> for TIMEOUT if the option was set to limit the amount of time the location query had to finish). If provided, the <code>PositionOptions</code> object changes the default behavior of the query.</dd>
+			<dd>Accepts 1 to 2 functions in its argument, one required and one optional, as well as an optional <code>PositionOptions</code> object. The first function is run when the location query is successful, and only accepts one argument of any name which will be used as an alias for the <code>Position</code> object containing the location data. The second function runs if the location query is unsuccessful, and only accepts one argument of any name which will be used as an alias for the <code>PositionError</code> constant number containing the reason for the error (<code>1</code> for PERMISSION_DENIED if the page didn't have permission to query location, <code>2</code> for POSITION_UNAVAILABLE if the device returned an error while attempting to determine position, and <code>3</code> for TIMEOUT if the option was set to limit the amount of time the location query had to finish). If provided, the <code>PositionOptions</code> object changes the default behavior of the query.</dd>
 			<dt><code>watchPosition()</code></dt>
 			<dd>As <code>getCurrentPosition()</code>, except instead of running once, a listener is established to repeat the location query with the specified parameters each time the device's location changes; this method also returns an ID which can be used by <code>clearWatch()</code> to remove the listener.</dd>
 			<dt><code>clearWatch()</code></dt>
@@ -51,7 +51,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Position Properties:</h4>
+		<h4>Position Type Properties:</h4>
 		<dl>
 			<dt><code>coords</code></dt>
 			<dd>A Coordinates object containing the current location data.</dd>
@@ -60,7 +60,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>PositionOptions Properties:</h4>
+		<h4>PositionOptions Type Properties:</h4>
 		<dl>
 			<dt><code>enableHighAccuracy</code></dt>
 			<dd>A boolean indicating whether or not the device should be using high-accuracy mode for its position (which can take longer or use more power). If <code>true</code>, high-accuracy mode will be used, but if <code>false</code>, a less accurate position will be returned using less time and power. Defaults to <code>false</code>.</dd>
@@ -71,7 +71,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Coordinates Properties:</h4>
+		<h4>Coordinates Type Properties:</h4>
 		<dl>
 			<dt><code>latitude</code></dt>
 			<dd>A number representing latitude in decimal degrees.</dd>

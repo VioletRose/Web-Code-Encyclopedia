@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;p&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>One of the simplest, most commonly used tags in HTML, &lt;p&gt; defines a paragraph of text. And unlike uncontained text, each <code>&lt;p&gt;</code> element will have a margin above and below it by default.</p>
 	</section>

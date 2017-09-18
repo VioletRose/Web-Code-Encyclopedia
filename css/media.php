@@ -2,7 +2,7 @@
     $PAGE_NAME = '@media';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This page is about a CSS rule and the special selectors it uses.</p>
 		<p>This rule is used to encompass CSS properties that are meant to only be used if certain things are true of the device reading the page. The most common use is to have different rules for very small screen sizes, but many other conditions can be applied as well.</p>

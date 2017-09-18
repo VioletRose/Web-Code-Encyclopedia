@@ -2,12 +2,12 @@
 	$PAGE_NAME = 'Screen';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>The Screen object represents the user's screen, and contains information related to its size and color capabilities.</p>
 	</section>
 	<section>
-		<h4>Screen Properties:</h4>
+		<h4>Screen Object Properties:</h4>
 		<dl>
 			<dt><code>availHeight</code></dt>
 			<dd>A number of pixels representing the height of the screen, excluding the Windows Taskbar if applicable.</dd>

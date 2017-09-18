@@ -2,7 +2,7 @@
     $PAGE_NAME = 'border';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
 		<p>This property and the sub-properties it sets allow you to define the style, width, and color of border around an object.
@@ -83,7 +83,7 @@
 		<dl>
 			<dt><code><var>width</var> <var>style</var> <var>color</var></code></dt>
 			<dd>
-				&#10551; The values that would normally be set through the associated, non-shorthand border properties, in this order.
+				The values that would normally be set through the associated, non-shorthand border properties, in this order.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

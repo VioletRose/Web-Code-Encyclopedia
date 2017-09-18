@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;details&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>The &lt;details&gt; element creates an expandable section of text that will only be opened if the user clicks on it, otherwise remaining hidden within one line of summary.</p>
 	</section>

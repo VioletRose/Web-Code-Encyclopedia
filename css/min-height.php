@@ -2,7 +2,7 @@
     $PAGE_NAME = 'min-height';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to define a minimum height for an element. It cannot be reduced to less than this height, even if another style rule would normally result in a lesser height. This is mostly useful when the element's height is set in such a way that it may grow or shrink depending on context, but a sensible minimum is desired.</p>
 	</section>
@@ -32,7 +32,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="minHeightBox"&gt;This box is set to be 1/20th as tall as the browser window, but no less than 94px. Mouse over it to see what it would look like without a minimum height!&lt;/div&gt;
+				&lt;div id="minHeightBox"&gt;This box is set to be 1/20th as tall as the browser window, but no less than 94px. You can mouse over it to see what it would look like without a minimum height!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -50,7 +50,7 @@
 					min-height: 0;
 				}
 			</style>
-			<div id="minHeightBox">This box is set to be 1/20th as tall as the browser window, but no less than 94px. Mouse over it to see what it would look like without a minimum height!</div>
+			<div id="minHeightBox">This box is set to be 1/20th as tall as the browser window, but no less than 94px. You can mouse over it to see what it would look like without a minimum height!</div>
 		</figure>
 	</section>
 	<section>

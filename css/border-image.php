@@ -2,7 +2,7 @@
     $PAGE_NAME = 'border-image';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <a href="/css/border.php"><code>border</code></a></p>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
@@ -38,7 +38,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;Note how heavily altered it is by the process of turning it into a border, and the complex transformation involved.
+				&nbsp;&nbsp;&nbsp;&nbsp;Note how heavily altered it is by the process of turning it into a border, and the complex transformation involved. You can mouse over this area for additional oddness!
 				<br>
 				&lt;/div&gt;
 			</code>
@@ -60,7 +60,7 @@
 			<div id="borderImageBox">
 				This is the original border image: <img src="/images/border.png">
 				<br>
-				Note how heavily altered it is by the process of turning it into a border, and the complex transformation involved. Mouse over this area for additional oddness!
+				Note how heavily altered it is by the process of turning it into a border, and the complex transformation involved. You can mouse over this area for additional oddness!
 			</div>
 		</figure>
 	</section>
@@ -84,7 +84,7 @@
 		<dl>
 			<dt><code><var>source</var> <var>slice</var> <var>width</var> <var>outset</var> <var>repeat</var></code></dt>
 			<dd>
-				&#10551; The values that would normally be set through the associated, non-shorthand background properties, in this order. <strong>At this time, this property is bugged</strong> - due to the fact that <code><var>slice</var></code>, <code><var>width</var></code>, and <code><var>outset</var></code> all accept multiple measurements and use the same types of measurement, it is impossible to define <code><var>width</var></code> or <code><var>outset</var></code> with this property.
+				The values that would normally be set through the associated, non-shorthand background properties, in this order. <strong>At this time, this property is bugged</strong> - due to the fact that <code><var>slice</var></code>, <code><var>width</var></code>, and <code><var>outset</var></code> all accept multiple measurements and use the same types of measurement, it is impossible to define <code><var>width</var></code> or <code><var>outset</var></code> with this property.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -125,7 +125,7 @@
 		<dl>
 			<dt><code><var>top-x-coord</var> <var>right-y-coord</var> <var>bottom-x-coord</var> <var>left-y-coord</var> fill</code></dt>
 			<dd>
-				&#10551; The coordinates at which the image will be sliced. Despite being optional, at least one slice coordinate is highly recommended; the default value, 100%, simply causes the entire image to be scaled down and placed in the four corners of the element.
+				The coordinates at which the image will be sliced. Despite being optional, at least one slice coordinate is highly recommended; the default value, 100%, simply causes the entire image to be scaled down and placed in the four corners of the element.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

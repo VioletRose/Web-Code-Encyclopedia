@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;canvas&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This element defines a given space on the screen that Javascript can be used to modify on the fly. Without Javascript to define its contents, it will only render as a blank white space.</p>
 	</section>

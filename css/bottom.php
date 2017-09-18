@@ -2,7 +2,7 @@
     $PAGE_NAME = 'bottom';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <a href="/css/position.php"><code>position</code></a>
 		<p>This property adjusts the bottom position of an absolutely or relatively positioned element, raising it from its current position by the amount specified. Note that it will only work on elements where <code>position</code> is <code>absolute</code> or <code>relative</code>, and that nothing prevents an element moved this way from leaving the rendering area of the page.</p>
@@ -17,19 +17,21 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border: 3px solid;
 				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display: inline-block;
+				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;position: relative;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;#bottomBox:hover {
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bottom: 731px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bottom: 24px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="bottomBox"&gt;Mouse over this box to see where it will go!&lt;/div&gt;
+				&lt;div id="bottomBox"&gt;You can mouse over this box to make it move up!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -39,13 +41,14 @@
 			<style>
 				#bottomBox {
 					border: 3px solid;
+					display: inline-block;
 					position: relative;
 				}
 				#bottomBox:hover {
-					bottom: 731px;
+					bottom: 24px;
 				}
 			</style>
-			<div id="bottomBox">Mouse over this box to see where it will go!</div>
+			<div id="bottomBox">You can mouse over this box to make it move up!</div>
 		</figure>
 	</section>
 	<section>

@@ -2,7 +2,7 @@
     $PAGE_NAME = 'max-width';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to define a maximum width for an element. It cannot exceed this width, even if the contents within are of a larger size (in which case, overflow rules come into play), or if another style rule would normally result in a larger width. This is mostly useful when the element's width is set in such a way that it may grow or shrink depending on context, but a sensible maximum is desired.</p>
 	</section>
@@ -32,7 +32,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="maxWidthBox"&gt;This box is set to be a quarter as wide as the browser window, but no more than 94px. Mouse over it to see what it would look like without a maximum width!&lt;/div&gt;
+				&lt;div id="maxWidthBox"&gt;This box is set to be a quarter as wide as the browser window, but no more than 94px. You can mouse over it to see what it would look like without a maximum width!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -50,7 +50,7 @@
 					max-width: none;
 				}
 			</style>
-			<div id="maxWidthBox">This box is set to be a quarter as wide as the browser window, but no more than 94px. Mouse over it to see what it would look like without a maximum width!</div>
+			<div id="maxWidthBox">This box is set to be a quarter as wide as the browser window, but no more than 94px. You can mouse over it to see what it would look like without a maximum width!</div>
 		</figure>
 	</section>
 	<section>

@@ -2,11 +2,12 @@
 	$PAGE_NAME = 'jQuery Effect';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>jQuery provides a number of methods which can be used to easily create scripted animated effects on a webpage on the fly, without the need for predefined CSS keyframes.</p>
 	</section>
 	<section>
+		<h4>Element jQuery Effect Methods:</h4>
 		<dl>
 			<dt><code>animate()</code></dt>
 			<dd>
@@ -16,8 +17,7 @@
 					<dl>
 						<dt><code>{<var>property</var>: "<var>value</var>"}</code></dt>
 						<dd>
-							Required; the CSS property for which an animation is desired, and the new value it will have once the animation is complete. Only a number of CSS properties are animatable, due to this method only supporting numeric value changes.
-								<!--How do I separate multiple property:value pairs in this argument?-->
+							Required; the CSS property for which an animation is desired, and the new value it will have once the animation is complete. Only a number of CSS properties are animatable, due to this method only supporting numeric value changes. Multiple property:value pairs may be specified, separated by commas.
 							<details>
 								<summary>Animatable properties:</summary>
 								<p>Note that for syntax reasons, the normal names of the CSS properties are slightly different for the purpose of this method.</p>
@@ -60,8 +60,7 @@
 							</details>
 						</dd>
 						<dt><code><var>duration</var></code></dt>
-						<dd>Optional; the amount of time it takes the animation to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code>; defaults to <code>400</code>.</dd>
-							<!--What do "slow" and "fast" actually mean?-->
+						<dd>Optional; the amount of time it takes the animation to complete. May be a number of milliseconds, <code>"slow"</code>, or <code>"fast"</code> (meaning 200ms and 600ms, respectively); defaults to <code>400</code>.</dd>
 						<dt><code><var>easing</var></code></dt>
 						<dd>Optional; The speed curve of the animation. Possible values are <code>swing</code>, the default, which is slightly faster in the middle and slower at the beginning and end, or <code>linear</code>, where the animation moves at the same speed throughout its duration.</dd>
 						<dt><code><var>callback</var></code></dt>
@@ -71,7 +70,6 @@
 			</dd>
 			<dt><code>clearQueue()</code></dt>
 			<dd>Can accept a queue name in its argument, and stops all the remaining functions in the queue that have not yet begun to run on the statement's selected element(s) - this method cannot stop a function which has already begun, only one which is currently waiting in the queue. If no queue name is provided, it defaults to <code>"fx"</code>, the name of the normal effects queue.</dd>
-				<!--How often does this actually come up? Does this even happen outside of jQuery effects?-->
 			<dt><code>delay()</code></dt>
 			<dd>Can accept a delay speed (milliseconds, <code>"slow"</code>, or <code>"fast"</code>) and a queue name in its arguments, and specifies a delay time to occur between each queue item being run on the statement's selected element(s). If no queue name is provided, it defaults to <code>"fx"</code>.</dd>
 			<dt><code>dequeue()</code></dt>
@@ -218,8 +216,7 @@
 				</details>
 			</dd>
 			<dt><code>stop()</code></dt>
-			<dd>Can accept up to two boolean values in its arguments; default behavior is to stop the currently running animation on the statement's selected element(s) at their current point, meaning they will never reach their original target style values. If one <code>true</code> value is provided, all queued animations will also be removed from the queue, and if a second <code>true</code> value is provided, the affected animations will be completed immediately instead of halted partway through. Note that this method, unlike most others, does not have a place in its arguments for a queue name, so all queues will be affected. Additionally, because both arguments are booleans, if clearing the queue is not desired but instant completion of animations is, a <code>false</code> value must be provided as the first argument.</dd>
-				<!--Does stopping result in the next item in the queue immediately running, running after any specified delays, or what?-->
+			<dd>Can accept up to two boolean values in its arguments; default behavior is to stop the currently running animation on the statement's selected element(s) at their current point, meaning they will never reach their original target style values; this also removes it from its animation queue and immediately begins the next animation, if any. If one <code>true</code> value is provided, all queued animations will also be removed from the queue, and if a second <code>true</code> value is provided, the affected animations will be completed immediately instead of halted partway through. Note that this method, unlike most others, does not have a place in its arguments for a queue name, so all queues will be affected. Additionally, because both arguments are booleans, if clearing the queue is not desired but instant completion of animations is, a <code>false</code> value must be provided as the first argument.</dd>
 			<dt><code>toggle()</code></dt>
 			<dd>
 				Can accept up to three arguments, and depending on whether the statement's selected element(s) are currently hidden or visible, runs <code>slideDown()</code> or <code>slideUp()</code> to toggle that status. This is effectively a combination of the <code>fadeToggle()</code> and <code>slideToggle()</code> methods.

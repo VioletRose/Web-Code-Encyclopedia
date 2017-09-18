@@ -2,7 +2,7 @@
     $PAGE_NAME = 'min-width';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to define a minimum width for an element. It cannot be reduced to less than this width, even if another style rule would normally result in a lesser width. This is mostly useful when the element's width is set in such a way that it may grow or shrink depending on context, but a sensible minimum is desired.</p>
 	</section>
@@ -32,7 +32,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="minWidthBox"&gt;This box is set to be 1/20th as wide as the browser window, but no less than 194px. Mouse over it to see what it would look like without a minimum width!&lt;/div&gt;
+				&lt;div id="minWidthBox"&gt;This box is set to be 1/20th as wide as the browser window, but no less than 194px. You can mouse over it to see what it would look like without a minimum width!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -50,7 +50,7 @@
 					min-width: 0;
 				}
 			</style>
-			<div id="minWidthBox">This box is set to be 1/20th as wide as the browser window, but no less than 194px. Mouse over it to see what it would look like without a minimum width!</div>
+			<div id="minWidthBox">This box is set to be 1/20th as wide as the browser window, but no less than 194px. You can mouse over it to see what it would look like without a minimum width!</div>
 		</figure>
 	</section>
 	<section>

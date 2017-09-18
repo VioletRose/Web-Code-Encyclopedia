@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;select&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This element creates a drop-down list with multiple options a user can select. It is usually used for forms, in cases where freeform user input is undesirable and a fixed range of answers needs to be provided.</p>
 	</section>

@@ -2,7 +2,7 @@
     $PAGE_NAME = 'perspective-origin';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required properties: <code><a href="/css/perspective.php">perspective</a>, <code><a href="/css/transform.php">transform</a></code></code></p>
 		<p>This property elaborates on <code>perspective</code>, by adding controls for horizontal and vertical placement of the perspective, rather than only considering depth, or distance.</p>
@@ -15,7 +15,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;.perspectiveBox {
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 170px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 232px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;perspective: 280px;
 				<br>
@@ -35,9 +35,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;padding: 50px;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transform: rotateX(45deg);
-				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 114px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transform: rotateX(30deg);
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -62,7 +60,7 @@
 		<figure class="renderFigure">
 			<style>
 				.perspectiveBox {
-					height: 170px;
+					height: 232px;
 					perspective: 280px;
 					perspective-origin: left top;
 					width: 170px;
@@ -72,8 +70,7 @@
 					border: solid #7F00FF;
 					height: 114px;
 					padding: 50px;
-					transform: rotateX(45deg);
-					width: 114px;
+					transform: rotateX(30deg);
 				}
 				.perspectiveBox:hover {
 					perspective-origin: right bottom;
@@ -89,7 +86,7 @@
 		<dl>
 			<dt><code><var>x-origin</var> <var>y-origin</var></code></dt>
 			<dd>
-				&#10551;  The placement of the perspective on horizontal and vertical axes, relative to the center of the element.
+				 The placement of the perspective on horizontal and vertical axes, relative to the center of the element.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

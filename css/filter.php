@@ -2,7 +2,7 @@
     $PAGE_NAME = 'filter';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to perform a number of color adjustments to an image, some quite complex. This property also accepts multiple values, separated with a space.</p>
 	</section>
@@ -22,7 +22,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;img id="filterImage" src="/images/bloomingrose.png"&gt;
+				&lt;img class="htmlSized" id="filterImage" src="/images/bloomingrose.png"&gt;
 			</code>
 		</figure>
 	</section>
@@ -35,7 +35,7 @@
 					filter: blur(1px) brightness(120%) contrast(80%) drop-shadow(5px 5px 10px 5px gray) grayscale(95%) hue-rotate(5deg) invert(75%) opacity(90%) saturate(120) sepia(5%);
 				}
 			</style>
-			<img id="filterImage" src="/images/bloomingrose.png">
+			<img class="htmlSized" id="filterImage" src="/images/bloomingrose.png">
 		</figure>
 	</section>
 	<section>
@@ -45,7 +45,7 @@
 			<dd>The default value. No effects will be applied.</dd>
 			<dt><code>blur(<var>blur</var>)</code></dt>
 			<dd>
-				&#10551; The image will be blurred.
+				The image will be blurred.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -56,7 +56,7 @@
 			</dd>
 			<dt><code>brightness(<var>brightness</var></code>)</dt>
 			<dd>
-				&#10551; The image's brightness will be adjusted to the specified value.
+				The image's brightness will be adjusted to the specified value.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -67,7 +67,7 @@
 			</dd>
 			<dt><code>contrast(<var>contrast</var>)</code></dt>
 			<dd>
-				&#10551; The image's contrast will be adjusted to the specified value.
+				The image's contrast will be adjusted to the specified value.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -78,7 +78,7 @@
 			</dd>
 			<dt><code>drop-shadow(<var>x-offset</var> <var>y-offset</var> <var>blur</var> <var>spread</var> <var>color</var>)</code></dt>
 			<dd>
-				&#10551; The image will have a drop shadow extending from the bottom right.
+				The image will have a drop shadow extending from the bottom right.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -97,7 +97,7 @@
 			</dd>
 			<dt><code>grayscale(<var>grayscale</var>)</code></dt>
 			<dd>
-				&#10551; The image is converted to grayscale, either partially or completely.
+				The image is converted to grayscale, either partially or completely.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -108,7 +108,7 @@
 			</dd>
 			<dt><code>hue-rotate(<var>rotation</var>deg)</code></dt>
 			<dd>
-				&#10551; The hues of the image are "rotated" - shifted around the color wheel by the amount specified.
+				The hues of the image are "rotated" - shifted around the color wheel by the amount specified.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -119,7 +119,7 @@
 			</dd>
 			<dt><code>invert(<var>inversion</var>)</code></dt>
 			<dd>
-				&#10551; Inverts the colors of the image, either partially or completely.
+				Inverts the colors of the image, either partially or completely.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -130,7 +130,7 @@
 			</dd>
 			<dt><code>opacity(<var>opacity</var>)</code></dt>
 			<dd>
-				&#10551; The image's opacity will be adjusted to the specified value.
+				The image's opacity will be adjusted to the specified value.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -141,7 +141,7 @@
 			</dd>
 			<dt><code>saturate(<var>saturation</var>)</code></dt>
 			<dd>
-				&#10551; The image's saturation will be adjusted to the specified value.
+				The image's saturation will be adjusted to the specified value.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -152,7 +152,7 @@
 			</dd>
 			<dt><code>sepia(<var>sepia</var>)</code></dt>
 			<dd>
-				&#10551; The image will be converted to shades of sepia, either partially or fully.
+				The image will be converted to shades of sepia, either partially or fully.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -163,7 +163,7 @@
 			</dd>
 			<dt><code>url(<var>URL</var>)</code></dt>
 			<dd>
-				&#10551; The image will be filtered using SVG instructions.
+				The image will be filtered using SVG instructions.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

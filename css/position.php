@@ -2,7 +2,7 @@
     $PAGE_NAME = 'position';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to control how elements are positioned on the webpage. By default, every element is positioned according to its place in the document flow (as governed by the order of elements within the HTML document, and CSS rules affecting things like margins, padding, and block vs. inline display), and can only be moved by altering the document flow directly. However, with this rule, that restriction can be removed, allowing elements to be repositioned using other methods or criteria.</p>
 	</section>
@@ -22,7 +22,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to {
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;left: 900px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;left: 94px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -64,7 +64,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;top: 0;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 94px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 63px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -101,35 +101,33 @@
 						left: 0;
 					}
 					to {
-						left: 900px;
+						left: 94px;
 					}
 				}
 				.positionedBox {
 					background-color: white;
 					border-style: solid;
+					height: 94px;
+					opacity: 0.5;
+					width: 94px;
 				}
 				#absoluteBox {
 					border-color: red;
-					height: 94px;
 					left: 150px;
 					position: absolute;
 					top: 0;
-					width: 94px;
 				}
 				#fixedBox {
 					border-color: yellow;
-					height: 94px;
 					left: 250px;
 					position: fixed;
 					top: 0;
-					width: 94px;
+					width: 63px;
 				}
 				#relativeBox {
 					animation: relativeSlide 5s ease-in-out infinite alternate;
 					border-color: green;
-					height: 94px;
 					position: relative;
-					width: 94px;
 				}
 			</style>
 			<div class="positionedBox" id="absoluteBox">Absolute Box</div>

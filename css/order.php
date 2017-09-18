@@ -2,7 +2,7 @@
     $PAGE_NAME = 'order';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/display.php">display</a></code></p>
 		<p>This property allows you to define a specific order for elements inside of a flex container. Note that any elements in the container that do not have the <code>order</code> property defined will appear before any ordered elements, in their natural order. Also note that this does not override properties that reverse or otherwise change the order of elements inside a flex container - the ordered items will appear first, second, third etc. within the new pattern.</p>

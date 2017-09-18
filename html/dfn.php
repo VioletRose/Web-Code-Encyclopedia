@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;dfn&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This tag marks the definition of a term or abbreviation in the first place it's seen within a larger document, allowing it to be targeted by hyperlinks so that it won't need to be typed out again each time the term is mentioned.</p>
 	</section>

@@ -2,9 +2,9 @@
     $PAGE_NAME = '&lt;div&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
-		<p>One of my favorite tags! &lt;div&gt;'s effect isn't that visually impressive by default, but it's one of the most effective ways to group multiple elements together for mass styling, usually by CSS but by use of &lt;style&gt; for this demonstration. Also worth noting is that many Syntactic Web containers such as <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code> or <code>&lt;nav&gt;</code> behave identically to <code>&lt;div&gt;</code>, the most generic block container.</p>
+		<p>One of my favorite tags! &lt;div&gt;'s effect isn't that visually impressive by default, but it's one of the most effective ways to group multiple elements together for mass styling, usually by CSS but by use of &lt;style&gt; for this demonstration. Also worth noting is that many Semantic Web containers such as <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code> or <code>&lt;nav&gt;</code> behave identically to <code>&lt;div&gt;</code>, the most generic block container.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>

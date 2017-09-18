@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;base&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This element is used to specify default behaviors for how URLs on the page in general, and especially relative URLs, are handled. It must be placed in the head element, <em>not</em> the body.</p>
 	</section>

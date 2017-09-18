@@ -2,7 +2,7 @@
     $PAGE_NAME = 'outline';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
 		<p>This property and the sub-properties it sets allow you to control the color, style, and width of an outline around an element, which displays outside of the element's content and borders, but within its margins. Unlike borders, outlines are purely visual and do not change the size or placement of the element they're associated with, which can be both positive and negative as their use is safer for the page's layout, but careless application can have outlines colliding with each other or intruding into space they shouldn't. Also unlike borders, outlines can't be given different properties per side.</p>
@@ -71,7 +71,7 @@
 		<dl>
 			<dt><code><var>color</var> <var>style</var> <var>width</var></code></dt>
 			<dd>
-				&#10551; The values that would normally be set through the associated, non-shorthand outline properties, in this order.
+				The values that would normally be set through the associated, non-shorthand outline properties, in this order.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

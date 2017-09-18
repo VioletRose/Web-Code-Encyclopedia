@@ -2,7 +2,7 @@
     $PAGE_NAME = 'letter-spacing';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to define the amount of space between characters in an element's text.</p>
 	</section>
@@ -26,7 +26,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;p id="spacedLettersP"&gt;Mouse over this text to see the spacing change!&lt;/p&gt;
+				&lt;p id="spacedLettersP"&gt;You can mouse over this text to see the spacing change!&lt;/p&gt;
 			</code>
 		</figure>
 	</section>
@@ -41,7 +41,7 @@
 					letter-spacing: -5px;
 				}
 			</style>
-			<p id="spacedLettersP">Mouse over this text to see the spacing change!</p>
+			<p id="spacedLettersP">You can mouse over this text to see the spacing change!</p>
 		</figure>
 	</section>
 	<section>

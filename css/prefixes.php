@@ -2,12 +2,12 @@
     $PAGE_NAME = 'Prefixes';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Prefixes, alternately known as CSS prefixes, vendor prefixes, or browser prefixes, are prefixes that may be appended to some properties in order to allow support for them in older versions of specific browsers. CSS is not a static thing, it changes; the current version used by the web today is already CSS 3. And as new properties or functionalities are proposed and accepted for inclusion into CSS, web browsers need to code them in to keep up. Different browsers move at different speeds to implement the new ideas (this is what is meant when a browser is said to not keep up with web standards), but in many cases, a beta version of the property was available for use before the full property was implemented. Meaning, when a web browser with the beta property, but not the final version, loads a webpage where only the final version is specified, it won't work. But with a prefixed version of the property, requesting the beta version, it will. For newer properties and in certain cases of limited support, it is recommended to define the property multiple times, first with the desired prefixes and last with the normal property below them.</p>
 		<p>Below, you will find a table of properties which had or have prefixed versions. Each entry will show which browser versions began supporting the listed prefix, and which versions no longer require the prefix, if applicable.</p>
 	</section>
-	<section>
+	<section class="cssTableSection">
 		<table border="1" class="styledTable">
 			<caption>Vendor Prefixes</caption>
 			<thead>

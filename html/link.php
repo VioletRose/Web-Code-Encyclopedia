@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;link&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Not to be confused with &lt;a&gt;, this tag only appears in the <code>&lt;head&gt;</code> and is not displayed to the user. It is most often used to load resources such as stylesheets and web fonts, but can also link to related pages.</p>
 	</section>
@@ -29,7 +29,7 @@
 			<dd>Specifies which media and/or device the linked content is optimized for; see <a href="http://www.w3schools.com/tags/att_a_media.asp">here</a> for accepted values.</dd>
 			<dt><code>rel</code></dt>
 			<dd>
-				&#10551; Specifies the linked content's relation to the current page, which in some cases also changes how the browser handles it.
+				Specifies the linked content's relation to the current page, which in some cases also changes how the browser handles it.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>

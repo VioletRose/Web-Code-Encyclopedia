@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;u&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This tag styles the included text with an underline. As with <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code>, it should be noted that another tag is usually more appropriate, and in this case, care should also be taken to avoid the underlined text being mistaken for a hyperlink. It is useful in certain cases however, such as if the design calls for it or the included text is a misspelled word, or a proper noun in Chinese.</p>
 	</section>

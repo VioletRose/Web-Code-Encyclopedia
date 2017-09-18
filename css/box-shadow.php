@@ -2,7 +2,7 @@
     $PAGE_NAME = 'box-shadow';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to give an element a box shadow, atop or beneath it.</p>
 	</section>
@@ -18,11 +18,9 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;box-shadow: 5px 5px 10px 5px gray;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 94px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display: inline-block;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;margin: 0px 20px 20px 0px;
-				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 294px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -34,7 +32,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="shadowBox"&gt;Mouse over the box to see what an inset shadow looks like!&lt;/div&gt;
+				&lt;div id="shadowBox"&gt;You can mouse over the box to see what an inset shadow looks like!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -45,15 +43,14 @@
 				#shadowBox {
 					border: 3px solid;
 					box-shadow: 5px 5px 10px 5px gray;
-					height: 94px;
+					display: inline-block;
 					margin: 0px 20px 20px 0px;
-					width: 294px;
 				}
 				#shadowBox:hover {
 					box-shadow: 5px 5px 10px 5px gray inset;
 				}
 			</style>
-			<div id="shadowBox">Mouse over the box to see what an inset shadow looks like!</div>
+			<div id="shadowBox">You can mouse over the box to see what an inset shadow looks like!</div>
 		</figure>
 	</section>
 	<section>
@@ -63,7 +60,7 @@
 			<dd>The default value. No shadow will be displayed.</dd>
 			<dt><code><var>x-offset</var> <var>y-offset</var> <var>blur</var> <var>spread</var> <var>color</var> inset</code></dt>
 			<dd>
-				&#10551; The horizontal and vertical offset of the shadow, the additional distance the shadow should be blurred across, how much larger the shadow is than the size of the element, and the specification that the shadow should be inset, overshadowing the element from the top left rather than extending from underneath the bottom right. <code><var>blur</var></code>, <code><var>spread</var></code>, <code><var>color</var></code>, and <code>inset</code> may be omitted.
+				The horizontal and vertical offset of the shadow, the additional distance the shadow should be blurred across, how much larger the shadow is than the size of the element, and the specification that the shadow should be inset, overshadowing the element from the top left rather than extending from underneath the bottom right. <code><var>blur</var></code>, <code><var>spread</var></code>, <code><var>color</var></code>, and <code>inset</code> may be omitted.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

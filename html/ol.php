@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;ol&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This tag creates a preformatted ordered list, i.e. one where each item is preceded by a letter or number, in ascending or descending order. It also supports starting at a specific point, rather than from the beginning.</p>
 	</section>
@@ -75,7 +75,7 @@
 			<dd>Defines the numeric starting value of the list. The first entry, unless specified otherwise, will be this number.</dd>
 			<dt><code>type</code></dt>
 			<dd>
-				&#10551; Defines the type of marker preceding each list entry. Note that if the <code>value</code> of an entry is 0 or below, it will be displayed numerically regardless of the normal behavior.
+				Defines the type of marker preceding each list entry. Note that if the <code>value</code> of an entry is 0 or below, it will be displayed numerically regardless of the normal behavior.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>

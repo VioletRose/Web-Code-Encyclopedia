@@ -2,7 +2,7 @@
     $PAGE_NAME = 'transform-style';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/transform.php">transform</a></code></p>
 		<p>This property allows you to specify whether or not child elements of a parent with a 3d transformation will be fully 3d themselves, or render flat upon the element's surface.</p>
@@ -33,11 +33,11 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 294px;
 				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;max-width: 294px;
+				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transform: perspective(500px) rotateX(45deg);
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transform-style: preserve-3d;
-				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 294px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -51,7 +51,7 @@
 				<br>
 				&lt;div id="tStyledBox"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div id="tStyledBlock"&gt;Without &lt;code&gt;preserve-3d&lt;/code&gt;, instead of "standing upright" upon its tilted parent, this element would remain flat (albeit 'thinned' by the perspective-less transform). Mouse over the parent to see the default behavior!&lt;/div&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div id="tStyledBlock"&gt;Without &lt;code&gt;preserve-3d&lt;/code&gt;, instead of "standing upright" upon its tilted parent, this element would remain flat (albeit 'thinned' by the perspective-less transform). You can mouse over the parent to see the default behavior!&lt;/div&gt;
 				<br>
 				&lt;/div&gt;
 			</code>
@@ -71,16 +71,16 @@
 				#tStyledBox {
 					border-style: solid;
 					height: 294px;
+					max-width: 294px;
 					transform: perspective(500px) rotateX(45deg);
 					transform-style: preserve-3d;
-					width: 294px;
 				}
 				#tStyledBox:hover {
 					transform-style: flat;
 				}
 			</style>
 			<div id="tStyledBox">
-				<div id="tStyledBlock">Without <code>preserve-3d</code>, instead of "standing upright" upon its tilted parent, this element would remain flat (albeit 'thinned' by the perspective-less transform). Mouse over the parent to see the default behavior!</div>
+				<div id="tStyledBlock">Without <code>preserve-3d</code>, instead of "standing upright" upon its tilted parent, this element would remain flat (albeit 'thinned' by the perspective-less transform). You can mouse over the parent to see the default behavior!</div>
 			</div>
 		</figure>
 	</section>

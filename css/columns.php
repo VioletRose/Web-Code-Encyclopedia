@@ -2,7 +2,7 @@
     $PAGE_NAME = 'columns';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
 		<p>This property and the sub-properties it sets allow you to divide text within an element into columns, much like a newspaper.</p>
@@ -19,7 +19,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;columns: 100px 2;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 300px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;max-width: 300px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -36,7 +36,7 @@
 				#columnedP {
 					-moz-columns: 100px 2;
 					columns: 100px 2;
-					width: 300px;
+					max-width: 300px;
 				}
 			</style>
 			<p id="columnedP">This is a rather odd way of formatting text, considering the internet doesn't have any of the reasons for columned text that newspapers originally did. I'm sure, however, that there is an application for it somewhere, especially if a newspaper-like styling is the objective. Creativity and resourcefulness are never in short supply with the entire internet involved, after all!</p>
@@ -58,7 +58,7 @@
 			<dd>The default value. Sets <code>column-width</code> and <code>column-count</code> to <code>auto</code>.</dd>
 			<dt><code><var>width</var> <var>count</var></code></dt>
 			<dd>
-				&#10551; The values that would normally be set through the associated, non-shorthand background properties, in this order.
+				The values that would normally be set through the associated, non-shorthand background properties, in this order.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

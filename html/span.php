@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;span&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>The &lt;span&gt; tag, having no displayed appearance of its own, is generally used to contain other elements or text inline to be modified by CSS or Javascript.</p>
 	</section>

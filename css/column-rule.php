@@ -2,7 +2,7 @@
     $PAGE_NAME = 'column-rule';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/columns.php">columns</a></code></p>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
@@ -24,7 +24,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;columns: 100px 2;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 300px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;max-width: 300px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -43,7 +43,7 @@
 					column-rule: 7px ridge lavender;
 					-moz-columns: 100px 2;
 					columns: 100px 2;
-					width: 300px;
+					max-width: 300px;
 				}
 			</style>
 			<p id="columnRuledP">This is a rather odd way of formatting text, considering the internet doesn't have any of the reasons for columned text that newspapers originally did. I'm sure, however, that there is an application for it somewhere, especially if a newspaper-like styling is the objective. Creativity and resourcefulness are never in short supply with the entire internet involved, after all!</p>
@@ -65,7 +65,7 @@
 		<dl>
 			<dt><code><var>width</var> <var>style</var> <var>color</var></code></dt>
 			<dd>
-				&#10551; The values that would normally be set through the associated, non-shorthand column-rule properties, in this order.
+				The values that would normally be set through the associated, non-shorthand column-rule properties, in this order.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;sup&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This tag styles the contained text as superscript, which is half a character above the rest of the line and sometimes in a smaller font relative to the page default, depending on the browser and the page's style rules. This is the most common appearance for citation markers.</p>
 	</section>

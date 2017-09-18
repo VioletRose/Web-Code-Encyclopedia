@@ -2,10 +2,10 @@
     $PAGE_NAME = 'column-gap';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/columns.php"></a></code></p>
-		<p>This property allows you to define the amount of empty space between text columns.</p>
+		<p>This property allows you to define the amount of empty space between text columns. However, it does resize responsively, and will only supply as much gap as it can without overflowing its container.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>

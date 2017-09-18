@@ -2,7 +2,7 @@
     $PAGE_NAME = 'backface-visibility';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <a href="/css/transform.php"><code>transform</code></a></p>
 		<p>This property allows an element that has been rotated to face away from the user to be hidden, instead of displaying in reverse as it normally does.</p>

@@ -2,9 +2,9 @@
     $PAGE_NAME = '&lt;section&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
-		<p>This Syntactic Web element designates any included elements or text as part of a subsection within the main body of the page.</p>
+		<p>This Semantic Web element designates any included elements or text as part of a subsection within the main body of the page.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>

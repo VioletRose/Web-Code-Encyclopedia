@@ -2,9 +2,9 @@
 	$PAGE_NAME = 'Element';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
-		<p>The Element object contains relevant properties and methods for dealing with not only elements on the page, but also the individual nodes that comprise their structure. Each element is technically a node, as are the their text contents and each attribute they have, and this must always be kept in mind when working with them.</p>
+		<p>Element objects contains relevant properties and methods for dealing with not only elements on the page, but also the individual nodes that comprise their structure. Each element is technically a node, as are the their text contents and each attribute they have, and this must always be kept in mind when working with them.</p>
 	</section>
 	<section>
 		<h4>Element Properties:</h4>

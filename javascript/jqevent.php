@@ -2,12 +2,12 @@
 	$PAGE_NAME = 'jQuery Event';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>jQuery has many methods for more easy, reliable control over page events and their results. Note that a large amount of the information on this page relates to the normal JavaScript <a href="/javascript/event.php">events</a>, and as such a working knowledge of them is required to utilize this aspect of jQuery.</p>
 	</section>
 	<section>
-		<h4>jQuery Event Methods:</h4>
+		<h4>Element jQuery Event Methods:</h4>
 		<dl>
 			<dt><code>blur()</code></dt>
 			<dd>Accepts an optional function in its argument, and if the <code>blur</code> event occurs on the statement's selected element(s), that function will run; if no function is provided, the <code>blur</code> event is artificially triggered.</dd>
@@ -47,41 +47,37 @@
 			<dd>Accepts an optional function in its argument, and if the <code>mouseup</code> event occurs on the statement's selected element(s), that function will run; if no function is provided, the <code>mouseup</code> event is artificially triggered.</dd>
 			<dt><code>off()</code></dt>
 			<dd>
-				&#10551; Removes event handlers previously attached using the <code>on()</code> method. Accepts several arguments, each separated by a comma and a space.
+				Removes event handlers previously attached using the <code>on()</code> method. Accepts several arguments, each separated by a comma and a space.
 				<details>
 					<summary>Arguments:</summary>
 					<dl>
 						<dt><code>"<var>event</var>"</code></dt>
 						<dd>Required; the event(s) the original handler was watching for. Multiple events may be specified, separated by spaces.</dd>
 						<dt><code>"<var>selector</var>"</code></dt>
-						<dd>Optional; a selector which matches the one(s) originally used by the <code>on()</code> method as a child selector.</dd>
-							<!--Can I just use one of these, or more than one?-->
-						<dt><code><var>function</var>(<var>event</var>)</code></dt>
-						<dd>Optional; </dd>
-							<!--I am very confused by the example for this one.-->
-						<dt><code>{<var>event</var>: <var>function</var>(), <var>event</var>: <var>function</var>()}</code></dt>
-						<dd>Optional variant argument format; the event map originally used by the <code>on()</code> method to attach the event handler.</dd>
-							<!--Is this actually multiple event handlers, or just one big multifunctional one?-->
+						<dd>Optional; a selector which matches the one originally used by the <code>on()</code> method as a child selector.</dd>
+						<dt><code><var>function</var></code></dt>
+						<dd>Optional; a specific function that was previously attached to the specified event. If provided, only this function will be removed from the appropriate event handlers.</dd>
+						<dt><code>{"<var>event</var>": <var>function</var>, "<var>event</var>": <var>function</var>}</code></dt>
+						<dd>Optional variant argument format; a map of event:function pairs originally used by one or multiple <code>on()</code> method calls to attach event handlers. If provided, only those functions will be removed from handlers for the specified events. As per usual, you may specify multiple events into the same key, however, note that not only can you not specify multiple functions, but no more than one function may be specified per event.</dd>
 					</dl>
 				</details>
 			</dd>
 			<dt><code>on()</code></dt>
 			<dd>
-				&#10551; Attaches an event handler to the statement's selected element(s) and their child elements, to be run when the specified event(s) occur. Accepts several arguments, each separated by a comma and a space.
+				Attaches an event handler to the statement's selected element(s) and their child elements, to be run when the specified event(s) occur. Accepts several arguments, each separated by a comma and a space.
 				<details>
 					<summary>Arguments:</summary>
 					<dl>
 						<dt><code>"<var>event</var>"</code></dt>
-						<dd>Required; the event(s) the handler will be watching for. Multiple events may be specified, separated by spaces.</dd>
+						<dd>Required; the event(s) the handler will be watching for, which may be one of the standard browser events or a custom event name (which will need to be triggered by jQuery directly). Multiple events may be specified, separated by spaces. Additionally, you may use <code>"<var>event</var>.<var>namespace</var>"</code> to give this event handler a specific name for easier targeting with other methods.</dd>
 						<dt>"<code><var>selector</var></code>"</dt>
 						<dd>Optional; known as a child selector, this indicates that the event handler should only be attached to selector-matching child elements of the statement's selected element(s), and not to the selected element(s) directly.</dd>
 						<dt><code>{<var>property</var>: <var>data</var>}</code></dt>
-						<dd>Optional; specifies additional data to be passed to the function, in the form of a property which will be added to the function's <code>event.data</code> object.</dd>
-							<!--This either. I need to know both if I did it right, as well as caveats/drawbacks to this approach.-->
-						<dt><code><var>function</var>()</code></dt>
-						<dd>Required; the function to be run when the specified event(s) occur.</dd>
-						<dt><code>{<var>event</var>: <var>function</var>(), <var>event</var>: <var>function</var>()}</code></dt>
-						<dd>Optional variant argument format; known as an event map, this format can specify multiple, comma-separated event:function pairs in one call of the method, allowing the handler to call different functions for different events.</dd>
+						<dd>Optional; specifies additional data to be passed to the function, in the form of a property and its value which will be added to the function's <code>event.data</code> object.</dd>
+						<dt><code><var>function</var></code></dt>
+						<dd>Required; the function to be run when the specified event(s) occur. The function may have one argument of any name, which will be used as an alias for the event which triggered it.</dd>
+						<dt><code>{"<var>event</var>": <var>function</var>, "<var>event</var>": <var>function</var>}</code></dt>
+						<dd>Optional variant argument format; known as an event map, this format can specify multiple, comma-separated event:function pairs in one call of the method, allowing the handler to call different functions for different events. As per usual, you may specify multiple events into the same key, however, note that not only can you not specify multiple functions, but no more than one function may be specified per event.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -92,12 +88,11 @@
 					<summary>Arguments:</summary>
 					<dl>
 						<dt><code>"<var>event</var>"</code></dt>
-						<dd>Required; the event(s) the handler will be watching for. Multiple events may be specified, separated by spaces.</dd>
+						<dd>Required; the event(s) the handler will be watching for, which may be one of the standard browser events or a custom event name (which will need to be triggered by jQuery directly). Additionally, you may use <code>"<var>event</var>.<var>namespace</var>"</code> to give this event handler a specific name for easier targeting with other methods. Multiple events may be specified, separated by spaces.</dd>
 						<dt><code>{<var>property</var>: <var>data</var>}</code></dt>
-						<dd>Optional; specifies additional data to be passed to the function, in the form of a property which will be added to the function's <code>event.data</code> object.</dd>
-							<!--This either. I need to know both if I did it right, as well as caveats/drawbacks to this approach.-->
-						<dt><code><var>function</var>()</code></dt>
-						<dd>Required; the function to be run when the specified event(s) occur.</dd>
+						<dd>Optional; specifies additional data to be passed to the function, in the form of a property and its value which will be added to the function's <code>event.data</code> object.</dd>
+						<dt><code><var>function</var></code></dt>
+						<dd>Required; the function to be run when the specified event(s) occur. The function may have one argument of any name, which will be used as an alias for the event which triggered it.</dd>
 					</dl>
 				</details>
 			</dd>
@@ -115,7 +110,6 @@
 			<dd>Accepts an optional function in its argument, and if the <code>submit</code> event occurs on the statement's selected element(s), that function will run; if no function is provided, the <code>submit</code> event is artificially triggered.</dd>
 			<dt><code>trigger()</code></dt>
 			<dd>Accepts an event in its argument, and artificially triggers that event on the selected element(s); notably, this event can be one of the standard JavaScript events, or a custom event. Additional arguments may also be specified, which will be passed as parameters to any event handlers which respond to the event.</dd>
-				<!--Custom events? What is this about?-->
 			<dt><code>triggerHandler()</code></dt>
 			<dd>As <code>trigger()</code>, except only the specified event is triggered, and not any browser default behavior that might exist for this event on the statement's selected element(s).</dd>
 		</dl>
@@ -128,12 +122,10 @@
 			<dd>The current DOM element in the event bubbling phase.</dd>
 			<dt><code><var>event</var>.data</code></dt>
 			<dd>The additional data passed to the event handler via the <code>on()</code> or <code>one()</code> methods.</dd>
-				<!--Is there any other way to pass data this way?-->
 			<dt><code><var>event</var>.delegateTarget</code></dt>
 			<dd>The element that the currently active jQuery event handler is attached to. If no child selector was used with the <code>on()</code> method that attached the event handler, this will return identical results to <code><var>event</var>.currentTarget</code>.</dd>
 			<dt><code><var>event</var>.namespace</code></dt>
-			<dd></dd>
-				<!--I don't get this at all, the example is junk.-->
+			<dd>The custom namespace associated with the event, if any.</dd>
 			<dt><code><var>event</var>.pageX</code></dt>
 			<dd>The mouse position relative to the left edge of the document.</dd>
 			<dt><code><var>event</var>.pageY</code></dt>
@@ -142,7 +134,6 @@
 			<dd>For events triggered by the mouse cursor moving onto/off of an element, this contains the element the cursor moved off of/onto.</dd>
 			<dt><code><var>event</var>.result</code></dt>
 			<dd>The previous value returned by any event handler associated with this event.</dd>
-				<!--Is this correct?-->
 			<dt><code><var>event</var>.target</code></dt>
 			<dd>The element which originally triggered the event.</dd>
 			<dt><code><var>event</var>.timeStamp</code></dt>

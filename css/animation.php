@@ -2,7 +2,7 @@
     $PAGE_NAME = 'animation';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required rule: <a href="/css/keyframes.php"><code>@keyframes</code></a></p>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
@@ -131,7 +131,7 @@
 				<br>
 				&lt;div id="ultimateBox"&gt;~^~&lt;br&gt;(&#9786)&lt;/div&gt;
 				<br>
-				&lt;p&gt;Mouse over the animated figure to see the direction reverse!&lt;/p&gt;
+				&lt;p&gt;You can mouse over the animated figure to see the direction reverse!&lt;/p&gt;
 			</code>
 		</figure>
 	</section>
@@ -199,7 +199,7 @@
 				}
 			</style>
 			<div id="ultimateBox">~^~<br>(&#9786)</div>
-			<p>Mouse over the animated figure to see the direction reverse!</p>
+			<p>You can mouse over the animated figure to see the direction reverse!</p>
 		</figure>
 	</section>
 	<section>
@@ -228,7 +228,7 @@
 		<dl>
 			<dt><code><var>name</var> <var>duration</var> <var>timing-function</var> <var>delay</var> <var>iteration-count</var> <var>direction</var> <var>fill-mode</var> <var>play-state</var></code></dt>
 			<dd>
-				&#10551; The values that would normally be set through the associated, non-shorthand animation properties, in this order.
+				The values that would normally be set through the associated, non-shorthand animation properties, in this order.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -296,7 +296,7 @@
 			<dd>Equivalent to 0.42,0,0.58,1. The animation slows equally at the beginning and end, and accelerates in the middle.</dd>
 			<dt><code>steps(<var>intervals</var>,start/end)</code></dt>
 			<dd>
-				&#10551; The animation will play as a series of still frames rather than smoothly transitioning between them.
+				The animation will play as a series of still frames rather than smoothly transitioning between them.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -313,7 +313,7 @@
 			<dd>Equivalent to <code>steps(1,end)</code>.</dd>
 			<dt><code>cubic-bezier(<var>x-coord-1</var>,<var>y-coord-1</var>,<var>x-coord-2</var>,<var>y-coord-2</var>)</code></dt>
 			<dd>
-				&#10551; Defines the coordinate values for the defined points in the cubic bezier function. horizontal and vertical for both points. Coordinates must be between 0 and 1.
+				Defines the coordinate values for the defined points in the cubic bezier function. horizontal and vertical for both points. Coordinates must be between 0 and 1.
 				
 			</dd>
 			<dt><code>initial</code></dt>

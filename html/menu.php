@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;menu&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This tag creates a menu of items the user can click on to activate scripted effects. However, it is not widely implemented yet. The only browser that currently supports this tag is Mozilla Firefox, which only uses the context menu form. As such, the example below will <em>only</em> display in Mozilla Firefox, and makes use of Mozilla's web API for its commands.</p>
 	</section>
@@ -53,7 +53,7 @@
 			<dd>Defines a visible label for the menu.</dd>
 			<dt><code>type</code></dt>
 			<dd>
-				&#10551; Defines which type of menu the element creates.
+				Defines which type of menu the element creates.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -86,7 +86,7 @@
 			<dd>Specifies the name of a radio group this option is part of; when the user clicks the radio, every radio in the group will be activated at the same time.</dd>
 			<dt><code>type</code></dt>
 			<dd>
-				&#10551; Defines the type of the menu option.
+				Defines the type of the menu option.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>

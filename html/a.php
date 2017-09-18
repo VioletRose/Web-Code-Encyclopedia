@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;a&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>An anchor, or hyperlink, is how a web browser can be instructed to navigate to another page when certain things are clicked. <code>&lt;a&gt;</code> is unique in that despite being inline formatting, it also applies to objects and, if used improperly, even blank space on the page. Anchors can be attached to many things, but most common are text and images.</p>
 	</section>
@@ -22,7 +22,7 @@
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
-		<figure class="renderFigure">>
+		<figure class="renderFigure">
 			<a href="/html.php">
 				<p>Click here to be directed back to the main page about HTML! Or, click this image!</p>
 				<img src="/images/html.png">

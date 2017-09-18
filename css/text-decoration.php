@@ -2,7 +2,7 @@
     $PAGE_NAME = 'text-decoration';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to define a line decoration for a body of text. In the future, this property will become a shorthand with additional options for the line's appearance, and its original function will be moved to <code>text-decoration-line</code>, but this has not happened yet.</p>
 	</section>

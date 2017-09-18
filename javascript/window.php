@@ -2,12 +2,12 @@
 	$PAGE_NAME = 'Window';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>The Window object represents an open browser window, and its properties and methods are aimed at storing information about the browser window's current condition, as well as controlling it in a number of ways. Note that tabs have no effect on this object - any page upon which Javascript is running will assume Window is the window they are in.</p>
 	</section>
 	<section>
-		<h4>Window Properties:</h4>
+		<h4>Window Object Properties:</h4>
 		<p></p>
 		<dl>
 			<dt><code>closed</code></dt>
@@ -71,7 +71,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Window Methods:</h4>
+		<h4>Window Object Methods:</h4>
 		<p></p>
 		<dl>
 			<dt><code>alert()</code></dt>
@@ -83,9 +83,9 @@
 			<dt><code>btoa()</code></dt>
 			<dd>Accepts a string, and returns its value encoded in base-64.</dd>
 			<dt><code>clearInterval()</code></dt>
-			<dd>Accepts a global variable containing an interval, and stops the execution of that interval if it was running.</dd>
+			<dd>Accepts a return value from <code>setInterval()</code> containing an interval, and stops the execution of that interval if it was running.</dd>
 			<dt><code>clearTimeout()</code></dt>
-			<dd>Accepts a global variable containing a timeout, and stops the execution of that timeout if it was running.</dd>
+			<dd>Accepts a return value from <code>setTimeout()</code>, and stops the execution of that timeout if it was running.</dd>
 			<dt><code>close()</code></dt>
 			<dd>Closes the current window or tab. This does not work in <code>&lt;iframe&gt;</code> elements, and modern browsers will sometimes ask permission from the user first.</dd>
 			<dt><code>confirm()</code></dt>
@@ -104,7 +104,7 @@
 			<dd>Accepts two numbers in its argument, which will be used as X and Y target coordinates (relative to the full monitor size) to move the window to that location. Note that this will place the top left of the viewport at that location, which may result in the browser's title bar being above the top of the screen.</dd>
 			<dt><code>open()</code></dt>
 			<dd>
-				&#10551; Opens a new window (some browsers may automatically open it in a new tab instead), and supports a larger than normal number of arguments.
+				Opens a new window (some browsers may automatically open it in a new tab instead), and supports a larger than normal number of arguments.
 				<details>
 					<summary>Arguments:</summary>
 					<dl>
@@ -114,7 +114,7 @@
 						<dd>Optional; the destination of the new window. <code>_blank</code> is a new window (or new tab with certain browser configurations, and is the default behavior. Other supported targets, mostly intended for dealing with <code>&lt;iframe&gt;</code> elements, nested or singular, are <code>_parent</code> to replace the parent frame, <code>_self</code> to replace the current frame, <code>_top</code> to replace the top level frame, or the assigned name of a specific window to replace that window.</dd>
 						<dt><var>specs</var></dt>
 						<dd>
-							&#10551; Any of the following may be used to change aspects of the new window. If more than one is used, each must be separated by commas and no spaces.
+							Any of the following may be used to change aspects of the new window. If more than one is used, each must be separated by commas and no spaces.
 							<details>
 								<summary>Specs:</summary>
 								<dl>
@@ -165,7 +165,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Selection Properties:</h4>
+		<h4>Selection Type Properties:</h4>
 		<dl>
 			<dt><code>anchorNode</code></dt>
 			<dd>The DOM node in which the selection begins.</dd>
@@ -182,7 +182,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Selection Methods:</h4>
+		<h4>Selection Type Methods:</h4>
 		<p></p>
 		<dl>
 			<dt><code>getRangeAt()</code></dt>
@@ -212,7 +212,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Range Properties:</h4>
+		<h4>Range Type Properties:</h4>
 		<dl>
 			<dt><code>collapsed</code></dt>
 			<dd>A boolean set to <code>true</code> if the selection's start and end points are in the same position, or <code>false</code> otherwise.</dd>
@@ -229,7 +229,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Range Methods:</h4>
+		<h4>Range Type Methods:</h4>
 		<dl>
 			<dt><code>setStart()</code></dt>
 			<dd>Accepts a node and an offset number in its arguments, which will replace the current values of <code>startContainer</code> and <code>startOffset</code>, respectively.</dd>
@@ -260,7 +260,7 @@
 			<dt><code>surroundContents()</code></dt>
 			<dd>Accepts a node in its argument, and moves the contents of the range to a point just after that node in the document. However, this method will fail if the range includes the beginning or end of a non-text node, but not its corresponding end or beginning.</dd>
 			<dt><code>compareBoundaryPoints()</code></dt>
-			<dd>Accepts a constant (to control the comparison behavior) and another range in its argument, and compares the current range against the targeted range to determine which appears first in the document; possible constant values are <code>Range.END_TO_END</code>, <code>Range.END_TO_START</code>, <code>Range.START_TO_END</code>, and <code>Range.START_TO_START</code>, controlling whether the two ranges are compared from their start or end points. The method returns <code>-1<code> if the other range's targeted point is before the current range's targeted point, <code>0</code> if they are equal or identical, and <code>1</code> </dd>
+			<dd>Accepts a constant (to control the comparison behavior) and another range in its argument, and compares the current range against the targeted range to determine which appears first in the document; possible constant values are <code>Range.END_TO_END</code>, <code>Range.END_TO_START</code>, <code>Range.START_TO_END</code>, and <code>Range.START_TO_START</code>, controlling whether the two ranges are compared from their start or end points. The method returns <code>-1</code> if the other range's targeted point is before the current range's targeted point, <code>0</code> if they are equal or identical, and <code>1</code> </dd>
 			<dt><code>cloneRange()</code></dt>
 			<dd>Returns a copy of the Range object with the same values.</dd>
 			<dt><code>toString()</code></dt>
@@ -268,7 +268,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>MediaQueryList Properties:</h4>
+		<h4>MediaQueryList Type Properties:</h4>
 		<dl>
 			<dt><code>matches</code></dt>
 			<dd>A boolean set to <code>true</code> if the document matches the media query list, or <code>false</code> if it does not.</dd>

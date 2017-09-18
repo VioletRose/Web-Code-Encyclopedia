@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;br&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This tag creates a single line break, which is required because normally, all text entered in an HTML document will ignore line breaks and render sequentially.</p>
 	</section>

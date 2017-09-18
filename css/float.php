@@ -2,7 +2,7 @@
     $PAGE_NAME = 'float';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to make an element 'float', which means it no longer occupies a normal place in its parent element, instead moving to the left or right side and having any other content within the element wrap around it. Note that this property does not allow elements to escape the bounds of their parent, or hover above other elements; it simply changes their place in the document's flow.</p>
 	</section>

@@ -2,7 +2,7 @@
     $PAGE_NAME = 'opacity';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to control the opacity of elements. They can be made fully opaque, fully transparent, or any value in between - however, this property affects any and all contents of the element as well. If this is undesirable behavior, it would be more ideal to use rgba color assignments instead.</p>
 	</section>

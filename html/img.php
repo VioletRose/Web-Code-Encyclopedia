@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;img&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>The simplest and most commonly used way to insert an image into a webpage.</p>
 	</section>

@@ -2,7 +2,7 @@
     $PAGE_NAME = 'font';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
 		<p>This property and the sub-properties it sets allow you to control how fonts look, within the specified element(s) or on the page as a whole.</p>
@@ -58,7 +58,7 @@
 		<dl>
 			<dt><code><var>style</var> <var>variant</var> <var>weight</var> <var>size/line-height</var> <var>family</var></code></dt>
 			<dd>
-				&#10551; The values that would normally be set through the associated, non-shorthand font properties, in this order.
+				The values that would normally be set through the associated, non-shorthand font properties, in this order.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -187,7 +187,7 @@
 		<dl>
 			<dt><code><var>'family-name', family-type</var></code></dt>
 			<dd>
-				&#10551; A prioritized list of font families; the first one the browser has access to will be the one that is used for the text. Multiple family names may be entered, separated by a , and a space, and all font families entered should be of the same generic font family, though this is not enforced.
+				A prioritized list of font families; the first one the browser has access to will be the one that is used for the text. Multiple family names may be entered, separated by a , and a space, and all font families entered should be of the same generic font family, though this is not enforced.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

@@ -2,7 +2,7 @@
     $PAGE_NAME = 'flex';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/display.php">display</a></code></p>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
@@ -66,7 +66,7 @@
 				<br>
 				&lt;/div&gt;
 				<br>
-				&lt;p&gt;Mouse over the larger square to see the size change!&lt;/p&gt;
+				&lt;p&gt;You can mouse over the larger square to see the size change!&lt;/p&gt;
 			</code>
 		</figure>
 	</section>
@@ -100,7 +100,7 @@
 				<div class="flexSquare"></div>
 				<div class="flexSquare"></div>
 			</div>
-			<p>Mouse over the larger square to see the size change!</p>
+			<p>You can mouse over the larger square to see the size change!</p>
 		</figure>
 	</section>
 	<section>
@@ -119,7 +119,7 @@
 		<dl>
 			<dt><code><var>flex-grow</var> <var>flex-shrink</var> <var>flex-basis</var></code></dt>
 			<dd>
-				&#10551; The values that would normally be set through the associated, non-shorthand flex properties, in this order. Note that since all three accept numeric values, in order for any one to be set, the preceding values
+				The values that would normally be set through the associated, non-shorthand flex properties, in this order. Note that since all three accept numeric values, in order for any one to be set, the preceding values
 				<details>
 					<summary>Variables:</summary>
 					<dl>

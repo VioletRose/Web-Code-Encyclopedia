@@ -2,7 +2,7 @@
 	$PAGE_NAME = 'Operators';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Operators may be placed between two targets, usually variables although there are other possibilities, to take some kind of action upon their values, whether it be to adjust them arbitrarily, adjust them relative to one another, perform comparisons, or other, more advanced operations.
 	</section>

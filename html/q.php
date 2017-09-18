@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;q&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This tag is used to denote a small quotation, without a displayed attribution.</p>
 	</section>

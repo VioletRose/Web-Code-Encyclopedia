@@ -2,9 +2,9 @@
     $PAGE_NAME = '&lt;header&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
-		<p>This Syntactic Web element designates any contained elements or text as a header preceding the page's main content, often including a title, logo, authorship information, and/or site navigation links.</p>
+		<p>This Semantic Web element designates any contained elements or text as a header preceding the page's main content, often including a title, logo, authorship information, and/or site navigation links.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>

@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;ruby&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This tag defines what is known as a "ruby" annotation, displaying a foreign language character (especially Japanese, Chinese, or Korean) and then, above it, showing its proper pronunciation syllable by syllable, either with phonetic characters or in English depending on the intended audience. The name comes from the original British typesetter's name for a 5.5 point font, which came to be used for such annotations internationally.</p>
 	</section>

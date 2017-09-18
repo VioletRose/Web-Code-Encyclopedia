@@ -2,7 +2,7 @@
     $PAGE_NAME = '@keyframes';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This page is about a CSS rule and the descriptors it sets.</p>
 		<p>This rule is used to create 'frames' of a CSS animation. Each frame has a defined place within the animation, as well as declared CSS properties for that place. Animations will smoothly transition between frames, calculating intermediate positions between those property values. Each <code>@keyframes</code> rule must have an animation name defined, taking the place of a selector.</p>

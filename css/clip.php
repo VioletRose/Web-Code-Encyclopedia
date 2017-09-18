@@ -2,7 +2,7 @@
     $PAGE_NAME = 'clip';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/position.php">position</a></code></p>
 		<p>This property allows you to clip an absolutely positioned element to a designated area. Its size and contents are not changed, only its visibility, meaning you can clip an edge off or create a 'window' effect without changing the element itself.</p>
@@ -19,7 +19,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 144px;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 344px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 200px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -29,13 +29,13 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border: solid blue;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clip: rect(14px,300px,82px,188px);
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;clip: rect(14px,166px,82px,44px);
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 94px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;position: absolute;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 294px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 150px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -53,7 +53,7 @@
 				<br>
 				&lt;/div&gt;
 				<br>
-				&lt;p&gt;Mouse over the box to see the clipping change!&lt;/p&gt;
+				&lt;p&gt;You can mouse over the box to see the clipping change!&lt;/p&gt;
 			</code>
 		</figure>
 	</section>
@@ -64,15 +64,15 @@
 				.containerBox {
 					border-style: solid;
 					height: 144px;
-					width: 344px;
+					width: 200px;
 				}
 				#clipBox {
 					background-color: black;
 					border: solid blue;
-					clip: rect(14px,300px,82px,188px);
+					clip: rect(14px,166px,82px,44px);
 					height: 94px;
 					position: absolute;
-					width: 294px;
+					width: 150px;
 				}
 				#clipBox:hover {
 					clip: auto;
@@ -81,7 +81,7 @@
 			<div class="containerBox">
 				<div id="clipBox"></div>
 			</div>
-			<p>Mouse over the box to see the clipping change!</p>
+			<p>You can mouse over the box to see the clipping change!</p>
 		</figure>
 	</section>
 	<section>
@@ -91,7 +91,7 @@
 			<dd>The default value. No clipping is done.</dd>
 			<dt><code>rect(<var>top</var>,<var>right</var>,<var>bottom</var>,<var>left</var>)</code></dt>
 			<dd>
-				&#10551; Defines the four edges of the clip area, measured from the top left of the element.
+				Defines the four edges of the clip area, measured from the top left of the element.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

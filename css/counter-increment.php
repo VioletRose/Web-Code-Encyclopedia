@@ -2,7 +2,7 @@
     $PAGE_NAME = 'counter-increment';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property specifies a counter that will increase by a specified number each time its selector appears. The counter begins at 0 by default. However, it counts as the page is rendering; its effective value depends on where on the page it is queried. If you have 26 <code>&lt;p&gt;</code> elements on the page, but query the counter halfway down, it will return 13.</p>
 	</section>
@@ -57,7 +57,7 @@
 			<dd>The default value. No counters will increment.</dd>
 			<dt><code><var>id</var> <var>number</var></code></dt>
 			<dd>
-				&#10551; The specified counter will increment by the specified number.
+				The specified counter will increment by the specified number.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

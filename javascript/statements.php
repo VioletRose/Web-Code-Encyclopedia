@@ -2,7 +2,7 @@
 	$PAGE_NAME = 'Statements';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>In Javascript, a 'statement' is a line of code that executes instructions. The most typical format for a statement is something that specifies the object to be acted upon, then something else that specifies an effect to be taken; as an example, in <code>document.getElementByID('exampleDiv').innerHTML = 'Hello world!';</code> first we target the <code>document</code> object, then use the <code>getElementByID</code> method to search for a specific element ID, and now that that is targeted, select its innerHTML property and adjust its value with the <code>=</code> operator and the new value. However, the bulk of this page is dedicated not to statements, but to an integral part of their functionality, statement identifiers.</p>
 	</section>
@@ -19,7 +19,7 @@
 			<dt><code>do | while</code></dt>
 			<dd>The statement enclosed by <code>do</code> will run once, then keep repeating for as long as the <code>while</code> condition below it continues to be <code>true</code>. For example, if you place <code>while (<var>complete</var> != true)</code> below a <code>do</code> statement, it will run once even if <code>complete</code> is <code>true</code>, then keep repeating an indefinite number of times as long as <code>complete</code> is not <code>true</code>.</dd>
 			<dt><code>for</code></dt>
-			<dd>Intended to be used to repeat the enclosed statement for a conditional number of times, this type of loop is highly useful for such purposes as iterating through lists. An example would be <code>for ()i = 0; i < <var>array</var>.length; i++) {<var>statement</var>}</code>; in the <code>for</code> loop's argument we define a counter, a condition the loop should check to see whether it will continue repeating, and</dd>
+			<dd>Intended to be used to repeat the enclosed statement for a conditional number of times, this type of loop is highly useful for such purposes as iterating through lists. An example would be <code>for (var i = 0; i < <var>array</var>.length; i++) {<var>statement</var>}</code>; in the <code>for</code> loop's argument we define a counter, a condition the loop should check to see whether it will continue repeating, and finally increment the counter by one after each loop completes, as well as, of course, the actual statement or function to be looped.</dd>
 			<dt><code>for | in</code></dt>
 			<dd>Similar to <code>for</code>, but specifically intended to loop through the properties of an object. An example would be <code>for (x in <var>object</var>) {<var>statement</var></code>. Because the <code>for</code> loop has the <code>in</code> in it, it will iterate through each property of the specified object, assigning the property's name to <code>x</code>, then repeating with the next property until it has run once for each property the object has.</dd>
 			<dt><code>function</code></dt>
@@ -29,7 +29,7 @@
 			<dt><code>return</code></dt>
 			<dd>Stops the current function from executing. If a value or method of obtaining a value is specified, it returns the value, otherwise it returns <code>undefined</code>. An example would be <code>return Math.random();</code>.</dd>
 			<dt><code>switch</code></dt>
-			<dd>Requires a variable in its argument, and begins running the enclosed statement from a point where <code>case</code> is used to find a match for the variable's value. For example, if you have a variable named <code>year</code> and the value of it is <code>1959</code>, the switch's statement will begin running from the point it encounters <code>case 1959:</code>.</dd>
+			<dd>Requires a value in its argument, and begins running the enclosed statement from a point where <code>case</code> is used to find a match for that value. For example, if you put a variable named <code>year</code> into the argument, and the value of it is <code>1959</code>, the switch's code block will begin running from the point it encounters <code>case 1959:</code>.</dd>
 			<dt><code>throw</code></dt>
 			<dd>Generates an error with an associated error message. Unless enclosed within a <code>try</code> statement, this will cause the script to stop running.</dd>
 			<dt><code>try | catch | finally</code></dt>

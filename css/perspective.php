@@ -2,7 +2,7 @@
     $PAGE_NAME = 'perspective';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/transform.php">transform</a></code></p>
 		<p>This property allows you to control how far away objects given 3d transformations will appear to be. If this is not set on the parent of an element that has been rotated in a three-dimensional fashion, it will simply appear flatter, as if scaled down along that axis rather than rotated. With perspective assigned to a low number, it will appear to be very close, and with that the rotation will appear extreme. At much higher values, it will appear far away, in the sense of the rotation barely being visible. However, that "perspective" is specifically in a 3d context and will not make the element larger or smaller save by exaggerating its visible rotation. Note that if the perspective appears to be in an undesirable place horizontally or vertically, this can be corrected with <code><a href="/css/perspective-origin.php">perspective-origin</a></code>.</p>
@@ -15,7 +15,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;.perspectiveBox {
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 170px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 226px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;perspective: 170px;
 				<br>
@@ -33,9 +33,9 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;padding: 50px;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transform: rotateX(45deg);
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transform: rotateX(30deg);
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 114px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 100px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -49,7 +49,7 @@
 				<br>
 				&lt;div class="perspectiveBox"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="perspectiveBlock"&gt;Mouse over this text!&lt;/div&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="perspectiveBlock"&gt;You can mouse over this text to shift perspective!&lt;/div&gt;
 				<br>
 				&lt;/div&gt;
 			</code>
@@ -60,7 +60,7 @@
 		<figure class="renderFigure">
 			<style>
 				.perspectiveBox {
-					height: 170px;
+					height: 226px;
 					perspective: 170px;
 					width: 170px;
 				}
@@ -69,15 +69,15 @@
 					border: solid #7F00FF;
 					height: 114px;
 					padding: 50px;
-					transform: rotateX(45deg);
-					width: 114px;
+					transform: rotateX(30deg);
+					width: 100px;
 				}
 				.perspectiveBox:hover {
 					perspective: 95px;
 				}
 			</style>
 			<div class="perspectiveBox">
-				<div class="perspectiveBlock">Mouse over this text!</div>
+				<div class="perspectiveBlock">You can mouse over this text to shift perspective!</div>
 			</div>
 		</figure>
 	</section>

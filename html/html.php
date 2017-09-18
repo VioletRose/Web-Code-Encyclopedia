@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;html&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>The first of the three simplest, most all-encompassing elements in HTML, &lt;html&gt; begins and ends the entire code of the webpage.</p>
 	</section>
@@ -39,7 +39,7 @@
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure class="renderFigure">
-			<iframe src="/html/minimal.html"></iframe>
+			<iframe class="htmlSized" src="/html/minimal.html"></iframe>
 		</figure>
 	</section>
 </main>	

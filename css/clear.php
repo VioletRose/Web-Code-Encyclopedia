@@ -2,7 +2,7 @@
     $PAGE_NAME = 'clear';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <a href="/css/float.php"><code>float</code></a></p>
 		<p>This property allows you to prevent the element(s) specified from appearing next to floating elements; they will display in the next available space instead.</p>
@@ -19,7 +19,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: 94px;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 294px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 200px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -54,7 +54,7 @@
 				.exampleBox {
 					border-style: solid;
 					height: 94px;
-					width: 294px;
+					width: 200px;
 				}
 				#leftClearBox {
 					background-color: lime;

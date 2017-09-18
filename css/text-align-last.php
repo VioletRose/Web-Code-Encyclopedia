@@ -2,7 +2,7 @@
     $PAGE_NAME = 'text-align-last';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/text-align.php">text-align</a></code></p>
 		<p>This property allows you to define a 'fallback' for the last line of an element with its <code>text-align</code> property set to <code>justify</code>. Since justified text may not always be capable of filling the entire line, and will often look 'odd' even if it does, this functionality ensures that text will only be fully justified on lines which are already a good size. Additionally, the value can be changed for different fallback alignments other than the left side of the element. Note that 'last line' also includes the last line before a line break, as well as just the end of the element.</p>
@@ -17,19 +17,19 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-style: solid;
 				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;max-width: 394px;
+				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text-align: justify;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-moz-text-align-last: justify;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text-align-last: justify;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 394px;
-				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="lastAlignedBox"&gt;Due to the way justified text attempts to evenly span the entire line it appears on, the last line usually needs to have a fallback or it may end up looking distinctly strange.&lt;/div&gt;
+				&lt;div id="lastAlignedBox"&gt;Due to the way justified text attempts to evenly span the entire line it appears on, the last line usually needs to have a fallback or it may end up looking&lt;br&gt;distinctly strange.&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -39,13 +39,13 @@
 			<style>
 				#lastAlignedBox {
 					border-style: solid;
+					max-width: 394px;
 					text-align: justify;
 					-moz-text-align-last: justify;
 					text-align-last: justify;
-					width: 394px;
 				}
 			</style>
-			<div id="lastAlignedBox">Due to the way justified text attempts to evenly span the entire line it appears on, the last line usually needs to have a fallback or it may end up looking distinctly strange.</div>
+			<div id="lastAlignedBox">Due to the way justified text attempts to evenly span the entire line it appears on, the last line usually needs to have a fallback or it may end up looking<br>distinctly strange.</div>
 		</figure>
 	</section>
 	<section>

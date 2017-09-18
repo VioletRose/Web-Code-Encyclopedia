@@ -2,7 +2,7 @@
     $PAGE_NAME = 'table-layout';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to override the default way table column width is handled. This can result in faster load times, at the cost of elegant design.</p>
 	</section>
@@ -92,20 +92,24 @@
 					<td>table</td>
 					<td>is</td>
 					<td>formatted</td>
+				</tr>
+				<tr>
 					<td>with</td>
 					<td>a</td>
 					<td>fixed</td>
 					<td>layout.</td>
 				</tr>
 				<tr>
-					<td>Mouse</td>
+					<td>You</td>
+					<td>can</td>
+					<td>mouse</td>
 					<td>over</td>
-					<td>the</td>
-					<td>table</td>
+				</tr>
+				<tr>
+					<td>it</td>
 					<td>to</td>
 					<td>see</td>
-					<td>automatic</td>
-					<td>layout!</td>
+					<td>automatic!</td>
 				</tr>
 			</table>
 		</figure>

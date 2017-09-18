@@ -4,20 +4,16 @@
 
 body {
 	background-color: #e6bfff;
-	font-family: 'Open Sans', sans-serif;
 	margin: 0;
+	word-wrap: break-word;
 }
 
-body > footer, body > header, main > section {
-	background-color: white;
-	border-color: #bd54ff;
-	border-style: solid;
-	box-shadow: 3px 3px 5px gray;
-	margin: 8px auto;
-	max-width: 1080px;
+button, html, input, select, .pure-g [class *= "pure-u"] {
+	/*This is bad practice, but officially recommended by Pure: https://purecss.io/grids/#using-grids-with-custom-fonts*/
+	font-family: 'Open Sans', sans-serif;
 }
 
-body > header {
+.pure-g > header {
 	text-align: center;
 }
 
@@ -29,6 +25,14 @@ details dl {
 	margin-left: 40px;
 }
 
+.pure-g > footer, .pure-g > header, main > section {
+	background-color: white;
+	border-color: #bd54ff;
+	border-style: solid;
+	box-shadow: 3px 3px 5px gray;
+	margin: 8px auto;
+}
+
 dl:not(#exampledl) dd {
 	margin-bottom: 20px;
 	margin-left: 0;
@@ -38,31 +42,27 @@ dl:not(#exampledl) dd::before {
 	content: "\002937 \A0";
 }
 
-main > section {
-	padding: 0 8px;
+main {
+	margin: 0 auto;
 }
 
-.activeMenu > .chevron {
-	transform: rotate(45deg);
+main > section {
+	padding: 8px;
+}
+
+section > h3:first-child, section > h4:first-child {
+	margin-top: 13px;
+}
+
+section > p:first-child {
+	margin-top: 8px;
 }
 
 .centeredText {
 	text-align: center;
 }
 
-.chevron {
-	border-style: solid;
-	border-width: 0 2px 2px 0;
-	height: 9px;
-	position: absolute;
-	right: 9px;
-	top: 10px;
-	transform: rotate(-45deg);
-	transition-duration: 400ms;
-	width: 9px;
-}
-
-.exampleFigure {
+.exampleFigure, .cssTableSection {
 	overflow-x: auto;
 }
 
@@ -70,8 +70,13 @@ main > section {
 	display: none;
 }
 
-.languageSection {
-	padding-left: 150px;
+.htmlSized {
+	height: auto;
+	max-width: 100%;
+}
+
+.invisibleTabs {
+	font-size: 0;
 }
 
 .navSidebar {
@@ -84,12 +89,7 @@ main > section {
 	text-align: center;
 	top: 0;
 	width: 150px;
-}
-
-@media screen and (max-width: 435px) {
-	.navSidebar {
-		/*I don't know what I'm going to do with this yet, but it will be amazing.*/
-	}
+	z-index: 4;
 }
 
 .navSidebar a, .navTopbar a {
@@ -124,6 +124,54 @@ main > section {
 	padding-left: 0;
 }
 
+.navTab {
+	/*-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;*/
+	display: none;
+	height: 34px;
+	left: 150px;
+	outline: 0;
+	position: fixed;
+	top: 0px;
+	width: 34px;
+	z-index: 4;
+}
+
+.navTab::after {
+	background-color: white;
+	border-color: lightgray darkgray darkgray lightgray;
+	border-style: outset;
+	content: url(/images/open.png);
+	height: 34px;
+	position: fixed;
+	width: 34px;
+	z-index: 5;
+}
+
+.navTab:checked::after {
+	border-style: inset;
+	content: url(/images/close.png);
+}
+
+@media screen and (max-width: 1023px) {
+	.navSidebar {
+		left: -150px;
+		transition: left 400ms;
+	}
+	.navTab {
+		display: initial;
+		left: 0px;
+		transition: left 400ms;
+	}
+	.navTab:checked {
+		left: 150px;
+	}
+	.navTab:checked~.navSidebar {
+		left: 0;
+	}
+}
+
 .navTopbar a {
 	display: inline-block;
 	font-size: 1.2em;
@@ -139,28 +187,6 @@ main > section {
 
 .renderFigure * {
 	box-sizing: initial;
-}
-
-.scriptedMenu {
-	cursor: pointer;
-	position: relative;
-}
-
-.scriptedMenu h4 {
-	border-color: lightgray darkgray darkgray lightgray;
-	border-style: outset;
-	box-shadow: 1px 1px 5px gray;
-	margin: 0 0 2px 0;
-	padding-right: 21px;
-}
-
-.scriptedMenu ul {
-	margin: 0;
-}
-
-.scriptedMenu.activeMenu > h4 {
-	border-style: inset;
-	box-shadow: 1px 1px 5px gray inset;
 }
 
 .styledTable {
@@ -202,6 +228,14 @@ main > section {
 	width: 103px;
 }
 
+#colorTable {
+	white-space: nowrap;
+}
+
 #exampledialog {
 	height: 165px;/*<dialog> is not counted as a child element, so the containing section was rendering too small. I am currently using this as a workaround until I can script it properly.-->*/
+}
+
+#examplewbr {
+	word-wrap: initial;
 }

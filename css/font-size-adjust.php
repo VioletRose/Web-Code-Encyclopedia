@@ -2,7 +2,7 @@
     $PAGE_NAME = 'font-size-adjust';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p><strong>This property is currently only supported by Mozilla Firefox.</strong></p>
 		<p>This property allows you to define the aspect ratio used by text, usually to account for the fact that if it's possible for your website to display with a different font, the size/spacing of letters might be significantly different, whereas if given a specific aspect ratio, it must remain roughly the same. As such, it works well to set this value equal to the aspect ratio (for fonts, the difference between uppercase X and lowercase X) of the font you prefer, so that if a fallback font is used, it won't significantly impact the layout of your site.</p>

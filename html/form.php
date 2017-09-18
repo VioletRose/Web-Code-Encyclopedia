@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;form&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This element is the basis for creating forms for user input, ranging from simple to complex. I will provide a simple demonstration, however, the full scope of this element, its associated elements, and the attributes thereof is <em>well</em> beyond this project, and as such, most of them will be explained rather than demonstrated.</p>
 	</section>
@@ -203,7 +203,7 @@
 			<dd>Defines whether the form should have autocomplete functionality <code>on</code> or <code>off</code>.</dd>
 			<dt><code>enctype</code></dt>
 			<dd>
-				&#10551; Defines how the form's data should be encoded before submission to the server. This is a different sort of encoding from the choice of character set.
+				Defines how the form's data should be encoded before submission to the server. This is a different sort of encoding from the choice of character set.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -218,7 +218,7 @@
 			</dd>
 			<dt><code>method</code></dt>
 			<dd>
-				&#10551; Defines which HTTP method will be used to submit the form data.
+				Defines which HTTP method will be used to submit the form data.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -235,7 +235,7 @@
 			<dd>If present, the form data will not be validated on submission.</dd>
 			<dt><code>target</code></dt>
 			<dd>
-				&#10551; Defines where the response will be displayed after submitting the form.
+				Defines where the response will be displayed after submitting the form.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -270,7 +270,7 @@
 		<dl>
 			<dt><code>accept</code></dt>
 			<dd>
-				&#10551; If <code>type</code> is set to <code>file</code>, defines which file types will be accepted.
+				If <code>type</code> is set to <code>file</code>, defines which file types will be accepted.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -305,7 +305,7 @@
 			<dd>Defines the target URL where the form data will be submitted to on completion.</dd>
 			<dt><code>formenctype</code></dt>
 			<dd>
-				&#10551; Defines how the form's data should be encoded before submission to the server.
+				Defines how the form's data should be encoded before submission to the server.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -320,7 +320,7 @@
 			</dd>
 			<dt><code>formmethod</code></dt>
 			<dd>
-				&#10551; Defines which HTTP method will be used to submit the form data.
+				Defines which HTTP method will be used to submit the form data.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -335,7 +335,7 @@
 			<dd>If present, the form data will not be validated on submission.</dd>
 			<dt><code>formtarget</code></dt>
 			<dd>
-				&#10551; Defines where the response will be displayed after submitting the form.
+				Defines where the response will be displayed after submitting the form.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -382,7 +382,7 @@
 			<dd>If <code>type</code> is set to a value that allows numeric input, specifies how many steps at a time the integer will be increased/decreased by the up/down buttons.</dd>
 			<dt><code>type</code></dt>
 			<dd>
-				&#10551; Defines the type of the <code>&lt;input&gt;</code> element, which determines what kinds of input it will accept. Numeric selectors come with integrated up/down arrows to adjust their value.
+				Defines the type of the <code>&lt;input&gt;</code> element, which determines what kinds of input it will accept. Numeric selectors come with integrated up/down arrows to adjust their value.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>

@@ -2,22 +2,22 @@
     $PAGE_NAME = '&lt;embed&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
-		<p>Importantly distinct from the &lt;video&gt; tag, &lt;embed&gt; is specifically meant to contain external applications or plugin content, the most common use being Flash videos.</p>
+		<p>Importantly distinct from the &lt;video&gt; tag, &lt;embed&gt; is specifically meant to contain external applications or plugin content, the most common use being Flash videos. Important note: mobile browsers don't support Flash content, and nothing will display, not even a notification, so make sure this is noted somewhere on your page.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>
 		<figure class="exampleFigure">
 			<code>
-				&lt;embed src="/flash/floppysword.swf" height="550" width="400"&gt;
+				&lt;embed class="htmlSized" src="/flash/floppysword.swf" height="550" width="400"&gt;
 			</code>
 		</figure>
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure class="renderFigure">
-			<embed src="/flash/floppysword.swf" height="550" width="400">
+			<embed class="htmlSized" src="/flash/floppysword.swf" height="550" width="400">
 		</figure>
 	</section>
 	<section>
@@ -34,7 +34,7 @@
 		</dl>
 	</section>
 </main>
-<footer>
+<footer class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<h6>Example flash animation provided by Lumina, and used with permission.</h6>
 </footer>
 <?php

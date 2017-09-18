@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;hr&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>A styling element that creates a divider, usually used to mark a change of topic or style within the page.</p>
 	</section>

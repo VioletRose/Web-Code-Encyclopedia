@@ -2,7 +2,7 @@
     $PAGE_NAME = 'vertical-align';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to control the vertical alignment, or baseline, of inline block or inline elements, which governs where they display relative to text lines accompanying them. Note that in most cases, this also affects the height of the text lines.</p>
 	</section>
@@ -28,7 +28,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;p&gt;Mouse over the &lt;span id="yAlignedSpan"&gt;blue text&lt;/span&gt; to change it from a positive alignment to a negative one!&lt;/p&gt;
+				&lt;p&gt;You can mouse over the &lt;span id="yAlignedSpan"&gt;blue text&lt;/span&gt; to change it from a positive alignment to a negative one!&lt;/p&gt;
 			</code>
 		</figure>
 	</section>
@@ -44,7 +44,7 @@
 					vertical-align: -11px;
 				}
 			</style>
-			<p>Mouse over the <span id="yAlignedSpan">blue text</span> to change it from a positive alignment to a negative one!</p>
+			<p>You can mouse over the <span id="yAlignedSpan">blue text</span> to change it from a positive alignment to a negative one!</p>
 		</figure>
 	</section>
 	<section>

@@ -2,7 +2,7 @@
     $PAGE_NAME = 'unicode-bidi';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/direction.php">direction</a></code></p>
 		<p></p>

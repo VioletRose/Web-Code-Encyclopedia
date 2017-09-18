@@ -2,9 +2,9 @@
     $PAGE_NAME = '&lt;mark&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
-		<p>This Syntactic Web tag designates the included text as marked or highlighted, distinguished so it will be easier to find while skimming the page, as well as giving the text a yellow background color by default.</p>
+		<p>This Semantic Web tag designates the included text as marked or highlighted, distinguished so it will be easier to find while skimming the page, as well as giving the text a yellow background color by default.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>

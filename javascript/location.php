@@ -2,12 +2,12 @@
 	$PAGE_NAME = 'Location';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>The Location object contains the current URL of the window, or rather, several permutations of its various components, as well as the possibility of sending the browser to a different URL.</p>
 	</section>
 	<section>
-		<h4>Location Properties:</h4>
+		<h4>Location Object Properties:</h4>
 		<dl>
 			<dt><code>hash</code></dt>
 			<dd>A string containing the hash/anchor portion of the URL, anything present after a # sign. The # itself is not part of this value, but is added/removed by the browser depending on whether or not this part of the URL is present.</dd>
@@ -30,7 +30,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Location Methods:</h4>
+		<h4>Location Object Methods:</h4>
 		<dl>
 			<dt><code>assign()</code></dt>
 			<dd>Accepts a string containing a full URL in its argument, and navigates the browser to that URL in the same frame.</dd>

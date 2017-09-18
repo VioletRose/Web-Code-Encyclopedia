@@ -2,7 +2,7 @@
 	$PAGE_NAME = 'jQuery Selectors';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>The jQuery library has its own range of selectors, which allow easy selection and filtering of DOM objects in a manner similar to CSS. All jQuery-specific selectors are formatted as strings and passed to the jQuery function as arguments; <code>$('<var>selector</var>')</code> and <code>jQuery("<var>selector</var>")</code> are both valid. Note that while calling the jQuery function is relatively trivial in terms of resources, it's still best from a performance perspective to filter existing selections if your next target was going to be a subset of what you already had selected.</p>
 	</section>

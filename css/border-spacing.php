@@ -2,7 +2,7 @@
     $PAGE_NAME = 'border-spacing';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to set the spacing between borders inside a <code>&lt;table&gt;</code> element.</p>
 	</section>
@@ -88,7 +88,7 @@
 		<dl>
 			<dt><code><var>x-spacing</var> <var>y-spacing</var></code></dt>
 			<dd>
-				&#10551; The spacing between borders.
+				The spacing between borders.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

@@ -2,7 +2,7 @@
     $PAGE_NAME = 'quotes';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/content.php">content</a></code></p>
 		<p>This property allows you to specify which quotation marks will be used for the <code>open-quote</code> and <code>close-quote</code> values of <code>content</code>. Note that the HTML tag <code><a href="/html/q.php">q</a></code> uses those values by default.</p>
@@ -43,7 +43,7 @@
 			<dd>Specifies that <code>open-quote</code> and <code>close-quote</code> will produce no quotation marks.</dd>
 			<dt><code>"<var>open-mark-1</var>" "<var>close-mark-1</var>" "<var>open-mark-2</var>" "<var>close-mark-2</var>"</code></dt>
 			<dd>
-				&#10551; The specific text values that will be used as quotation marks.
+				The specific text values that will be used as quotation marks.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

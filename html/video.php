@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;video&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This element is a player for video content, specifically MP4, WebM, and Ogg files, though not every format currently works in every browser.</p>
 	</section>
@@ -10,14 +10,14 @@
 		<h4>Example of use:</h4>
 		<figure class="exampleFigure">
 			<code>
-				&lt;video controls height="539" poster="/images/bloomingrose.png" preload="none" src="/video/bloomingrose.mp4 width="959"&gt;&lt;/video&gt;
+				&lt;video class="htmlSized" controls height="540" poster="/images/bloomingrose.png" preload="none" src="/video/bloomingrose.mp4 width="960"&gt;&lt;/video&gt;
 			</code>
 		</figure>
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure class="renderFigure">
-			<video controls height="539" poster="/images/bloomingrose.png" preload="none" src="/video/bloomingrose.mp4" width="959"></video>
+			<video class="htmlSized" controls height="540" poster="/images/bloomingrose.png" preload="none" src="/video/bloomingrose.mp4" width="960"></video>
 		</figure>
 	</section>
 	<section>
@@ -44,7 +44,7 @@
 			<dd>Specifies the URL of an image to be shown while the video downloads, or until the user hits the play button.</dd>
 			<dt><code>preload</code></dt>
 			<dd>
-				&#10551; Hints to the browser of how the author believes the file should be preloaded along with the page. The browser does not necessarily have to follow these instructions in all circumstances.
+				Hints to the browser of how the author believes the file should be preloaded along with the page. The browser does not necessarily have to follow these instructions in all circumstances.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -70,7 +70,7 @@
 			<dd>Specifies that if the user's preferences do not indicate otherwise, this should be the default text track used.</dd>
 			<dt><code>kind</code></dt>
 			<dd>
-				&#10551; Specifies what type of text track is being loaded.
+				Specifies what type of text track is being loaded.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -95,10 +95,10 @@
 			<dd>Specifies the language of the text track being linked to, using standard <a href="http://www.w3schools.com/tags/ref_language_codes.asp">ISO language codes</a>.</dd>
 		</dl>
 	</section>
-	<footer>
-		<h5>Sample video obtained from <a href="https://pixabay.com/videos/">Pixabay</a> under the CC0 Public Domain license.</h5>
-	</footer>
 </main>	
+<footer class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
+	<h5>Sample video obtained from <a href="https://pixabay.com/videos/">Pixabay</a> under the CC0 Public Domain license.</h5>
+</footer>
 <?php
     require_once($_SERVER["DOCUMENT_ROOT"].'/genericfoot.php');
 ?>

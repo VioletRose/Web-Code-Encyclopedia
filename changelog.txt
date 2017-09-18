@@ -1,3 +1,155 @@
+Monday, May 22nd, 2017:
+Additions:
+images/close.png
+images/open.png
+other/javascriptexamples.php
+Changes:
+other/otherhead.php: Updated with a link to the javascript examples page.
+stylesheets/encyclopedia.css: Added a "button" styled overlay for the open/close tab on the nav menu.
+
+Sunday, May 21st, 2017:
+Changes:
+index.php: Updated to indicate that the project has reached a 1.0-equivalent state.
+css/bottom.php, css/cursor.php, css/empty-cells.php, css/flex.php, css/filter.php, css/flex.php, css/flex-flow.php, css/justify-content.php, css/left.php, css/letter-spacing, css/line-height, css/list-style.php, css/max-height.php, css/max-width.php, css/min-height.php, css/min-width.php, css/outline-offset.php, css/overflow.php, css/perspective.php, css/perspective-origin.php, css/position.php, css/resize.php, css/right.php, css/tab-size.php, css/table-layout.php, css/text-align-last.php, css/text-indent.php, css/text-overflow.php, css/top.php, css/transform.php, css/transform-origin.php, css/transform-style.php, css/transition.php, css/vertical-align.php, css/white-space.php, css/word-break.php, css/word-wrap.php, css/z-index.php: Updated to work properly on mobile devices.
+
+Thursday, May 18th, 2017:
+Changes:
+css.php: Added a note to the navigation section about 'mouse over' examples.
+html.php: Added a note to the navigation section about my use of .htmlSized.
+css/animation.php, css/border-image.php: Changed wording of the instructions to 'mouse over' things.
+css/bottom.php, css/box-shadow.php, css/box-sizing.php, css/clip.php: Changed wording of the instructions to 'mouse over' things, fixed overflow issues.
+css/column-gap.php: Added a note about responsive sizing.
+html/embed.php: Added a note about the inability of mobile browsers to play flash content.
+html/main.php: Revised the rendered code to make more sense.
+html/script.php: Added the missing attributes section.
+scripts/writer.js: Changed from a black text style to transparent.
+stylesheets/encyclopedia.css: Added a class to enforce maximum width and appropriate height scaling on elements which usually have their size controlled by attributes, as well as an id to avoid word wrapping on the CSS color table.
+stylesheets/writer.css: Changed animation from a black to orange transition to a transparent to opaque transition, moved orange text to only the writing box, and fixed an overflow issue.
+Fixes:
+css/background-blend-mode.php, css/clear.php, css/colors.php, css/column-rule.php, css/column-span.php, css/columns.php, css/content.php, css/prefixes.php, html/body.php, html/embed.php, html/figure.php, html/head.php, html/html.php, html/iframe.php, html/map.php, html/object.php, html/textarea.php, html/video.php: Fixed overflow issues on mobile devices.
+html/style.php: Ensured the example emulates properly.
+
+Wednesday, May 17th, 2017:
+Changes:
+Sitewide: added new classes to <main> elements with the inclusion of Pure.
+generichead.php, genericfoot.php, css/csshead.php, html/htmlhead.php, other/otherhead.php, javascript/javascripthead.php: Added a new meta tag to enforce precision of the px measurement, added Pure stylesheets, added a div wrapper for Pure, and added new classes to <header> and <nav> elements with the inclusion of Pure.
+other/snek.php: Removed the now-redundant meta tag enforcing pixel size.
+stylesheets/encyclopedia.css: Removed several unused classes, added new navigation menu functionality, made adjustments for the inclusion of Pure.
+
+Tuesday, May 16th, 2017
+Additions:
+stylesheets/pure/base-min.css
+stylesheets/pure/grids-min.css
+stylesheets/pure/grids-responsive-min.css
+Changes:
+html.php: Added Pure classes to the page as a testbed for future inclusion. This page is currently broken on mobile devices, pending fixes to Pure's interaction with existing CSS rules.
+html/htmlhead.php: Added a new meta tag to enforce precision of the px measurement, and added Pure stylesheets.
+stylesheets/encyclopedia.css: Now forces extremely long strings of text to break rather than overflow their containers.
+
+Monday, May 15th, 2017
+Additions:
+other.php
+other/blocks.php
+other/otherhead.php
+other/palindromechecker.php
+other/snek.php
+other/spookyghostwriter.php
+scripts/blocks.js
+scripts/palindrome.js
+scripts/snek.js
+scripts/writer.js
+stylesheets/blocks.css
+stylesheets/palindrome.css
+stylesheets/snek.css
+stylesheets/writer.css
+Changes:
+css.php, html.php: Updated the navigation information with an appropriate header.
+generichead.php, html/htmlhead.php, css/csshead.php, javascript/javascripthead.php: Updated nav panels with links to the Other section of the website, corrected PHP inclusion of extra header information.
+javascript.php: Added a brief section on jQuery and updated the navigation information.
+javascript/event.php: Updated with information on touch events and their related objects.
+javascript/jqajax.php, javascript/jqeffect.php, javascript/jqevent.php, javascript/jqhtml-css.php, javascript/jqmisc.php, javascript/jqproperties.php: Updated method sections with header clarification on what object is meant to precede the methods in the chain.
+
+Saturday, May 13th, 2017
+Changes:
+javascript.php: Updated with content.
+Changes:
+javascript/array.php, javascript/attribute.php, javascript/boolean.php, javascript/canvas.php, javascript/date.php, javascript/document.php, javascript/error.php, javascript/history.php, javascript/location.php, javascript/math.php, javascript/navigator.php, javascript/number.php, javascript/regexp.php, javascript/screen.php, javascript/string.php, javascript/style.php, javascript/window.php: Updated to distinguish between properties/methods addressed at the global object, and properties/methods addressed at instances of the object.
+javascript/javascripthead.php: Removed navMenu.js and all of the menu structure that depended on it.
+Fixes:
+javascript/document.php: Closed an unclosed code tag.
+Removed:
+scripts/navMenu.js
+
+Monday, April 24th, 2017
+Fixes:
+Sitewide: Removed a large number of redundant arrows from <dd> elements.
+
+Tuesday, April 18th, 2017
+Fixes:
+javascript/statements.php: Corrected a mistake in the description of for.
+
+Monday, April 17th, 2017
+Changes:
+generichead.php, css/csshead.php, html/htmlhead.php, javascript/javascripthead.php: Added new functionality allowing specific pages to request additional head content.
+stylesheets/encyclopedia.css: Added a new class intended to correct cases of document-level tabbing affecting page layout.
+Fixes:
+javascript/statements.php: Corrected mistakes in the description of for.
+
+Sunday, April 16th, 2017
+Fixes:
+javascript/boolean.php: Added a missing method name.
+
+Tuesday, April 11th, 2017
+Additions:
+javascript/canvas.php
+Changes:
+javascript/javascripthead.php: Added a link for Canvas.
+
+Monday, April 3rd, 2017
+Changes:
+javascript/event.php: Removed <h4> elements from <summary> elements as they were disrupting the flow of the page.
+
+Saturday, April 1st, 2017
+Additions:
+javascript/jqajax.php
+Changes:
+javascript/javascripthead.php: Added a link for jQuery AJAX.
+
+Tuesday, March 14th, 2017
+Changes:
+favicon.ico: Updated to the current icon design.
+
+Monday, March 13th, 2017
+Additions:
+javascript/document.php
+Changes:
+javascript/javascripthead.php: Added a link for Document.
+
+Wednesday, March 08th, 2017
+Additions:
+javascript/jqevent.php
+javascript/jqtraversing.php
+Changes:
+javascript/javascripthead.php: Added links for jQuery Event and jQuery Traversing.
+
+Tuesday, March 07th, 2017
+Additions:
+javascript/jqmisc.php
+javascript/jqproperties.php
+Changes:
+javascript/javascripthead.php: Added links for jQuery Misc and jQuery Properties.
+
+Monday, March 06th, 2017
+Additions:
+javascript/jqevent.php
+javascript/jqhtml-css.php
+Changes:
+javascript/array.php: Corrected a misunderstanding of the distinction between variables and aliases.
+javascript/javascripthead.php: Added links for jQuery Effect and jQuery HTML/CSS.
+javascript/navigator.php: Corrected a misunderstanding of the distinction between variables and aliases.
+javascript/statements.php: Corrected the description of the switch method.
+javascript/window.php: Corrected the description of the clearInterval and clearTimeout methods.
+
 Monday, February 13th, 2017
 Changes:
 index.php: Added credit and links to W3Schools and the Mozilla Developer Network.

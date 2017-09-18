@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;iframe&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This element embeds another webpage inside of a webpage. Although the similar &lt;frame&gt; element has now been fully deprecated from HTML5, &lt;iframe&gt; still exists in a more limited form than in previous years, mostly due to security reasons but also because many of its use cases can now be satisfied using other, better methods.</p>
 	</section>
@@ -10,14 +10,14 @@
 		<h4>Example of use:</h4>
 		<figure class="exampleFigure">
 			<code>
-				&lt;iframe height="960" src="iframe.php" width="540" &gt;&lt;/iframe&gt;
+				&lt;iframe class="htmlSized" height="960" src="iframe.php" width="540" &gt;&lt;/iframe&gt;
 			</code>
 		</figure>
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure class="renderFigure">
-			<iframe height="960" src="iframe.php" width="540"></iframe>
+			<iframe class="htmlSized" height="960" src="iframe.php" width="540"></iframe>
 		</figure>
 	</section>
 	<section>
@@ -29,7 +29,7 @@
 			<dd>Defines a name for the element. This can be used to target it with Javascript or certain attributes on other elements.</dd>
 			<dt><code>sandbox</code></dt>
 			<dd>
-				&#10551; This attribute is an exception to normal rules, in that it is both boolean and accepts values. If present, the content of the <code>&lt;iframe&gt;</code> element will have several restrictions placed on it, disabling form submission, script execution, APIs, plugins, and any automatic feature such as auto-playing video or automatically focused buttons. In addition, the content will be treated by the web browser as from a different origin as the main site, with higher security restrictions, and links will not be able to load outside of the <code>&lt;iframe&gt;</code> even if they are coded to do so. However, by setting its values appropriately, these restrictions may be selectively removed. Use of this attribute is highly advisable if you're embedding an external website you do not have control over.
+				This attribute is an exception to normal rules, in that it is both boolean and accepts values. If present, the content of the <code>&lt;iframe&gt;</code> element will have several restrictions placed on it, disabling form submission, script execution, APIs, plugins, and any automatic feature such as auto-playing video or automatically focused buttons. In addition, the content will be treated by the web browser as from a different origin as the main site, with higher security restrictions, and links will not be able to load outside of the <code>&lt;iframe&gt;</code> even if they are coded to do so. However, by setting its values appropriately, these restrictions may be selectively removed. Use of this attribute is highly advisable if you're embedding an external website you do not have control over.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>

@@ -2,12 +2,12 @@
 	$PAGE_NAME = 'Document';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>The Document object is how Javascript accesses the HTML document currently loaded into the web browser. Properties and methods of the Document object are concerned with the page itself directly. Incidentally, the Document object is technically part of the Window object as well</p>
 	</section>
 	<section>
-		<h4>Document Properties:</h4>
+		<h4>Document Object Properties:</h4>
 		<dl>
 			<dt><code>activeElement</code></dt>
 			<dd>Read-only; stores the currently focused element in the document.</dd>
@@ -19,7 +19,7 @@
 			<dd>Stores the body element of the document. Note that this property can be set by specifying new content for the body, but that doing so overwrites all existing content.</dd>
 			<dt><code>cookie</code></dt>
 			<dd>
-				&#10551; Not actually a property, but functioning as one. Assigning a string value to this faux-property, in the format of a name=value pair or multiple such pairs separated by semicolons and spaces, creates a new browser cookie, and checking it returns the most recent cookie or set of cookies created in this fashion.
+				Not actually a property, but functioning as one. Assigning a string value to this faux-property, in the format of a name=value pair or multiple such pairs separated by semicolons and spaces, creates a new browser cookie, and checking it returns the most recent cookie or set of cookies created in this fashion.
 				<details>
 					<summary>Accepted <var>key</var>=<var>value</var> pairs:
 					<dt><code><var>key</var>=<var>value</var></code></dt>
@@ -49,11 +49,11 @@
 			<dt><code>forms</code></dt>
 			<dd>Stores a list of all <code>&lt;form&gt;</code> eleemnts in the document.</dd>
 			<dt><code>head</code></dt>
-			<dd>Stores the <code>&lt;head&gt; element of the document.</dd>
+			<dd>Stores the <code>&lt;head&gt;</code> element of the document.</dd>
 			<dt><code>images</code></dt>
 			<dd>Stores a list of all <code>&lt;img&gt;</code> elements in the document.</dd>
 			<dt><code>implementation</code></dt>
-			<dd>Stores a DocumentImplementation object; for more information, see below.</dd>
+			<dd>Stores a DOMImplementation object; for more information, see below.</dd>
 			<dt><code>inputEncoding</code></dt>
 			<dd>Read-only; stores the character encoding used by the document.</dd>
 			<dt><code>lastModified</code></dt>
@@ -62,7 +62,7 @@
 			<dd>Stores a list of all <code>&lt;a&gt;</code> and <code>&lt;area&gt;</code> elements with an <code>href</code> attribute in the document.</dd>
 			<dt><code>readyState</code></dt>
 			<dd>
-				&#10551; Read-only; stores the current loading status of the document.
+				Read-only; stores the current loading status of the document.
 				<details>
 					<summary>Possible values:</summary>
 					<dl>
@@ -90,15 +90,14 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Document Methods:</h4>
+		<h4>Document Object Methods:</h4>
 		<dl>
 			<dt><code>addEventListener()</code></dt>
 			<dd>Accepts an <a href="/javascript/event.php">event</a> (without the <code>on</code> prefix) and a function in its arguments. Attaches an event listener to the document or any object within it. If the specified event occurs, the function will run.</dd>
 			<dt><code>adoptNode()</code></dt>
 			<dd>Accepts a node from another document (such as one in an <code>&lt;iframe&gt;</code> element) in its argument, and makes that node and all of its child nodes part of the current document, removing it from the other document. However, it still needs to be assigned a place in the current document before it will appear there.</dd>
 			<dt><code>close()</code></dt>
-			<dd></dd>
-				<!--What is this?-->
+			<dd>Closes the output stream previously opened by <code>open()</code>, committing its contents to the document.</dd>
 			<dt><code>createAttribute()</code></dt>
 			<dd>Accepts a string in its argument, and creates a new attribute node of that type. Note that without assigning this method to a variable or some other way of accessing it in the future, the new attribute node will be unusable.</dd>
 			<dt><code>createComment()</code></dt>
@@ -124,8 +123,7 @@
 			<dt><code>normalize()</code></dt>
 			<dd>Removes empty text nodes from the document, and conjoins adjacent text nodes.</dd>
 			<dt><code>open()</code></dt>
-			<dd></dd>
-				<!--What is this?-->
+			<dd>Can accept up to two arguments, and opens an "output stream" to collect use of the <code>write()</code> method, storing any relevant output until the <code>close()</code> method is used. Its first argument can be a MIME type for the new document, and defaults to <code>"text/html"</code> (only Firefox supports any values other than <code>"text/html"</code> and <code>"text/plain"</code>, while the second argument must be <code>replace</code>, and, if present, the new document written when <code>close()</code> is used will take the current page's place in the window's history, otherwise it will be after the current page in the window's history. Note that this doesn't necessarily have to overwrite the existing document if the document object in another window is targeted instead. This method is useful if <code>write()</code> is going to be used multiple times, because otherwise, that method automatically opens and closes an output stream with each use, overwriting the document each time.</dd>
 			<dt><code>querySelector()</code></dt>
 			<dd>Accepts a string containing a CSS selector in its argument, and returns the first element in the document that matches that selector.</dd>
 			<dt><code>querySelectorAll()</code></dt>
@@ -139,17 +137,17 @@
 		</dl>
 	</section>
 	<section>
-		<h4>DocumentImplementation Methods:</h4>
-		<p></p>
+		<h4>DOMImplementation Type Methods:</h4>
+		<p>A DOMImplementation object underlies all document objects, and as such, contains methods for creating new documents.</p>
 		<dl>
 			<dt><code>createDocument()</code></dt>
-			<dd></dd>
+			<dd>Accepts three arguments, a namespace URI, the name of the document's root node (for HTML documents, this must be <code>'html'</code>, and optionally, a <code>documentType</code> object of the sort created by <code>createDocumentType()</code>. Creates and returns a new XML document.</dd>
 			<dt><code>createDocumentType()</code></dt>
-			<dd></dd>
+			<dd>Accepts three arguments, the qualified name of the document type, the PUBLIC identifier of the document type, and the SYSTEM identifier of the document type. Creates and returns a documentType object.</dd>
 			<dt><code>createHTMLDocument()</code></dt>
-			<dd></dd>
+			<dd>Can accept a string in its argument, and creates a new HTML document, for which the string will be used as a title.</dd>
 			<dt><code>hasFeature()</code></dt>
-			<dd></dd>
+			<dd>Accepts two strings in its argument, containing a feature name and a version it was implemented, respectively. Largely unused and dummied out of modern browsers, this method is only still implemented for compatibility reasons; it returns <code>true</code> no matter what.</dd>
 		</dl>
 	</section>
 </main>	

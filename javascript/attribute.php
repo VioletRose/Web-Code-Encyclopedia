@@ -2,12 +2,12 @@
 	$PAGE_NAME = 'Attribute';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
-		<p>The Attribute object contains a few specialized ways of working with attribute nodes.</p>
+		<p>Attribute objects contains a few specialized ways of working with attribute nodes.</p>
 	</section>
 	<section>
-		<h4><code>Attr</code> Properties:</h4>
+		<h4><code>Attr</code> Type Properties:</h4>
 		<dl>
 			<dt><code>name</code></dt>
 			<dd>The name of the attribute.</dd>
@@ -18,15 +18,15 @@
 		</dl>
 	</section>
 	<section>
-		<h4><code>NamedNodeMap</code> Properties:</h4>
-		<p><code>NamedNodeMap<code> objects are arrays containing an attribute object in each entry, each having <code>name</code> and <code>value</code> properties storing their key-value pairs.</p>
+		<h4><code>NamedNodeMap</code> Type Properties:</h4>
+		<p><code>NamedNodeMap</code> objects are arrays containing an attribute object in each entry, each having <code>name</code> and <code>value</code> properties storing their key-value pairs.</p>
 		<dl>
 			<dt><code>length</code></dt>
 			<dd>Returns the number of entries the node map contains, starting from 0.</dd>
 		</dl>
 	</section>
 	<section>
-		<h4><code>NamedNodeMap</code> Methods:</h4>
+		<h4><code>NamedNodeMap</code> Type Methods:</h4>
 		<dl>
 			<dt><code>getNamedItem()</code></dt>
 			<dd>Accepts a string containing the name of an attribute in its argument, and returns the attribute node with that name.</dd>

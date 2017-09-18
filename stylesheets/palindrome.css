@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: Thistle;
+	margin: 0;
+}
+
+header, section {
+	background-color: White;
+	border: solid MediumOrchid;
+	margin: 8px auto;
+	max-width: 1080px;
+}
+
+section {
+	padding: 8px;
+}
+
+.heading {
+	text-align: center;
+}
+
+.textDisplay {
+	border-style: solid;
+	min-height: 100px;
+	margin: 4px 0;
+	padding: 4px;
+}
+
+#backwardsText {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}

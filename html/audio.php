@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;audio&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This element is used to play an audio file, and can be used to provide background music for a website (<strong>not recommended with autoplay enabled</strong>) or to provide a music player on the page. It supports .mp3, .wav, and .ogg audio formats, though not every format currently works in every browser.</p>
 	</section>
@@ -40,7 +40,7 @@
 			<dd>If present, the audio will be muted by default.</dd>
 			<dt><code>preload</code></dt>
 			<dd>
-				&#10551; Hints to the browser of how the author believes the file should be preloaded along with the page. The browser does not necessarily have to follow these instructions in all circumstances.
+				Hints to the browser of how the author believes the file should be preloaded along with the page. The browser does not necessarily have to follow these instructions in all circumstances.
 				<details>
 					<summary>Accepted values:</summary>
 					<dl>
@@ -69,7 +69,7 @@
 		</dl>
 	</section>
 </main>
-<footer>
+<footer class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<h6>Example audio file provided by Himitsu Chan, and used with permission.</h6>
 </footer>
 <?php

@@ -2,7 +2,7 @@
     $PAGE_NAME = 'list-style';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
 		<p>This property and the sub-properties it sets allow you to control the markers of ordered and unordered lists.</p>
@@ -35,7 +35,11 @@
 				<br>
 				&lt;ul id="styledList"&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Mouse&lt;/li&gt;
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;You&lt;/li&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;can&lt;/li&gt;
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;mouse&lt;/li&gt;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;over&lt;/li&gt;
 				<br>
@@ -74,7 +78,9 @@
 				}
 			</style>
 			<ul id="styledList">
-				<li>Mouse</li>
+				<li>You</li>
+				<li>can</li>
+				<li>mouse</li>
 				<li>over</li>
 				<li>this</li>
 				<li>list</li>
@@ -103,7 +109,7 @@
 		<dl>
 			<dt><code><var>type</var> <var>position</var> <var>image</var></code></dt>
 			<dd>
-				&#10551; The values that would normally be set through the associated, non-shorthand border properties, in this order.
+				The values that would normally be set through the associated, non-shorthand border properties, in this order.
 				<details>
 					<summary>Variables:</summary>
 					<dl>
@@ -193,7 +199,7 @@
 			<dd>The default value. No image will be used, instead, <code>list-style-type</code> governs the marker displayed.</dd>
 			<dt><code>url('<var>URL</var>')</code></dt>
 			<dd>
-				&#10551; Specifies the location of the image to be used as a list marker.
+				Specifies the location of the image to be used as a list marker.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

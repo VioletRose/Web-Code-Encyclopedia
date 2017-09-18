@@ -2,7 +2,7 @@
     $PAGE_NAME = 'cursor';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property lets you define a different cursor to appear when the user mouses over the specified element. However, the definitions are contextual rather than specific, and as such it is up to the browser to decide which cursor actually displays. At this moment, not all of these cursor types are supported yet.</p>
 	</section>
@@ -252,7 +252,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;p&gt;Mouse over each box to see an example of that cursor in your browser. Note that not all cursor types are used by every browser.&lt;/p&gt;
+				&lt;p&gt;You can mouse over each box to see an example of that cursor in your browser. Note that not all cursor types are used by every browser, and for obvious reasons, this demonstration doesn't apply to touch screens.&lt;/p&gt;
 				<br>
 				&lt;div class="cursorBox" id="aliasBox"&gt;alias&lt;/div&gt;
 				<br>
@@ -454,7 +454,7 @@
 					cursor: zoom-out;
 				}
 			</style>
-			<p>Mouse over each box to see an example of that cursor in your browser. Note that not all cursor types are used by every browser.</p>
+			<p>You can mouse over each box to see an example of that cursor in your browser. Note that not all cursor types are used by every browser, and for obvious reasons, this demonstration doesn't apply to touch screens.</p>
 			<div class="cursorBox" id="aliasBox">alias</div>
 			<div class="cursorBox" id="allScrollBox">all-scroll</div>
 			<div class="cursorBox" id="autoBox">auto</div>
@@ -561,7 +561,7 @@
 			<dd>A cursor indicating that text may be selected.</dd>
 			<dt><code>url(<var>URL</var>,<var>fallback</var>)</code></dt>
 			<dd>
-				&#10551; A prioritized list of URLs to custom cursor images. Additional URLs may be added within the parentheses, separated by commas, and the first usable option will be used. The list should always end with another value of <code>cursor</code>, often <code>auto</code>, so that if the images can't be displayed the cursor will still show.
+				A prioritized list of URLs to custom cursor images. Additional URLs may be added within the parentheses, separated by commas, and the first usable option will be used. The list should always end with another value of <code>cursor</code>, often <code>auto</code>, so that if the images can't be displayed the cursor will still show.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

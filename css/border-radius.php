@@ -2,7 +2,7 @@
     $PAGE_NAME = 'border-radius';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <a href="/css/border.php"><code>border</code></a></p>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
@@ -70,7 +70,7 @@
 		<dl>
 			<dt><code><var>top-left-radius</var> <var>top-right-radius</var> <var>bottom-right-radius</var> <var>bottom-left-radius</var></code></dt>
 			<dd>
-				&#10551; Defines how rounded the border's corners will be.
+				Defines how rounded the border's corners will be.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

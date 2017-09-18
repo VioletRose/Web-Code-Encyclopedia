@@ -2,7 +2,7 @@
     $PAGE_NAME = 'column-span';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/columns.php">columns</a></code></p>
 		<p>This property allows you to have a single heading span multiple columns of text.</p>
@@ -19,7 +19,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;columns: 100px 2;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 300px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;max-width: 300px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
@@ -58,7 +58,7 @@
 				.columnedDiv {
 					-moz-columns: 100px 2;
 					columns: 100px 2;
-					width: 300px;
+					max-width: 300px;
 				}
 				#spannedHeading {
 					-moz-column-span: all;

@@ -2,12 +2,12 @@
 	$PAGE_NAME = 'Array';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Arrays are a type of object used to store multiple values in one variable. However, like variables themselves, arrays can contain things more complex than just numeric or string data, including other kinds of object or even other arrays! Entries within arrays, no matter their type, are accessible at <code><var>arrayName</var>[<var>indexNumber</var>]</code>. Like much of Javascript, arrays are zero-indexed.</p>
 	</section>
 	<section>
-		<h4>Array Properties:</h4>
+		<h4>Array Type Properties:</h4>
 		<dl>
 			<dt><code>constructor</code></dt>
 			<dd>This property stores the code that created the array's prototype. Unless this array, somewhere up its heredity, was created by the <code>new</code> operator, this will return <code>function Array() { [native code] }</code>, reflecting a core part of Javascript's engine.</dd>
@@ -18,7 +18,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Array Methods:</h4>
+		<h4>Array Type Methods:</h4>
 		<dl>
 			<dt><code>concat()</code></dt>
 			<dd>Accepts two or more arrays in its argument, and returns a copy of these arrays joined together. The first array will retain its current indexing, while subsequent arrays will be appended to the first, in order.</dd>
@@ -35,7 +35,7 @@
 			<dt><code>findIndex()</code></dt>
 			<dd>Accepts a conditional check in its argument, and returns the index of the first element in the array that returns <code>true</code>.</dd>
 			<dt><code>forEach()</code></dt>
-			<dd>Accepts a required function in its argument, which will be run once for each element in the array, and optionally, a value that function should use for <code>this</code>. The function may have up to three variables (which may be undefined), which will be given values equaling: the value of the current element, the array index of the current element, and the array the current element belongs to, respectively.</dd>
+			<dd>Accepts a required function in its argument, which will be run once for each element in the array, and optionally, a value that function should use for <code>this</code>. The function may have up to three arguments of any name, which will be used as aliases for: the value of the current element, the array index of the current element, and the array the current element belongs to, respectively.</dd>
 			<dt><code>indexOf()</code></dt>
 			<dd>Accepts a search value in its argument, and returns the index number of the first element with that value. If it cannot find any matches, it returns <code>-1</code>.</dd>
 			<dt><code>isArray()</code></dt>
@@ -51,9 +51,9 @@
 			<dt><code>push()</code></dt>
 			<dd>Accepts any amount of new values in its argument, and adds new entries to the end of the array with those values.</dd>
 			<dt><code>reduce()</code></dt>
-			<dd>Accepts a required function in its argument, to be run once for each element in the array going from beginning to end, and optionally, an initial value. The function may have up to four variables (which may be undefined) in its argument, which will be given values equaling: the initial value (or the most recently returned value of the function, if no initial value was set), the value of the current element, the array index of the current element, and the array the current element belongs to, respectively. The array will be reduced to a single entry, which will have the final returned value of the specified function as its value, and the method will return the new state of the array.</dd>
+			<dd>Accepts a required function in its argument, to be run once for each element in the array going from beginning to end, and optionally, an initial value. The function may have up to four arguments of any name, which will be used as aliases for: the initial value (or the most recently returned value of the function, if no initial value was set), the value of the current element, the array index of the current element, and the array the current element belongs to, respectively. The array will be reduced to a single entry, which will have the final returned value of the specified function as its value, and the method will return the new state of the array.</dd>
 			<dt><code>reduceRight()</code></dt>
-			<dd>Accepts a required function in its argument, to be run once for each element in the array going from end to beginning, and optionally, an initial value. The function may have up to four variables (which may be undefined) in its argument, which will be given values equaling: the initial value (or the most recently returned value of the function, if no initial value was set), the value of the current element, the array index of the current element, and the array the current element belongs to, respectively. The array will be reduced to a single entry, which will have the final returned value of the specified function as its value, and the method will return the new state of the array.</dd>
+			<dd>Accepts a required function in its argument, to be run once for each element in the array going from end to beginning, and optionally, an initial value. The function may have up to four arguments of any name, which will be used as aliases for: the initial value (or the most recently returned value of the function, if no initial value was set), the value of the current element, the array index of the current element, and the array the current element belongs to, respectively. The array will be reduced to a single entry, which will have the final returned value of the specified function as its value, and the method will return the new state of the array.</dd>
 			<dt><code>reverse()</code></dt>
 			<dd>Reverses the order of every element in the array, so that they are now ordered last to first.</dd>
 			<dt><code>shift()</code></dt>
@@ -63,7 +63,7 @@
 			<dt><code>some()</code></dt>
 			<dd>Accepts a conditional check in its argument, and returns <code>true</code> if any element in the array returns <code>true</code> to the condition(s), otherwise, it returns <code>false</code>.</dd>
 			<dt><code>sort()</code></dt>
-			<dd>Accepts an optional function in its argument, that must in turn have two variables (which may be undefined) in its argument, which will have their values set to those of two items <code>Array.sort</code>is comparing, and in typical use also returns the value of <code><var>variableOne</var> - <var>variableTwo</var></code> or <code><var>variableTwo</var> - <var>variableOne</var></code>. This method will then sort the array's elements by comparison return values from lowest to highest. If not provided, it will treat all elements' values as strings and sort them alphabetically, which can lead to undesirable results in the case of numeric data.</dd>
+			<dd>Accepts an optional function in its argument, that must in turn have two arguments of any name, which will be used as aliases for the two items <code>Array.sort</code>is comparing, and in typical use also returns the value of <code><var>itemOne</var> - <var>itemTwo</var></code> or <code><var>itemTwo</var> - <var>itemOne</var></code>. This method will then sort the array's elements by comparison return values from lowest to highest. If not provided, it will treat all elements' values as strings and sort them alphabetically, which can lead to undesirable results in the case of numeric data.</dd>
 			<dt><code>splice()</code></dt>
 			<dd>Accepts a starting index value, number of items following that index value which will be removed, and any amount of new values. The new values will be added to the array as new elements at the index position specified, and the specified number of items starting with that index will be deleted; that value can be <code>0</code>, in which case no items will be deleted.</dd>
 			<dt><code>toString()</code></dt>

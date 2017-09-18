@@ -2,7 +2,7 @@
     $PAGE_NAME = 'line-height';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to define the amount of space between lines in an element's text.</p>
 	</section>
@@ -32,7 +32,7 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&lt;br&gt;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;Mouse over the text to see a much smaller height than normal!
+				&nbsp;&nbsp;&nbsp;&nbsp;You can mouse over the text to see a much smaller height than normal!
 				<br>
 				&lt;/div&gt;
 			</code>
@@ -52,7 +52,7 @@
 			<div id="lineHeightBox">
 				This is a larger line height than normal.
 				<br>
-				Mouse over the text to see a much smaller height than normal!
+				You can mouse over the text to see a much smaller height than normal!
 			</div>
 		</figure>
 	</section>

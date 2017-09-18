@@ -2,7 +2,7 @@
     $PAGE_NAME = 'justify-content';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/display.php">display</a></code></p>
 		<p>This property allows you to justify (align) content within a flex container specifically when it doesn't fill a full row or column.</p>
@@ -63,7 +63,7 @@
 				<br>
 				&lt;/div&gt;
 				<br>
-				&lt;p&gt;Mouse over the box to see the spacing change!&lt;/p&gt;
+				&lt;p&gt;You can mouse over the box to see the spacing change!&lt;/p&gt;
 			</code>
 		</figure>
 	</section>
@@ -96,7 +96,7 @@
 				<div class="flexSquare"></div>
 				<div class="flexSquare"></div>
 			</div>
-			<p>Mouse over the box to see the spacing change!</p>
+			<p>You can mouse over the box to see the spacing change!</p>
 		</figure>
 	</section>
 	<section>

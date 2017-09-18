@@ -2,7 +2,7 @@
     $PAGE_NAME = 'left';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <a href="/css/position.php"><code>position</code></a>
 		<p>This property adjusts the left position of an absolutely or relatively positioned element, sliding it from its current position by the amount specified. Note that it will only work on elements where <code>position</code> is <code>absolute</code> or <code>relative</code>, and that nothing prevents an element moved this way from leaving the rendering area of the page.</p>
@@ -17,19 +17,21 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border: 3px solid;
 				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display: inline-block;
+				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;position: relative;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;#leftBox:hover {
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;left: 1250px;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;left: 48px;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="leftBox"&gt;Mouse over this box to see where it will go!&lt;/div&gt;
+				&lt;div id="leftBox"&gt;You can mouse over this box to make it move right!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -39,13 +41,14 @@
 			<style>
 				#leftBox {
 					border: 3px solid;
+					display: inline-block;
 					position: relative;
 				}
 				#leftBox:hover {
-					left: 1250px;
+					left: 48px;
 				}
 			</style>
-			<div id="leftBox">Mouse over this box to see where it will go!</div>
+			<div id="leftBox">You can mouse over this box to make it move right!</div>
 		</figure>
 	</section>
 	<section>

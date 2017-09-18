@@ -2,19 +2,18 @@
 	$PAGE_NAME = 'Date';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
-		<p>The Date object allows date information to be stored in variables in a slightly more complex way than strings and numbers. Rather than just entering the information directly, a new date variable must be created like so: <code>var <var>varName</var> = new Date()</code>, with a number of possible arguments. Note that in all contexts of dates in Javascript, hours are in 24 hour time.</p>
+		<p>The Date object allows date information to be stored in a slightly more complex way than strings and numbers. Rather than just entering the information directly, a new date variable must be created like so: <code>var <var>varName</var> = new Date()</code>, with a number of possible arguments for the method. Note that in all contexts of dates in Javascript, hours are in 24 hour time.</p>
 	</section>
 	<section>
-		<h4>Date Arguments:</h4>
-		<p></p>
+		<h4>Date Object Methods:</h4>
 		<dl>
 			<dt><code>()</code></dt>
-			<dd>No argument will result in the new date variable having the current date as of the script being run.</dd>
+			<dd>No argument will result in the returned date object having the current date as of the script being run.</dd>
 			<dt><code>('<var>stringDate</var>')</code></dt>
 			<dd>
-				&#10551; A string form of the desired date may be provided in the argument.
+				A string form of the desired date may be provided in the argument.
 				<details>
 					<summary>Accepted formats:</summary>
 					<dl>
@@ -36,7 +35,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Date Properties:</h4>
+		<h4>Date Type Properties:</h4>
 		<dl>
 			<dt><code>constructor</code></dt>
 			<dd>This property stores the code that created the date's prototype.</dd>
@@ -45,7 +44,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Date Methods:</h4>
+		<h4>Date Type Methods:</h4>
 		<p>Note that all date methods are zero-indexed <em>except</em> for days of the month.</p>
 		<dl>
 			<dt><code>getDate()</code></dt>

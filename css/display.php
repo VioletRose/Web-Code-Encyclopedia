@@ -2,7 +2,7 @@
     $PAGE_NAME = 'display';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to change how an element displays within the layout of the webpage, in terms of how it positions related to other elements, or even hide it completely.</p>
 	</section>

@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;meter&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This element displays a small meter, displaying a hidden numeric value between 0% and 100%. It will show as green normally, or yellow depending on the attributes set - red only appears if the meter is misconfigured and it considers its value both too high and too low. This element is an oddity by itself, but can be used with scripts to show the output of an equation or of multiple other fields. Text included inside the element will not be rendered anywhere on the page, unless the user's browser doesn't support it.</p>
 	</section>

@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;table&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This element contains the formatting for an HTML table, which is controlled by several other tags within the element.</p>
 	</section>
@@ -213,7 +213,7 @@
 			<dd>Defines how many table columns this cell should span.</dd>
 			<dt><code>scope</code></dt>
 			<dd>
-				&#10551; Defines what this cell is a header for.
+				Defines what this cell is a header for.
 				<details>
 					<summary>Accepted values:</summary>
 						<dl>

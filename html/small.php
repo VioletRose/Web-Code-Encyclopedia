@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;small&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This tag will have a particular section of text be smaller relative to the page default.</p>
 	</section>

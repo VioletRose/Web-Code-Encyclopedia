@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;body&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>The third of the three simplest, most all-encompassing elements in HTML, &lt;body&gt; defines the entire readable portion of the website, which all visible elements must be contained within.</p>
 	</section>
@@ -39,7 +39,7 @@
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure class="renderFigure">
-			<iframe src="/html/minimal.html"></iframe>
+			<iframe class="htmlSized" src="/html/minimal.html"></iframe>
 		</figure>
 	</section>
 </main>	

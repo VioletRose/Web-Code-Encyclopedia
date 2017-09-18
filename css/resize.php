@@ -2,10 +2,10 @@
     $PAGE_NAME = 'resize';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/overflow.php">overflow</a></code></p>
-		<p>This property allows you to specify elements that the user can resize. A triangular button is added to the bottom right corner of the element, and by clicking and dragging it, the element can be resized horizontally, vertically, or both. Note, however, that barring other style rules that would cause this to happen, resizing the element generally doesn't resize its contents, which is why this property does not function if <code>overflow</code> isn't changed from its default value of <code>visible</code>.</p>
+		<p>This property allows you to specify elements that the user can resize. A triangular button is added to the bottom right corner of the element, and by clicking and dragging it, the element can be resized horizontally, vertically, or both. Note, however, that barring other style rules that would cause this to happen, resizing the element generally doesn't resize its contents, which is why this property does not function if <code>overflow</code> isn't changed from its default value of <code>visible</code>. Another caveat is that despite touchpads being usable for click and drag behavior, this property itself doesn't work in most mobile versions of browsers.</p>
 	</section>
 	<section>
 		<h4>Example of use:</h4>
@@ -19,13 +19,13 @@
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;overflow: auto;
 				<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resize: both;
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resize: vertical;
 				<br>
 				&nbsp;&nbsp;&nbsp;&nbsp;}
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="resizableBox"&gt;This box is resizable. Click and drag the button in the bottom right to try it out!&lt;/div&gt;
+				&lt;div id="resizableBox"&gt;This box is vertically resizable. Click and drag the button in the bottom right to try it out!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -36,10 +36,10 @@
 				#resizableBox {
 					border-style: solid;
 					overflow: auto;
-					resize: both;
+					resize: vertical;
 				}
 			</style>
-			<div id="resizableBox">This box is resizable. Click and drag the button in the bottom right to try it out!</div>
+			<div id="resizableBox">This box is vertically resizable. Click and drag the button in the bottom right to try it out!</div>
 		</figure>
 	</section>
 	<section>

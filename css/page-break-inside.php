@@ -2,7 +2,7 @@
     $PAGE_NAME = 'page-break-inside';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required rule: <code><a href="/css/media.php">@media</a></code></p>
 		<p>This property allows you to instruct printers to, if possible, avoid page breaking during specific elements.</p>

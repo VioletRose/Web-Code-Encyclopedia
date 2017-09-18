@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;button&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>As one might imagine, this tag creates a clickable button. However, since the default style of this button is rather behind modern standards of web design, its use is more or less relegated specifically to buttons that control forms, such as resetting a form or submitting it. As such, it has a number of specialized attributes for that purpose which are outside of the scope of this website to demonstrate. Please see <a href="http://www.w3schools.com/tags/tag_button.asp">W3Schools</a> for further reference on those advanced attributes.</p>
 	</section>
@@ -74,15 +74,15 @@
 					<summary>Accepted values:</summary>
 					<dl>
 						<dt><code>_blank</code></dt>
-						<dd>&#10551; Opens the content in a new window or tab.</dd>
+						<dd>Opens the content in a new window or tab.</dd>
 						<dt><code>_self</code></dt>
-						<dd>&#10551; Opens the content in the same frame where it was clicked. This is the default behavior.</dd>
+						<dd>Opens the content in the same frame where it was clicked. This is the default behavior.</dd>
 						<dt><code>_parent</code></dt>
-						<dd>&#10551; Opens the content in the parent frame of the child frame where the link appears, if applicable.</dd>
+						<dd>Opens the content in the parent frame of the child frame where the link appears, if applicable.</dd>
 						<dt><code>_top</code></dt>
-						<dd>&#10551; Opens the content in the full body of the window.</dd>
+						<dd>Opens the content in the full body of the window.</dd>
 						<dt><code><var>framename</var></code></dt>
-						<dd>&#10551; When <code><var>framename</var></code> is replaced with the name of a valid frame, will open the content in that frame.</dd>
+						<dd>When <code><var>framename</var></code> is replaced with the name of a valid frame, will open the content in that frame.</dd>
 					</dl>
 				</details>
 			</dd>

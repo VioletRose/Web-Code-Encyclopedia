@@ -2,7 +2,7 @@
     $PAGE_NAME = 'word-break';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to control where lines break during automatic line wrapping. This is often used for any element that might have user-generated or otherwise loosely controlled content in it, to prevent extremely long text strings with no spaces or hyphens from overflowing their containers.</p>
 	</section>
@@ -45,13 +45,13 @@
 		<figure class="renderFigure">
 			<style>
 				#wordBreakBox {
+					max-width: 294px;
 					border-style: solid;
-					width: 294px;
 					word-break: keep-all;
 				}
 				#wordBreakAllBox {
+					max-width: 294px;
 					border-style: solid;
-					width: 294px;
 					word-break: break-all;
 				}
 			</style>

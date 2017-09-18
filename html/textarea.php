@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;textarea&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This element defines an area where the user can enter text, with a fixed width and height. The text inside will be displayed in a monospace font. If the text inside doesn't fit within that size, it will automatically add scroll arrows to itself.</p>
 	</section>
@@ -10,14 +10,14 @@
 		<h4>Example of use:</h4>
 		<figure class="exampleFigure">
 			<code>
-				&lt;textarea rows="4" cols="70"&gt;Welcome to Violet's Web Code Encyclopedia, a project I am working on to familiarize myself with coding in HTML, CSS, and Javascript, in terms of both study and practice. Within this site, you will find visual examples and explanations of the various elements, declarations, and statements that are possible in each language.&lt;/textarea&gt;
+				&lt;textarea class="htmlSized" rows="4" cols="70"&gt;Welcome to Violet's Web Code Encyclopedia, a project I am working on to familiarize myself with coding in HTML, CSS, and Javascript, in terms of both study and practice. Within this site, you will find visual examples and explanations of the various elements, declarations, and statements that are possible in each language.&lt;/textarea&gt;
 			</code>
 		</figure>
 	</section>
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure class="renderFigure">
-			<textarea rows="4" cols="70">Welcome to Violet's Web Code Encyclopedia, a project I am working on to familiarize myself with coding in HTML, CSS, and Javascript, in terms of both study and practice. Within this site, you will find visual examples and explanations of the various elements, declarations, and statements that are possible in each language. If you wish, please delete this text and have fun writing your own!</textarea>
+			<textarea class="htmlSized" rows="4" cols="70">Welcome to Violet's Web Code Encyclopedia, a project I am working on to familiarize myself with coding in HTML, CSS, and Javascript, in terms of both study and practice. Within this site, you will find visual examples and explanations of the various elements, declarations, and statements that are possible in each language. If you wish, please delete this text and have fun writing your own!</textarea>
 		</figure>
 	</section>
 	<section>

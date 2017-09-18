@@ -2,7 +2,7 @@
     $PAGE_NAME = '&lt;object&gt;';
     require_once($_SERVER["DOCUMENT_ROOT"].'/html/htmlhead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This tag is a general container for nearly any other type of content that can be embedded into a webpage, such as audio, video, Java applets, ActiveX, PDFs, Flash, and even other websites. However, it should be used with care as many of those things already have specific elements dedicated to them, and it's important to use the right thing for the right task.</p>
 	</section>
@@ -19,7 +19,7 @@
 	<section>
 		<h4>Will be rendered as:</h4>
 		<figure class="renderFigure">
-			<object data="/html/iframe.php" height="960" width="540">
+			<object class="htmlSized" data="/html/iframe.php" height="960" width="540">
 			</object>
 		</figure>
 	</section>

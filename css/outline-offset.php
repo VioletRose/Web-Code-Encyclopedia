@@ -2,7 +2,7 @@
     $PAGE_NAME = 'outline-offset';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Required property: <code><a href="/css/outline.php"></a></code></p>
 		<p>This property allows you to control the amount of space between an element and its outline.</p>
@@ -31,7 +31,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div class="outlinedBox"&gt;Mouse over this box to see the offset change!&lt;/div&gt;
+				&lt;div class="outlinedBox"&gt;You can mouse over this box to see the offset change!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -48,7 +48,7 @@
 					outline-offset: 12px;
 				}
 			</style>
-			<div class="outlinedBox">Mouse over this box to see the offset change!</div>
+			<div class="outlinedBox">You can mouse over this box to see the offset change!</div>
 		</figure>
 	</section>
 	<section>

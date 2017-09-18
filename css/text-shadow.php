@@ -2,7 +2,7 @@
     $PAGE_NAME = 'text-shadow';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to give an element's text shadows underneath the letters.</p>
 	</section>
@@ -46,7 +46,7 @@
 		<dl>
 			<dt><code><var>x-offset</var> <var>y-offset</var> <var>blur</var> <var>color</var></dt>
 			<dd>
-				&#10551; The rightwards horizontal and downwards vertical offset of the shadow, the additional distance the shadow should be blurred across, and the shadow's color.
+				The rightwards horizontal and downwards vertical offset of the shadow, the additional distance the shadow should be blurred across, and the shadow's color.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

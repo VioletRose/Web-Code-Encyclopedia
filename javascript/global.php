@@ -2,7 +2,7 @@
 	$PAGE_NAME = 'Global';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>Global properties and functions are automatically predefined in the global 'scope', usable by any script without their values having been set manually.</p>
 	</section>

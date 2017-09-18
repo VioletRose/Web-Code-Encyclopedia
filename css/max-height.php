@@ -2,7 +2,7 @@
     $PAGE_NAME = 'max-height';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property allows you to define a maximum height for an element. It cannot exceed this height, even if the contents within are of a larger size (in which case, overflow rules come into play), or if another style rule would normally result in a larger height. This is mostly useful when the element's height is set in such a way that it may grow or shrink depending on context, but a sensible maximum is desired.</p>
 	</section>
@@ -32,7 +32,7 @@
 				<br>
 				&lt;/style&gt;
 				<br>
-				&lt;div id="maxHeightBox"&gt;This box is set to be a quarter as tall as the browser window, but no more than 94px. Mouse over it to see what it would look like without a maximum height!&lt;/div&gt;
+				&lt;div id="maxHeightBox"&gt;This box is set to be a quarter as tall as the browser window, but no more than 94px. You can mouse over it to see what it would look like without a maximum height!&lt;/div&gt;
 			</code>
 		</figure>
 	</section>
@@ -50,7 +50,7 @@
 					max-height: none;
 				}
 			</style>
-			<div id="maxHeightBox">This box is set to be a quarter as tall as the browser window, but no more than 94px. Mouse over it to see what it would look like without a maximum height!</div>
+			<div id="maxHeightBox">This box is set to be a quarter as tall as the browser window, but no more than 94px. You can mouse over it to see what it would look like without a maximum height!</div>
 		</figure>
 	</section>
 	<section>

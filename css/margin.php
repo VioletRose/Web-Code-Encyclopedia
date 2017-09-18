@@ -2,7 +2,7 @@
     $PAGE_NAME = 'margin';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This page is about a shorthand property and the other properties it sets.</p>
 		<p>This property allows you to define the size of the margin, which in web development means the amount of blank space surrounding an element, outside of the border, padding, and finally content. Note that as part of the way web browsers render the page, it is possible for top and bottom margins to collapse, i.e. only display the larger of two colliding margins rather than the full size of both. There are three general circumstances this happens: adjacent elements sharing the same parent, top/bottom margins of a parent element and its first/last child (barring other style rules changing effective size), and the top and bottom margins of a completely empty block (again, barring size-altering styles).</p>
@@ -84,7 +84,7 @@
 		<dl>
 			<dt><code><var>top</var> <var>right</var> <var>bottom</var> <var>left</var></code></dt>
 			<dd>
-				&#10551; The values that would normally be set through the associated, non-shorthand margin properties, in this order.
+				The values that would normally be set through the associated, non-shorthand margin properties, in this order.
 				<details>
 					<summary>Variables:</summary>
 					<dl>

@@ -2,12 +2,12 @@
 	$PAGE_NAME = 'Math';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>The Math object holds a number of properties and methods useful for many mathematical purposes beyond the scope of simple arithmetic, for which mathematical operators are better suited. Note that I will only be documenting the use of this object; explaining the math itself would go well beyond the scope of this website.</p>
 	</section>
 	<section>
-		<h4>Math Properties:</h4>
+		<h4>Math Object Properties:</h4>
 		<p>The properties of Math have values storing numbers commonly used in advanced mathematics.</p>
 		<dl>
 			<dt><code>E</code></dt>
@@ -29,7 +29,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Math Methods:</h4>
+		<h4>Math Object Methods:</h4>
 		<p></p>
 		<dl>
 			<dt><code>abs()</code></dt>

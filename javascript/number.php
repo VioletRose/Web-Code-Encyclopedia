@@ -2,12 +2,12 @@
 	$PAGE_NAME = 'Number';
 	require_once($_SERVER["DOCUMENT_ROOT"].'/javascript/javascripthead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>A number in Javascript is either a floating-point number (a form of number used in computing, which is prone to small inaccuracies in extreme cases), or, more rarely, an integer, which is completely accurate and highly efficient but has size limitations and cannot have a decimal place. All properly stored number variables have the properties listed on this page, and can be controlled using these methods.</p>
 	</section>
 	<section>
-		<h4>Number Properties:</h4>
+		<h4>Number Object Properties:</h4>
 		<dl>
 			<dt><code>constructor</code></dt>
 			<dd>This property stores the code that created the number's prototype. Unless this number, somewhere up its heredity, was created by the <code>new</code> operator, this will return <code>function Number() { [native code] }</code>, reflecting a core part of Javascript's engine.</dd>
@@ -26,7 +26,7 @@
 		</dl>
 	</section>
 	<section>
-		<h4>Number Methods:</h4>
+		<h4>Number Type Methods:</h4>
 		<dl>
 			<dt><code>isFinite()</code></dt>
 			<dd>Returns <code>true</code> if the number is a valid, finite number, otherwise, returns <code>false</code>.</dd>

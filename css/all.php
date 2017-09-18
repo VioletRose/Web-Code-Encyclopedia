@@ -2,7 +2,7 @@
     $PAGE_NAME = 'all';
     require_once($_SERVER["DOCUMENT_ROOT"].'/css/csshead.php');
 ?>
-<main>
+<main class="pure-u-1 pure-u-sm-19-24 pure-u-md-17-24 pure-u-lg-5-8 pure-u-xl-5-8">
 	<section>
 		<p>This property is capable of changing every CSS property associated with its target in one of three ways, with the exceptions of <code>unicode-bidi</code> and <code>direction</code>. This is most useful for reversing a number of changes made more generally on a specific level. Note, though, that under normal circumstances it is easier to avoid targeting an element via selectors than by undoing higher-level changes; the most likely use case here would be if you don't have full control over the stylesheets of the site you're working on.</p>
 	</section>
